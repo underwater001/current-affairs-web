@@ -66,6 +66,7 @@ economy = requests.get(BASE + "nodes/economy.json").json()["facts"]   # a subjec
       <tr><td><code>page</code></td><td>string | null</td><td>Page(s) in the paper, e.g. <code>"1,10"</code>, <code>"II"</code>.</td></tr>
       <tr><td><code>node</code>, <code>junction</code>, <code>path</code></td><td>string, string, string[]</td><td>Topic the fact is filed on, its subject, and the full path from subject to topic.</td></tr>
       <tr><td><code>tags</code></td><td>string[]</td><td><code>"CGL"</code> and/or <code>"UPSC"</code>.</td></tr>
+      <tr><td><code>priority</code></td><td>string | null</td><td>For CGL facts: <code>"high"</code>, <code>"medium"</code> or <code>"low"</code>, how likely the fact is to be asked in SSC CGL, judged from previous papers. <code>null</code> for UPSC-only facts. Good for weighting quiz questions.</td></tr>
       <tr><td><code>gs</code></td><td>string | null</td><td>UPSC Mains paper, <code>GS1</code>–<code>GS4</code>.</td></tr>
       <tr><td><code>background</code></td><td>boolean</td><td><code>true</code> when the fact is added background knowledge, not printed in the paper.</td></tr>
       <tr><td><code>text</code></td><td>string</td><td>The fact with <code>**bold**</code> marking key names, numbers and terms.</td></tr>

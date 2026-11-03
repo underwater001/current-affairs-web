@@ -28,7 +28,7 @@ Every update is a git commit, so the full history of what was added and when is 
 
 **Paper** (`data/sources.json` → `papers`): `id` (the date, or `date-<pub>` when two papers share a date), `date`, `publication`, `edition`, `pages`, `link` (https URL or `null`), `added`.
 
-**Fact** (`data/months/YYYY-MM.json` → `days[].facts`, under the paper's `id` and `date`): `id` (`fYYYYMMDD-NNN`, permanent), `node`, `tags` (`CGL`/`UPSC`), `text` (`**bold**` for key terms), optional `page`, `gs` (GS1-GS4), `extra: true` (background knowledge, not printed in the paper).
+**Fact** (`data/months/YYYY-MM.json` → `days[].facts`, under the paper's `id` and `date`): `id` (`fYYYYMMDD-NNN`, permanent), `node`, `tags` (`CGL`/`UPSC`), `priority` (CGL facts only: `high`/`medium`/`low`), `text` (`**bold**` for key terms), optional `page`, `gs` (GS1-GS4), `extra: true` (background knowledge, not printed in the paper).
 
 ## Adding a paper
 
@@ -39,3 +39,12 @@ Every update is a git commit, so the full history of what was added and when is 
 5. Commit and push. GitHub Pages republishes in a minute or two.
 
 To attach a Drive link later, set the paper's `link` in `data/sources.json`, rebuild and push.
+
+## CGL priority rules
+
+Judged from previous CGL papers (2021 official papers, 2025 memory-based papers) and coaching analyses. CGL asks about 5-9 current-affairs questions per shift, mostly on events 3-9 months before the exam.
+
+- **high**: appointments (incl. minor ones like PSU and board heads), awards, books and authors, firsts and "first State to", sports winners and records, important days, schemes with ministry/launch year/numbers, index ranks, defence and space milestones, new laws and their sections, classic static GK linked to the news.
+- **medium**: useful context: summits, foreign elections, State-level schemes, economy data, court rulings with a clear principle.
+- **low**: local crime, accidents, party infighting, day-to-day politics, market moves, quotes and opinions.
+

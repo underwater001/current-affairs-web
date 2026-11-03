@@ -12,7 +12,7 @@
 /* Layout: a radial web (hub → junctions → branches) beside a reading panel; stacks on phones. */
 :root{
   --bg:#f3f5f8; --surface:#ffffff; --sunk:#eaeef3; --ink:#18212c; --muted:#5a6575; --line:#d6dce5;
-  --accent:#2448c8; --new:#c97a06; --new-soft:#fbefd9;
+  --accent:#2448c8; --new:#c97a06; --new-soft:#fbefd9; --hi:#b3261e; --hi-soft:#fde4e1;
   --cgl:#0f6e72; --cgl-soft:#dcf0ef; --upsc:#7a2f8f; --upsc-soft:#f1e3f5;
   --display:"Schibsted Grotesk", "Helvetica Neue", Arial, sans-serif;
   --body:"Source Serif 4", Georgia, "Times New Roman", serif;
@@ -20,11 +20,11 @@
 }
 @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
   --bg:#0e131a; --surface:#151c25; --sunk:#1b2430; --ink:#e4e9f0; --muted:#97a2b2; --line:#2a3441;
-  --accent:#86a2ff; --new:#ffb84a; --new-soft:#3a2b10;
+  --accent:#86a2ff; --new:#ffb84a; --new-soft:#3a2b10; --hi:#ff8a80; --hi-soft:#3d1714;
   --cgl:#6fd3cf; --cgl-soft:#123634; --upsc:#df9cf0; --upsc-soft:#33183c; color-scheme:dark } }
 :root[data-theme="dark"]{
   --bg:#0e131a; --surface:#151c25; --sunk:#1b2430; --ink:#e4e9f0; --muted:#97a2b2; --line:#2a3441;
-  --accent:#86a2ff; --new:#ffb84a; --new-soft:#3a2b10;
+  --accent:#86a2ff; --new:#ffb84a; --new-soft:#3a2b10; --hi:#ff8a80; --hi-soft:#3d1714;
   --cgl:#6fd3cf; --cgl-soft:#123634; --upsc:#df9cf0; --upsc-soft:#33183c; color-scheme:dark }
 
 html,body{height:100%}
@@ -111,6 +111,9 @@ ul.facts{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;g
 .tag.upsc{background:var(--upsc-soft);color:var(--upsc)}
 .tag.bg{border:1px dashed var(--line);color:var(--muted)}
 .tag.fresh{background:var(--new-soft);color:var(--new)}
+.tag.p-high{background:var(--hi-soft);color:var(--hi)}
+.tag.p-medium{border:1px solid var(--line);color:var(--ink)}
+.tag.p-low{color:var(--muted);opacity:.8}
 .fmeta button{font:inherit;color:var(--accent);background:none;border:0;padding:0;cursor:pointer}
 .jgroup{display:flex;flex-direction:column;gap:6px;padding-top:4px}
 .jgroup h3 i{width:10px;height:10px;border-radius:50%}
@@ -153,6 +156,11 @@ ul.facts{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;g
       <button type="button" data-v="CGL" aria-pressed="false">CGL</button>
       <button type="button" data-v="UPSC" aria-pressed="false">UPSC</button>
     </div>
+    <div class="seg" role="group" aria-label="CGL priority" id="prio" title="How likely a fact is to be asked in SSC CGL, judged from previous papers">
+      <button type="button" data-v="all" aria-pressed="true">Any priority</button>
+      <button type="button" data-v="high" aria-pressed="false">High</button>
+      <button type="button" data-v="hm" aria-pressed="false">High + medium</button>
+    </div>
     <div class="seg" role="group" aria-label="Period" id="period">
       <button type="button" data-v="all" aria-pressed="true">All time</button>
       <button type="button" data-v="latest" aria-pressed="false">Latest paper</button>
@@ -183,7 +191,7 @@ ul.facts{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;g
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
 <script>
 (function(){
-const S = { nodes:new Map(), facts:[], days:[], exam:'all', period:'all', q:'', sel:null, status:'loading', gotNodes:false, gotDays:false, fitted:false, shape:'' };
+const S = { nodes:new Map(), facts:[], days:[], exam:'all', prio:'all', period:'all', q:'', sel:null, status:'loading', gotNodes:false, gotDays:false, fitted:false, shape:'' };
 const $ = id => document.getElementById(id);
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const md = s => esc(s).replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>').replace(/(^|[\s(])\*([^*\s][^*]*?)\*(?=[\s).,;:]|$)/g,'$1<em>$2</em>');
@@ -199,6 +207,8 @@ function color(id){ const j = junctionOf(id); return j ? `var(--j-${j})` : 'var(
 function latest(){ let m = ''; for (const d of S.days) if (d.date > m) m = d.date; return m; }
 function factPasses(f){
   if (S.exam !== 'all' && !(f.tags||[]).includes(S.exam)) return false;
+  if (S.prio === 'high' && f.priority !== 'high') return false;
+  if (S.prio === 'hm' && f.priority !== 'high' && f.priority !== 'medium') return false;
   const L = latest();
   if (S.period === 'latest' && f.date !== L) return false;
   if (S.period === '7d' || S.period === '30d'){ const span = S.period==='7d'?6:29; if (dUTC(f.date) < dUTC(L) - span*864e5) return false; }
@@ -343,7 +353,8 @@ function factLi(f, ctxId){
   const n = S.nodes.get(f.node); const L = latest();
   const tags = (f.tags||[]).map(t => `<span class="tag ${t==='CGL'?'cgl':'upsc'}">${esc(t)}${t==='UPSC' && f.gs ? ' · '+esc(f.gs) : ''}</span>`).join('');
   const where = (n && f.node !== ctxId) ? `<button type="button" data-go="${esc(f.node)}">${esc(n.label)}</button>` : '';
-  return `<li class="fact"><p>${md(f.text)}</p><div class="fmeta">${tags}${(f.extra||f.background)?'<span class="tag bg" title="Background added by Claude, not printed in the paper">background</span>':''}${f.date===L && S.period!=='latest'?'<span class="tag fresh">new</span>':''}<span>${f.link?`<a href="${esc(f.link)}" target="_blank" rel="noopener" title="Open the source paper">${esc(f.source||'source')}</a>`:esc(f.source||'')}${f.page?' p. '+esc(f.page):''}</span><span>${fmtShort(f.date)}</span>${where}</div></li>`;
+  const pr = f.priority ? `<span class="tag p-${esc(f.priority)}" title="CGL priority, judged from previous papers">${f.priority==='high'?'★ high':esc(f.priority)}</span>` : '';
+  return `<li class="fact"><p>${md(f.text)}</p><div class="fmeta">${tags}${pr}${(f.extra||f.background)?'<span class="tag bg" title="Background added by Claude, not printed in the paper">background</span>':''}${f.date===L && S.period!=='latest'?'<span class="tag fresh">new</span>':''}<span>${f.link?`<a href="${esc(f.link)}" target="_blank" rel="noopener" title="Open the source paper">${esc(f.source||'source')}</a>`:esc(f.source||'')}${f.page?' p. '+esc(f.page):''}</span><span>${fmtShort(f.date)}</span>${where}</div></li>`;
 }
 function groupByDate(list, ctxId){
   const by = new Map(); for (const f of list){ if(!by.has(f.date)) by.set(f.date, []); by.get(f.date).push(f); }
@@ -436,8 +447,8 @@ function wireSeg(elId, key){
     try{ localStorage.setItem('caweb-'+key, S[key]); }catch(err){}
     drawWeb(); renderPanel(); });
 }
-wireSeg('exam','exam'); wireSeg('period','period');
-try{ ['exam','period'].forEach(k => { const v = localStorage.getItem('caweb-'+k); if(v){ const b = $(k).querySelector(`[data-v="${v}"]`); if(b){ S[k]=v; [...$(k).querySelectorAll('button')].forEach(x=>x.setAttribute('aria-pressed', String(x===b))); } } }); }catch(e){}
+wireSeg('exam','exam'); wireSeg('prio','prio'); wireSeg('period','period');
+try{ ['exam','prio','period'].forEach(k => { const v = localStorage.getItem('caweb-'+k); if(v){ const b = $(k).querySelector(`[data-v="${v}"]`); if(b){ S[k]=v; [...$(k).querySelectorAll('button')].forEach(x=>x.setAttribute('aria-pressed', String(x===b))); } } }); }catch(e){}
 let qt; $('q').addEventListener('input', e => { clearTimeout(qt); qt = setTimeout(() => { S.q = e.target.value.trim(); if(S.q) S.sel=null; drawWeb(); renderPanel(); }, 160); });
 
 function renderHeader(){

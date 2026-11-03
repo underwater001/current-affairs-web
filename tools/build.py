@@ -102,6 +102,11 @@ for m, doc in months:
                 errors.append(f"fact {fid}: empty text")
             if f.get("gs") and f["gs"] not in ("GS1", "GS2", "GS3", "GS4"):
                 errors.append(f"fact {fid}: gs must be GS1-GS4")
+            pr = f.get("priority")
+            if "CGL" in tags and pr not in ("high", "medium", "low"):
+                errors.append(f"fact {fid}: CGL facts need priority high/medium/low, got {pr!r}")
+            if "CGL" not in tags and pr is not None:
+                errors.append(f"fact {fid}: priority is for CGL facts only")
 for pid in paper_by_id:
     if pid not in seen_day:
         errors.append(f"sources: paper '{pid}' has no entry in any month file")
@@ -151,7 +156,7 @@ for m, doc in months:
             pth = path(f["node"])
             row = {"id": f["id"], "date": d["date"], "paper": d["id"], "source": pub["short"],
                    "link": pp.get("link"), "node": f["node"], "junction": pth[0], "path": pth,
-                   "tags": f["tags"], "gs": f.get("gs"), "page": f.get("page"),
+                   "tags": f["tags"], "priority": f.get("priority"), "gs": f.get("gs"), "page": f.get("page"),
                    "background": bool(f.get("extra")), "text": f["text"], "plain": plain(f["text"]),
                    "keys": BOLD.findall(f["text"])}
             flat.append(row)
@@ -159,7 +164,8 @@ for m, doc in months:
 
 def counts(rows):
     return {"facts": len(rows), "cgl": sum("CGL" in r["tags"] for r in rows),
-            "upsc": sum("UPSC" in r["tags"] for r in rows), "background": sum(r["background"] for r in rows)}
+            "upsc": sum("UPSC" in r["tags"] for r in rows), "background": sum(r["background"] for r in rows),
+            "cgl_high": sum(r["priority"] == "high" for r in rows)}
 
 facts_on = {nid: [] for nid in nodes}       # own facts
 facts_under = {nid: [] for nid in nodes}    # own + descendants
@@ -239,11 +245,11 @@ with open(os.path.join(ROOT, "exports", "papers.csv"), "w", newline="", encoding
                     r["upsc"], r["background"], r["link"] or ""])
 with open(os.path.join(ROOT, "exports", "facts.csv"), "w", newline="", encoding="utf-8") as fp:
     w = csv.writer(fp)
-    w.writerow(["date", "source", "paper", "fact_id", "node", "node_label", "junction", "tags", "gs", "page",
+    w.writerow(["date", "source", "paper", "fact_id", "node", "node_label", "junction", "tags", "priority", "gs", "page",
                 "background", "text"])
     for r in flat:
         w.writerow([r["date"], r["source"], r["paper"], r["id"], r["node"], nodes[r["node"]]["label"],
-                    r["junction"], ";".join(r["tags"]), r["gs"] or "", r["page"] or "",
+                    r["junction"], ";".join(r["tags"]), r["priority"] or "", r["gs"] or "", r["page"] or "",
                     "yes" if r["background"] else "", r["plain"]])
 
 # old location, superseded by api/v1/index.json

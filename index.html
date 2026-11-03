@@ -123,17 +123,22 @@ ul.facts{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;g
   .panel{height:auto;min-height:0;overflow:visible}
   .brand h1{font-size:22px}
 }
+.nav{display:flex;gap:14px;margin-top:6px;font:500 13px var(--mono)}
+.nav a{color:var(--accent);text-decoration:none}
+.nav a:hover{text-decoration:underline}
+.fmeta a{color:inherit;text-decoration:underline;text-underline-offset:2px}
 @media (prefers-reduced-motion: reduce){ *{transition:none!important} }
 </style>
 <style id="jstyles"></style>
 
-<div class="page">
-  </head>
+</head>
 <body>
+<div class="page">
 <header class="top">
     <div class="brand">
       <h1>Current Affairs Web</h1>
       <p id="sub">Loading the web…</p>
+      <nav class="nav" aria-label="Site"><a href="sources.html">Sources</a><a href="api.html">API</a><a href="https://github.com/underwater001/current-affairs-web">GitHub</a></nav>
     </div>
     <div class="stats" id="stats"></div>
   </header>
@@ -338,7 +343,7 @@ function factLi(f, ctxId){
   const n = S.nodes.get(f.node); const L = latest();
   const tags = (f.tags||[]).map(t => `<span class="tag ${t==='CGL'?'cgl':'upsc'}">${esc(t)}${t==='UPSC' && f.gs ? ' · '+esc(f.gs) : ''}</span>`).join('');
   const where = (n && f.node !== ctxId) ? `<button type="button" data-go="${esc(f.node)}">${esc(n.label)}</button>` : '';
-  return `<li class="fact"><p>${md(f.text)}</p><div class="fmeta">${tags}${f.extra?'<span class="tag bg" title="Background added by Claude, not printed in the paper">background</span>':''}${f.date===L && S.period!=='latest'?'<span class="tag fresh">new</span>':''}<span>${esc(f.source||'')}${f.page?' p. '+esc(f.page):''}</span><span>${fmtShort(f.date)}</span>${where}</div></li>`;
+  return `<li class="fact"><p>${md(f.text)}</p><div class="fmeta">${tags}${(f.extra||f.background)?'<span class="tag bg" title="Background added by Claude, not printed in the paper">background</span>':''}${f.date===L && S.period!=='latest'?'<span class="tag fresh">new</span>':''}<span>${f.link?`<a href="${esc(f.link)}" target="_blank" rel="noopener" title="Open the source paper">${esc(f.source||'source')}</a>`:esc(f.source||'')}${f.page?' p. '+esc(f.page):''}</span><span>${fmtShort(f.date)}</span>${where}</div></li>`;
 }
 function groupByDate(list, ctxId){
   const by = new Map(); for (const f of list){ if(!by.has(f.date)) by.set(f.date, []); by.get(f.date).push(f); }
@@ -360,7 +365,8 @@ function renderPanel(){
   renderOverview(P, vis);
 }
 function renderOverview(P, vis){
-  const L = latest(); const day = S.days.find(d => d.date===L) || {};
+  const L = latest(); const today = S.days.filter(d => d.date===L);
+  const names = today.map(d => d.link ? `<a href="${esc(d.link)}" target="_blank" rel="noopener">${esc(d.name)}</a>` : esc(d.name)).join(' + ') || 'Newspaper';
   const newFacts = S.facts.filter(f => f.date===L && factPasses(f));
   const firstPaper = S.days.length <= 1;
   const newNodes = new Set([...S.nodes.values()].filter(n => n.created===L && parentOf(n)!=='hub').map(n=>n.id));
@@ -373,11 +379,12 @@ function renderOverview(P, vis){
     return `<div class="jgroup"><h3><i style="background:${color(j.id)}"></i>${esc(j.label)}</h3><div class="chips">${items.map(([id,c]) => chip(id, c, newNodesShown.has(id))).join('')}</div></div>`;
   }).join('');
   P.innerHTML = `
-    <p class="eyebrow">Latest paper</p>
-    <h2>${esc(day.source || 'Newspaper')} · ${fmt(L)}</h2>
+    <p class="eyebrow">Latest ${today.length>1?'papers':'paper'}</p>
+    <h2>${names} · ${fmt(L)}</h2>
     <div class="meta-row"><span>${plural(newFacts.length,'fact')} added${S.exam!=='all'?' ('+S.exam+')':''}</span><span>${newNodes.size} new ${newNodes.size===1?'branch':'branches'}</span></div>
     <p class="lead">Each dot on the web is a topic. Click one to read every fact filed under it, newest first. Dashed lines join related topics across subjects.</p>
-    <div class="section"><p class="eyebrow">Where this paper's facts went</p>${groups || '<p class="empty-msg">No facts from the latest paper match this filter.</p>'}</div>`;
+    <div class="section"><p class="eyebrow">Where this paper's facts went</p>${groups || '<p class="empty-msg">No facts from the latest paper match this filter.</p>'}</div>
+    <p class="lead" style="margin-top:18px">Built from ${plural(S.days.length,'paper')}. <a href="sources.html">See every source</a>.</p>`;
 }
 function renderNode(P, vis){
   const id = S.sel, n = S.nodes.get(id); const desc = descendants(id);
@@ -453,19 +460,18 @@ let rt; window.addEventListener('resize', () => { clearTimeout(rt); rt = setTime
 renderHeader(); renderPanel();
 
 /* ---------- data ---------- */
-/* Static files in data/: index.json lists the month bundles; each month holds that month's papers. */
+/* Reads the public API in api/v1 (see api.html). */
 (async () => {
   const bust = 'v=' + Date.now();
-  const get = async (p) => { const r = await fetch(p + '?' + bust, {cache:'no-store'}); if (!r.ok) throw new Error(p + ' ' + r.status); return r.json(); };
+  const get = async (p) => { const r = await fetch('api/v1/' + p + '?' + bust, {cache:'no-store'}); if (!r.ok) throw new Error(p + ' ' + r.status); return r.json(); };
   try {
-    const [index, nodes] = await Promise.all([get('data/index.json'), get('data/nodes.json')]);
-    S.nodes = new Map(Object.entries(nodes).map(([id, d]) => [id, Object.assign({id}, d)]));
+    const [index, nodes, papers] = await Promise.all([get('index.json'), get('nodes.json'), get('papers.json')]);
+    S.nodes = new Map(nodes.map(n => [n.id, n]));
     S.gotNodes = true;
-    const months = await Promise.all((index.months || []).map(m => get('data/months/' + m + '.json')));
-    S.days = months.flatMap(m => m.days || []);
-    const facts = [];
-    for (const d of S.days) for (const f of (d.facts||[])) facts.push(Object.assign({date:d.date, source:d.short||''}, f));
-    S.facts = facts; S.gotDays = true; S.status = 'ok';
+    S.days = papers.papers;
+    const months = await Promise.all((index.months || []).map(m => get('facts/' + m + '.json')));
+    S.facts = months.flatMap(m => m.facts || []);
+    S.gotDays = true; S.status = 'ok';
     schedule();
   } catch (e) {
     console.error(e); S.status = 'none'; renderHeader(); renderPanel();

@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Free read-only JSON API for the Current Affairs Web: facts, topics and sources for SSC CGL and UPSC apps.">
+<title>Web Data API</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@500;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <h1>Data API</h1>
+    <p>Read-only JSON · version 1 · no key needed</p>
+    <nav class="nav" aria-label="Site"><a href="./">Web</a><a href="sources.html">Sources</a><a href="api.html" aria-current="page">API</a><a href="https://github.com/underwater001/current-affairs-web">GitHub</a></nav>
+  </header>
+  <div class="stats" id="stats"></div>
+
+  <p class="lead">Everything on the web is published as plain JSON files, so any app can use it: a quiz app, flashcards, a revision planner, a Telegram bot, a spreadsheet. The files are rebuilt every time a paper is added. Any website or app can read them directly from the browser.</p>
+
+  <h2>Quick start</h2>
+  <p>Base URL:</p>
+  <pre><code id="base">https://underwater001.github.io/current-affairs-web/api/v1/</code></pre>
+  <h3>JavaScript</h3>
+<pre><code>const BASE = 'https://underwater001.github.io/current-affairs-web/api/v1/';
+const index = await (await fetch(BASE + 'index.json')).json();
+// all facts, month by month
+const months = await Promise.all(index.months.map(m =&gt; fetch(BASE + `facts/${m}.json`).then(r =&gt; r.json())));
+const facts = months.flatMap(m =&gt; m.facts);
+const cgl = facts.filter(f =&gt; f.tags.includes('CGL'));</code></pre>
+  <h3>Python</h3>
+<pre><code>import requests
+BASE = "https://underwater001.github.io/current-affairs-web/api/v1/"
+index = requests.get(BASE + "index.json").json()
+facts = [f for m in index["months"] for f in requests.get(f"{BASE}facts/{m}.json").json()["facts"]]
+economy = requests.get(BASE + "nodes/economy.json").json()["facts"]   # a subject and all its branches</code></pre>
+  <h3>Command line</h3>
+<pre><code>curl -s https://underwater001.github.io/current-affairs-web/api/v1/latest.json</code></pre>
+
+  <h2>Endpoints</h2>
+  <div class="tbl-wrap"><table>
+    <thead><tr><th>Path</th><th>Returns</th></tr></thead>
+    <tbody>
+      <tr><td><a href="api/v1/index.json"><code>index.json</code></a></td><td>Start here: totals, the list of months that have facts, last update date, and this endpoint list.</td></tr>
+      <tr><td><a href="api/v1/papers.json"><code>papers.json</code></a></td><td>Publications and every paper read: date, edition, pages, Drive link, fact counts.</td></tr>
+      <tr><td><a href="api/v1/nodes.json"><code>nodes.json</code></a></td><td>The whole topic tree: 12 subjects (junctions) and their branches, with links, children and fact counts.</td></tr>
+      <tr><td><code>facts/{YYYY-MM}.json</code></td><td>Every fact from one month, e.g. <a href="api/v1/facts/2026-11.json"><code>facts/2026-11.json</code></a>.</td></tr>
+      <tr><td><code>papers/{paper_id}.json</code></td><td>One paper and its facts, e.g. <a href="api/v1/papers/2026-11-02.json"><code>papers/2026-11-02.json</code></a>.</td></tr>
+      <tr><td><code>nodes/{node_id}.json</code></td><td>One topic and every fact filed on it or its sub-branches, newest first, e.g. <a href="api/v1/nodes/elections-sir.json"><code>nodes/elections-sir.json</code></a>.</td></tr>
+      <tr><td><a href="api/v1/latest.json"><code>latest.json</code></a></td><td>The most recent date's papers and facts.</td></tr>
+    </tbody>
+  </table></div>
+  <p class="muted" style="font-size:14px">Spreadsheets of the same data: <a href="exports/facts.csv"><code>exports/facts.csv</code></a>, <a href="exports/nodes.csv"><code>exports/nodes.csv</code></a>, <a href="exports/papers.csv"><code>exports/papers.csv</code></a>.</p>
+
+  <h2>Objects</h2>
+  <h3>Fact</h3>
+  <div class="tbl-wrap"><table>
+    <thead><tr><th>Field</th><th>Type</th><th>Meaning</th></tr></thead>
+    <tbody>
+      <tr><td><code>id</code></td><td>string</td><td>Permanent id, <code>f&lt;YYYYMMDD&gt;-&lt;NNN&gt;</code>. Never reused or renumbered, so it is safe to store (e.g. for quiz progress).</td></tr>
+      <tr><td><code>date</code></td><td>YYYY-MM-DD</td><td>Date of the paper.</td></tr>
+      <tr><td><code>paper</code>, <code>source</code>, <code>link</code></td><td>string</td><td>Paper id, publication short name, and link to the original (or <code>null</code>).</td></tr>
+      <tr><td><code>page</code></td><td>string | null</td><td>Page(s) in the paper, e.g. <code>"1,10"</code>, <code>"II"</code>.</td></tr>
+      <tr><td><code>node</code>, <code>junction</code>, <code>path</code></td><td>string, string, string[]</td><td>Topic the fact is filed on, its subject, and the full path from subject to topic.</td></tr>
+      <tr><td><code>tags</code></td><td>string[]</td><td><code>"CGL"</code> and/or <code>"UPSC"</code>.</td></tr>
+      <tr><td><code>gs</code></td><td>string | null</td><td>UPSC Mains paper, <code>GS1</code>–<code>GS4</code>.</td></tr>
+      <tr><td><code>background</code></td><td>boolean</td><td><code>true</code> when the fact is added background knowledge, not printed in the paper.</td></tr>
+      <tr><td><code>text</code></td><td>string</td><td>The fact with <code>**bold**</code> marking key names, numbers and terms.</td></tr>
+      <tr><td><code>plain</code></td><td>string</td><td>The same text without formatting marks.</td></tr>
+      <tr><td><code>keys</code></td><td>string[]</td><td>The bold terms. Ready-made answers for fill-in-the-blank and MCQ generation.</td></tr>
+    </tbody>
+  </table></div>
+  <h3>Node (topic)</h3>
+  <div class="tbl-wrap"><table>
+    <thead><tr><th>Field</th><th>Meaning</th></tr></thead>
+    <tbody>
+      <tr><td><code>id</code>, <code>label</code>, <code>short</code>, <code>summary</code></td><td>Identity and description. <code>short</code> is set for subjects only.</td></tr>
+      <tr><td><code>parent</code>, <code>junction</code>, <code>path</code>, <code>depth</code>, <code>children</code></td><td>Position in the tree. Subjects have <code>parent: "hub"</code> and depth 1.</td></tr>
+      <tr><td><code>links</code></td><td>Related topics, usually in other subjects.</td></tr>
+      <tr><td><code>facts_own</code>, <code>facts_total</code>, <code>first_date</code>, <code>last_date</code></td><td>Facts filed directly on it, including sub-branches, and the date range they span.</td></tr>
+      <tr><td><code>created</code>, <code>order</code>, <code>hue</code></td><td>First appearance, display order, and subject colour (0–359, OKLCH hue).</td></tr>
+    </tbody>
+  </table></div>
+  <h3>Paper</h3>
+  <p><code>id</code>, <code>date</code>, <code>publication</code>, <code>name</code>, <code>short</code>, <code>edition</code>, <code>pages</code>, <code>link</code>, <code>added</code>, and counts <code>facts</code>, <code>cgl</code>, <code>upsc</code>, <code>background</code>, <code>nodes_used</code>.</p>
+
+  <h2>Rules you can rely on</h2>
+  <ul>
+    <li><strong>Stable ids.</strong> Fact, node and paper ids never change meaning. A corrected fact keeps its id.</li>
+    <li><strong>Additive changes only in v1.</strong> New fields may appear; existing fields are not renamed or removed. A breaking change would ship as <code>/api/v2/</code> alongside v1.</li>
+    <li><strong>Cross-origin reads work.</strong> GitHub Pages serves these files with open CORS, so a browser app on any domain can fetch them.</li>
+    <li><strong>Freshness.</strong> Files update a minute or two after each paper is pushed; GitHub's cache can add up to ~10 minutes. Check <code>index.json</code> → <code>updated</code>.</li>
+    <li><strong>Read-only.</strong> To add or fix data, change the files in <code>data/</code> and run <code>python3 tools/build.py</code>; never edit <code>api/</code> by hand.</li>
+  </ul>
+  <div class="note"><p style="margin:0">Facts are short summaries for exam revision, with the source and page for checking. The newspapers themselves remain their publishers' copyright and are not republished here.</p></div>
+</div>
+<script>
+fetch('api/v1/index.json?v=' + Date.now(), {cache:'no-store'}).then(r => r.json()).then(i => {
+  const t = i.totals;
+  document.getElementById('stats').innerHTML = `<span>updated <b>${i.updated}</b></span><span><b>${t.facts}</b> facts</span><span><b>${t.junctions + t.branches}</b> topics</span><span><b>${t.papers}</b> papers</span><span><b>${i.months.length}</b> months</span>`;
+}).catch(() => {});
+</script>
+</body>
+</html>

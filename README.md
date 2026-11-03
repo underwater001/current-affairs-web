@@ -2,36 +2,40 @@
 
 A growing knowledge web of current-affairs facts for **SSC CGL** and **UPSC** prep. Each newspaper is read page by page, and every exam-relevant fact is filed onto the web: subjects (junctions) branch into topics, facts hang on the topic they belong to, and dashed lines link related topics across subjects.
 
-**Open the web:** https://underwater001.github.io/current-affairs-web/
+- **Web:** https://underwater001.github.io/current-affairs-web/
+- **Sources:** https://underwater001.github.io/current-affairs-web/sources.html — every paper used, with links to the originals
+- **API:** https://underwater001.github.io/current-affairs-web/api.html — free read-only JSON for building apps (quizzes, flashcards, bots)
 
-## What's in the repo
+## Repo layout
 
 | Path | What it is |
 |---|---|
-| `index.html` | The page: radial web, search, CGL/UPSC filter, period filter, reading panel |
-| `data/nodes.json` | The structure: every junction (subject) and branch (topic) |
-| `data/months/YYYY-MM.json` | The facts: one file per month, holding each newspaper read that month |
-| `data/index.json` | Generated: which month files exist, plus totals |
-| `exports/facts.csv`, `exports/nodes.csv` | Generated: the same data as spreadsheets |
-| `tools/build.py` | Validates the data and regenerates the generated files |
+| `data/nodes.json` | **Source of truth.** Every junction (subject) and branch (topic) |
+| `data/sources.json` | **Source of truth.** Publications and every paper read, with an optional Drive `link` |
+| `data/months/YYYY-MM.json` | **Source of truth.** Facts, grouped by paper, one file per month |
+| `tools/build.py` | Validates the data and generates everything below |
+| `api/v1/` | Generated JSON API (see `api.html`) |
+| `exports/*.csv` | Generated spreadsheets: facts, nodes, papers |
+| `index.html`, `sources.html`, `api.html` | The site |
 
 Every update is a git commit, so the full history of what was added and when is kept.
 
 ## Data model
 
-**Node** (`data/nodes.json`, keyed by id)
-- `label`, `summary` (one sentence), `order` (position among siblings), `created` (date of the paper that created it)
-- `parent`: `"hub"` for a junction, otherwise the parent node's id
-- `links`: ids of related nodes, usually in other subjects
-- junctions also have `short` (label on the web) and `hue` (0-359, never changed)
+**Node** (`data/nodes.json`, keyed by id): `label`, `summary`, `order`, `created`, `parent` (`"hub"` for a junction), `links` (related node ids); junctions also have `short` and `hue` (0-359, never changed).
 
-**Paper** (an entry in `data/months/YYYY-MM.json` → `days`)
-- `id` (the date, or `date-source` if two papers share a date), `date`, `source`, `short`, `pages`
-- `facts`: each with `id` (`fYYYYMMDD-NNN`), `node`, `tags` (`CGL` / `UPSC`), `text`, and optional `page`, `gs` (GS1-GS4), `extra: true` (background knowledge, not printed in the paper)
+**Publication** (`data/sources.json` → `publications`, keyed by id): `name`, `short`, `publisher`, `language`, `frequency`, `website`.
+
+**Paper** (`data/sources.json` → `papers`): `id` (the date, or `date-<pub>` when two papers share a date), `date`, `publication`, `edition`, `pages`, `link` (https URL or `null`), `added`.
+
+**Fact** (`data/months/YYYY-MM.json` → `days[].facts`, under the paper's `id` and `date`): `id` (`fYYYYMMDD-NNN`, permanent), `node`, `tags` (`CGL`/`UPSC`), `text` (`**bold**` for key terms), optional `page`, `gs` (GS1-GS4), `extra: true` (background knowledge, not printed in the paper).
 
 ## Adding a paper
 
-1. Add the paper's entry to the month file (create `data/months/YYYY-MM.json` if it's a new month).
-2. Add any new branches to `data/nodes.json`, and add links on existing nodes.
-3. Run `python3 tools/build.py`. It must print `OK`.
-4. Commit and push. GitHub Pages republishes within a minute or two.
+1. Add the paper to `data/sources.json` → `papers` (and its publication, if new).
+2. Add its facts to the month file (`data/months/YYYY-MM.json`; create it for a new month).
+3. Add any new branches to `data/nodes.json`, and links on existing nodes.
+4. Run `python3 tools/build.py`. It must print `OK`.
+5. Commit and push. GitHub Pages republishes in a minute or two.
+
+To attach a Drive link later, set the paper's `link` in `data/sources.json`, rebuild and push.

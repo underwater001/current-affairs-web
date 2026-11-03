@@ -1,104 +1,104 @@
-id,label,short,parent,order,hue,summary,links,created
-accidents-safety,Accidents & industrial safety,,society,4,,"Fires, electrocutions and industrial accidents.",,2026-10-31
-ai-privacy,AI & data privacy (DPDP Act),,scitech,1,,How AI uses personal data and gaps in India's data protection law.,deepfakes;tech-industry,2026-10-30
-anti-corruption,Corruption & money-laundering cases,,security,3,,"ED, PMLA and Prevention of Corruption Act cases.",court-cases,2026-10-30
-anti-defection,Anti-defection & party switching,,polity,3,,Tenth Schedule cases and legislators changing parties.,party-politics,2026-11-02
-arbitration,Arbitration & investment disputes,,economy,6,,Enforcement of arbitral awards and India's aim to be an arbitration hub.,,2026-10-31
-archery,Archery,,sports,5,,Archery events and leagues.,,2026-11-03
-aviation,Civil aviation & airfares,,economy,7,,"Airfare rules, DGCA and airline performance.",west-asia,2026-10-30
-awards,Awards & honours,,persons,4,,Prizes and the people who won them.,cinema-arts;obituaries,2026-10-30
-badminton,Badminton,,sports,7,,Indian badminton players and tournament results.,,2026-11-02
-banking-rbi,"Banking, RBI & disinvestment",,economy,3,,"RBI measures, bank sales and financial inclusion.",markets-indicators;capital-markets,2026-10-30
-bnss-criminal-law,"Criminal laws (BNSS, BNS)",,polity,8,,New criminal laws as they are applied in news events.,policing;tribal-rights,2026-11-02
-bonded-labour,Bonded labour,,society,1,,Release and rehabilitation of bonded labourers.,fundamental-rights,2026-11-03
-caa-citizenship,Citizenship Amendment Act (CAA),,polity,10,,"Implementation of the CAA, 2019 granting citizenship to persecuted minorities from Pakistan, Bangladesh and Afghanistan.",minorities;frro-immigration,2026-11-02
-census-2027,Census 2027,,governance,2,,India's first digital census and first caste enumeration since Independence.,ai-privacy,2026-10-30
-civil-services,Civil services & transfers,,governance,4,,IAS and police postings and reshuffles.,education,2026-10-30
-commodities,Agriculture & commodities,,economy,9,,Commodity prices and farm relief.,food-pds,2026-10-30
-corporate,Corporate news & governance,,economy,5,,Company results and boardroom disputes.,energy,2026-10-30
-court-cases,Court cases in news,,polity,9,,Notable Supreme Court and High Court orders not filed under a bigger topic.,arbitration;anti-corruption;judiciary,2026-10-30
-cricket,Cricket,,sports,2,,"International and domestic cricket, IPL.",,2026-10-30
-cyber,Cyber security,,security,4,,Cyber attacks and digital threats.,tech-industry,2026-10-30
-cyclones,Cyclones,,geography,1,,Cyclones hitting India's coasts and the disaster response.,rainfall;floods-glof,2026-10-30
-deepfakes,Deepfakes & detection,,scitech,2,,Synthetic media and tools to detect it.,,2026-11-03
-defence-airforce,Air Force & defence modernisation,,security,5,,"IAF leadership, doctrine and new platforms such as the AMCA.",defence-navy,2026-11-02
-defence-navy,Navy & defence production,,security,1,,"Warships, defence PSUs and indigenisation.",defence-airforce,2026-11-02
-delhi-air,Delhi-NCR air pollution & GRAP,,environment,1,,Air quality in the capital region and the Graded Response Action Plan.,firecracker-regulation;health;water-rivers,2026-10-30
-diaspora,Indian diaspora & migration,,ir,7,,"Indians abroad, visa and settlement rules, trafficking.",,2026-11-03
-economy,Economy & Business,Economy,hub,3,98,"Fiscal policy, banking, markets, companies, energy, aviation and agriculture.",,2026-10-30
-elections-sir,SIR & Election Commission,,polity,4,,"Special Intensive Revision of electoral rolls, ECI decisions and the political fight over them.",state-election-commissions,2026-10-30
-employment-labour,Employment & labour codes,,economy,11,,"PLFS data, the Decent Work Index, informal employment and the four Labour Codes.",vb-g-ram-g;industry-pli;poverty,2026-10-31
-energy,Energy security & renewables,,economy,8,,"Oil, LNG, renewable energy and the effect of the West Asia war.",west-asia,2026-10-31
-env-principles,Environmental law & principles,,environment,3,,"Stockholm and Rio Declarations, precautionary and polluter-pays principles.",tribal-rights,2026-11-03
-environment,Environment & Ecology,Environment,hub,4,131,"Pollution, climate, wildlife, dams and environmental law.",,2026-10-30
-f1,Formula 1,,sports,1,,Motor racing results and records.,,2026-10-31
-firecracker-regulation,Firecracker regulation,,environment,2,,"Supreme Court orders on crackers, green crackers and enforcement.",env-principles;festivals,2026-10-30
-fiscal-policy,Fiscal policy & capex,,economy,1,,"Union government spending, capital expenditure and fiscal discipline.",state-finances;gst-collections,2026-11-03
-frro-immigration,Immigration & FRROs,,governance,3,,"Foreigners Regional Registration Offices and the Immigration and Foreigners Act, 2025.",diaspora;caa-citizenship,2026-10-31
-fundamental-rights,Fundamental Rights & Duties,,polity,1,,"Articles 19, 21, 25, 48A, 51A(g) as they come up in court rulings and debates.",firecracker-regulation;education;judiciary;ucc,2026-10-30
-geography,"Geography, Places & Disasters",Geography,hub,5,164,"Cyclones, weather, and places in the news.",,2026-10-30
-golf,Golf,,sports,6,,Golf tours and events.,,2026-11-03
-governance,Governance & Schemes,Governance,hub,2,196,"Government schemes, administration, Census, civil services and regulation.",,2026-10-30
-gst-collections,GST collections & indirect taxes,,economy,10,,Monthly GST mop-up figures and indirect-tax trends.,fiscal-policy,2026-11-02
-health,Health & medicine,,scitech,4,,Disease research and public health.,,2026-10-30
-hockey,Hockey,,sports,3,,Indian hockey results.,,2026-10-30
-important-days,Important days,,persons,3,,National and international days and anniversaries.,,2026-11-02
-india-asean,India-Southeast Asia (Act East),,ir,5,,India's ties with Vietnam and other ASEAN nations.,,2026-10-30
-india-china,India-China,,ir,6,,"Border, rivers and strategic competition.",,2026-10-31
-india-neighbourhood,India's neighbourhood,,ir,10,,"India's ties with Nepal, Bhutan, Sri Lanka, Bangladesh, Maldives and other South Asian neighbours ('Neighbourhood First').",diaspora;floods-glof,2026-10-30
-indonesia-haze,Indonesia wildfires & haze,,environment,6,,Peatland fires and transboundary haze in Southeast Asia.,rainfall,2026-11-03
-ir,International Relations,World & IR,hub,6,0,"India's ties, world conflicts, foreign elections, UN and diaspora.",,2026-10-30
-israel-palestine,Israel-Palestine,,ir,2,,"Gaza, the West Bank, UN findings and Israeli politics.",,2026-10-30
-jk-politics,J&K politics & Statehood,,polity,6,,Politics of the Union Territory of Jammu and Kashmir and the demand for Statehood.,party-politics,2026-10-30
-latin-america,Latin America & Venezuela,,ir,11,,"Elections and politics in Brazil, Venezuela and other Latin American states.",us-politics,2026-10-30
-legislative-councils,Legislative Councils,,polity,2,,"State upper Houses (Art. 168-172): who has them, how they're formed and abolished, their powers.",anti-defection,2026-10-30
-markets-indicators,Markets & indicators,,economy,4,,"Sensex, Nifty, PMI and other quick indicators.",banking-rbi;capital-markets;global-economy,2026-10-30
-minorities,Minorities,,society,3,,Attacks on and protection of minority communities.,caa-citizenship;northeast,2026-11-01
-office-holders,Who's who: India,,persons,1,,Indian office holders who appeared in the news.,defence-airforce,2026-11-02
-other-sports,Other sports,,sports,8,,"Noteworthy results in sports without a dedicated branch (kabaddi, motorsport, boxing, etc.).",,2026-10-30
-party-politics,Party politics & State elections,,polity,7,,"Party splits, alliances and preparations for upcoming State elections.",anti-defection;ucc,2026-10-30
-persons,"Persons, Days & Awards",Persons,hub,10,327,"Who's who in the news, important days and awards.",,2026-10-30
-places-in-news,Places in news,,geography,3,,"Locations that appeared in the news, for map-based questions.",heritage,2026-10-30
-policing,Policing & law enforcement,,security,2,,"Police actions, protests and conduct.",women-child;northeast,2026-10-30
-polity,Polity & Constitution,Polity,hub,1,262,"Constitution, Parliament and State legislatures, elections, courts and party politics.",,2026-10-30
-rainfall,"Rainfall, monsoon & climate drivers",,geography,2,,Rainfall deficits and drivers like El Nino and the Indian Ocean Dipole.,floods-glof,2026-11-02
-russia-ukraine,Russia-Ukraine war,,ir,4,,"Fighting, ceasefires and spill-over effects.",diaspora,2026-10-30
-science-history,Science history,,scitech,5,,Anniversaries of discoveries and inventions.,,2026-10-30
-scitech,"Science, Tech & Health",Sci-Tech,hub,8,295,"AI and data privacy, space, health research and science history.",,2026-10-30
-security,Defence & Internal Security,Security,hub,7,33,"Armed forces, defence production, policing, corruption cases and cyber security.",,2026-10-30
-siang-dam,Siang dam & Brahmaputra,,environment,4,,Siang Upper Multipurpose Project in Arunachal Pradesh and China's Yarlung Tsangpo dam.,india-china;tribal-rights,2026-10-30
-society,Society & Social Justice,Society,hub,9,65,"Labour rights, women and children, minorities, accidents and safety.",,2026-10-30
-space-astronomy,Space & astronomy,,scitech,3,,"Missions, discoveries and space history.",awards,2026-10-31
-sports,Sports,Sports,hub,11,229,"Results, records and events across sports.",,2026-10-30
-state-election-commissions,Local body polls (State ECs),,polity,5,,Panchayat and municipal elections run by State Election Commissions.,,2026-10-31
-state-finances,State finances,,economy,2,,"Revenue, committed spending, subsidies and accounting standards in States.",,2026-11-03
-tennis,Tennis,,sports,4,,Tournaments and results.,,2026-10-30
-un-multilateral,UN & multilateral,,ir,8,,UN General Assembly votes and international bodies.,israel-palestine;arctic,2026-11-02
-us-politics,US politics & midterms,,ir,3,,US elections and how foreign policy plays at home.,west-asia;latin-america;arctic;global-economy;trade-exports,2026-10-30
-vb-g-ram-g,VB-G RAM G (rural jobs),,governance,1,,The rural employment guarantee scheme that replaced MGNREGA in 2026.,employment-labour;water-rivers,2026-11-03
-west-asia,West Asia: Iran war & Hormuz,,ir,1,,"The Iran war, the Strait of Hormuz blockade and the Houthis.",israel-palestine,2026-10-30
-wildlife,Wildlife & Project Cheetah,,environment,5,,Protected areas and threats to wildlife.,,2026-10-30
-women-child,Women & child safety,,society,2,,POCSO cases and workplace harassment.,policing,2026-10-30
-world-leaders,Who's who: World,,persons,2,,Foreign leaders and officials in the news.,,2026-11-03
-world-other,Other world news,,ir,9,,Conflicts and events elsewhere.,,2026-10-30
-culture,"Art, Culture & Heritage",Culture,hub,12,49,"Festivals, heritage and archaeology, films, books and the arts.",,2026-10-30
-festivals,Festivals & fairs,,culture,1,,"Religious and cultural festivals, melas and their dates.",firecracker-regulation;water-rivers,2026-10-31
-heritage,Heritage & archaeology,,culture,2,,"Monuments, temples, excavations and traditional knowledge.",places-in-news;tribal-rights,2026-10-31
-cinema-arts,"Films, books & arts",,culture,3,,"Films, books, authors and artists in the news.",awards;obituaries,2026-10-30
-education,Education & exams,,governance,5,,"Universities, student unions, entrance and recruitment exams.",civil-services;fundamental-rights,2026-10-30
-food-pds,Food security & PDS,,governance,6,,"Public distribution system, food grains and the NFSA.",commodities;poverty,2026-10-30
-water-rivers,Rivers & water,,environment,7,,"River pollution, water conservation and traditional water systems.",delhi-air;vb-g-ram-g;festivals,2026-10-30
-tribal-rights,Tribal & forest rights,,society,5,,"Adivasi rights, PVTGs, mining conflicts and the Forest Rights Act.",env-principles;bnss-criminal-law;siang-dam;heritage,2026-10-30
-judiciary,Judiciary & appointments,,polity,11,,"Collegium, judicial appointments, pendency and court administration.",court-cases;fundamental-rights,2026-10-30
-ucc,Uniform Civil Code,,polity,12,,Article 44 and States adopting a Uniform Civil Code.,fundamental-rights;party-politics,2026-10-31
-arctic,Arctic & Greenland,,ir,12,,"Greenland, Arctic security and great-power competition in the High North.",us-politics;un-multilateral,2026-10-30
-capital-markets,SEBI & capital markets,,economy,12,,"SEBI regulation, AIFs, FPIs, mutual funds and IPOs.",markets-indicators;banking-rbi,2026-10-30
-global-economy,Global economy & central banks,,economy,13,,"US Fed and other central banks, global growth and prices.",us-politics;markets-indicators,2026-10-30
-trade-exports,Trade & exports,,economy,14,,"India's exports and imports, tariffs and trade deals.",us-politics;industry-pli,2026-10-30
-industry-pli,Industry & PLI schemes,,economy,15,,Manufacturing policy and Production Linked Incentive schemes.,trade-exports;employment-labour,2026-10-30
-poverty,Poverty & inequality,,economy,16,,"Poverty estimates, multidimensional poverty and inequality.",employment-labour;food-pds,2026-10-31
-tech-industry,Tech industry & AI chips,,scitech,6,,"Big Tech, AI chips, cloud and AI in defence.",ai-privacy;cyber,2026-10-30
-northeast,Manipur & Northeast,,security,6,,Ethnic conflict and security in Manipur and the Northeast.,minorities;policing,2026-10-30
-floods-glof,"Floods, landslides & GLOFs",,geography,4,,"Floods, landslides and glacial lake outburst floods.",cyclones;rainfall;india-neighbourhood,2026-10-31
-obituaries,Obituaries,,persons,5,,Notable people who died.,awards;cinema-arts,2026-10-31
-chess,Chess,,sports,9,,"World Championship, Candidates and Indian players.",,2026-10-31
+id,label,short,parent,junction,order,hue,summary,links,created,facts_total
+polity,Polity & Constitution,Polity,hub,polity,1,262,"Constitution, Parliament and State legislatures, elections, courts and party politics.",,2026-10-30,110
+governance,Governance & Schemes,Governance,hub,governance,2,196,"Government schemes, administration, Census, civil services and regulation.",,2026-10-30,30
+economy,Economy & Business,Economy,hub,economy,3,98,"Fiscal policy, banking, markets, companies, energy, aviation and agriculture.",,2026-10-30,68
+environment,Environment & Ecology,Environment,hub,environment,4,131,"Pollution, climate, wildlife, dams and environmental law.",,2026-10-30,33
+geography,"Geography, Places & Disasters",Geography,hub,geography,5,164,"Cyclones, weather, and places in the news.",,2026-10-30,20
+ir,International Relations,World & IR,hub,ir,6,0,"India's ties, world conflicts, foreign elections, UN and diaspora.",,2026-10-30,48
+security,Defence & Internal Security,Security,hub,security,7,33,"Armed forces, defence production, policing, corruption cases and cyber security.",,2026-10-30,29
+scitech,"Science, Tech & Health",Sci-Tech,hub,scitech,8,295,"AI and data privacy, space, health research and science history.",,2026-10-30,34
+society,Society & Social Justice,Society,hub,society,9,65,"Labour rights, women and children, minorities, accidents and safety.",,2026-10-30,20
+persons,"Persons, Days & Awards",Persons,hub,persons,10,327,"Who's who in the news, important days and awards.",,2026-10-30,9
+sports,Sports,Sports,hub,sports,11,229,"Results, records and events across sports.",,2026-10-30,46
+culture,"Art, Culture & Heritage",Culture,hub,culture,12,49,"Festivals, heritage and archaeology, films, books and the arts.",,2026-10-30,9
+fundamental-rights,Fundamental Rights & Duties,,polity,polity,1,262,"Articles 19, 21, 25, 48A, 51A(g) as they come up in court rulings and debates.",firecracker-regulation;education;judiciary;ucc,2026-10-30,10
+legislative-councils,Legislative Councils,,polity,polity,2,262,"State upper Houses (Art. 168-172): who has them, how they're formed and abolished, their powers.",anti-defection,2026-10-30,15
+anti-defection,Anti-defection & party switching,,polity,polity,3,262,Tenth Schedule cases and legislators changing parties.,party-politics,2026-11-02,5
+elections-sir,SIR & Election Commission,,polity,polity,4,262,"Special Intensive Revision of electoral rolls, ECI decisions and the political fight over them.",state-election-commissions,2026-10-30,22
+state-election-commissions,Local body polls (State ECs),,polity,polity,5,262,Panchayat and municipal elections run by State Election Commissions.,,2026-10-31,7
+jk-politics,J&K politics & Statehood,,polity,polity,6,262,Politics of the Union Territory of Jammu and Kashmir and the demand for Statehood.,party-politics,2026-10-30,7
+party-politics,Party politics & State elections,,polity,polity,7,262,"Party splits, alliances and preparations for upcoming State elections.",anti-defection;ucc,2026-10-30,18
+bnss-criminal-law,"Criminal laws (BNSS, BNS)",,polity,polity,8,262,New criminal laws as they are applied in news events.,policing;tribal-rights,2026-11-02,3
+court-cases,Court cases in news,,polity,polity,9,262,Notable Supreme Court and High Court orders not filed under a bigger topic.,arbitration;anti-corruption;judiciary,2026-10-30,15
+caa-citizenship,Citizenship Amendment Act (CAA),,polity,polity,10,262,"Implementation of the CAA, 2019 granting citizenship to persecuted minorities from Pakistan, Bangladesh and Afghanistan.",minorities;frro-immigration,2026-11-02,1
+judiciary,Judiciary & appointments,,polity,polity,11,262,"Collegium, judicial appointments, pendency and court administration.",court-cases;fundamental-rights,2026-10-30,5
+ucc,Uniform Civil Code,,polity,polity,12,262,Article 44 and States adopting a Uniform Civil Code.,fundamental-rights;party-politics,2026-10-31,2
+vb-g-ram-g,VB-G RAM G (rural jobs),,governance,governance,1,196,The rural employment guarantee scheme that replaced MGNREGA in 2026.,employment-labour;water-rivers,2026-11-03,4
+census-2027,Census 2027,,governance,governance,2,196,India's first digital census and first caste enumeration since Independence.,ai-privacy,2026-10-30,9
+frro-immigration,Immigration & FRROs,,governance,governance,3,196,"Foreigners Regional Registration Offices and the Immigration and Foreigners Act, 2025.",diaspora;caa-citizenship,2026-10-31,4
+civil-services,Civil services & transfers,,governance,governance,4,196,IAS and police postings and reshuffles.,education,2026-10-30,6
+education,Education & exams,,governance,governance,5,196,"Universities, student unions, entrance and recruitment exams.",civil-services;fundamental-rights,2026-10-30,5
+food-pds,Food security & PDS,,governance,governance,6,196,"Public distribution system, food grains and the NFSA.",commodities;poverty,2026-10-30,2
+fiscal-policy,Fiscal policy & capex,,economy,economy,1,98,"Union government spending, capital expenditure and fiscal discipline.",state-finances;gst-collections,2026-11-03,2
+state-finances,State finances,,economy,economy,2,98,"Revenue, committed spending, subsidies and accounting standards in States.",,2026-11-03,3
+banking-rbi,"Banking, RBI & disinvestment",,economy,economy,3,98,"RBI measures, bank sales and financial inclusion.",markets-indicators;capital-markets,2026-10-30,7
+markets-indicators,Markets & indicators,,economy,economy,4,98,"Sensex, Nifty, PMI and other quick indicators.",banking-rbi;capital-markets;global-economy,2026-10-30,5
+corporate,Corporate news & governance,,economy,economy,5,98,Company results and boardroom disputes.,energy,2026-10-30,8
+arbitration,Arbitration & investment disputes,,economy,economy,6,98,Enforcement of arbitral awards and India's aim to be an arbitration hub.,,2026-10-31,4
+aviation,Civil aviation & airfares,,economy,economy,7,98,"Airfare rules, DGCA and airline performance.",west-asia,2026-10-30,8
+energy,Energy security & renewables,,economy,economy,8,98,"Oil, LNG, renewable energy and the effect of the West Asia war.",west-asia,2026-10-31,8
+commodities,Agriculture & commodities,,economy,economy,9,98,Commodity prices and farm relief.,food-pds,2026-10-30,8
+gst-collections,GST collections & indirect taxes,,economy,economy,10,98,Monthly GST mop-up figures and indirect-tax trends.,fiscal-policy,2026-11-02,1
+employment-labour,Employment & labour codes,,economy,economy,11,98,"PLFS data, the Decent Work Index, informal employment and the four Labour Codes.",vb-g-ram-g;industry-pli;poverty,2026-10-31,4
+capital-markets,SEBI & capital markets,,economy,economy,12,98,"SEBI regulation, AIFs, FPIs, mutual funds and IPOs.",markets-indicators;banking-rbi,2026-10-30,2
+global-economy,Global economy & central banks,,economy,economy,13,98,"US Fed and other central banks, global growth and prices.",us-politics;markets-indicators,2026-10-30,1
+trade-exports,Trade & exports,,economy,economy,14,98,"India's exports and imports, tariffs and trade deals.",us-politics;industry-pli,2026-10-30,1
+industry-pli,Industry & PLI schemes,,economy,economy,15,98,Manufacturing policy and Production Linked Incentive schemes.,trade-exports;employment-labour,2026-10-30,2
+poverty,Poverty & inequality,,economy,economy,16,98,"Poverty estimates, multidimensional poverty and inequality.",employment-labour;food-pds,2026-10-31,3
+delhi-air,Delhi-NCR air pollution & GRAP,,environment,environment,1,131,Air quality in the capital region and the Graded Response Action Plan.,firecracker-regulation;health;water-rivers,2026-10-30,9
+firecracker-regulation,Firecracker regulation,,environment,environment,2,131,"Supreme Court orders on crackers, green crackers and enforcement.",env-principles;festivals,2026-10-30,8
+env-principles,Environmental law & principles,,environment,environment,3,131,"Stockholm and Rio Declarations, precautionary and polluter-pays principles.",tribal-rights,2026-11-03,2
+siang-dam,Siang dam & Brahmaputra,,environment,environment,4,131,Siang Upper Multipurpose Project in Arunachal Pradesh and China's Yarlung Tsangpo dam.,india-china;tribal-rights,2026-10-30,5
+wildlife,Wildlife & Project Cheetah,,environment,environment,5,131,Protected areas and threats to wildlife.,,2026-10-30,4
+indonesia-haze,Indonesia wildfires & haze,,environment,environment,6,131,Peatland fires and transboundary haze in Southeast Asia.,rainfall,2026-11-03,2
+water-rivers,Rivers & water,,environment,environment,7,131,"River pollution, water conservation and traditional water systems.",delhi-air;vb-g-ram-g;festivals,2026-10-30,3
+cyclones,Cyclones,,geography,geography,1,164,Cyclones hitting India's coasts and the disaster response.,rainfall;floods-glof,2026-10-30,8
+rainfall,"Rainfall, monsoon & climate drivers",,geography,geography,2,164,Rainfall deficits and drivers like El Nino and the Indian Ocean Dipole.,floods-glof,2026-11-02,2
+places-in-news,Places in news,,geography,geography,3,164,"Locations that appeared in the news, for map-based questions.",heritage,2026-10-30,8
+floods-glof,"Floods, landslides & GLOFs",,geography,geography,4,164,"Floods, landslides and glacial lake outburst floods.",cyclones;rainfall;india-neighbourhood,2026-10-31,2
+west-asia,West Asia: Iran war & Hormuz,,ir,ir,1,0,"The Iran war, the Strait of Hormuz blockade and the Houthis.",israel-palestine,2026-10-30,7
+israel-palestine,Israel-Palestine,,ir,ir,2,0,"Gaza, the West Bank, UN findings and Israeli politics.",,2026-10-30,9
+us-politics,US politics & midterms,,ir,ir,3,0,US elections and how foreign policy plays at home.,west-asia;latin-america;arctic;global-economy;trade-exports,2026-10-30,6
+russia-ukraine,Russia-Ukraine war,,ir,ir,4,0,"Fighting, ceasefires and spill-over effects.",diaspora,2026-10-30,2
+india-asean,India-Southeast Asia (Act East),,ir,ir,5,0,India's ties with Vietnam and other ASEAN nations.,,2026-10-30,3
+india-china,India-China,,ir,ir,6,0,"Border, rivers and strategic competition.",,2026-10-31,6
+diaspora,Indian diaspora & migration,,ir,ir,7,0,"Indians abroad, visa and settlement rules, trafficking.",,2026-11-03,2
+un-multilateral,UN & multilateral,,ir,ir,8,0,UN General Assembly votes and international bodies.,israel-palestine;arctic,2026-11-02,2
+world-other,Other world news,,ir,ir,9,0,Conflicts and events elsewhere.,,2026-10-30,5
+india-neighbourhood,India's neighbourhood,,ir,ir,10,0,"India's ties with Nepal, Bhutan, Sri Lanka, Bangladesh, Maldives and other South Asian neighbours ('Neighbourhood First').",diaspora;floods-glof,2026-10-30,2
+latin-america,Latin America & Venezuela,,ir,ir,11,0,"Elections and politics in Brazil, Venezuela and other Latin American states.",us-politics,2026-10-30,2
+arctic,Arctic & Greenland,,ir,ir,12,0,"Greenland, Arctic security and great-power competition in the High North.",us-politics;un-multilateral,2026-10-30,2
+defence-navy,Navy & defence production,,security,security,1,33,"Warships, defence PSUs and indigenisation.",defence-airforce,2026-11-02,3
+policing,Policing & law enforcement,,security,security,2,33,"Police actions, protests and conduct.",women-child;northeast,2026-10-30,8
+anti-corruption,Corruption & money-laundering cases,,security,security,3,33,"ED, PMLA and Prevention of Corruption Act cases.",court-cases,2026-10-30,6
+cyber,Cyber security,,security,security,4,33,Cyber attacks and digital threats.,tech-industry,2026-10-30,8
+defence-airforce,Air Force & defence modernisation,,security,security,5,33,"IAF leadership, doctrine and new platforms such as the AMCA.",defence-navy,2026-11-02,1
+northeast,Manipur & Northeast,,security,security,6,33,Ethnic conflict and security in Manipur and the Northeast.,minorities;policing,2026-10-30,1
+ai-privacy,AI & data privacy (DPDP Act),,scitech,scitech,1,295,How AI uses personal data and gaps in India's data protection law.,deepfakes;tech-industry,2026-10-30,7
+deepfakes,Deepfakes & detection,,scitech,scitech,2,295,Synthetic media and tools to detect it.,,2026-11-03,2
+space-astronomy,Space & astronomy,,scitech,scitech,3,295,"Missions, discoveries and space history.",awards,2026-10-31,8
+health,Health & medicine,,scitech,scitech,4,295,Disease research and public health.,,2026-10-30,9
+science-history,Science history,,scitech,scitech,5,295,Anniversaries of discoveries and inventions.,,2026-10-30,4
+tech-industry,Tech industry & AI chips,,scitech,scitech,6,295,"Big Tech, AI chips, cloud and AI in defence.",ai-privacy;cyber,2026-10-30,4
+bonded-labour,Bonded labour,,society,society,1,65,Release and rehabilitation of bonded labourers.,fundamental-rights,2026-11-03,3
+women-child,Women & child safety,,society,society,2,65,POCSO cases and workplace harassment.,policing,2026-10-30,9
+minorities,Minorities,,society,society,3,65,Attacks on and protection of minority communities.,caa-citizenship;northeast,2026-11-01,2
+accidents-safety,Accidents & industrial safety,,society,society,4,65,"Fires, electrocutions and industrial accidents.",,2026-10-31,2
+tribal-rights,Tribal & forest rights,,society,society,5,65,"Adivasi rights, PVTGs, mining conflicts and the Forest Rights Act.",env-principles;bnss-criminal-law;siang-dam;heritage,2026-10-30,4
+office-holders,Who's who: India,,persons,persons,1,327,Indian office holders who appeared in the news.,defence-airforce,2026-11-02,2
+world-leaders,Who's who: World,,persons,persons,2,327,Foreign leaders and officials in the news.,,2026-11-03,1
+important-days,Important days,,persons,persons,3,327,National and international days and anniversaries.,,2026-11-02,2
+awards,Awards & honours,,persons,persons,4,327,Prizes and the people who won them.,cinema-arts;obituaries,2026-10-30,2
+obituaries,Obituaries,,persons,persons,5,327,Notable people who died.,awards;cinema-arts,2026-10-31,2
+f1,Formula 1,,sports,sports,1,229,Motor racing results and records.,,2026-10-31,3
+cricket,Cricket,,sports,sports,2,229,"International and domestic cricket, IPL.",,2026-10-30,15
+hockey,Hockey,,sports,sports,3,229,Indian hockey results.,,2026-10-30,4
+tennis,Tennis,,sports,sports,4,229,Tournaments and results.,,2026-10-30,4
+archery,Archery,,sports,sports,5,229,Archery events and leagues.,,2026-11-03,1
+golf,Golf,,sports,sports,6,229,Golf tours and events.,,2026-11-03,1
+badminton,Badminton,,sports,sports,7,229,Indian badminton players and tournament results.,,2026-11-02,1
+other-sports,Other sports,,sports,sports,8,229,"Noteworthy results in sports without a dedicated branch (kabaddi, motorsport, boxing, etc.).",,2026-10-30,14
+chess,Chess,,sports,sports,9,229,"World Championship, Candidates and Indian players.",,2026-10-31,3
+festivals,Festivals & fairs,,culture,culture,1,49,"Religious and cultural festivals, melas and their dates.",firecracker-regulation;water-rivers,2026-10-31,2
+heritage,Heritage & archaeology,,culture,culture,2,49,"Monuments, temples, excavations and traditional knowledge.",places-in-news;tribal-rights,2026-10-31,4
+cinema-arts,"Films, books & arts",,culture,culture,3,49,"Films, books, authors and artists in the news.",awards;obituaries,2026-10-30,3

@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Every newspaper and source used to build the Current Affairs Web.">
+<title>Web Sources</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@500;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <h1>Sources</h1>
+    <p id="sub">Every paper read to build the Current Affairs Web</p>
+    <nav class="nav" aria-label="Site"><a href="./">Web</a><a href="sources.html" aria-current="page">Sources</a><a href="api.html">API</a><a href="https://github.com/underwater001/current-affairs-web">GitHub</a></nav>
+  </header>
+
+  <div class="stats" id="stats"></div>
+
+  <h2>Publications</h2>
+  <div class="tbl-wrap"><table id="pubs"><thead><tr><th>Publication</th><th>Frequency</th><th>Papers read</th><th>Facts</th></tr></thead><tbody><tr><td colspan="4" class="muted">Loading…</td></tr></tbody></table></div>
+
+  <h2>Papers</h2>
+  <p class="lead">Newest first. Facts counts show how many exam facts were filed from each paper. Open a paper's link to check any fact against the original page.</p>
+  <div class="tbl-wrap"><table id="papers"><thead><tr><th>Date</th><th>Publication</th><th>Pages</th><th>Facts</th><th>Exam split</th><th>Original</th></tr></thead><tbody><tr><td colspan="6" class="muted">Loading…</td></tr></tbody></table></div>
+  <p class="muted" style="font-size:14px">The same list is available as JSON at <a href="api/v1/papers.json"><code>api/v1/papers.json</code></a> and as a spreadsheet at <a href="exports/papers.csv"><code>exports/papers.csv</code></a>.</p>
+</div>
+<script>
+(async () => {
+  const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const fmt = d => { const [y,m,dd] = d.split('-').map(Number); return new Date(Date.UTC(y,m-1,dd)).toLocaleDateString('en-IN',{weekday:'short',day:'numeric',month:'short',year:'numeric',timeZone:'UTC'}); };
+  try {
+    const r = await fetch('api/v1/papers.json?v=' + Date.now(), {cache:'no-store'});
+    if (!r.ok) throw new Error(r.status);
+    const { publications, papers } = await r.json();
+    const total = papers.reduce((s,p) => s + p.facts, 0);
+    const linked = papers.filter(p => p.link).length;
+    document.getElementById('stats').innerHTML = `<span><b>${papers.length}</b> papers</span><span><b>${Object.keys(publications).length}</b> publications</span><span><b>${total}</b> facts</span><span><b>${linked}</b> of ${papers.length} linked to originals</span>`;
+    document.querySelector('#pubs tbody').innerHTML = Object.entries(publications).map(([id, p]) => {
+      const mine = papers.filter(x => x.publication === id);
+      return `<tr><td><a href="${esc(p.website)}" target="_blank" rel="noopener">${esc(p.name)}</a><br><span class="muted mono">${esc(p.publisher || '')}</span></td><td>${esc(p.frequency || '')}</td><td class="num">${mine.length}</td><td class="num">${mine.reduce((s,x)=>s+x.facts,0)}</td></tr>`;
+    }).join('');
+    document.querySelector('#papers tbody').innerHTML = [...papers].reverse().map(p => `<tr>
+      <td class="num">${esc(fmt(p.date))}</td>
+      <td>${esc(p.name)}${p.edition ? `<br><span class="muted mono">${esc(p.edition)} edition</span>` : ''}</td>
+      <td class="num">${p.pages ?? '–'}</td>
+      <td class="num"><a href="api/v1/papers/${encodeURIComponent(p.id)}.json" title="This paper's facts as JSON">${p.facts}</a></td>
+      <td><span class="tag cgl">CGL ${p.cgl}</span><span class="tag upsc">UPSC ${p.upsc}</span>${p.background ? `<br><span class="muted mono" style="font-size:12px">${p.background} background</span>` : ''}</td>
+      <td>${p.link ? `<a class="btn" href="${esc(p.link)}" target="_blank" rel="noopener">Open in Drive</a>` : '<span class="pending">link not added</span>'}</td>
+    </tr>`).join('');
+  } catch (e) {
+    document.querySelector('#papers tbody').innerHTML = '<tr><td colspan="6">The source list did not load. Refresh to try again.</td></tr>';
+  }
+})();
+</script>
+</body>
+</html>

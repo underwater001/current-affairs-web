@@ -42,7 +42,16 @@
       "publication": "the-hindu-sunday-magazine",
       "edition": "Delhi",
       "pages": 8,
-      "link": null,
+      "link": "https://drive.google.com/file/d/1epCV_OeIPJQg9JXq_wfMhPG-aeeUqmn2/view?usp=sharing",
+      "added": "2026-11-03"
+    },
+    {
+      "id": "2026-11-01-the-hindu",
+      "date": "2026-11-01",
+      "publication": "the-hindu",
+      "edition": "Delhi",
+      "pages": 26,
+      "link": "https://drive.google.com/file/d/1r6zznVez3dqmxYWVQqFcWAK2d1sORE9d/view?usp=sharing",
       "added": "2026-11-03"
     },
     {
@@ -51,7 +60,7 @@
       "publication": "the-hindu",
       "edition": "Delhi",
       "pages": 18,
-      "link": null,
+      "link": "https://drive.google.com/file/d/1p4yUw8sNuJPuJyojSyRGkcE7INQShu2L/view?usp=sharing",
       "added": "2026-11-03"
     },
     {
@@ -60,7 +69,7 @@
       "publication": "the-hindu",
       "edition": "Delhi",
       "pages": 18,
-      "link": null,
+      "link": "https://drive.google.com/file/d/116RrKwcbDJAS6bDb1W6EjGU99XQeD5T4/view?usp=sharing",
       "added": "2026-11-03"
     }
   ]

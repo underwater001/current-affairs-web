@@ -12,7 +12,8 @@
     "label": "AI & data privacy (DPDP Act)",
     "links": [
       "deepfakes",
-      "tech-industry"
+      "tech-industry",
+      "it-rules"
     ],
     "order": 1,
     "parent": "scitech",
@@ -22,7 +23,8 @@
     "created": "2026-10-30",
     "label": "Corruption & money-laundering cases",
     "links": [
-      "court-cases"
+      "court-cases",
+      "drugs"
     ],
     "order": 3,
     "parent": "security",
@@ -99,7 +101,8 @@
     "label": "Criminal laws (BNSS, BNS)",
     "links": [
       "policing",
-      "tribal-rights"
+      "tribal-rights",
+      "drugs"
     ],
     "order": 8,
     "parent": "polity",
@@ -210,7 +213,9 @@
   "deepfakes": {
     "created": "2026-11-03",
     "label": "Deepfakes & detection",
-    "links": [],
+    "links": [
+      "it-rules"
+    ],
     "order": 2,
     "parent": "scitech",
     "summary": "Synthetic media and tools to detect it."
@@ -269,7 +274,8 @@
     "created": "2026-10-30",
     "label": "SIR & Election Commission",
     "links": [
-      "state-election-commissions"
+      "state-election-commissions",
+      "it-rules"
     ],
     "order": 4,
     "parent": "polity",
@@ -365,7 +371,8 @@
       "firecracker-regulation",
       "education",
       "judiciary",
-      "ucc"
+      "ucc",
+      "it-rules"
     ],
     "order": 1,
     "parent": "polity",
@@ -436,7 +443,9 @@
   "india-asean": {
     "created": "2026-10-30",
     "label": "India-Southeast Asia (Act East)",
-    "links": [],
+    "links": [
+      "quad"
+    ],
     "order": 5,
     "parent": "ir",
     "summary": "India's ties with Vietnam and other ASEAN nations."
@@ -564,7 +573,8 @@
     "label": "Party politics & State elections",
     "links": [
       "anti-defection",
-      "ucc"
+      "ucc",
+      "drugs"
     ],
     "order": 7,
     "parent": "polity",
@@ -743,7 +753,8 @@
       "latin-america",
       "arctic",
       "global-economy",
-      "trade-exports"
+      "trade-exports",
+      "quad"
     ],
     "order": 3,
     "parent": "ir",
@@ -989,7 +1000,8 @@
     "summary": "Big Tech, AI chips, cloud and AI in defence.",
     "links": [
       "ai-privacy",
-      "cyber"
+      "cyber",
+      "quad"
     ],
     "created": "2026-10-30"
   },
@@ -1000,7 +1012,8 @@
     "summary": "Ethnic conflict and security in Manipur and the Northeast.",
     "links": [
       "minorities",
-      "policing"
+      "policing",
+      "drugs"
     ],
     "created": "2026-10-30"
   },
@@ -1034,5 +1047,43 @@
     "summary": "World Championship, Candidates and Indian players.",
     "links": [],
     "created": "2026-10-31"
+  },
+  "drugs": {
+    "label": "Drugs & narcotics",
+    "parent": "security",
+    "order": 7,
+    "created": "2026-11-01",
+    "summary": "Drug abuse, narco-trafficking networks and anti-drug drives.",
+    "links": [
+      "bnss-criminal-law",
+      "northeast",
+      "party-politics",
+      "anti-corruption"
+    ]
+  },
+  "quad": {
+    "label": "Quad & Indo-Pacific",
+    "parent": "ir",
+    "order": 13,
+    "created": "2026-11-01",
+    "summary": "The India-US-Japan-Australia Quad and Indo-Pacific cooperation.",
+    "links": [
+      "india-asean",
+      "us-politics",
+      "tech-industry"
+    ]
+  },
+  "it-rules": {
+    "label": "IT Rules & content takedowns",
+    "parent": "polity",
+    "order": 13,
+    "created": "2026-11-01",
+    "summary": "IT Act blocking powers, intermediary rules, safe harbour and takedowns.",
+    "links": [
+      "fundamental-rights",
+      "deepfakes",
+      "ai-privacy",
+      "elections-sir"
+    ]
   }
 }

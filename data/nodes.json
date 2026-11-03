@@ -1,0 +1,768 @@
+{
+  "accidents-safety": {
+    "created": "2026-11-03",
+    "label": "Accidents & industrial safety",
+    "links": [],
+    "order": 4,
+    "parent": "society",
+    "summary": "Fires, electrocutions and industrial accidents."
+  },
+  "ai-privacy": {
+    "created": "2026-11-01",
+    "label": "AI & data privacy (DPDP Act)",
+    "links": [
+      "deepfakes"
+    ],
+    "order": 1,
+    "parent": "scitech",
+    "summary": "How AI uses personal data and gaps in India's data protection law."
+  },
+  "anti-corruption": {
+    "created": "2026-11-02",
+    "label": "Corruption & money-laundering cases",
+    "links": [
+      "court-cases"
+    ],
+    "order": 3,
+    "parent": "security",
+    "summary": "ED, PMLA and Prevention of Corruption Act cases."
+  },
+  "anti-defection": {
+    "created": "2026-11-02",
+    "label": "Anti-defection & party switching",
+    "links": [
+      "party-politics"
+    ],
+    "order": 3,
+    "parent": "polity",
+    "summary": "Tenth Schedule cases and legislators changing parties."
+  },
+  "arbitration": {
+    "created": "2026-11-03",
+    "label": "Arbitration & investment disputes",
+    "links": [],
+    "order": 6,
+    "parent": "economy",
+    "summary": "Enforcement of arbitral awards and India's aim to be an arbitration hub."
+  },
+  "archery": {
+    "created": "2026-11-03",
+    "label": "Archery",
+    "links": [],
+    "order": 5,
+    "parent": "sports",
+    "summary": "Archery events and leagues."
+  },
+  "aviation": {
+    "created": "2026-11-02",
+    "label": "Civil aviation & airfares",
+    "links": [
+      "west-asia"
+    ],
+    "order": 7,
+    "parent": "economy",
+    "summary": "Airfare rules, DGCA and airline performance."
+  },
+  "awards": {
+    "created": "2026-11-03",
+    "label": "Awards & honours",
+    "links": [],
+    "order": 4,
+    "parent": "persons",
+    "summary": "Prizes and the people who won them."
+  },
+  "badminton": {
+    "created": "2026-11-02",
+    "label": "Badminton",
+    "links": [],
+    "order": 7,
+    "parent": "sports",
+    "summary": "Indian badminton players and tournament results."
+  },
+  "banking-rbi": {
+    "created": "2026-11-02",
+    "label": "Banking, RBI & disinvestment",
+    "links": [
+      "markets-indicators"
+    ],
+    "order": 3,
+    "parent": "economy",
+    "summary": "RBI measures, bank sales and financial inclusion."
+  },
+  "bnss-criminal-law": {
+    "created": "2026-11-02",
+    "label": "Criminal laws (BNSS, BNS)",
+    "links": [
+      "policing"
+    ],
+    "order": 8,
+    "parent": "polity",
+    "summary": "New criminal laws as they are applied in news events."
+  },
+  "bonded-labour": {
+    "created": "2026-11-03",
+    "label": "Bonded labour",
+    "links": [
+      "fundamental-rights"
+    ],
+    "order": 1,
+    "parent": "society",
+    "summary": "Release and rehabilitation of bonded labourers."
+  },
+  "caa-citizenship": {
+    "created": "2026-11-02",
+    "label": "Citizenship Amendment Act (CAA)",
+    "links": [
+      "minorities",
+      "frro-immigration"
+    ],
+    "order": 10,
+    "parent": "polity",
+    "summary": "Implementation of the CAA, 2019 granting citizenship to persecuted minorities from Pakistan, Bangladesh and Afghanistan."
+  },
+  "census-2027": {
+    "created": "2026-11-03",
+    "label": "Census 2027",
+    "links": [
+      "ai-privacy"
+    ],
+    "order": 2,
+    "parent": "governance",
+    "summary": "India's first digital census and first caste enumeration since Independence."
+  },
+  "civil-services": {
+    "created": "2026-11-03",
+    "label": "Civil services & transfers",
+    "links": [],
+    "order": 4,
+    "parent": "governance",
+    "summary": "IAS and police postings and reshuffles."
+  },
+  "commodities": {
+    "created": "2026-11-03",
+    "label": "Agriculture & commodities",
+    "links": [],
+    "order": 9,
+    "parent": "economy",
+    "summary": "Commodity prices and farm relief."
+  },
+  "corporate": {
+    "created": "2026-11-03",
+    "label": "Corporate news & governance",
+    "links": [
+      "energy"
+    ],
+    "order": 5,
+    "parent": "economy",
+    "summary": "Company results and boardroom disputes."
+  },
+  "court-cases": {
+    "created": "2026-11-02",
+    "label": "Court cases in news",
+    "links": [
+      "arbitration",
+      "anti-corruption"
+    ],
+    "order": 9,
+    "parent": "polity",
+    "summary": "Notable Supreme Court and High Court orders not filed under a bigger topic."
+  },
+  "cricket": {
+    "created": "2026-11-02",
+    "label": "Cricket",
+    "links": [],
+    "order": 2,
+    "parent": "sports",
+    "summary": "International and domestic cricket, IPL."
+  },
+  "cyber": {
+    "created": "2026-11-02",
+    "label": "Cyber security",
+    "links": [],
+    "order": 4,
+    "parent": "security",
+    "summary": "Cyber attacks and digital threats."
+  },
+  "cyclones": {
+    "created": "2026-11-02",
+    "label": "Cyclones",
+    "links": [
+      "rainfall"
+    ],
+    "order": 1,
+    "parent": "geography",
+    "summary": "Cyclones hitting India's coasts and the disaster response."
+  },
+  "deepfakes": {
+    "created": "2026-11-03",
+    "label": "Deepfakes & detection",
+    "links": [],
+    "order": 2,
+    "parent": "scitech",
+    "summary": "Synthetic media and tools to detect it."
+  },
+  "defence-airforce": {
+    "created": "2026-11-02",
+    "label": "Air Force & defence modernisation",
+    "links": [
+      "defence-navy"
+    ],
+    "order": 5,
+    "parent": "security",
+    "summary": "IAF leadership, doctrine and new platforms such as the AMCA."
+  },
+  "defence-navy": {
+    "created": "2026-11-02",
+    "label": "Navy & defence production",
+    "links": [
+      "defence-airforce"
+    ],
+    "order": 1,
+    "parent": "security",
+    "summary": "Warships, defence PSUs and indigenisation."
+  },
+  "delhi-air": {
+    "created": "2026-11-02",
+    "label": "Delhi-NCR air pollution & GRAP",
+    "links": [
+      "firecracker-regulation",
+      "health"
+    ],
+    "order": 1,
+    "parent": "environment",
+    "summary": "Air quality in the capital region and the Graded Response Action Plan."
+  },
+  "diaspora": {
+    "created": "2026-11-03",
+    "label": "Indian diaspora & migration",
+    "links": [],
+    "order": 7,
+    "parent": "ir",
+    "summary": "Indians abroad, visa and settlement rules, trafficking."
+  },
+  "economy": {
+    "created": "2026-11-02",
+    "hue": 98,
+    "label": "Economy & Business",
+    "links": [],
+    "order": 3,
+    "parent": "hub",
+    "short": "Economy",
+    "summary": "Fiscal policy, banking, markets, companies, energy, aviation and agriculture."
+  },
+  "elections-sir": {
+    "created": "2026-11-02",
+    "label": "SIR & Election Commission",
+    "links": [
+      "state-election-commissions"
+    ],
+    "order": 4,
+    "parent": "polity",
+    "summary": "Special Intensive Revision of electoral rolls, ECI decisions and the political fight over them."
+  },
+  "employment-labour": {
+    "created": "2026-11-02",
+    "label": "Employment & labour codes",
+    "links": [
+      "vb-g-ram-g"
+    ],
+    "order": 11,
+    "parent": "economy",
+    "summary": "PLFS data, the Decent Work Index, informal employment and the four Labour Codes."
+  },
+  "energy": {
+    "created": "2026-11-02",
+    "label": "Energy security & renewables",
+    "links": [
+      "west-asia"
+    ],
+    "order": 8,
+    "parent": "economy",
+    "summary": "Oil, LNG, renewable energy and the effect of the West Asia war."
+  },
+  "env-principles": {
+    "created": "2026-11-03",
+    "label": "Environmental law & principles",
+    "links": [],
+    "order": 3,
+    "parent": "environment",
+    "summary": "Stockholm and Rio Declarations, precautionary and polluter-pays principles."
+  },
+  "environment": {
+    "created": "2026-11-02",
+    "hue": 131,
+    "label": "Environment & Ecology",
+    "links": [],
+    "order": 4,
+    "parent": "hub",
+    "short": "Environment",
+    "summary": "Pollution, climate, wildlife, dams and environmental law."
+  },
+  "f1": {
+    "created": "2026-11-03",
+    "label": "Formula 1",
+    "links": [],
+    "order": 1,
+    "parent": "sports",
+    "summary": "Motor racing results and records."
+  },
+  "firecracker-regulation": {
+    "created": "2026-11-03",
+    "label": "Firecracker regulation",
+    "links": [
+      "env-principles"
+    ],
+    "order": 2,
+    "parent": "environment",
+    "summary": "Supreme Court orders on crackers, green crackers and enforcement."
+  },
+  "fiscal-policy": {
+    "created": "2026-11-03",
+    "label": "Fiscal policy & capex",
+    "links": [
+      "state-finances",
+      "gst-collections"
+    ],
+    "order": 1,
+    "parent": "economy",
+    "summary": "Union government spending, capital expenditure and fiscal discipline."
+  },
+  "frro-immigration": {
+    "created": "2026-11-03",
+    "label": "Immigration & FRROs",
+    "links": [
+      "diaspora",
+      "caa-citizenship"
+    ],
+    "order": 3,
+    "parent": "governance",
+    "summary": "Foreigners Regional Registration Offices and the Immigration and Foreigners Act, 2025."
+  },
+  "fundamental-rights": {
+    "created": "2026-11-03",
+    "label": "Fundamental Rights & Duties",
+    "links": [
+      "firecracker-regulation"
+    ],
+    "order": 1,
+    "parent": "polity",
+    "summary": "Articles 19, 21, 25, 48A, 51A(g) as they come up in court rulings and debates."
+  },
+  "geography": {
+    "created": "2026-11-01",
+    "hue": 164,
+    "label": "Geography, Places & Disasters",
+    "links": [],
+    "order": 5,
+    "parent": "hub",
+    "short": "Geography",
+    "summary": "Cyclones, weather, and places in the news."
+  },
+  "golf": {
+    "created": "2026-11-03",
+    "label": "Golf",
+    "links": [],
+    "order": 6,
+    "parent": "sports",
+    "summary": "Golf tours and events."
+  },
+  "governance": {
+    "created": "2026-11-03",
+    "hue": 196,
+    "label": "Governance & Schemes",
+    "links": [],
+    "order": 2,
+    "parent": "hub",
+    "short": "Governance",
+    "summary": "Government schemes, administration, Census, civil services and regulation."
+  },
+  "gst-collections": {
+    "created": "2026-11-02",
+    "label": "GST collections & indirect taxes",
+    "links": [
+      "fiscal-policy"
+    ],
+    "order": 10,
+    "parent": "economy",
+    "summary": "Monthly GST mop-up figures and indirect-tax trends."
+  },
+  "health": {
+    "created": "2026-11-03",
+    "label": "Health & medicine",
+    "links": [],
+    "order": 4,
+    "parent": "scitech",
+    "summary": "Disease research and public health."
+  },
+  "hockey": {
+    "created": "2026-11-02",
+    "label": "Hockey",
+    "links": [],
+    "order": 3,
+    "parent": "sports",
+    "summary": "Indian hockey results."
+  },
+  "important-days": {
+    "created": "2026-11-02",
+    "label": "Important days",
+    "links": [],
+    "order": 3,
+    "parent": "persons",
+    "summary": "National and international days and anniversaries."
+  },
+  "india-asean": {
+    "created": "2026-11-03",
+    "label": "India-Southeast Asia (Act East)",
+    "links": [],
+    "order": 5,
+    "parent": "ir",
+    "summary": "India's ties with Vietnam and other ASEAN nations."
+  },
+  "india-china": {
+    "created": "2026-11-02",
+    "label": "India-China",
+    "links": [],
+    "order": 6,
+    "parent": "ir",
+    "summary": "Border, rivers and strategic competition."
+  },
+  "india-neighbourhood": {
+    "created": "2026-11-02",
+    "label": "India's neighbourhood",
+    "links": [
+      "diaspora"
+    ],
+    "order": 10,
+    "parent": "ir",
+    "summary": "India's ties with Nepal, Bhutan, Sri Lanka, Bangladesh, Maldives and other South Asian neighbours ('Neighbourhood First')."
+  },
+  "indonesia-haze": {
+    "created": "2026-11-03",
+    "label": "Indonesia wildfires & haze",
+    "links": [
+      "rainfall"
+    ],
+    "order": 6,
+    "parent": "environment",
+    "summary": "Peatland fires and transboundary haze in Southeast Asia."
+  },
+  "ir": {
+    "created": "2026-11-02",
+    "hue": 0,
+    "label": "International Relations",
+    "links": [],
+    "order": 6,
+    "parent": "hub",
+    "short": "World & IR",
+    "summary": "India's ties, world conflicts, foreign elections, UN and diaspora."
+  },
+  "israel-palestine": {
+    "created": "2026-11-03",
+    "label": "Israel-Palestine",
+    "links": [],
+    "order": 2,
+    "parent": "ir",
+    "summary": "Gaza, the West Bank, UN findings and Israeli politics."
+  },
+  "jk-politics": {
+    "created": "2026-11-03",
+    "label": "J&K politics & Statehood",
+    "links": [
+      "party-politics"
+    ],
+    "order": 6,
+    "parent": "polity",
+    "summary": "Politics of the Union Territory of Jammu and Kashmir and the demand for Statehood."
+  },
+  "latin-america": {
+    "created": "2026-11-02",
+    "label": "Latin America & Venezuela",
+    "links": [
+      "us-politics"
+    ],
+    "order": 11,
+    "parent": "ir",
+    "summary": "Elections and politics in Brazil, Venezuela and other Latin American states."
+  },
+  "legislative-councils": {
+    "created": "2026-11-03",
+    "label": "Legislative Councils",
+    "links": [
+      "anti-defection"
+    ],
+    "order": 2,
+    "parent": "polity",
+    "summary": "State upper Houses (Art. 168-172): who has them, how they're formed and abolished, their powers."
+  },
+  "markets-indicators": {
+    "created": "2026-11-02",
+    "label": "Markets & indicators",
+    "links": [
+      "banking-rbi"
+    ],
+    "order": 4,
+    "parent": "economy",
+    "summary": "Sensex, Nifty, PMI and other quick indicators."
+  },
+  "minorities": {
+    "created": "2026-11-01",
+    "label": "Minorities",
+    "links": [
+      "caa-citizenship"
+    ],
+    "order": 3,
+    "parent": "society",
+    "summary": "Attacks on and protection of minority communities."
+  },
+  "office-holders": {
+    "created": "2026-11-02",
+    "label": "Who's who: India",
+    "links": [
+      "defence-airforce"
+    ],
+    "order": 1,
+    "parent": "persons",
+    "summary": "Indian office holders who appeared in the news."
+  },
+  "other-sports": {
+    "created": "2026-11-02",
+    "label": "Other sports",
+    "links": [],
+    "order": 8,
+    "parent": "sports",
+    "summary": "Noteworthy results in sports without a dedicated branch (kabaddi, motorsport, boxing, etc.)."
+  },
+  "party-politics": {
+    "created": "2026-11-02",
+    "label": "Party politics & State elections",
+    "links": [
+      "anti-defection"
+    ],
+    "order": 7,
+    "parent": "polity",
+    "summary": "Party splits, alliances and preparations for upcoming State elections."
+  },
+  "persons": {
+    "created": "2026-11-02",
+    "hue": 327,
+    "label": "Persons, Days & Awards",
+    "links": [],
+    "order": 10,
+    "parent": "hub",
+    "short": "Persons",
+    "summary": "Who's who in the news, important days and awards."
+  },
+  "places-in-news": {
+    "created": "2026-11-01",
+    "label": "Places in news",
+    "links": [],
+    "order": 3,
+    "parent": "geography",
+    "summary": "Locations that appeared in the news, for map-based questions."
+  },
+  "policing": {
+    "created": "2026-11-03",
+    "label": "Policing & law enforcement",
+    "links": [
+      "women-child"
+    ],
+    "order": 2,
+    "parent": "security",
+    "summary": "Police actions, protests and conduct."
+  },
+  "polity": {
+    "created": "2026-11-02",
+    "hue": 262,
+    "label": "Polity & Constitution",
+    "links": [],
+    "order": 1,
+    "parent": "hub",
+    "short": "Polity",
+    "summary": "Constitution, Parliament and State legislatures, elections, courts and party politics."
+  },
+  "rainfall": {
+    "created": "2026-11-02",
+    "label": "Rainfall, monsoon & climate drivers",
+    "links": [],
+    "order": 2,
+    "parent": "geography",
+    "summary": "Rainfall deficits and drivers like El Nino and the Indian Ocean Dipole."
+  },
+  "russia-ukraine": {
+    "created": "2026-11-03",
+    "label": "Russia-Ukraine war",
+    "links": [
+      "diaspora"
+    ],
+    "order": 4,
+    "parent": "ir",
+    "summary": "Fighting, ceasefires and spill-over effects."
+  },
+  "science-history": {
+    "created": "2026-11-01",
+    "label": "Science history",
+    "links": [],
+    "order": 5,
+    "parent": "scitech",
+    "summary": "Anniversaries of discoveries and inventions."
+  },
+  "scitech": {
+    "created": "2026-11-01",
+    "hue": 295,
+    "label": "Science, Tech & Health",
+    "links": [],
+    "order": 8,
+    "parent": "hub",
+    "short": "Sci-Tech",
+    "summary": "AI and data privacy, space, health research and science history."
+  },
+  "security": {
+    "created": "2026-11-02",
+    "hue": 33,
+    "label": "Defence & Internal Security",
+    "links": [],
+    "order": 7,
+    "parent": "hub",
+    "short": "Security",
+    "summary": "Armed forces, defence production, policing, corruption cases and cyber security."
+  },
+  "siang-dam": {
+    "created": "2026-11-03",
+    "label": "Siang dam & Brahmaputra",
+    "links": [
+      "india-china"
+    ],
+    "order": 4,
+    "parent": "environment",
+    "summary": "Siang Upper Multipurpose Project in Arunachal Pradesh and China's Yarlung Tsangpo dam."
+  },
+  "society": {
+    "created": "2026-11-01",
+    "hue": 65,
+    "label": "Society & Social Justice",
+    "links": [],
+    "order": 9,
+    "parent": "hub",
+    "short": "Society",
+    "summary": "Labour rights, women and children, minorities, accidents and safety."
+  },
+  "space-astronomy": {
+    "created": "2026-11-02",
+    "label": "Space & astronomy",
+    "links": [
+      "awards"
+    ],
+    "order": 3,
+    "parent": "scitech",
+    "summary": "Missions, discoveries and space history."
+  },
+  "sports": {
+    "created": "2026-11-02",
+    "hue": 229,
+    "label": "Sports",
+    "links": [],
+    "order": 11,
+    "parent": "hub",
+    "short": "Sports",
+    "summary": "Results, records and events across sports."
+  },
+  "state-election-commissions": {
+    "created": "2026-11-02",
+    "label": "Local body polls (State ECs)",
+    "links": [],
+    "order": 5,
+    "parent": "polity",
+    "summary": "Panchayat and municipal elections run by State Election Commissions."
+  },
+  "state-finances": {
+    "created": "2026-11-03",
+    "label": "State finances",
+    "links": [],
+    "order": 2,
+    "parent": "economy",
+    "summary": "Revenue, committed spending, subsidies and accounting standards in States."
+  },
+  "tennis": {
+    "created": "2026-11-02",
+    "label": "Tennis",
+    "links": [],
+    "order": 4,
+    "parent": "sports",
+    "summary": "Tournaments and results."
+  },
+  "un-multilateral": {
+    "created": "2026-11-02",
+    "label": "UN & multilateral",
+    "links": [
+      "israel-palestine"
+    ],
+    "order": 8,
+    "parent": "ir",
+    "summary": "UN General Assembly votes and international bodies."
+  },
+  "us-politics": {
+    "created": "2026-11-02",
+    "label": "US politics & midterms",
+    "links": [
+      "west-asia",
+      "latin-america"
+    ],
+    "order": 3,
+    "parent": "ir",
+    "summary": "US elections and how foreign policy plays at home."
+  },
+  "vb-g-ram-g": {
+    "created": "2026-11-03",
+    "label": "VB-G RAM G (rural jobs)",
+    "links": [
+      "employment-labour"
+    ],
+    "order": 1,
+    "parent": "governance",
+    "summary": "The rural employment guarantee scheme that replaced MGNREGA in 2026."
+  },
+  "west-asia": {
+    "created": "2026-11-02",
+    "label": "West Asia: Iran war & Hormuz",
+    "links": [
+      "israel-palestine"
+    ],
+    "order": 1,
+    "parent": "ir",
+    "summary": "The Iran war, the Strait of Hormuz blockade and the Houthis."
+  },
+  "wildlife": {
+    "created": "2026-11-03",
+    "label": "Wildlife & Project Cheetah",
+    "links": [],
+    "order": 5,
+    "parent": "environment",
+    "summary": "Protected areas and threats to wildlife."
+  },
+  "women-child": {
+    "created": "2026-11-02",
+    "label": "Women & child safety",
+    "links": [
+      "policing"
+    ],
+    "order": 2,
+    "parent": "society",
+    "summary": "POCSO cases and workplace harassment."
+  },
+  "world-leaders": {
+    "created": "2026-11-03",
+    "label": "Who's who: World",
+    "links": [],
+    "order": 2,
+    "parent": "persons",
+    "summary": "Foreign leaders and officials in the news."
+  },
+  "world-other": {
+    "created": "2026-11-02",
+    "label": "Other world news",
+    "links": [],
+    "order": 9,
+    "parent": "ir",
+    "summary": "Conflicts and events elsewhere."
+  }
+}

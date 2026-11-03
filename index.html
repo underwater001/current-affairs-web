@@ -1,0 +1,477 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="A growing knowledge web of current-affairs facts for SSC CGL and UPSC, filed daily from the newspaper.">
+<title>Current Affairs Web</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@500;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a radial web (hub → junctions → branches) beside a reading panel; stacks on phones. */
+:root{
+  --bg:#f3f5f8; --surface:#ffffff; --sunk:#eaeef3; --ink:#18212c; --muted:#5a6575; --line:#d6dce5;
+  --accent:#2448c8; --new:#c97a06; --new-soft:#fbefd9;
+  --cgl:#0f6e72; --cgl-soft:#dcf0ef; --upsc:#7a2f8f; --upsc-soft:#f1e3f5;
+  --display:"Schibsted Grotesk", "Helvetica Neue", Arial, sans-serif;
+  --body:"Source Serif 4", Georgia, "Times New Roman", serif;
+  --mono:"JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --bg:#0e131a; --surface:#151c25; --sunk:#1b2430; --ink:#e4e9f0; --muted:#97a2b2; --line:#2a3441;
+  --accent:#86a2ff; --new:#ffb84a; --new-soft:#3a2b10;
+  --cgl:#6fd3cf; --cgl-soft:#123634; --upsc:#df9cf0; --upsc-soft:#33183c; color-scheme:dark } }
+:root[data-theme="dark"]{
+  --bg:#0e131a; --surface:#151c25; --sunk:#1b2430; --ink:#e4e9f0; --muted:#97a2b2; --line:#2a3441;
+  --accent:#86a2ff; --new:#ffb84a; --new-soft:#3a2b10;
+  --cgl:#6fd3cf; --cgl-soft:#123634; --upsc:#df9cf0; --upsc-soft:#33183c; color-scheme:dark }
+
+html,body{height:100%}
+body{background:var(--bg);color:var(--ink);font-family:var(--display)}
+.page{padding-left:max(16px, env(safe-area-inset-left, 0px));padding-right:max(16px, env(safe-area-inset-right, 0px));padding-block:14px 20px;display:flex;flex-direction:column;gap:12px;min-height:100%;box-sizing:border-box}
+
+header.top{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:8px 20px}
+.brand h1{margin:0;font-size:26px;font-weight:800;letter-spacing:-0.015em;line-height:1.1;text-wrap:balance}
+.brand p{margin:4px 0 0;font-family:var(--mono);font-size:12px;color:var(--muted)}
+.stats{display:flex;flex-wrap:wrap;gap:6px 16px;font-family:var(--mono);font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
+.stats b{color:var(--ink);font-weight:500}
+
+.controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.search{flex:1 1 260px;min-width:0;position:relative}
+.search input{width:100%;box-sizing:border-box;font:inherit;font-size:15px;padding:9px 12px 9px 34px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--ink)}
+.search svg{position:absolute;left:11px;top:50%;transform:translateY(-50%);width:15px;height:15px;stroke:var(--muted);fill:none;stroke-width:2}
+.search input:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:8px;overflow:hidden;background:var(--surface)}
+.seg button{font:inherit;font-size:13px;font-weight:500;padding:8px 12px;border:0;background:transparent;color:var(--muted);cursor:pointer}
+.seg button+button{border-left:1px solid var(--line)}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--surface)}
+.seg button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+
+.layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(320px,420px);gap:14px;flex:1;min-height:0}
+.web-wrap{position:relative;background:var(--surface);border:1px solid var(--line);border-radius:10px;overflow:hidden;height:min(80vh,900px);min-height:420px}
+#web{width:100%;height:100%;display:block;cursor:grab;touch-action:none}
+#web:active{cursor:grabbing}
+.web-note{position:absolute;inset:0;display:grid;place-items:center;padding:24px;text-align:center;color:var(--muted);font-size:15px;line-height:1.5;pointer-events:none}
+.web-note[hidden]{display:none!important}
+.zoom{position:absolute;right:10px;bottom:10px;display:flex;flex-direction:column;gap:6px}
+.zoom button{width:34px;height:34px;border-radius:8px;border:1px solid var(--line);background:var(--surface);color:var(--ink);font:500 17px/1 var(--display);cursor:pointer}
+.zoom button:focus-visible{outline:2px solid var(--accent)}
+.key{position:absolute;left:10px;bottom:10px;display:flex;flex-wrap:wrap;gap:4px 12px;font-family:var(--mono);font-size:11px;color:var(--muted);background:color-mix(in srgb, var(--surface) 88%, transparent);padding:6px 8px;border-radius:6px;max-width:calc(100% - 70px)}
+.key span{display:inline-flex;align-items:center;gap:5px}
+.key i{display:inline-block;width:10px;height:10px;border-radius:50%}
+.key .k-new{border:2px solid var(--new);width:8px;height:8px}
+.key .k-link{width:16px;height:0;border-radius:0;border-top:1.5px dashed var(--muted)}
+
+/* SVG */
+.lk{fill:none;stroke-opacity:.42}
+.xlk{fill:none;stroke:var(--muted);stroke-dasharray:3 4;stroke-opacity:.55;stroke-width:1.2}
+.nd{cursor:pointer}
+.nd circle.dot{stroke:var(--surface);stroke-width:1.5}
+.nd .ring{fill:none;stroke:var(--new);stroke-width:2}
+.nd text{font-family:var(--display);fill:var(--ink);paint-order:stroke;stroke:var(--surface);stroke-width:3px;stroke-linejoin:round}
+.nd.br text{font-size:11.5px;font-weight:500}
+.nd.jn text{font-size:13.5px;font-weight:800;letter-spacing:.01em}
+.nd.hub text{font-size:12px;font-weight:800;fill:var(--surface);stroke:none}
+.nd:focus{outline:none}
+.nd:focus-visible circle.dot{stroke:var(--accent);stroke-width:3}
+.nd.empty{opacity:.28}
+.dimmed .nd:not(.lit){opacity:.16}
+.dimmed .lk:not(.lit){stroke-opacity:.08}
+.dimmed .xlk:not(.lit){stroke-opacity:.08}
+.xlk.lit{stroke:var(--accent);stroke-opacity:.9;stroke-dasharray:none;stroke-width:1.6}
+.nd.sel circle.dot{stroke:var(--ink);stroke-width:2.5}
+.nd.hit circle.dot{stroke:var(--accent);stroke-width:3}
+
+/* Panel */
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:18px 18px 22px;overflow:auto;height:min(80vh,900px);min-height:420px;box-sizing:border-box;display:flex;flex-direction:column;gap:14px;min-width:0}
+.eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0}
+.panel h2{margin:0;font-size:22px;font-weight:800;letter-spacing:-0.01em;line-height:1.15;text-wrap:balance}
+.panel h3{margin:0;font-size:14px;font-weight:700;display:flex;align-items:center;gap:8px}
+.panel p.lead{margin:0;font-family:var(--body);font-size:15.5px;line-height:1.5;color:var(--ink)}
+.crumbs{display:flex;flex-wrap:wrap;align-items:center;gap:4px;font-size:12.5px;color:var(--muted)}
+.crumbs button{font:inherit;color:var(--accent);background:none;border:0;padding:0;cursor:pointer}
+.crumbs button:hover{text-decoration:underline}
+.meta-row{display:flex;flex-wrap:wrap;gap:4px 14px;font-family:var(--mono);font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{font:inherit;font-size:13px;display:inline-flex;align-items:center;gap:6px;padding:5px 10px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer;text-align:left}
+.chip:hover{border-color:var(--muted)}
+.chip:focus-visible{outline:2px solid var(--accent)}
+.chip i{width:8px;height:8px;border-radius:50%;flex:none}
+.chip .n{font-family:var(--mono);font-size:11px;color:var(--muted)}
+.chip .nw{font-family:var(--mono);font-size:10px;color:var(--new);font-weight:500}
+.section{display:flex;flex-direction:column;gap:8px}
+.date-h{font-family:var(--mono);font-size:12px;color:var(--muted);padding-bottom:4px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between}
+ul.facts{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:12px}
+.fact p{margin:0;font-family:var(--body);font-size:15.5px;line-height:1.5}
+.fact strong{font-weight:600}
+.fmeta{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:5px;font-family:var(--mono);font-size:11px;color:var(--muted)}
+.tag{padding:2px 6px;border-radius:4px;font-weight:500;letter-spacing:.03em}
+.tag.cgl{background:var(--cgl-soft);color:var(--cgl)}
+.tag.upsc{background:var(--upsc-soft);color:var(--upsc)}
+.tag.bg{border:1px dashed var(--line);color:var(--muted)}
+.tag.fresh{background:var(--new-soft);color:var(--new)}
+.fmeta button{font:inherit;color:var(--accent);background:none;border:0;padding:0;cursor:pointer}
+.jgroup{display:flex;flex-direction:column;gap:6px;padding-top:4px}
+.jgroup h3 i{width:10px;height:10px;border-radius:50%}
+.empty-msg{font-family:var(--body);font-size:15px;color:var(--muted);line-height:1.5;margin:0}
+.btn-link{font:inherit;font-size:13px;color:var(--accent);background:none;border:0;padding:0;cursor:pointer;align-self:flex-start}
+
+@media (max-width: 900px){
+  .layout{grid-template-columns:minmax(0,1fr)}
+  .web-wrap{height:62vh;min-height:360px}
+  .panel{height:auto;min-height:0;overflow:visible}
+  .brand h1{font-size:22px}
+}
+@media (prefers-reduced-motion: reduce){ *{transition:none!important} }
+</style>
+<style id="jstyles"></style>
+
+<div class="page">
+  </head>
+<body>
+<header class="top">
+    <div class="brand">
+      <h1>Current Affairs Web</h1>
+      <p id="sub">Loading the web…</p>
+    </div>
+    <div class="stats" id="stats"></div>
+  </header>
+
+  <div class="controls">
+    <label class="search" for="q">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input id="q" type="search" placeholder="Search facts, names, numbers, places" autocomplete="off" aria-label="Search facts">
+    </label>
+    <div class="seg" role="group" aria-label="Exam" id="exam">
+      <button type="button" data-v="all" aria-pressed="true">All</button>
+      <button type="button" data-v="CGL" aria-pressed="false">CGL</button>
+      <button type="button" data-v="UPSC" aria-pressed="false">UPSC</button>
+    </div>
+    <div class="seg" role="group" aria-label="Period" id="period">
+      <button type="button" data-v="all" aria-pressed="true">All time</button>
+      <button type="button" data-v="latest" aria-pressed="false">Latest paper</button>
+      <button type="button" data-v="7d" aria-pressed="false">7 days</button>
+      <button type="button" data-v="30d" aria-pressed="false">30 days</button>
+    </div>
+  </div>
+
+  <main class="layout">
+    <section class="web-wrap" aria-label="Knowledge web">
+      <svg id="web" role="img" aria-label="Radial web of current affairs topics"></svg>
+      <div class="web-note" id="note">Loading the web…</div>
+      <div class="key" aria-hidden="true">
+        <span><i class="k-new"></i>new in latest paper</span>
+        <span><i class="k-link"></i>related topics</span>
+        <span>dot size = number of facts</span>
+      </div>
+      <div class="zoom">
+        <button type="button" id="zin" aria-label="Zoom in">+</button>
+        <button type="button" id="zout" aria-label="Zoom out">−</button>
+        <button type="button" id="zfit" aria-label="Fit whole web" style="font-size:13px">⤢</button>
+      </div>
+    </section>
+    <aside class="panel" id="panel" aria-live="polite"></aside>
+  </main>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+<script>
+(function(){
+const S = { nodes:new Map(), facts:[], days:[], exam:'all', period:'all', q:'', sel:null, status:'loading', gotNodes:false, gotDays:false, fitted:false, shape:'' };
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const md = s => esc(s).replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>').replace(/(^|[\s(])\*([^*\s][^*]*?)\*(?=[\s).,;:]|$)/g,'$1<em>$2</em>');
+const dUTC = d => { const [y,m,dd] = String(d).split('-').map(Number); return Date.UTC(y,(m||1)-1,dd||1); };
+const fmt = d => d ? new Date(dUTC(d)).toLocaleDateString('en-IN',{day:'numeric',month:'short',year:'numeric',timeZone:'UTC'}) : '';
+const fmtShort = d => d ? new Date(dUTC(d)).toLocaleDateString('en-IN',{day:'numeric',month:'short',timeZone:'UTC'}) : '';
+const plural = (n,w) => n + ' ' + w + (n===1?'':'s');
+
+/* ---------- derived data ---------- */
+function parentOf(n){ const p = n && n.parent; return (p && p !== 'hub' && S.nodes.has(p)) ? p : 'hub'; }
+function junctionOf(id){ let cur = S.nodes.get(id), guard = 0; while(cur && parentOf(cur) !== 'hub' && guard++ < 20) cur = S.nodes.get(parentOf(cur)); return cur ? cur.id : null; }
+function color(id){ const j = junctionOf(id); return j ? `var(--j-${j})` : 'var(--muted)'; }
+function latest(){ let m = ''; for (const d of S.days) if (d.date > m) m = d.date; return m; }
+function factPasses(f){
+  if (S.exam !== 'all' && !(f.tags||[]).includes(S.exam)) return false;
+  const L = latest();
+  if (S.period === 'latest' && f.date !== L) return false;
+  if (S.period === '7d' || S.period === '30d'){ const span = S.period==='7d'?6:29; if (dUTC(f.date) < dUTC(L) - span*864e5) return false; }
+  return true;
+}
+function searchHit(f){ if(!S.q) return true; const q = S.q.toLowerCase(); const n = S.nodes.get(f.node); return (f.text||'').toLowerCase().includes(q) || (n && n.label.toLowerCase().includes(q)); }
+function visibleFacts(){ return S.facts.filter(factPasses); }
+function descendants(id){ const out = new Set([id]); let added = true; while(added){ added=false; for(const n of S.nodes.values()){ if(!out.has(n.id) && out.has(parentOf(n))){ out.add(n.id); added=true; } } } return out; }
+function linksOf(id){ const s = new Set(); const n = S.nodes.get(id); (n && n.links || []).forEach(x => S.nodes.has(x) && s.add(x)); for(const m of S.nodes.values()) if((m.links||[]).includes(id)) s.add(m.id); s.delete(id); return s; }
+
+/* ---------- junction colours (stored hue per junction keeps colours stable as the web grows) ---------- */
+function paintJunctions(){
+  const js = [...S.nodes.values()].filter(n => parentOf(n)==='hub').sort((a,b)=>(a.order??99)-(b.order??99));
+  let light='', dark='';
+  js.forEach((j,i) => { const h = Number.isFinite(j.hue) ? j.hue : Math.round((250 + i*360/Math.max(js.length,1))%360);
+    light += `--j-${j.id}:oklch(0.56 0.15 ${h});`; dark += `--j-${j.id}:oklch(0.78 0.12 ${h});`; });
+  $('jstyles').textContent = `:root{${light}} @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){${dark}}} :root[data-theme="dark"]{${dark}}`;
+}
+
+/* ---------- web ---------- */
+const svg = d3.select('#web');
+const g = svg.append('g');
+const zoom = d3.zoom().scaleExtent([0.25,5]).on('zoom', e => g.attr('transform', e.transform));
+svg.call(zoom).on('dblclick.zoom', null);
+const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+$('zin').onclick = () => svg.transition().duration(reduce?0:250).call(zoom.scaleBy, 1.35);
+$('zout').onclick = () => svg.transition().duration(reduce?0:250).call(zoom.scaleBy, 1/1.35);
+$('zfit').onclick = () => fit(true);
+svg.on('click', e => { if (e.target === svg.node()) select(null); });
+
+let layoutPts = new Map();
+function buildHierarchy(){
+  const kids = new Map();
+  for (const n of S.nodes.values()){ const p = parentOf(n); if(!kids.has(p)) kids.set(p, []); kids.get(p).push(n); }
+  const sortK = a => a.sort((x,y)=>(x.order??999)-(y.order??999) || String(x.label).localeCompare(String(y.label)));
+  const make = id => ({ id, children: sortK(kids.get(id)||[]).map(n => make(n.id)) });
+  return d3.hierarchy(make('hub'));
+}
+function drawWeb(){
+  g.selectAll('*').remove();
+  if (!S.nodes.size){ return; }
+  const root = buildHierarchy();
+  const leaves = root.leaves().length;
+  const maxDepth = d3.max(root.descendants(), d => d.depth) || 1;
+  const R = Math.max(300, leaves * 19 / (2*Math.PI));
+  d3.tree().size([2*Math.PI, R]).separation((a,b) => (a.parent===b.parent?1:1.8)/Math.max(a.depth,1))(root);
+  const r1 = R*0.46;
+  root.each(d => { d.y = d.depth===0 ? 0 : d.depth===1 ? r1 : r1 + (d.depth-1)*((R-r1)/Math.max(maxDepth-1,1)); });
+  const pt = d => [d.y*Math.sin(d.x), -d.y*Math.cos(d.x)];
+  layoutPts = new Map(root.descendants().map(d => [d.data.id, {x:d.x, y:d.y, p:pt(d), depth:d.depth}]));
+
+  const vis = visibleFacts();
+  const own = new Map(); for (const f of vis) own.set(f.node, (own.get(f.node)||0)+1);
+  const L = latest();
+  const freshNodes = new Set(S.facts.filter(f => f.date===L).map(f => f.node));
+  const sub = new Map(); root.eachAfter(d => { let c = own.get(d.data.id)||0; (d.children||[]).forEach(k => c += sub.get(k.data.id)); sub.set(d.data.id, c); });
+  const hits = new Set(); if (S.q) for (const f of vis) if (searchHit(f)) hits.add(f.node);
+  if (S.q) for (const n of S.nodes.values()) if (n.label.toLowerCase().includes(S.q.toLowerCase())) hits.add(n.id);
+
+  // tree links
+  g.append('g').selectAll('path').data(root.links()).join('path')
+    .attr('class', d => 'lk lk-' + d.target.data.id)
+    .attr('d', d3.linkRadial().angle(d=>d.x).radius(d=>d.y))
+    .attr('stroke', d => d.source.depth===0 ? 'var(--line)' : color(d.target.data.id))
+    .attr('stroke-width', d => d.source.depth===0 ? 2 : 1 + Math.min(4, Math.sqrt(sub.get(d.target.data.id)||0)*0.6));
+
+  // cross links
+  const xl = []; const seen = new Set();
+  for (const n of S.nodes.values()) for (const t of (n.links||[])){
+    if (!layoutPts.has(n.id) || !layoutPts.has(t)) continue;
+    const k = [n.id,t].sort().join('|'); if (seen.has(k)) continue; seen.add(k); xl.push({a:n.id,b:t});
+  }
+  g.append('g').selectAll('path').data(xl).join('path')
+    .attr('class', d => `xlk x-${d.a} x-${d.b}`)
+    .attr('d', d => { const A = layoutPts.get(d.a).p, B = layoutPts.get(d.b).p; const c = [(A[0]+B[0])*0.28, (A[1]+B[1])*0.28]; return `M${A[0]},${A[1]} Q${c[0]},${c[1]} ${B[0]},${B[1]}`; });
+
+  // nodes
+  const node = g.append('g').selectAll('g').data(root.descendants()).join('g')
+    .attr('class', d => { const id=d.data.id; const c=['nd', d.depth===0?'hub':d.depth===1?'jn':'br'];
+      if (d.depth>0 && !(sub.get(id)>0)) c.push('empty'); if (hits.has(id)) c.push('hit'); return c.join(' '); })
+    .attr('data-id', d => d.data.id)
+    .attr('transform', d => { const [x,y] = pt(d); return `translate(${x},${y})`; })
+    .attr('tabindex', d => d.depth===0 ? null : 0)
+    .attr('role', d => d.depth===0 ? null : 'button')
+    .attr('aria-label', d => { if(d.depth===0) return null; const n=S.nodes.get(d.data.id); return `${n.label}, ${plural(sub.get(d.data.id)||0,'fact')}`; })
+    .on('click', (e,d) => { e.stopPropagation(); select(d.depth===0 ? null : d.data.id);
+      if (window.innerWidth <= 900) $('panel').scrollIntoView({behavior: reduce ? 'auto' : 'smooth', block:'start'}); })
+    .on('keydown', (e,d) => { if (e.key==='Enter' || e.key===' '){ e.preventDefault(); select(d.data.id); } });
+
+  const rad = d => d.depth===0 ? 26 : d.depth===1 ? 11 : Math.min(13, 3.5 + Math.sqrt(sub.get(d.data.id)||0)*1.7);
+  const freshSub = new Map(); root.eachAfter(d => { freshSub.set(d.data.id, freshNodes.has(d.data.id) || (d.children||[]).some(k => freshSub.get(k.data.id))); });
+  node.filter(d => d.depth>1 && freshSub.get(d.data.id))
+    .append('circle').attr('class','ring').attr('r', d => rad(d)+3.5);
+  node.append('circle').attr('class','dot').attr('r', rad)
+    .attr('fill', d => d.depth===0 ? 'var(--ink)' : color(d.data.id));
+  node.append('title').text(d => d.depth===0 ? 'Current affairs' : `${S.nodes.get(d.data.id).label} — ${plural(sub.get(d.data.id)||0,'fact')}`);
+
+  node.filter(d=>d.depth===0).append('text').attr('text-anchor','middle').attr('dy','0.35em').text('CA');
+  // junction labels run inward along their spoke, so neighbouring subjects never collide
+  node.filter(d=>d.depth===1).append('text')
+    .attr('dy','0.35em')
+    .attr('transform', d => { const deg = d.x*180/Math.PI - 90; return d.x < Math.PI ? `rotate(${deg})` : `rotate(${deg+180})`; })
+    .attr('x', d => (d.x < Math.PI ? -1 : 1) * 16)
+    .attr('text-anchor', d => d.x < Math.PI ? 'end' : 'start')
+    .text(d => S.nodes.get(d.data.id).short || S.nodes.get(d.data.id).label);
+  node.filter(d=>d.depth>1).append('text')
+    .attr('dy','0.32em')
+    .attr('transform', d => { const deg = d.x*180/Math.PI - 90; return d.x < Math.PI ? `rotate(${deg})` : `rotate(${deg+180})`; })
+    .attr('x', d => (d.x < Math.PI ? 1 : -1) * (rad(d)+5))
+    .attr('text-anchor', d => d.x < Math.PI ? 'start' : 'end')
+    .text(d => S.nodes.get(d.data.id).label);
+
+  applyHighlight();
+  if (!S.fitted){ fit(false); S.fitted = true; }
+}
+function applyHighlight(){
+  const root = g.node(); if(!root) return;
+  const lit = new Set();
+  if (S.sel && S.nodes.has(S.sel)){
+    let cur = S.sel, guard=0; while(cur && cur!=='hub' && guard++<20){ lit.add(cur); cur = parentOf(S.nodes.get(cur)); }
+    descendants(S.sel).forEach(x => lit.add(x)); linksOf(S.sel).forEach(x => lit.add(x)); lit.add('hub');
+  } else if (S.q){
+    g.selectAll('.nd.hit').each(function(){ lit.add(this.getAttribute('data-id')); }); lit.add('hub');
+    [...lit].forEach(id => { let cur = S.nodes.get(id), guard=0; while(cur && guard++<20){ lit.add(cur.id); const p = parentOf(cur); if(p==='hub') break; cur = S.nodes.get(p); } });
+  }
+  const on = lit.size > 0;
+  g.classed('dimmed', on);
+  g.selectAll('.nd').classed('lit', function(){ return lit.has(this.getAttribute('data-id')); }).classed('sel', function(){ return this.getAttribute('data-id')===S.sel; });
+  g.selectAll('.lk').classed('lit', d => lit.has(d.target.data.id) && lit.has(d.source.data.id));
+  g.selectAll('.xlk').classed('lit', d => S.sel && (d.a===S.sel || d.b===S.sel));
+}
+function fit(animate){
+  const el = svg.node(); const b = g.node().getBBox(); const w = el.clientWidth, h = el.clientHeight;
+  if (!b.width || !w || !h) return;
+  const s = Math.min(w/(b.width+30), h/(b.height+30), 2.2);
+  const t = d3.zoomIdentity.translate(w/2 - s*(b.x+b.width/2), h/2 - s*(b.y+b.height/2)).scale(s);
+  (animate && !reduce ? svg.transition().duration(400) : svg).call(zoom.transform, t);
+}
+
+/* ---------- panel ---------- */
+function factLi(f, ctxId){
+  const n = S.nodes.get(f.node); const L = latest();
+  const tags = (f.tags||[]).map(t => `<span class="tag ${t==='CGL'?'cgl':'upsc'}">${esc(t)}${t==='UPSC' && f.gs ? ' · '+esc(f.gs) : ''}</span>`).join('');
+  const where = (n && f.node !== ctxId) ? `<button type="button" data-go="${esc(f.node)}">${esc(n.label)}</button>` : '';
+  return `<li class="fact"><p>${md(f.text)}</p><div class="fmeta">${tags}${f.extra?'<span class="tag bg" title="Background added by Claude, not printed in the paper">background</span>':''}${f.date===L && S.period!=='latest'?'<span class="tag fresh">new</span>':''}<span>${esc(f.source||'')}${f.page?' p. '+esc(f.page):''}</span><span>${fmtShort(f.date)}</span>${where}</div></li>`;
+}
+function groupByDate(list, ctxId){
+  const by = new Map(); for (const f of list){ if(!by.has(f.date)) by.set(f.date, []); by.get(f.date).push(f); }
+  return [...by.entries()].sort((a,b)=> b[0].localeCompare(a[0])).map(([d, fs]) =>
+    `<div class="section"><div class="date-h"><span>${fmt(d)}</span><span>${plural(fs.length,'fact')}</span></div><ul class="facts">${fs.map(f=>factLi(f, ctxId)).join('')}</ul></div>`).join('');
+}
+function chip(id, count, isNew){
+  const n = S.nodes.get(id); if(!n) return '';
+  return `<button type="button" class="chip" data-go="${esc(id)}"><i style="background:${color(id)}"></i>${esc(n.label)}${count!=null?` <span class="n">${count}</span>`:''}${isNew?' <span class="nw">new</span>':''}</button>`;
+}
+function renderPanel(){
+  const P = $('panel');
+  if (S.status==='none'){ P.innerHTML = `<p class="eyebrow">Couldn't load</p><h2>The data files didn't load</h2><p class="lead">Check your connection and refresh the page.</p>`; return; }
+  if (!S.gotNodes || !S.gotDays){ P.innerHTML = `<p class="eyebrow">Loading</p><p class="empty-msg">Fetching junctions, branches and facts…</p>`; return; }
+  if (!S.nodes.size){ P.innerHTML = `<p class="eyebrow">Empty web</p><h2>No papers added yet</h2><p class="lead">Send Claude a newspaper. Each fact will be placed on a junction or branch here.</p>`; return; }
+  const vis = visibleFacts();
+  if (S.q) return renderSearch(P, vis);
+  if (S.sel && S.nodes.has(S.sel)) return renderNode(P, vis);
+  renderOverview(P, vis);
+}
+function renderOverview(P, vis){
+  const L = latest(); const day = S.days.find(d => d.date===L) || {};
+  const newFacts = S.facts.filter(f => f.date===L && factPasses(f));
+  const firstPaper = S.days.length <= 1;
+  const newNodes = new Set([...S.nodes.values()].filter(n => n.created===L && parentOf(n)!=='hub').map(n=>n.id));
+  const newNodesShown = firstPaper ? new Set() : newNodes;
+  const byJ = new Map();
+  for (const f of newFacts){ const j = junctionOf(f.node); if(!byJ.has(j)) byJ.set(j, new Map()); const m = byJ.get(j); m.set(f.node, (m.get(f.node)||0)+1); }
+  const js = [...S.nodes.values()].filter(n=>parentOf(n)==='hub').sort((a,b)=>(a.order??99)-(b.order??99));
+  const groups = js.filter(j => byJ.has(j.id)).map(j => {
+    const items = [...byJ.get(j.id).entries()].sort((a,b)=>b[1]-a[1]);
+    return `<div class="jgroup"><h3><i style="background:${color(j.id)}"></i>${esc(j.label)}</h3><div class="chips">${items.map(([id,c]) => chip(id, c, newNodesShown.has(id))).join('')}</div></div>`;
+  }).join('');
+  P.innerHTML = `
+    <p class="eyebrow">Latest paper</p>
+    <h2>${esc(day.source || 'Newspaper')} · ${fmt(L)}</h2>
+    <div class="meta-row"><span>${plural(newFacts.length,'fact')} added${S.exam!=='all'?' ('+S.exam+')':''}</span><span>${newNodes.size} new ${newNodes.size===1?'branch':'branches'}</span></div>
+    <p class="lead">Each dot on the web is a topic. Click one to read every fact filed under it, newest first. Dashed lines join related topics across subjects.</p>
+    <div class="section"><p class="eyebrow">Where this paper's facts went</p>${groups || '<p class="empty-msg">No facts from the latest paper match this filter.</p>'}</div>`;
+}
+function renderNode(P, vis){
+  const id = S.sel, n = S.nodes.get(id); const desc = descendants(id);
+  const list = vis.filter(f => desc.has(f.node));
+  const all = S.facts.filter(f => desc.has(f.node));
+  const dates = all.map(f=>f.date).sort();
+  const crumbs = []; let cur = parentOf(n), guard=0; while(cur!=='hub' && guard++<20){ crumbs.unshift(cur); cur = parentOf(S.nodes.get(cur)); }
+  const kids = [...S.nodes.values()].filter(m => parentOf(m)===id).sort((a,b)=>(a.order??999)-(b.order??999)||a.label.localeCompare(b.label));
+  const cnt = sid => { const d = descendants(sid); return vis.filter(f=>d.has(f.node)).length; };
+  const rel = [...linksOf(id)];
+  const kind = parentOf(n)==='hub' ? 'Junction' : kids.length ? 'Branch' : 'Branch';
+  P.innerHTML = `
+    <div class="crumbs"><button type="button" data-go="">Web</button>${crumbs.map(c=>` › <button type="button" data-go="${esc(c)}">${esc(S.nodes.get(c).label)}</button>`).join('')}</div>
+    <div><p class="eyebrow" style="color:${color(id)}">${kind}</p><h2>${esc(n.label)}</h2></div>
+    ${n.summary ? `<p class="lead">${md(n.summary)}</p>` : ''}
+    <div class="meta-row"><span>${plural(list.length,'fact')}${list.length!==all.length?' shown of '+all.length:''}</span>${dates.length?`<span>first ${fmtShort(dates[0])}</span><span>updated ${fmtShort(dates[dates.length-1])}</span>`:''}</div>
+    ${kids.length ? `<div class="section"><p class="eyebrow">${kind==='Junction'?'Branches':'Sub-branches'}</p><div class="chips">${kids.map(k=>chip(k.id, cnt(k.id))).join('')}</div></div>` : ''}
+    ${rel.length ? `<div class="section"><p class="eyebrow">Connected topics</p><div class="chips">${rel.map(r=>chip(r.id||r, cnt(r))).join('')}</div></div>` : ''}
+    ${list.length ? groupByDate(list, id) : `<p class="empty-msg">No facts here match the current filter.</p>`}
+    <button type="button" class="btn-link" data-go="">← Back to latest paper</button>`;
+}
+function renderSearch(P, vis){
+  const res = vis.filter(searchHit);
+  const nodeHits = [...S.nodes.values()].filter(n => n.label.toLowerCase().includes(S.q.toLowerCase()));
+  P.innerHTML = `
+    <p class="eyebrow">Search</p>
+    <h2>${plural(res.length,'fact')} match “${esc(S.q)}”</h2>
+    ${nodeHits.length ? `<div class="section"><p class="eyebrow">Topics</p><div class="chips">${nodeHits.slice(0,20).map(n=>chip(n.id)).join('')}</div></div>` : ''}
+    ${res.length ? groupByDate(res.slice(0,300), null) : '<p class="empty-msg">Try a shorter word, a name, or a number.</p>'}`;
+}
+$('panel').addEventListener('click', e => {
+  const b = e.target.closest('[data-go]'); if(!b) return;
+  const id = b.getAttribute('data-go');
+  if (S.q && id){ S.q=''; $('q').value=''; drawWeb(); }
+  select(id || null);
+  $('panel').scrollTop = 0;
+});
+
+/* ---------- state changes ---------- */
+function select(id){
+  S.sel = id && S.nodes.has(id) ? id : null;
+  try { if (S.sel) history.replaceState(null,'','#'+S.sel); else history.replaceState(null,'',location.pathname+location.search); } catch(e){}
+  applyHighlight(); renderPanel();
+}
+window.addEventListener('hashchange', () => { const h = location.hash.slice(1); if (h !== (S.sel||'')) select(h||null); });
+function wireSeg(elId, key){
+  $(elId).addEventListener('click', e => { const b = e.target.closest('button'); if(!b) return;
+    S[key] = b.dataset.v; [...$(elId).querySelectorAll('button')].forEach(x => x.setAttribute('aria-pressed', String(x===b)));
+    try{ localStorage.setItem('caweb-'+key, S[key]); }catch(err){}
+    drawWeb(); renderPanel(); });
+}
+wireSeg('exam','exam'); wireSeg('period','period');
+try{ ['exam','period'].forEach(k => { const v = localStorage.getItem('caweb-'+k); if(v){ const b = $(k).querySelector(`[data-v="${v}"]`); if(b){ S[k]=v; [...$(k).querySelectorAll('button')].forEach(x=>x.setAttribute('aria-pressed', String(x===b))); } } }); }catch(e){}
+let qt; $('q').addEventListener('input', e => { clearTimeout(qt); qt = setTimeout(() => { S.q = e.target.value.trim(); if(S.q) S.sel=null; drawWeb(); renderPanel(); }, 160); });
+
+function renderHeader(){
+  const L = latest();
+  const js = [...S.nodes.values()].filter(n=>parentOf(n)==='hub').length;
+  const br = S.nodes.size - js;
+  $('sub').textContent = S.status==='none' ? 'Data files did not load' : (L ? `Updated with the paper of ${fmt(L)}` : (S.gotNodes&&S.gotDays ? 'Waiting for the first paper' : 'Loading the web…'));
+  $('stats').innerHTML = S.nodes.size ? `<span><b>${js}</b> junctions</span><span><b>${br}</b> branches</span><span><b>${S.facts.length}</b> facts</span><span><b>${S.days.length}</b> ${S.days.length===1?'paper':'papers'}</span>` : '';
+  const note = $('note');
+  if (S.status==='none'){ note.hidden=false; note.textContent='The data files did not load. Refresh to try again.'; }
+  else if (!S.gotNodes || !S.gotDays){ note.hidden=false; note.textContent='Loading the web…'; }
+  else if (!S.nodes.size){ note.hidden=false; note.textContent='No papers yet. Send Claude a newspaper and the web will grow here.'; }
+  else note.hidden = true;
+}
+let raf=0; function schedule(){ if(raf) return; raf = requestAnimationFrame(() => { raf=0; paintJunctions(); renderHeader(); drawWeb();
+  const h = location.hash.slice(1); if (h && S.nodes.has(h) && !S.sel) { S.sel = h; applyHighlight(); }
+  renderPanel(); }); }
+let rt; window.addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(() => fit(false), 200); });
+
+renderHeader(); renderPanel();
+
+/* ---------- data ---------- */
+/* Static files in data/: index.json lists the month bundles; each month holds that month's papers. */
+(async () => {
+  const bust = 'v=' + Date.now();
+  const get = async (p) => { const r = await fetch(p + '?' + bust, {cache:'no-store'}); if (!r.ok) throw new Error(p + ' ' + r.status); return r.json(); };
+  try {
+    const [index, nodes] = await Promise.all([get('data/index.json'), get('data/nodes.json')]);
+    S.nodes = new Map(Object.entries(nodes).map(([id, d]) => [id, Object.assign({id}, d)]));
+    S.gotNodes = true;
+    const months = await Promise.all((index.months || []).map(m => get('data/months/' + m + '.json')));
+    S.days = months.flatMap(m => m.days || []);
+    const facts = [];
+    for (const d of S.days) for (const f of (d.facts||[])) facts.push(Object.assign({date:d.date, source:d.short||''}, f));
+    S.facts = facts; S.gotDays = true; S.status = 'ok';
+    schedule();
+  } catch (e) {
+    console.error(e); S.status = 'none'; renderHeader(); renderPanel();
+  }
+})();
+})();
+</script>
+</body>
+</html>

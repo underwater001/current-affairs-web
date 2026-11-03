@@ -1,6 +1,6 @@
 {
   "accidents-safety": {
-    "created": "2026-11-03",
+    "created": "2026-10-31",
     "label": "Accidents & industrial safety",
     "links": [],
     "order": 4,
@@ -8,17 +8,18 @@
     "summary": "Fires, electrocutions and industrial accidents."
   },
   "ai-privacy": {
-    "created": "2026-11-01",
+    "created": "2026-10-30",
     "label": "AI & data privacy (DPDP Act)",
     "links": [
-      "deepfakes"
+      "deepfakes",
+      "tech-industry"
     ],
     "order": 1,
     "parent": "scitech",
     "summary": "How AI uses personal data and gaps in India's data protection law."
   },
   "anti-corruption": {
-    "created": "2026-11-02",
+    "created": "2026-10-30",
     "label": "Corruption & money-laundering cases",
     "links": [
       "court-cases"
@@ -38,7 +39,7 @@
     "summary": "Tenth Schedule cases and legislators changing parties."
   },
   "arbitration": {
-    "created": "2026-11-03",
+    "created": "2026-10-31",
     "label": "Arbitration & investment disputes",
     "links": [],
     "order": 6,
@@ -54,7 +55,7 @@
     "summary": "Archery events and leagues."
   },
   "aviation": {
-    "created": "2026-11-02",
+    "created": "2026-10-30",
     "label": "Civil aviation & airfares",
     "links": [
       "west-asia"
@@ -64,9 +65,12 @@
     "summary": "Airfare rules, DGCA and airline performance."
   },
   "awards": {
-    "created": "2026-11-03",
+    "created": "2026-10-30",
     "label": "Awards & honours",
-    "links": [],
+    "links": [
+      "cinema-arts",
+      "obituaries"
+    ],
     "order": 4,
     "parent": "persons",
     "summary": "Prizes and the people who won them."
@@ -80,10 +84,11 @@
     "summary": "Indian badminton players and tournament results."
   },
   "banking-rbi": {
-    "created": "2026-11-02",
+    "created": "2026-10-30",
     "label": "Banking, RBI & disinvestment",
     "links": [
-      "markets-indicators"
+      "markets-indicators",
+      "capital-markets"
     ],
     "order": 3,
     "parent": "economy",
@@ -93,7 +98,8 @@
     "created": "2026-11-02",
     "label": "Criminal laws (BNSS, BNS)",
     "links": [
-      "policing"
+      "policing",
+      "tribal-rights"
     ],
     "order": 8,
     "parent": "polity",
@@ -121,7 +127,7 @@
     "summary": "Implementation of the CAA, 2019 granting citizenship to persecuted minorities from Pakistan, Bangladesh and Afghanistan."
   },
   "census-2027": {
-    "created": "2026-11-03",
+    "created": "2026-10-30",
     "label": "Census 2027",
     "links": [
       "ai-privacy"
@@ -131,23 +137,27 @@
     "summary": "India's first digital census and first caste enumeration since Independence."
   },
   "civil-services": {
-    "created": "2026-11-03",
+    "created": "2026-10-30",
     "label": "Civil services & transfers",
-    "links": [],
+    "links": [
+      "education"
+    ],
     "order": 4,
     "parent": "governance",
     "summary": "IAS and police postings and reshuffles."
   },
   "commodities": {
-    "created": "2026-11-03",
+    "created": "2026-10-30",
     "label": "Agriculture & commodities",
-    "links": [],
+    "links": [
+      "food-pds"
+    ],
     "order": 9,
     "parent": "economy",
     "summary": "Commodity prices and farm relief."
   },
   "corporate": {
-    "created": "2026-11-03",
+    "created": "2026-10-30",
     "label": "Corporate news & governance",
     "links": [
       "energy"
@@ -157,18 +167,19 @@
     "summary": "Company results and boardroom disputes."
   },
   "court-cases": {
-    "created": "2026-11-02",
+    "created": "2026-10-30",
     "label": "Court cases in news",
     "links": [
       "arbitration",
-      "anti-corruption"
+      "anti-corruption",
+      "judiciary"
     ],
     "order": 9,
     "parent": "polity",
     "summary": "Notable Supreme Court and High Court orders not filed under a bigger topic."
   },
   "cricket": {
-    "created": "2026-11-02",
+    "created": "2026-10-30",
     "label": "Cricket",
     "links": [],
     "order": 2,
@@ -176,18 +187,21 @@
     "summary": "International and domestic cricket, IPL."
   },
   "cyber": {
-    "created": "2026-11-02",
+    "created": "2026-10-30",
     "label": "Cyber security",
-    "links": [],
+    "links": [
+      "tech-industry"
+    ],
     "order": 4,
     "parent": "security",
     "summary": "Cyber attacks and digital threats."
   },
   "cyclones": {
-    "created": "2026-11-02",
+    "created": "2026-10-30",
     "label": "Cyclones",
     "links": [
-      "rainfall"
+      "rainfall",
+      "floods-glof"
     ],
     "order": 1,
     "parent": "geography",
@@ -222,11 +236,12 @@
     "summary": "Warships, defence PSUs and indigenisation."
   },
   "delhi-air": {
-    "created": "2026-11-02",
+    "created": "2026-10-30",
     "label": "Delhi-NCR air pollution & GRAP",
     "links": [
       "firecracker-regulation",
-      "health"
+      "health",
+      "water-rivers"
     ],
     "order": 1,
     "parent": "environment",
@@ -241,7 +256,7 @@
     "summary": "Indians abroad, visa and settlement rules, trafficking."
   },
   "economy": {
-    "created": "2026-11-02",
+    "created": "2026-10-30",
     "hue": 98,
     "label": "Economy & Business",
     "links": [],
@@ -251,7 +266,7 @@
     "summary": "Fiscal policy, banking, markets, companies, energy, aviation and agriculture."
   },
   "elections-sir": {
-    "created": "2026-11-02",
+    "created": "2026-10-30",
     "label": "SIR & Election Commission",
     "links": [
       "state-election-commissions"
@@ -261,17 +276,19 @@
     "summary": "Special Intensive Revision of electoral rolls, ECI decisions and the political fight over them."
   },
   "employment-labour": {
-    "created": "2026-11-02",
+    "created": "2026-10-31",
     "label": "Employment & labour codes",
     "links": [
-      "vb-g-ram-g"
+      "vb-g-ram-g",
+      "industry-pli",
+      "poverty"
     ],
     "order": 11,
     "parent": "economy",
     "summary": "PLFS data, the Decent Work Index, informal employment and the four Labour Codes."
   },
   "energy": {
-    "created": "2026-11-02",
+    "created": "2026-10-31",
     "label": "Energy security & renewables",
     "links": [
       "west-asia"
@@ -283,13 +300,15 @@
   "env-principles": {
     "created": "2026-11-03",
     "label": "Environmental law & principles",
-    "links": [],
+    "links": [
+      "tribal-rights"
+    ],
     "order": 3,
     "parent": "environment",
     "summary": "Stockholm and Rio Declarations, precautionary and polluter-pays principles."
   },
   "environment": {
-    "created": "2026-11-02",
+    "created": "2026-10-30",
     "hue": 131,
     "label": "Environment & Ecology",
     "links": [],
@@ -299,7 +318,7 @@
     "summary": "Pollution, climate, wildlife, dams and environmental law."
   },
   "f1": {
-    "created": "2026-11-03",
+    "created": "2026-10-31",
     "label": "Formula 1",
     "links": [],
     "order": 1,
@@ -307,10 +326,11 @@
     "summary": "Motor racing results and records."
   },
   "firecracker-regulation": {
-    "created": "2026-11-03",
+    "created": "2026-10-30",
     "label": "Firecracker regulation",
     "links": [
-      "env-principles"
+      "env-principles",
+      "festivals"
     ],
     "order": 2,
     "parent": "environment",
@@ -328,7 +348,7 @@
     "summary": "Union government spending, capital expenditure and fiscal discipline."
   },
   "frro-immigration": {
-    "created": "2026-11-03",
+    "created": "2026-10-31",
     "label": "Immigration & FRROs",
     "links": [
       "diaspora",
@@ -339,17 +359,20 @@
     "summary": "Foreigners Regional Registration Offices and the Immigration and Foreigners Act, 2025."
   },
   "fundamental-rights": {
-    "created": "2026-11-03",
+    "created": "2026-10-30",
     "label": "Fundamental Rights & Duties",
     "links": [
-      "firecracker-regulation"
+      "firecracker-regulation",
+      "education",
+      "judiciary",
+      "ucc"
     ],
     "order": 1,
     "parent": "polity",
     "summary": "Articles 19, 21, 25, 48A, 51A(g) as they come up in court rulings and debates."
   },
   "geography": {
-    "created": "2026-11-01",
+    "created": "2026-10-30",
     "hue": 164,
     "label": "Geography, Places & Disasters",
     "links": [],
@@ -367,7 +390,7 @@
     "summary": "Golf tours and events."
   },
   "governance": {
-    "created": "2026-11-03",
+    "created": "2026-10-30",
     "hue": 196,
     "label": "Governance & Schemes",
     "links": [],
@@ -387,7 +410,7 @@
     "summary": "Monthly GST mop-up figures and indirect-tax trends."
   },
   "health": {
-    "created": "2026-11-03",
+    "created": "2026-10-30",
     "label": "Health & medicine",
     "links": [],
     "order": 4,
@@ -395,7 +418,7 @@
     "summary": "Disease research and public health."
   },
   "hockey": {
-    "created": "2026-11-02",
+    "created": "2026-10-30",
     "label": "Hockey",
     "links": [],
     "order": 3,
@@ -411,7 +434,7 @@
     "summary": "National and international days and anniversaries."
   },
   "india-asean": {
-    "created": "2026-11-03",
+    "created": "2026-10-30",
     "label": "India-Southeast Asia (Act East)",
     "links": [],
     "order": 5,
@@ -419,7 +442,7 @@
     "summary": "India's ties with Vietnam and other ASEAN nations."
   },
   "india-china": {
-    "created": "2026-11-02",
+    "created": "2026-10-31",
     "label": "India-China",
     "links": [],
     "order": 6,
@@ -427,10 +450,11 @@
     "summary": "Border, rivers and strategic competition."
   },
   "india-neighbourhood": {
-    "created": "2026-11-02",
+    "created": "2026-10-30",
     "label": "India's neighbourhood",
     "links": [
-      "diaspora"
+      "diaspora",
+      "floods-glof"
     ],
     "order": 10,
     "parent": "ir",
@@ -447,7 +471,7 @@
     "summary": "Peatland fires and transboundary haze in Southeast Asia."
   },
   "ir": {
-    "created": "2026-11-02",
+    "created": "2026-10-30",
     "hue": 0,
     "label": "International Relations",
     "links": [],
@@ -457,7 +481,7 @@
     "summary": "India's ties, world conflicts, foreign elections, UN and diaspora."
   },
   "israel-palestine": {
-    "created": "2026-11-03",
+    "created": "2026-10-30",
     "label": "Israel-Palestine",
     "links": [],
     "order": 2,
@@ -465,7 +489,7 @@
     "summary": "Gaza, the West Bank, UN findings and Israeli politics."
   },
   "jk-politics": {
-    "created": "2026-11-03",
+    "created": "2026-10-30",
     "label": "J&K politics & Statehood",
     "links": [
       "party-politics"
@@ -475,7 +499,7 @@
     "summary": "Politics of the Union Territory of Jammu and Kashmir and the demand for Statehood."
   },
   "latin-america": {
-    "created": "2026-11-02",
+    "created": "2026-10-30",
     "label": "Latin America & Venezuela",
     "links": [
       "us-politics"
@@ -485,7 +509,7 @@
     "summary": "Elections and politics in Brazil, Venezuela and other Latin American states."
   },
   "legislative-councils": {
-    "created": "2026-11-03",
+    "created": "2026-10-30",
     "label": "Legislative Councils",
     "links": [
       "anti-defection"
@@ -495,10 +519,12 @@
     "summary": "State upper Houses (Art. 168-172): who has them, how they're formed and abolished, their powers."
   },
   "markets-indicators": {
-    "created": "2026-11-02",
+    "created": "2026-10-30",
     "label": "Markets & indicators",
     "links": [
-      "banking-rbi"
+      "banking-rbi",
+      "capital-markets",
+      "global-economy"
     ],
     "order": 4,
     "parent": "economy",
@@ -508,7 +534,8 @@
     "created": "2026-11-01",
     "label": "Minorities",
     "links": [
-      "caa-citizenship"
+      "caa-citizenship",
+      "northeast"
     ],
     "order": 3,
     "parent": "society",
@@ -525,7 +552,7 @@
     "summary": "Indian office holders who appeared in the news."
   },
   "other-sports": {
-    "created": "2026-11-02",
+    "created": "2026-10-30",
     "label": "Other sports",
     "links": [],
     "order": 8,
@@ -533,17 +560,18 @@
     "summary": "Noteworthy results in sports without a dedicated branch (kabaddi, motorsport, boxing, etc.)."
   },
   "party-politics": {
-    "created": "2026-11-02",
+    "created": "2026-10-30",
     "label": "Party politics & State elections",
     "links": [
-      "anti-defection"
+      "anti-defection",
+      "ucc"
     ],
     "order": 7,
     "parent": "polity",
     "summary": "Party splits, alliances and preparations for upcoming State elections."
   },
   "persons": {
-    "created": "2026-11-02",
+    "created": "2026-10-30",
     "hue": 327,
     "label": "Persons, Days & Awards",
     "links": [],
@@ -553,25 +581,28 @@
     "summary": "Who's who in the news, important days and awards."
   },
   "places-in-news": {
-    "created": "2026-11-01",
+    "created": "2026-10-30",
     "label": "Places in news",
-    "links": [],
+    "links": [
+      "heritage"
+    ],
     "order": 3,
     "parent": "geography",
     "summary": "Locations that appeared in the news, for map-based questions."
   },
   "policing": {
-    "created": "2026-11-03",
+    "created": "2026-10-30",
     "label": "Policing & law enforcement",
     "links": [
-      "women-child"
+      "women-child",
+      "northeast"
     ],
     "order": 2,
     "parent": "security",
     "summary": "Police actions, protests and conduct."
   },
   "polity": {
-    "created": "2026-11-02",
+    "created": "2026-10-30",
     "hue": 262,
     "label": "Polity & Constitution",
     "links": [],
@@ -583,13 +614,15 @@
   "rainfall": {
     "created": "2026-11-02",
     "label": "Rainfall, monsoon & climate drivers",
-    "links": [],
+    "links": [
+      "floods-glof"
+    ],
     "order": 2,
     "parent": "geography",
     "summary": "Rainfall deficits and drivers like El Nino and the Indian Ocean Dipole."
   },
   "russia-ukraine": {
-    "created": "2026-11-03",
+    "created": "2026-10-30",
     "label": "Russia-Ukraine war",
     "links": [
       "diaspora"
@@ -599,7 +632,7 @@
     "summary": "Fighting, ceasefires and spill-over effects."
   },
   "science-history": {
-    "created": "2026-11-01",
+    "created": "2026-10-30",
     "label": "Science history",
     "links": [],
     "order": 5,
@@ -607,7 +640,7 @@
     "summary": "Anniversaries of discoveries and inventions."
   },
   "scitech": {
-    "created": "2026-11-01",
+    "created": "2026-10-30",
     "hue": 295,
     "label": "Science, Tech & Health",
     "links": [],
@@ -617,7 +650,7 @@
     "summary": "AI and data privacy, space, health research and science history."
   },
   "security": {
-    "created": "2026-11-02",
+    "created": "2026-10-30",
     "hue": 33,
     "label": "Defence & Internal Security",
     "links": [],
@@ -627,17 +660,18 @@
     "summary": "Armed forces, defence production, policing, corruption cases and cyber security."
   },
   "siang-dam": {
-    "created": "2026-11-03",
+    "created": "2026-10-30",
     "label": "Siang dam & Brahmaputra",
     "links": [
-      "india-china"
+      "india-china",
+      "tribal-rights"
     ],
     "order": 4,
     "parent": "environment",
     "summary": "Siang Upper Multipurpose Project in Arunachal Pradesh and China's Yarlung Tsangpo dam."
   },
   "society": {
-    "created": "2026-11-01",
+    "created": "2026-10-30",
     "hue": 65,
     "label": "Society & Social Justice",
     "links": [],
@@ -647,7 +681,7 @@
     "summary": "Labour rights, women and children, minorities, accidents and safety."
   },
   "space-astronomy": {
-    "created": "2026-11-02",
+    "created": "2026-10-31",
     "label": "Space & astronomy",
     "links": [
       "awards"
@@ -657,7 +691,7 @@
     "summary": "Missions, discoveries and space history."
   },
   "sports": {
-    "created": "2026-11-02",
+    "created": "2026-10-30",
     "hue": 229,
     "label": "Sports",
     "links": [],
@@ -667,7 +701,7 @@
     "summary": "Results, records and events across sports."
   },
   "state-election-commissions": {
-    "created": "2026-11-02",
+    "created": "2026-10-31",
     "label": "Local body polls (State ECs)",
     "links": [],
     "order": 5,
@@ -683,7 +717,7 @@
     "summary": "Revenue, committed spending, subsidies and accounting standards in States."
   },
   "tennis": {
-    "created": "2026-11-02",
+    "created": "2026-10-30",
     "label": "Tennis",
     "links": [],
     "order": 4,
@@ -694,18 +728,22 @@
     "created": "2026-11-02",
     "label": "UN & multilateral",
     "links": [
-      "israel-palestine"
+      "israel-palestine",
+      "arctic"
     ],
     "order": 8,
     "parent": "ir",
     "summary": "UN General Assembly votes and international bodies."
   },
   "us-politics": {
-    "created": "2026-11-02",
+    "created": "2026-10-30",
     "label": "US politics & midterms",
     "links": [
       "west-asia",
-      "latin-america"
+      "latin-america",
+      "arctic",
+      "global-economy",
+      "trade-exports"
     ],
     "order": 3,
     "parent": "ir",
@@ -715,14 +753,15 @@
     "created": "2026-11-03",
     "label": "VB-G RAM G (rural jobs)",
     "links": [
-      "employment-labour"
+      "employment-labour",
+      "water-rivers"
     ],
     "order": 1,
     "parent": "governance",
     "summary": "The rural employment guarantee scheme that replaced MGNREGA in 2026."
   },
   "west-asia": {
-    "created": "2026-11-02",
+    "created": "2026-10-30",
     "label": "West Asia: Iran war & Hormuz",
     "links": [
       "israel-palestine"
@@ -732,7 +771,7 @@
     "summary": "The Iran war, the Strait of Hormuz blockade and the Houthis."
   },
   "wildlife": {
-    "created": "2026-11-03",
+    "created": "2026-10-30",
     "label": "Wildlife & Project Cheetah",
     "links": [],
     "order": 5,
@@ -740,7 +779,7 @@
     "summary": "Protected areas and threats to wildlife."
   },
   "women-child": {
-    "created": "2026-11-02",
+    "created": "2026-10-30",
     "label": "Women & child safety",
     "links": [
       "policing"
@@ -758,11 +797,242 @@
     "summary": "Foreign leaders and officials in the news."
   },
   "world-other": {
-    "created": "2026-11-02",
+    "created": "2026-10-30",
     "label": "Other world news",
     "links": [],
     "order": 9,
     "parent": "ir",
     "summary": "Conflicts and events elsewhere."
+  },
+  "culture": {
+    "label": "Art, Culture & Heritage",
+    "short": "Culture",
+    "parent": "hub",
+    "order": 12,
+    "hue": 49,
+    "summary": "Festivals, heritage and archaeology, films, books and the arts.",
+    "links": [],
+    "created": "2026-10-30"
+  },
+  "festivals": {
+    "label": "Festivals & fairs",
+    "parent": "culture",
+    "order": 1,
+    "summary": "Religious and cultural festivals, melas and their dates.",
+    "links": [
+      "firecracker-regulation",
+      "water-rivers"
+    ],
+    "created": "2026-10-31"
+  },
+  "heritage": {
+    "label": "Heritage & archaeology",
+    "parent": "culture",
+    "order": 2,
+    "summary": "Monuments, temples, excavations and traditional knowledge.",
+    "links": [
+      "places-in-news",
+      "tribal-rights"
+    ],
+    "created": "2026-10-31"
+  },
+  "cinema-arts": {
+    "label": "Films, books & arts",
+    "parent": "culture",
+    "order": 3,
+    "summary": "Films, books, authors and artists in the news.",
+    "links": [
+      "awards",
+      "obituaries"
+    ],
+    "created": "2026-10-30"
+  },
+  "education": {
+    "label": "Education & exams",
+    "parent": "governance",
+    "order": 5,
+    "summary": "Universities, student unions, entrance and recruitment exams.",
+    "links": [
+      "civil-services",
+      "fundamental-rights"
+    ],
+    "created": "2026-10-30"
+  },
+  "food-pds": {
+    "label": "Food security & PDS",
+    "parent": "governance",
+    "order": 6,
+    "summary": "Public distribution system, food grains and the NFSA.",
+    "links": [
+      "commodities",
+      "poverty"
+    ],
+    "created": "2026-10-30"
+  },
+  "water-rivers": {
+    "label": "Rivers & water",
+    "parent": "environment",
+    "order": 7,
+    "summary": "River pollution, water conservation and traditional water systems.",
+    "links": [
+      "delhi-air",
+      "vb-g-ram-g",
+      "festivals"
+    ],
+    "created": "2026-10-30"
+  },
+  "tribal-rights": {
+    "label": "Tribal & forest rights",
+    "parent": "society",
+    "order": 5,
+    "summary": "Adivasi rights, PVTGs, mining conflicts and the Forest Rights Act.",
+    "links": [
+      "env-principles",
+      "bnss-criminal-law",
+      "siang-dam",
+      "heritage"
+    ],
+    "created": "2026-10-30"
+  },
+  "judiciary": {
+    "label": "Judiciary & appointments",
+    "parent": "polity",
+    "order": 11,
+    "summary": "Collegium, judicial appointments, pendency and court administration.",
+    "links": [
+      "court-cases",
+      "fundamental-rights"
+    ],
+    "created": "2026-10-30"
+  },
+  "ucc": {
+    "label": "Uniform Civil Code",
+    "parent": "polity",
+    "order": 12,
+    "summary": "Article 44 and States adopting a Uniform Civil Code.",
+    "links": [
+      "fundamental-rights",
+      "party-politics"
+    ],
+    "created": "2026-10-31"
+  },
+  "arctic": {
+    "label": "Arctic & Greenland",
+    "parent": "ir",
+    "order": 12,
+    "summary": "Greenland, Arctic security and great-power competition in the High North.",
+    "links": [
+      "us-politics",
+      "un-multilateral"
+    ],
+    "created": "2026-10-30"
+  },
+  "capital-markets": {
+    "label": "SEBI & capital markets",
+    "parent": "economy",
+    "order": 12,
+    "summary": "SEBI regulation, AIFs, FPIs, mutual funds and IPOs.",
+    "links": [
+      "markets-indicators",
+      "banking-rbi"
+    ],
+    "created": "2026-10-30"
+  },
+  "global-economy": {
+    "label": "Global economy & central banks",
+    "parent": "economy",
+    "order": 13,
+    "summary": "US Fed and other central banks, global growth and prices.",
+    "links": [
+      "us-politics",
+      "markets-indicators"
+    ],
+    "created": "2026-10-30"
+  },
+  "trade-exports": {
+    "label": "Trade & exports",
+    "parent": "economy",
+    "order": 14,
+    "summary": "India's exports and imports, tariffs and trade deals.",
+    "links": [
+      "us-politics",
+      "industry-pli"
+    ],
+    "created": "2026-10-30"
+  },
+  "industry-pli": {
+    "label": "Industry & PLI schemes",
+    "parent": "economy",
+    "order": 15,
+    "summary": "Manufacturing policy and Production Linked Incentive schemes.",
+    "links": [
+      "trade-exports",
+      "employment-labour"
+    ],
+    "created": "2026-10-30"
+  },
+  "poverty": {
+    "label": "Poverty & inequality",
+    "parent": "economy",
+    "order": 16,
+    "summary": "Poverty estimates, multidimensional poverty and inequality.",
+    "links": [
+      "employment-labour",
+      "food-pds"
+    ],
+    "created": "2026-10-31"
+  },
+  "tech-industry": {
+    "label": "Tech industry & AI chips",
+    "parent": "scitech",
+    "order": 6,
+    "summary": "Big Tech, AI chips, cloud and AI in defence.",
+    "links": [
+      "ai-privacy",
+      "cyber"
+    ],
+    "created": "2026-10-30"
+  },
+  "northeast": {
+    "label": "Manipur & Northeast",
+    "parent": "security",
+    "order": 6,
+    "summary": "Ethnic conflict and security in Manipur and the Northeast.",
+    "links": [
+      "minorities",
+      "policing"
+    ],
+    "created": "2026-10-30"
+  },
+  "floods-glof": {
+    "label": "Floods, landslides & GLOFs",
+    "parent": "geography",
+    "order": 4,
+    "summary": "Floods, landslides and glacial lake outburst floods.",
+    "links": [
+      "cyclones",
+      "rainfall",
+      "india-neighbourhood"
+    ],
+    "created": "2026-10-31"
+  },
+  "obituaries": {
+    "label": "Obituaries",
+    "parent": "persons",
+    "order": 5,
+    "summary": "Notable people who died.",
+    "links": [
+      "awards",
+      "cinema-arts"
+    ],
+    "created": "2026-10-31"
+  },
+  "chess": {
+    "label": "Chess",
+    "parent": "sports",
+    "order": 9,
+    "summary": "World Championship, Candidates and Indian players.",
+    "links": [],
+    "created": "2026-10-31"
   }
 }

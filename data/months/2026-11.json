@@ -42,6 +42,47 @@
             "CGL"
           ],
           "text": "The Pacific Ocean was named 'Mar Pacifico' by **Ferdinand Magellan**; the International Date Line passes between Big and Little Diomede islands in the Bering Strait."
+        },
+        {
+          "id": "f20261101-005",
+          "node": "obituaries",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "text": "Painter **Jogen Chowdhury** (1939-2026), a **Padma Bhushan** awardee and **Rajya Sabha MP (2014-2020)**, died at 87.",
+          "page": "M-Tribute",
+          "gs": "GS1"
+        },
+        {
+          "id": "f20261101-006",
+          "node": "cinema-arts",
+          "tags": [
+            "CGL"
+          ],
+          "text": "Namit Malhotra's ***Ramayana***, billed as the most expensive Indian film, stars **Ranbir Kapoor** as Rama and **Yash** as Ravana and releases on **5 Nov**.",
+          "page": "M-Cover"
+        },
+        {
+          "id": "f20261101-007",
+          "node": "health",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "text": "Book *The Silent Syndicate* (Ameer Shahul) cites **IRDAI** data that health insurers rejected or repudiated claims worth about **₹30,000 crore** in 2024-25 despite claimed settlement ratios of 96-98%.",
+          "page": "M-Literary",
+          "gs": "GS2"
+        },
+        {
+          "id": "f20261101-008",
+          "node": "wildlife",
+          "tags": [
+            "CGL"
+          ],
+          "text": "*The Ghost of the Mountains* by snow leopard researcher **Kulbhushansingh Suryawanshi**; the **IUCN** moved the snow leopard from **Endangered to Vulnerable** in **2017**.",
+          "page": "M-Literary",
+          "gs": "GS3"
         }
       ],
       "pages": 8,
@@ -540,7 +581,7 @@
           "tags": [
             "CGL"
           ],
-          "text": "New Zealand beat India by seven wickets in the fifth T20I (Tim Seifert 93 not out) to win the series **3-2** — India's first T20I series loss in a SENA country under captain Shreyas Iyer."
+          "text": "New Zealand won the fifth T20I by seven wickets (Tim Seifert 93*), but **India won the series 3-2** after taking the first three games — captain **Shreyas Iyer's** first series win in a **SENA** country."
         },
         {
           "id": "f20261102-048",
@@ -578,6 +619,15 @@
             "UPSC"
           ],
           "text": "India's 2026 southwest monsoon ended nearly **13% below the long-term average** (87 cm) — the driest season on record (since 1901) for East and Northeast India — despite IMD's April forecast of 92% of the Long Period Average; of seven Indian monsoons since 1950 that coincided with a moderate/strong El Nino, five (including 2026) saw rainfall at least 10% below average, while 1997 was a rare exception because a favourable Indian Ocean Dipole phase offset El Nino's effect; the monsoon supplies about three-quarters of India's annual rainfall and roughly 40% of farmland remains unirrigated."
+        },
+        {
+          "id": "f20261102-052",
+          "node": "other-sports",
+          "tags": [
+            "CGL"
+          ],
+          "text": "**Manav Thakkar** won his first international singles title at **WTT Feeder Chennai**, beating England's Samuel Walker in the final; **Sutirtha Mukherjee** was runner-up in women's singles to Korea's Yoo Yerin.",
+          "page": "15"
         }
       ],
       "pages": 18,

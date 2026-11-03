@@ -1,11 +1,12 @@
 {
   "updated": "2026-11-03",
   "months": [
+    "2026-10",
     "2026-11"
   ],
   "totals": {
-    "nodes": 82,
-    "papers": 3,
-    "facts": 225
+    "nodes": 103,
+    "papers": 5,
+    "facts": 456
   }
 }

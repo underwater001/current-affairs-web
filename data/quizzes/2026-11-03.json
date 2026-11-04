@@ -13,7 +13,10 @@
         "Article 48A"
       ],
       "answer": 2,
-      "explanation": "**51A(g)**; Article 48A is the Directive Principle on the environment."
+      "explanation": "**51A(g)**; Article 48A is the Directive Principle on the environment.",
+      "also": [
+        "f20261103-001"
+      ]
     },
     {
       "id": "q20261103-002",
@@ -27,7 +30,10 @@
         "Eight"
       ],
       "answer": 2,
-      "explanation": "**Six**: Maharashtra, U.P., Bihar, Andhra Pradesh, Telangana and Karnataka."
+      "explanation": "**Six**: Maharashtra, U.P., Bihar, Andhra Pradesh, Telangana and Karnataka.",
+      "also": [
+        "f20261103-006"
+      ]
     },
     {
       "id": "q20261103-003",
@@ -41,7 +47,10 @@
         "Neither 1 nor 2"
       ],
       "answer": 2,
-      "explanation": "Both are correct; such a law is **not** treated as a constitutional amendment under Article 368."
+      "explanation": "Both are correct; such a law is **not** treated as a constitutional amendment under Article 368.",
+      "also": [
+        "f20261103-007"
+      ]
     },
     {
       "id": "q20261103-004",
@@ -55,7 +64,10 @@
         "1/3"
       ],
       "answer": 1,
-      "explanation": "**1/12** by graduates and 1/12 by teachers; 1/3 by local bodies, 1/3 by MLAs, 1/6 nominated."
+      "explanation": "**1/12** by graduates and 1/12 by teachers; 1/3 by local bodies, 1/3 by MLAs, 1/6 nominated.",
+      "also": [
+        "f20261103-008"
+      ]
     },
     {
       "id": "q20261103-005",
@@ -69,7 +81,10 @@
         "4 years"
       ],
       "answer": 0,
-      "explanation": "**6 years**; one-third retire every 2 years. The Council is never dissolved."
+      "explanation": "**6 years**; one-third retire every 2 years. The Council is never dissolved.",
+      "also": [
+        "f20261103-009"
+      ]
     },
     {
       "id": "q20261103-006",
@@ -83,7 +98,10 @@
         "Send it to a joint sitting"
       ],
       "answer": 1,
-      "explanation": "It can only **recommend** within **14 days** (Article 198)."
+      "explanation": "It can only **recommend** within **14 days** (Article 198).",
+      "also": [
+        "f20261103-009"
+      ]
     },
     {
       "id": "q20261103-007",
@@ -97,7 +115,10 @@
         "Indian Independence Act, 1947"
       ],
       "answer": 0,
-      "explanation": "The **GoI Act, 1935**."
+      "explanation": "The **GoI Act, 1935**.",
+      "also": [
+        "f20261103-012"
+      ]
     },
     {
       "id": "q20261103-008",
@@ -111,7 +132,10 @@
         "J. Jayalalithaa"
       ],
       "answer": 0,
-      "explanation": "**MGR**. Andhra Pradesh abolished its Council in 1985 (NTR) and re-created it in 2007."
+      "explanation": "**MGR**. Andhra Pradesh abolished its Council in 1985 (NTR) and re-created it in 2007.",
+      "also": [
+        "f20261103-011"
+      ]
     },
     {
       "id": "q20261103-009",
@@ -125,7 +149,10 @@
         "Police Act, 1861"
       ],
       "answer": 2,
-      "explanation": "The **CrPC, 1973**. BNS replaced the IPC; BSA the Evidence Act."
+      "explanation": "The **CrPC, 1973**. BNS replaced the IPC; BSA the Evidence Act.",
+      "also": [
+        "f20261103-039"
+      ]
     },
     {
       "id": "q20261103-010",
@@ -139,7 +166,10 @@
         "Vishwas Bharat Guarantee for Rural Assets Mission"
       ],
       "answer": 0,
-      "explanation": "**Viksit Bharat Guarantee for Rozgar and Ajeevika Mission (Gramin)**, under the VB-G RAM G Act, 2025."
+      "explanation": "**Viksit Bharat Guarantee for Rozgar and Ajeevika Mission (Gramin)**, under the VB-G RAM G Act, 2025.",
+      "also": [
+        "f20261103-051"
+      ]
     },
     {
       "id": "q20261103-011",
@@ -153,7 +183,10 @@
         "40"
       ],
       "answer": 3,
-      "explanation": "**40** questions (13 new); India's first digital census."
+      "explanation": "**40** questions (13 new); India's first digital census.",
+      "also": [
+        "f20261103-057"
+      ]
     },
     {
       "id": "q20261103-012",
@@ -167,7 +200,10 @@
         "Mritunjay Kumar Narayan"
       ],
       "answer": 3,
-      "explanation": "**Mritunjay Kumar Narayan**."
+      "explanation": "**Mritunjay Kumar Narayan**.",
+      "also": [
+        "f20261103-053"
+      ]
     },
     {
       "id": "q20261103-013",
@@ -181,7 +217,10 @@
         "There is a separate OBC column"
       ],
       "answer": 0,
-      "explanation": "SC/ST pick from a list; **others type their caste**; there is no separate OBC column; Aadhaar is optional."
+      "explanation": "SC/ST pick from a list; **others type their caste**; there is no separate OBC column; Aadhaar is optional.",
+      "also": [
+        "f20261103-053"
+      ]
     },
     {
       "id": "q20261103-014",
@@ -195,7 +234,10 @@
         "Union List; Census Act, 1948"
       ],
       "answer": 3,
-      "explanation": "**Union List, Entry 69**; the **Census Act, 1948**."
+      "explanation": "**Union List, Entry 69**; the **Census Act, 1948**.",
+      "also": [
+        "f20261103-053"
+      ]
     },
     {
       "id": "q20261103-015",
@@ -209,7 +251,10 @@
         "Four"
       ],
       "answer": 3,
-      "explanation": "**Four** older laws."
+      "explanation": "**Four** older laws.",
+      "also": [
+        "f20261103-058"
+      ]
     },
     {
       "id": "q20261103-016",
@@ -237,7 +282,10 @@
         "Airports Authority of India Act, 1994"
       ],
       "answer": 2,
-      "explanation": "The **Aircraft Act, 1934**. New fare rules under it were notified on 31 Oct 2026."
+      "explanation": "The **Aircraft Act, 1934**. New fare rules under it were notified on 31 Oct 2026.",
+      "also": [
+        "f20261103-078"
+      ]
     },
     {
       "id": "q20261103-018",
@@ -265,7 +313,10 @@
         "MoEFCC"
       ],
       "answer": 0,
-      "explanation": "The **Commission for Air Quality Management**; GRAP has four stages."
+      "explanation": "The **Commission for Air Quality Management**; GRAP has four stages.",
+      "also": [
+        "f20261103-087"
+      ]
     },
     {
       "id": "q20261103-020",
@@ -279,7 +330,10 @@
         "Stockholm Declaration, 1972"
       ],
       "answer": 2,
-      "explanation": "The **Rio Declaration (1992)**."
+      "explanation": "The **Rio Declaration (1992)**.",
+      "also": [
+        "f20261103-098"
+      ]
     },
     {
       "id": "q20261103-021",
@@ -293,7 +347,10 @@
         "Uttarakhand"
       ],
       "answer": 0,
-      "explanation": "**Arunachal Pradesh**, planned at 11.2 GW. The Yarlung Tsangpo becomes the Brahmaputra."
+      "explanation": "**Arunachal Pradesh**, planned at 11.2 GW. The Yarlung Tsangpo becomes the Brahmaputra.",
+      "also": [
+        "f20261103-100"
+      ]
     },
     {
       "id": "q20261103-022",
@@ -307,7 +364,10 @@
         "Andhra Pradesh"
       ],
       "answer": 3,
-      "explanation": "**Andhra Pradesh**, between Ongole and Nellore."
+      "explanation": "**Andhra Pradesh**, between Ongole and Nellore.",
+      "also": [
+        "f20261103-108"
+      ]
     },
     {
       "id": "q20261103-023",
@@ -321,7 +381,10 @@
         "Esmaeil Baqaei"
       ],
       "answer": 0,
-      "explanation": "**Abbas Araghchi**; Esmaeil Baqaei is the spokesman."
+      "explanation": "**Abbas Araghchi**; Esmaeil Baqaei is the spokesman.",
+      "also": [
+        "f20261103-113"
+      ]
     },
     {
       "id": "q20261103-024",
@@ -335,7 +398,10 @@
         "100"
       ],
       "answer": 1,
-      "explanation": "**120**; 61 for a majority; 3.25% threshold."
+      "explanation": "**120**; 61 for a majority; 3.25% threshold.",
+      "also": [
+        "f20261103-120"
+      ]
     },
     {
       "id": "q20261103-025",
@@ -363,7 +429,10 @@
         "Goa Shipyard"
       ],
       "answer": 3,
-      "explanation": "**GRSE** builds 5 and **Goa Shipyard** 3 (₹53,866.50 crore)."
+      "explanation": "**GRSE** builds 5 and **Goa Shipyard** 3 (₹53,866.50 crore).",
+      "also": [
+        "f20261103-131"
+      ]
     },
     {
       "id": "q20261103-027",
@@ -377,7 +446,10 @@
         "The first exoplanet"
       ],
       "answer": 1,
-      "explanation": "Belokurov, Helmi and Ibata found the **Milky Way's past galaxy mergers**."
+      "explanation": "Belokurov, Helmi and Ibata found the **Milky Way's past galaxy mergers**.",
+      "also": [
+        "f20261103-145"
+      ]
     },
     {
       "id": "q20261103-028",
@@ -391,7 +463,10 @@
         "Sputnik 1"
       ],
       "answer": 1,
-      "explanation": "**Sputnik 2**, launched 3 Nov 1957."
+      "explanation": "**Sputnik 2**, launched 3 Nov 1957.",
+      "also": [
+        "f20261103-147"
+      ]
     },
     {
       "id": "q20261103-029",
@@ -405,7 +480,10 @@
         "BepiColombo"
       ],
       "answer": 0,
-      "explanation": "**Mariner 10**, launched 3 Nov 1973."
+      "explanation": "**Mariner 10**, launched 3 Nov 1973.",
+      "also": [
+        "f20261103-146"
+      ]
     },
     {
       "id": "q20261103-030",
@@ -419,7 +497,10 @@
         "Article 21"
       ],
       "answer": 0,
-      "explanation": "**Article 23**; law: Bonded Labour System (Abolition) Act, 1976."
+      "explanation": "**Article 23**; law: Bonded Labour System (Abolition) Act, 1976.",
+      "also": [
+        "f20261103-151"
+      ]
     },
     {
       "id": "q20261103-031",
@@ -433,7 +514,10 @@
         "K.K. Venugopal"
       ],
       "answer": 0,
-      "explanation": "**Tushar Mehta**; R. Venkataramani is Attorney General."
+      "explanation": "**Tushar Mehta**; R. Venkataramani is Attorney General.",
+      "also": [
+        "f20261103-054"
+      ]
     },
     {
       "id": "q20261103-032",
@@ -461,7 +545,10 @@
         "Oscar Piastri"
       ],
       "answer": 0,
-      "explanation": "**Kimi Antonelli** (Mercedes, Italy), at 20 years 68 days."
+      "explanation": "**Kimi Antonelli** (Mercedes, Italy), at 20 years 68 days.",
+      "also": [
+        "f20261103-162"
+      ]
     },
     {
       "id": "q20261103-034",
@@ -475,7 +562,10 @@
         "Giuseppe Farina"
       ],
       "answer": 1,
-      "explanation": "**Alberto Ascari** (1953). Previous youngest champion: Sebastian Vettel."
+      "explanation": "**Alberto Ascari** (1953). Previous youngest champion: Sebastian Vettel.",
+      "also": [
+        "f20261103-161"
+      ]
     },
     {
       "id": "q20261103-035",
@@ -517,7 +607,10 @@
         "Is disqualified"
       ],
       "answer": 3,
-      "explanation": "Para 2(2): he is **disqualified**; the Presiding Officer decides."
+      "explanation": "Para 2(2): he is **disqualified**; the Presiding Officer decides.",
+      "also": [
+        "f20261103-016"
+      ]
     },
     {
       "id": "q20261103-038",
@@ -531,7 +624,10 @@
         "Section 144"
       ],
       "answer": 3,
-      "explanation": "Old **Section 144**."
+      "explanation": "Old **Section 144**.",
+      "also": [
+        "f20261103-039"
+      ]
     },
     {
       "id": "q20261103-039",
@@ -545,7 +641,10 @@
         "Articles 324 and 325"
       ],
       "answer": 1,
-      "explanation": "**243K** (panchayats) and **243ZA** (municipalities)."
+      "explanation": "**243K** (panchayats) and **243ZA** (municipalities).",
+      "also": [
+        "f20261103-024"
+      ]
     },
     {
       "id": "q20261103-040",
@@ -559,7 +658,10 @@
         "Environment Protection Act, 1986"
       ],
       "answer": 0,
-      "explanation": "The **Disaster Management Act, 2005**."
+      "explanation": "The **Disaster Management Act, 2005**.",
+      "also": [
+        "f20261103-105"
+      ]
     }
   ]
 }

@@ -125,7 +125,10 @@
         "G20 Foreign Ministers' Meeting"
       ],
       "answer": 3,
-      "explanation": "The **G20 FMM** in Atlanta (US G20 presidency); $85 million for trusted AI."
+      "explanation": "The **G20 FMM** in Atlanta (US G20 presidency); $85 million for trusted AI.",
+      "also": [
+        "f20261101-043"
+      ]
     },
     {
       "id": "q20261101-010",
@@ -139,7 +142,10 @@
         "2017"
       ],
       "answer": 3,
-      "explanation": "Revived in **2017**; first leaders' summit in 2021."
+      "explanation": "Revived in **2017**; first leaders' summit in 2021.",
+      "also": [
+        "f20261101-042"
+      ]
     },
     {
       "id": "q20261101-011",
@@ -195,7 +201,10 @@
         "Puna Tsang Chhu"
       ],
       "answer": 0,
-      "explanation": "The **Mau Chhu**: 108 chortens, 15 m tall, 108 m apart."
+      "explanation": "The **Mau Chhu**: 108 chortens, 15 m tall, 108 m apart.",
+      "also": [
+        "f20261101-054"
+      ]
     },
     {
       "id": "q20261101-015",
@@ -209,7 +218,10 @@
         "Udalguri"
       ],
       "answer": 1,
-      "explanation": "**Chirang** district."
+      "explanation": "**Chirang** district.",
+      "also": [
+        "f20261101-053"
+      ]
     },
     {
       "id": "q20261101-016",
@@ -237,7 +249,10 @@
         "S. Somanath"
       ],
       "answer": 1,
-      "explanation": "**V. Narayanan**."
+      "explanation": "**V. Narayanan**.",
+      "also": [
+        "f20261101-079"
+      ]
     },
     {
       "id": "q20261101-018",
@@ -251,7 +266,10 @@
         "Small modular fission reactor"
       ],
       "answer": 0,
-      "explanation": "A small **tokamak** (fusion device); a bigger one, PRANIK, is planned."
+      "explanation": "A small **tokamak** (fusion device); a bigger one, PRANIK, is planned.",
+      "also": [
+        "f20261101-059"
+      ]
     },
     {
       "id": "q20261101-019",
@@ -265,7 +283,10 @@
         "IGCAR, Kalpakkam"
       ],
       "answer": 2,
-      "explanation": "The **Institute for Plasma Research, Gandhinagar**. India is also an ITER member."
+      "explanation": "The **Institute for Plasma Research, Gandhinagar**. India is also an ITER member.",
+      "also": [
+        "f20261101-058"
+      ]
     },
     {
       "id": "q20261101-020",
@@ -279,7 +300,10 @@
         "32%"
       ],
       "answer": 1,
-      "explanation": "**41%**, set by the 15th Finance Commission, released in 14 instalments a year."
+      "explanation": "**41%**, set by the 15th Finance Commission, released in 14 instalments a year.",
+      "also": [
+        "f20261101-068"
+      ]
     },
     {
       "id": "q20261101-021",
@@ -293,7 +317,10 @@
         "Energy Conservation Act, 2001"
       ],
       "answer": 2,
-      "explanation": "The **Central Motor Vehicles Rules, 1989** (Rule 115)."
+      "explanation": "The **Central Motor Vehicles Rules, 1989** (Rule 115).",
+      "also": [
+        "f20261101-075"
+      ]
     },
     {
       "id": "q20261101-022",
@@ -307,7 +334,10 @@
         "2030"
       ],
       "answer": 3,
-      "explanation": "**2030**; India reached it five years early."
+      "explanation": "**2030**; India reached it five years early.",
+      "also": [
+        "f20261101-074"
+      ]
     },
     {
       "id": "q20261101-023",
@@ -321,7 +351,11 @@
         "36 hours"
       ],
       "answer": 0,
-      "explanation": "**3 hours**, down from 36 hours (Rule 3(1)(d))."
+      "explanation": "**3 hours**, down from 36 hours (Rule 3(1)(d)).",
+      "also": [
+        "f20261101-077",
+        "f20261101-078"
+      ]
     },
     {
       "id": "q20261101-024",
@@ -335,7 +369,11 @@
         "Section 66A"
       ],
       "answer": 2,
-      "explanation": "**Section 79**; Section 69A is the Centre's blocking power."
+      "explanation": "**Section 79**; Section 69A is the Centre's blocking power.",
+      "also": [
+        "f20261101-076",
+        "f20261101-078"
+      ]
     },
     {
       "id": "q20261101-025",
@@ -349,7 +387,10 @@
         "1,500 km"
       ],
       "answer": 3,
-      "explanation": "About **1,500 km**."
+      "explanation": "About **1,500 km**.",
+      "also": [
+        "f20261101-057"
+      ]
     },
     {
       "id": "q20261101-026",
@@ -377,7 +418,10 @@
         "Antigua and Barbuda"
       ],
       "answer": 3,
-      "explanation": "**Antigua and Barbuda**. King Charles III heads the Commonwealth."
+      "explanation": "**Antigua and Barbuda**. King Charles III heads the Commonwealth.",
+      "also": [
+        "f20261101-084"
+      ]
     },
     {
       "id": "q20261101-028",
@@ -489,7 +533,10 @@
         "Jharkhand"
       ],
       "answer": 3,
-      "explanation": "**Jharkhand** was formed on 15 Nov 2000."
+      "explanation": "**Jharkhand** was formed on 15 Nov 2000.",
+      "also": [
+        "f20261101-103"
+      ]
     },
     {
       "id": "q20261101-036",
@@ -503,7 +550,10 @@
         "1956"
       ],
       "answer": 0,
-      "explanation": "**1 Nov 1966**."
+      "explanation": "**1 Nov 1966**.",
+      "also": [
+        "f20261101-102"
+      ]
     },
     {
       "id": "q20261101-037",
@@ -517,7 +567,10 @@
         "Pinarayi Vijayan"
       ],
       "answer": 1,
-      "explanation": "**V.D. Satheesan**."
+      "explanation": "**V.D. Satheesan**.",
+      "also": [
+        "f20261101-102"
+      ]
     },
     {
       "id": "q20261101-038",
@@ -545,7 +598,10 @@
         "Ajay Tyagi"
       ],
       "answer": 2,
-      "explanation": "**Tuhin Kanta Pandey**."
+      "explanation": "**Tuhin Kanta Pandey**.",
+      "also": [
+        "f20261101-065"
+      ]
     },
     {
       "id": "q20261101-040",
@@ -573,7 +629,10 @@
         "Only like a Supreme Court judge"
       ],
       "answer": 3,
-      "explanation": "Only in the manner of an **SC judge** (proved misbehaviour or incapacity)."
+      "explanation": "Only in the manner of an **SC judge** (proved misbehaviour or incapacity).",
+      "also": [
+        "f20261101-009"
+      ]
     },
     {
       "id": "q20261101-042",
@@ -601,7 +660,10 @@
         "Article 282"
       ],
       "answer": 1,
-      "explanation": "**Article 280**. The 16th FC is chaired by Arvind Panagariya."
+      "explanation": "**Article 280**. The 16th FC is chaired by Arvind Panagariya.",
+      "also": [
+        "f20261101-067"
+      ]
     },
     {
       "id": "q20261101-044",
@@ -615,7 +677,10 @@
         "Section 69A of the IT Act"
       ],
       "answer": 1,
-      "explanation": "**Section 66A**; it upheld 69A."
+      "explanation": "**Section 66A**; it upheld 69A.",
+      "also": [
+        "f20261101-077"
+      ]
     },
     {
       "id": "q20261101-045",

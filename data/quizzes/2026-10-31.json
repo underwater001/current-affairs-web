@@ -41,7 +41,10 @@
         "2.6%"
       ],
       "answer": 3,
-      "explanation": "Extreme poverty fell to **2.6%**; the $4.20/day line fell from 57.7% to 16.1%."
+      "explanation": "Extreme poverty fell to **2.6%**; the $4.20/day line fell from 57.7% to 16.1%.",
+      "also": [
+        "f20261031-007"
+      ]
     },
     {
       "id": "q20261031-004",
@@ -55,7 +58,10 @@
         "57%"
       ],
       "answer": 3,
-      "explanation": "**57%** of India's poor live in that belt."
+      "explanation": "**57%** of India's poor live in that belt.",
+      "also": [
+        "f20261031-007"
+      ]
     },
     {
       "id": "q20261031-005",
@@ -69,7 +75,10 @@
         "Gujarat"
       ],
       "answer": 1,
-      "explanation": "**Uttarakhand**. Goa's common civil code dates from Portuguese rule. UCC is in **Article 44**."
+      "explanation": "**Uttarakhand**. Goa's common civil code dates from Portuguese rule. UCC is in **Article 44**.",
+      "also": [
+        "f20261031-015"
+      ]
     },
     {
       "id": "q20261031-006",
@@ -153,7 +162,10 @@
         "Fairfax Financial Holdings (Canada)"
       ],
       "answer": 3,
-      "explanation": "**Fairfax Financial Holdings**, for about ₹53,000 crore."
+      "explanation": "**Fairfax Financial Holdings**, for about ₹53,000 crore.",
+      "also": [
+        "f20261031-051"
+      ]
     },
     {
       "id": "q20261031-012",
@@ -167,7 +179,10 @@
         "Lost-wax (cire perdue)"
       ],
       "answer": 3,
-      "explanation": "The **lost-wax** method; the Ananda Tandava Nataraja is linked with **Chidambaram**."
+      "explanation": "The **lost-wax** method; the Ananda Tandava Nataraja is linked with **Chidambaram**.",
+      "also": [
+        "f20261031-059"
+      ]
     },
     {
       "id": "q20261031-013",
@@ -181,7 +196,10 @@
         "SSLV-D3"
       ],
       "answer": 2,
-      "explanation": "**GSLV-F18**, from Sriharikota, to restore **NavIC**."
+      "explanation": "**GSLV-F18**, from Sriharikota, to restore **NavIC**.",
+      "also": [
+        "f20261031-064"
+      ]
     },
     {
       "id": "q20261031-014",
@@ -195,7 +213,10 @@
         "7"
       ],
       "answer": 3,
-      "explanation": "**7** (3 geostationary + 4 geosynchronous); NVS-01 flew on GSLV-F12 in May 2023."
+      "explanation": "**7** (3 geostationary + 4 geosynchronous); NVS-01 flew on GSLV-F12 in May 2023.",
+      "also": [
+        "f20261031-063"
+      ]
     },
     {
       "id": "q20261031-015",
@@ -209,7 +230,10 @@
         "Fabiano Caruana"
       ],
       "answer": 2,
-      "explanation": "**Javokhir Sindarov** (Uzbekistan); the match is in Geneva in November."
+      "explanation": "**Javokhir Sindarov** (Uzbekistan); the match is in Geneva in November.",
+      "also": [
+        "f20261031-080"
+      ]
     },
     {
       "id": "q20261031-016",
@@ -223,7 +247,10 @@
         "Magnus Carlsen"
       ],
       "answer": 0,
-      "explanation": "He beat **Ding Liren** in Singapore, at 18 the youngest undisputed champion."
+      "explanation": "He beat **Ding Liren** in Singapore, at 18 the youngest undisputed champion.",
+      "also": [
+        "f20261031-079"
+      ]
     },
     {
       "id": "q20261031-017",
@@ -265,7 +292,10 @@
         "59 kg"
       ],
       "answer": 3,
-      "explanation": "**59 kg** — the first Indian woman to become world champion."
+      "explanation": "**59 kg** — the first Indian woman to become world champion.",
+      "also": [
+        "f20261031-091"
+      ]
     },
     {
       "id": "q20261031-020",
@@ -293,7 +323,10 @@
         "Lagos"
       ],
       "answer": 2,
-      "explanation": "**Dakar, Senegal** (31 Oct-13 Nov) — the first Olympic event held in Africa."
+      "explanation": "**Dakar, Senegal** (31 Oct-13 Nov) — the first Olympic event held in Africa.",
+      "also": [
+        "f20261031-102"
+      ]
     },
     {
       "id": "q20261031-022",
@@ -307,7 +340,10 @@
         "6 March"
       ],
       "answer": 2,
-      "explanation": "**14 April 2027**. The Kumbh runs 14 Jan-20 Apr 2027."
+      "explanation": "**14 April 2027**. The Kumbh runs 14 Jan-20 Apr 2027.",
+      "also": [
+        "f20261031-099"
+      ]
     },
     {
       "id": "q20261031-023",
@@ -321,7 +357,10 @@
         "2015"
       ],
       "answer": 0,
-      "explanation": "**2017**. It is held at Haridwar, Prayagraj, Nashik and Ujjain."
+      "explanation": "**2017**. It is held at Haridwar, Prayagraj, Nashik and Ujjain.",
+      "also": [
+        "f20261031-098"
+      ]
     },
     {
       "id": "q20261031-024",
@@ -349,7 +388,10 @@
         "Singapore"
       ],
       "answer": 3,
-      "explanation": "**Singapore** hosted the first YOG in 2010."
+      "explanation": "**Singapore** hosted the first YOG in 2010.",
+      "also": [
+        "f20261031-093"
+      ]
     },
     {
       "id": "q20261031-026",
@@ -377,7 +419,10 @@
         "Concurrent List"
       ],
       "answer": 3,
-      "explanation": "**Concurrent List**, so the Centre and States share it."
+      "explanation": "**Concurrent List**, so the Centre and States share it.",
+      "also": [
+        "f20261031-034"
+      ]
     },
     {
       "id": "q20261031-028",

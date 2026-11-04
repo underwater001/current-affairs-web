@@ -16,7 +16,9 @@ The spec is one JSON file per paper:
               "text": "...", "page": "1", "gs": "GS2", "extra": true}],
   "fixes":  [{"id": "f20261102-029", "find": "1 November", "replace": "31 October"}],
   "quiz":   [{"fact": 3, "q": "...", "options": ["a","b","c","d"], "answer": 0,
-              "explanation": "...", "type": "mcq"}]
+              "explanation": "...", "type": "mcq", "also": [4, "f20261030-009"]}]
+              ("also" is optional: 1-3 closely related exam facts shown under the answer;
+               choose them by hand, nothing is picked automatically)
 }
 
 - Fact ids continue the date's numbering (a second paper on the same date goes on from the first).
@@ -173,6 +175,9 @@ def main():
             right = opts[ans]; opts = [opts[j] for j in idx]; ans = opts.index(right)
         row = {"id": qid, "fact": fid, "type": q.get("type", "mcq"),
                "q": q["q"], "options": opts, "answer": ans, "explanation": q.get("explanation", "")}
+        if q.get("also"):
+            # related facts to show with the answer: 1-based indexes into this spec's facts, or fact ids
+            row["also"] = [facts[x - 1]["id"] if isinstance(x, int) else x for x in q["also"]]
         qdoc["questions"].append(row); qn += 1
 
     if dry:

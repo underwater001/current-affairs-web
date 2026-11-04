@@ -41,6 +41,11 @@ ol.qs{list-style:none;margin:18px 0 0;padding:0;display:flex;flex-direction:colu
 .why{margin-top:10px;padding:10px 12px;border-left:3px solid var(--ok);background:var(--bg);border-radius:0 8px 8px 0;font-family:var(--body);font-size:14.5px;line-height:1.5}
 .why .v{font:700 13px var(--display);display:block;margin-bottom:3px}
 .why.bad{border-left-color:var(--bad)}
+.why .also{margin:8px 0 0;padding:8px 0 0;border-top:1px dashed var(--line);list-style:none;display:flex;flex-direction:column;gap:5px}
+.why .also li{font-size:14px;line-height:1.45;padding-left:14px;position:relative}
+.why .also li::before{content:"›";position:absolute;left:0;color:var(--muted)}
+.why .also .h{font:600 11px var(--mono);color:var(--muted);text-transform:uppercase;letter-spacing:.05em;padding-left:0}
+.why .also .h::before{content:none}
 .why .src{display:block;margin-top:6px;font:12px var(--mono);color:var(--muted)}
 .meta{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:10px;font:11px var(--mono);color:var(--muted)}
 .tag.p-high{background:var(--hi-soft);color:var(--hi)}
@@ -112,7 +117,7 @@ function render(){
       return `<button type="button" class="opt ${cls}" data-q="${esc(q.id)}" data-i="${i}" ${open?'disabled':''}><span class="k">${'ABCDE'[i]}</span><span>${md(o)}</span></button>`;
     }).join('');
     const ok = pick === q.answer;
-    const why = open ? `<div class="why ${pick!=null && !ok ? 'bad' : ''}"><span class="v">${pick==null ? 'Answer: '+'ABCDE'[q.answer] : ok ? 'Correct.' : 'Not quite. Answer: '+'ABCDE'[q.answer]}</span>${md(q.explanation || '')}<span class="src">${q.link?`<a href="${esc(q.link)}" target="_blank" rel="noopener">${esc(q.source)}</a>`:esc(q.source)}${q.page?' p. '+esc(q.page):''} · <a href="./#${esc(q.node)}">${esc(q.node_label)} on the web</a></span></div>` : '';
+    const why = open ? `<div class="why ${pick!=null && !ok ? 'bad' : ''}"><span class="v">${pick==null ? 'Answer: '+'ABCDE'[q.answer] : ok ? 'Correct.' : 'Not quite. Answer: '+'ABCDE'[q.answer]}</span>${md(q.explanation || '')}${(q.also||[]).length ? `<ul class="also"><li class="h">Also remember</li>${q.also.map(a => `<li>${md(a.text)}</li>`).join('')}</ul>` : ''}<span class="src">${q.link?`<a href="${esc(q.link)}" target="_blank" rel="noopener">${esc(q.source)}</a>`:esc(q.source)}${q.page?' p. '+esc(q.page):''} · <a href="./#${esc(q.node)}">${esc(q.node_label)} on the web</a></span></div>` : '';
     const tags = q.tags.map(t => `<span class="tag ${t==='CGL'?'cgl':'upsc'}">${t}${t==='UPSC'&&q.gs?' · '+esc(q.gs):''}</span>`).join('')
       + (q.priority ? `<span class="tag p-${esc(q.priority)}">${q.priority==='high'?'★ high':esc(q.priority)}</span>` : '');
     return `<li class="q"><p class="stem">${md(q.q)}</p><div class="opts">${opts}</div>${why}<div class="meta">${tags}<span>${esc(q.node_label)}</span></div></li>`;

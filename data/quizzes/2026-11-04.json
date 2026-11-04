@@ -13,7 +13,10 @@
         "NDMA"
       ],
       "answer": 1,
-      "explanation": "**IMD's RSMC New Delhi** names them from a list drawn up by the WMO/ESCAP Panel's 13 member countries."
+      "explanation": "**IMD's RSMC New Delhi** names them from a list drawn up by the WMO/ESCAP Panel's 13 member countries.",
+      "also": [
+        "f20261104-001"
+      ]
     },
     {
       "id": "q20261104-002",
@@ -41,7 +44,10 @@
         "Khaleda Zia"
       ],
       "answer": 1,
-      "explanation": "**Tarique Rahman**; India has invited him to visit New Delhi."
+      "explanation": "**Tarique Rahman**; India has invited him to visit New Delhi.",
+      "also": [
+        "f20261104-009"
+      ]
     },
     {
       "id": "q20261104-004",
@@ -55,7 +61,10 @@
         "1975"
       ],
       "answer": 2,
-      "explanation": "In **1972**. The Ganga Treaty (1996) covers sharing at the **Farakka Barrage**."
+      "explanation": "In **1972**. The Ganga Treaty (1996) covers sharing at the **Farakka Barrage**.",
+      "also": [
+        "f20261104-008"
+      ]
     },
     {
       "id": "q20261104-005",
@@ -83,7 +92,10 @@
         "Neither 1 nor 2"
       ],
       "answer": 0,
-      "explanation": "Only 1: the PAC has **22 members** (15 LS + 7 RS), and since **1967** its chair has been from the **Opposition**."
+      "explanation": "Only 1: the PAC has **22 members** (15 LS + 7 RS), and since **1967** its chair has been from the **Opposition**.",
+      "also": [
+        "f20261104-015"
+      ]
     },
     {
       "id": "q20261104-007",
@@ -97,7 +109,10 @@
         "Simlipal Tiger Reserve, Odisha"
       ],
       "answer": 1,
-      "explanation": "From **Valmiki Tiger Reserve** (West Champaran, Bihar); she strayed into Assam's Raimona National Park."
+      "explanation": "From **Valmiki Tiger Reserve** (West Champaran, Bihar); she strayed into Assam's Raimona National Park.",
+      "also": [
+        "f20261104-021"
+      ]
     },
     {
       "id": "q20261104-008",
@@ -125,7 +140,10 @@
         "Rahul Rasgotra"
       ],
       "answer": 1,
-      "explanation": "**Shatrujeet Singh Kapoor**; he confirmed face-offs with the PLA in Arunachal Pradesh."
+      "explanation": "**Shatrujeet Singh Kapoor**; he confirmed face-offs with the PLA in Arunachal Pradesh.",
+      "also": [
+        "f20261104-029"
+      ]
     },
     {
       "id": "q20261104-010",
@@ -139,7 +157,10 @@
         "2005"
       ],
       "answer": 2,
-      "explanation": "**1993**; the 1996 agreement added confidence-building measures and the 2005 one set political parameters."
+      "explanation": "**1993**; the 1996 agreement added confidence-building measures and the 2005 one set political parameters.",
+      "also": [
+        "f20261104-028"
+      ]
     },
     {
       "id": "q20261104-011",
@@ -153,7 +174,10 @@
         "Win Myint"
       ],
       "answer": 0,
-      "explanation": "Junta chief **Min Aung Hlaing**."
+      "explanation": "Junta chief **Min Aung Hlaing**.",
+      "also": [
+        "f20261104-031"
+      ]
     },
     {
       "id": "q20261104-012",
@@ -167,7 +191,10 @@
         "Sittwe"
       ],
       "answer": 3,
-      "explanation": "**Sittwe**, then by river to Paletwa and road to Mizoram."
+      "explanation": "**Sittwe**, then by river to Paletwa and road to Mizoram.",
+      "also": [
+        "f20261104-030"
+      ]
     },
     {
       "id": "q20261104-013",
@@ -181,7 +208,10 @@
         "UAE"
       ],
       "answer": 1,
-      "explanation": "**Pakistan**; signed in August 2026."
+      "explanation": "**Pakistan**; signed in August 2026.",
+      "also": [
+        "f20261104-074"
+      ]
     },
     {
       "id": "q20261104-014",
@@ -195,7 +225,10 @@
         "Census, disaster relief and elections"
       ],
       "answer": 3,
-      "explanation": "Only **census, disaster relief and election** duties."
+      "explanation": "Only **census, disaster relief and election** duties.",
+      "also": [
+        "f20261104-036"
+      ]
     },
     {
       "id": "q20261104-015",
@@ -209,7 +242,10 @@
         "73rd"
       ],
       "answer": 0,
-      "explanation": "The **86th Amendment (2002)**; the RTE Act took effect on 1 April 2010."
+      "explanation": "The **86th Amendment (2002)**; the RTE Act took effect on 1 April 2010.",
+      "also": [
+        "f20261104-035"
+      ]
     },
     {
       "id": "q20261104-016",
@@ -223,7 +259,10 @@
         "Olga Tellis (1985)"
       ],
       "answer": 3,
-      "explanation": "**Olga Tellis v. Bombay Municipal Corporation (1985)**, the pavement-dwellers case."
+      "explanation": "**Olga Tellis v. Bombay Municipal Corporation (1985)**, the pavement-dwellers case.",
+      "also": [
+        "f20261104-037"
+      ]
     },
     {
       "id": "q20261104-017",
@@ -237,7 +276,10 @@
         "Population of at least 5,000"
       ],
       "answer": 1,
-      "explanation": "A census town has **no** notified municipal body; it qualifies on population, density and non-farm male work."
+      "explanation": "A census town has **no** notified municipal body; it qualifies on population, density and non-farm male work.",
+      "also": [
+        "f20261104-042"
+      ]
     },
     {
       "id": "q20261104-018",
@@ -251,7 +293,10 @@
         "21"
       ],
       "answer": 0,
-      "explanation": "**18** (the Eleventh Schedule lists 29 for panchayats)."
+      "explanation": "**18** (the Eleventh Schedule lists 29 for panchayats).",
+      "also": [
+        "f20261104-041"
+      ]
     },
     {
       "id": "q20261104-019",
@@ -265,7 +310,11 @@
         "Jagmohan Singh (1973)"
       ],
       "answer": 2,
-      "explanation": "**Bachan Singh v. State of Punjab (1980)**, a Constitution Bench."
+      "explanation": "**Bachan Singh v. State of Punjab (1980)**, a Constitution Bench.",
+      "also": [
+        "f20261104-047",
+        "f20261104-048"
+      ]
     },
     {
       "id": "q20261104-020",
@@ -279,7 +328,10 @@
         "A is false, R is true"
       ],
       "answer": 3,
-      "explanation": "A is false: it kept the death penalty for **terrorism-related offences**. R is true: it found no greater deterrent effect."
+      "explanation": "A is false: it kept the death penalty for **terrorism-related offences**. R is true: it found no greater deterrent effect.",
+      "also": [
+        "f20261104-046"
+      ]
     },
     {
       "id": "q20261104-021",
@@ -307,7 +359,11 @@
         "₹4.35 lakh crore"
       ],
       "answer": 3,
-      "explanation": "**₹4,35,236 crore** for 2.55 lakh panchayats and traditional local bodies."
+      "explanation": "**₹4,35,236 crore** for 2.55 lakh panchayats and traditional local bodies.",
+      "also": [
+        "f20261104-054",
+        "f20261104-043"
+      ]
     },
     {
       "id": "q20261104-023",
@@ -321,7 +377,10 @@
         "Yoko Ogawa"
       ],
       "answer": 2,
-      "explanation": "**Han Kang**, who also won the International Booker in 2016."
+      "explanation": "**Han Kang**, who also won the International Booker in 2016.",
+      "also": [
+        "f20261104-055"
+      ]
     },
     {
       "id": "q20261104-024",
@@ -335,7 +394,10 @@
         "Belém, Brazil"
       ],
       "answer": 1,
-      "explanation": "**Antalya, Türkiye**, 9-20 Nov 2026."
+      "explanation": "**Antalya, Türkiye**, 9-20 Nov 2026.",
+      "also": [
+        "f20261104-058"
+      ]
     },
     {
       "id": "q20261104-025",
@@ -349,7 +411,10 @@
         "Dubai"
       ],
       "answer": 0,
-      "explanation": "**Belém, Brazil**. COP29 was at Baku and COP28 at Dubai."
+      "explanation": "**Belém, Brazil**. COP29 was at Baku and COP28 at Dubai.",
+      "also": [
+        "f20261104-057"
+      ]
     },
     {
       "id": "q20261104-026",
@@ -377,7 +442,10 @@
         "Rajnish Kumar"
       ],
       "answer": 0,
-      "explanation": "**C.S. Setty**."
+      "explanation": "**C.S. Setty**.",
+      "also": [
+        "f20261104-065"
+      ]
     },
     {
       "id": "q20261104-028",
@@ -391,7 +459,10 @@
         "1 Jan 2027"
       ],
       "answer": 2,
-      "explanation": "**15 December 2026**."
+      "explanation": "**15 December 2026**.",
+      "also": [
+        "f20261104-067"
+      ]
     },
     {
       "id": "q20261104-029",
@@ -405,7 +476,10 @@
         "50 lakh"
       ],
       "answer": 1,
-      "explanation": "**1 crore** households, with up to **300 units** of free electricity a month."
+      "explanation": "**1 crore** households, with up to **300 units** of free electricity a month.",
+      "also": [
+        "f20261104-069"
+      ]
     },
     {
       "id": "q20261104-030",
@@ -475,7 +549,10 @@
         "Dhinidhi Desinghu"
       ],
       "answer": 3,
-      "explanation": "**Dhinidhi Desinghu** (56.27s); judoka Khushbu Rajakbhai won silver."
+      "explanation": "**Dhinidhi Desinghu** (56.27s); judoka Khushbu Rajakbhai won silver.",
+      "also": [
+        "f20261031-093"
+      ]
     },
     {
       "id": "q20261104-035",
@@ -503,7 +580,10 @@
         "Martin Guptill"
       ],
       "answer": 0,
-      "explanation": "**Rohit Sharma** (264 v Sri Lanka); he also has three ODI double hundreds."
+      "explanation": "**Rohit Sharma** (264 v Sri Lanka); he also has three ODI double hundreds.",
+      "also": [
+        "f20261104-090"
+      ]
     },
     {
       "id": "q20261104-037",
@@ -517,7 +597,10 @@
         "England"
       ],
       "answer": 1,
-      "explanation": "**New Zealand**, 3-1 under **Pataudi**; the first win came at Dunedin."
+      "explanation": "**New Zealand**, 3-1 under **Pataudi**; the first win came at Dunedin.",
+      "also": [
+        "f20261104-088"
+      ]
     },
     {
       "id": "q20261104-038",
@@ -531,7 +614,10 @@
         "34th"
       ],
       "answer": 3,
-      "explanation": "Until the **34th over**; then one ball is used for the rest of the innings."
+      "explanation": "Until the **34th over**; then one ball is used for the rest of the innings.",
+      "also": [
+        "f20261104-088"
+      ]
     },
     {
       "id": "q20261104-039",
@@ -545,7 +631,10 @@
         "CPCB"
       ],
       "answer": 2,
-      "explanation": "**CSIR-NEERI** (Nagpur); they cut particulate emissions by about 30%."
+      "explanation": "**CSIR-NEERI** (Nagpur); they cut particulate emissions by about 30%.",
+      "also": [
+        "f20261104-095"
+      ]
     },
     {
       "id": "q20261104-040",
@@ -559,7 +648,10 @@
         "Neither 1 nor 2"
       ],
       "answer": 2,
-      "explanation": "Both are correct, as reported by WRI India's analysis."
+      "explanation": "Both are correct, as reported by WRI India's analysis.",
+      "also": [
+        "f20261104-053"
+      ]
     },
     {
       "id": "q20261104-041",
@@ -587,7 +679,10 @@
         "Harivansh"
       ],
       "answer": 0,
-      "explanation": "**K.C. Venugopal** (Congress); the PAC chair is from the Opposition by convention."
+      "explanation": "**K.C. Venugopal** (Congress); the PAC chair is from the Opposition by convention.",
+      "also": [
+        "f20261104-016"
+      ]
     },
     {
       "id": "q20261104-043",
@@ -601,7 +696,10 @@
         "Abbas Araghchi"
       ],
       "answer": 1,
-      "explanation": "**Masoud Pezeshkian**; Ghalibaf is the chief negotiator with the US."
+      "explanation": "**Masoud Pezeshkian**; Ghalibaf is the chief negotiator with the US.",
+      "also": [
+        "f20261104-034"
+      ]
     },
     {
       "id": "q20261104-044",
@@ -615,7 +713,10 @@
         "A is false, R is true"
       ],
       "answer": 0,
-      "explanation": "Both are true and R explains A: Tehran seeks a place in every regional security conversation."
+      "explanation": "Both are true and R explains A: Tehran seeks a place in every regional security conversation.",
+      "also": [
+        "f20261104-074"
+      ]
     }
   ]
 }

@@ -143,6 +143,9 @@ for qd, qdoc in quizzes:
             errors.append(f"quiz {qid}: type must be mcq, statements or assertion")
         if not q.get("q"):
             errors.append(f"quiz {qid}: empty question")
+        for x in q.get("also", []):
+            if x not in fact_date:
+                errors.append(f"quiz {qid}: 'also' fact '{x}' does not exist")
 
 if errors:
     print("VALIDATION FAILED:")
@@ -247,6 +250,11 @@ endpoints = {
     "quiz": "api/v1/quizzes/{YYYY-MM-DD}.json",
 }
 quiz_rows, quiz_index = {}, []
+# "Also remember": related exam facts shown with the answer, chosen by hand in each question's
+# "also" list (fact ids). Nothing is picked automatically: unrelated extras defeat the quiz.
+def also_for(q, f):
+    return [{"fact": by_id[x]["id"], "text": by_id[x]["text"], "background": by_id[x]["background"]}
+            for x in q.get("also", []) if x in by_id][:3]
 for qd, qdoc in quizzes:
     rows = []
     for q in qdoc.get("questions", []):
@@ -256,7 +264,7 @@ for qd, qdoc in quizzes:
                      "fact": f["id"], "fact_date": f["date"], "tags": f["tags"], "priority": f["priority"],
                      "gs": f["gs"], "node": f["node"], "node_label": nodes[f["node"]]["label"],
                      "junction": f["junction"], "source": f["source"], "page": f["page"], "link": f["link"],
-                     "fact_text": f["text"]})
+                     "fact_text": f["text"], "also": also_for(q, f)})
     if rows:
         quiz_rows[qd] = rows
         quiz_index.append({"date": qd, "questions": len(rows),

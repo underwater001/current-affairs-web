@@ -141,7 +141,7 @@ ul.facts{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;g
     <div class="brand">
       <h1>Current Affairs Web</h1>
       <p id="sub">Loading the web…</p>
-      <nav class="nav" aria-label="Site"><a href="sources.html">Sources</a><a href="api.html">API</a><a href="https://github.com/underwater001/current-affairs-web">GitHub</a></nav>
+      <nav class="nav" aria-label="Site"><a href="quiz.html">Quiz</a><a href="sources.html">Sources</a><a href="api.html">API</a><a href="https://github.com/underwater001/current-affairs-web">GitHub</a></nav>
     </div>
     <div class="stats" id="stats"></div>
   </header>
@@ -162,10 +162,10 @@ ul.facts{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;g
       <button type="button" data-v="hm" aria-pressed="false">High + medium</button>
     </div>
     <div class="seg" role="group" aria-label="Period" id="period">
-      <button type="button" data-v="all" aria-pressed="true">All time</button>
+      <button type="button" data-v="all" aria-pressed="false">All time</button>
       <button type="button" data-v="latest" aria-pressed="false">Latest paper</button>
       <button type="button" data-v="7d" aria-pressed="false">7 days</button>
-      <button type="button" data-v="30d" aria-pressed="false">30 days</button>
+      <button type="button" data-v="30d" aria-pressed="true">30 days</button>
     </div>
   </div>
 
@@ -191,7 +191,7 @@ ul.facts{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;g
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
 <script>
 (function(){
-const S = { nodes:new Map(), facts:[], days:[], exam:'all', prio:'all', period:'all', q:'', sel:null, status:'loading', gotNodes:false, gotDays:false, fitted:false, shape:'' };
+const S = { nodes:new Map(), facts:[], days:[], exam:'all', prio:'all', period:'30d', total:0, months:[], loaded:new Set(), q:'', sel:null, status:'loading', gotNodes:false, gotDays:false, fitted:false, shape:'' };
 const $ = id => document.getElementById(id);
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const md = s => esc(s).replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>').replace(/(^|[\s(])\*([^*\s][^*]*?)\*(?=[\s).,;:]|$)/g,'$1<em>$2</em>');
@@ -445,18 +445,18 @@ function wireSeg(elId, key){
   $(elId).addEventListener('click', e => { const b = e.target.closest('button'); if(!b) return;
     S[key] = b.dataset.v; [...$(elId).querySelectorAll('button')].forEach(x => x.setAttribute('aria-pressed', String(x===b)));
     try{ localStorage.setItem('caweb-'+key, S[key]); }catch(err){}
-    drawWeb(); renderPanel(); });
+    drawWeb(); renderPanel(); if (key === 'period' && S[key] === 'all') needAll(); });
 }
 wireSeg('exam','exam'); wireSeg('prio','prio'); wireSeg('period','period');
 try{ ['exam','prio','period'].forEach(k => { const v = localStorage.getItem('caweb-'+k); if(v){ const b = $(k).querySelector(`[data-v="${v}"]`); if(b){ S[k]=v; [...$(k).querySelectorAll('button')].forEach(x=>x.setAttribute('aria-pressed', String(x===b))); } } }); }catch(e){}
-let qt; $('q').addEventListener('input', e => { clearTimeout(qt); qt = setTimeout(() => { S.q = e.target.value.trim(); if(S.q) S.sel=null; drawWeb(); renderPanel(); }, 160); });
+let qt; $('q').addEventListener('input', e => { clearTimeout(qt); qt = setTimeout(() => { S.q = e.target.value.trim(); if(S.q) S.sel=null; drawWeb(); renderPanel(); if (S.q) needAll(); }, 160); });
 
 function renderHeader(){
   const L = latest();
   const js = [...S.nodes.values()].filter(n=>parentOf(n)==='hub').length;
   const br = S.nodes.size - js;
   $('sub').textContent = S.status==='none' ? 'Data files did not load' : (L ? `Updated with the paper of ${fmt(L)}` : (S.gotNodes&&S.gotDays ? 'Waiting for the first paper' : 'Loading the web…'));
-  $('stats').innerHTML = S.nodes.size ? `<span><b>${js}</b> junctions</span><span><b>${br}</b> branches</span><span><b>${S.facts.length}</b> facts</span><span><b>${S.days.length}</b> ${S.days.length===1?'paper':'papers'}</span>` : '';
+  $('stats').innerHTML = S.nodes.size ? `<span><b>${js}</b> junctions</span><span><b>${br}</b> branches</span><span><b>${S.total || S.facts.length}</b> facts</span><span><b>${S.days.length}</b> ${S.days.length===1?'paper':'papers'}</span>` : '';
   const note = $('note');
   if (S.status==='none'){ note.hidden=false; note.textContent='The data files did not load. Refresh to try again.'; }
   else if (!S.gotNodes || !S.gotDays){ note.hidden=false; note.textContent='Loading the web…'; }
@@ -472,18 +472,34 @@ renderHeader(); renderPanel();
 
 /* ---------- data ---------- */
 /* Reads the public API in api/v1 (see api.html). */
+/* Facts are stored one file per month. To stay fast as the web grows, only the latest three
+   months load at first (enough for "30 days"); older months load when "All time" or a search needs them. */
+const bust = 'v=' + Date.now();
+const get = async (p) => { const r = await fetch('api/v1/' + p + '?' + bust, {cache:'no-store'}); if (!r.ok) throw new Error(p + ' ' + r.status); return r.json(); };
+async function loadMonths(list){
+  const need = list.filter(m => !S.loaded.has(m)); if (!need.length) return false;
+  need.forEach(m => S.loaded.add(m));
+  const got = await Promise.all(need.map(m => get('facts/' + m + '.json')));
+  S.facts = S.facts.concat(got.flatMap(x => x.facts || []))
+    .sort((a,b) => a.date < b.date ? -1 : a.date > b.date ? 1 : (a.id < b.id ? -1 : 1));
+  return true;
+}
+let allP = null;
+function needAll(){
+  if (S.loaded.size >= S.months.length) return;
+  allP = allP || loadMonths(S.months).then(ch => { if (ch) schedule(); }).catch(e => { console.error(e); allP = null; });
+}
 (async () => {
-  const bust = 'v=' + Date.now();
-  const get = async (p) => { const r = await fetch('api/v1/' + p + '?' + bust, {cache:'no-store'}); if (!r.ok) throw new Error(p + ' ' + r.status); return r.json(); };
   try {
     const [index, nodes, papers] = await Promise.all([get('index.json'), get('nodes.json'), get('papers.json')]);
     S.nodes = new Map(nodes.map(n => [n.id, n]));
     S.gotNodes = true;
     S.days = papers.papers;
-    const months = await Promise.all((index.months || []).map(m => get('facts/' + m + '.json')));
-    S.facts = months.flatMap(m => m.facts || []);
+    S.months = index.months || []; S.total = (index.totals || {}).facts || 0;
+    await loadMonths(S.months.slice(-3));
     S.gotDays = true; S.status = 'ok';
     schedule();
+    if (S.period === 'all' || S.q) needAll();
   } catch (e) {
     console.error(e); S.status = 'none'; renderHeader(); renderPanel();
   }

@@ -1,0 +1,425 @@
+{
+  "date": "2026-10-31",
+  "questions": [
+    {
+      "id": "q20261031-001",
+      "fact": "f20261031-003",
+      "type": "mcq",
+      "q": "Filing a false declaration in an electoral roll form (such as Form 7) is punishable under:",
+      "options": [
+        "Section 31, RP Act 1950",
+        "Section 125, RP Act 1951",
+        "Section 171, BNS 2023",
+        "Article 326"
+      ],
+      "answer": 0,
+      "explanation": "**Section 31 of the RP Act, 1950**. Roll authorities: CEO, DEO, ERO and AERO."
+    },
+    {
+      "id": "q20261031-002",
+      "fact": "f20261031-004",
+      "type": "mcq",
+      "q": "Census 2027 online self-enumeration for most of India begins on:",
+      "options": [
+        "1 Dec 2026",
+        "10 Jan 2027",
+        "25 Jan 2027",
+        "16 Nov 2026"
+      ],
+      "answer": 1,
+      "explanation": "**10 Jan 2027**; door-to-door 25 Jan-28 Feb 2027. Poll-bound States start earlier (16 Nov 2026)."
+    },
+    {
+      "id": "q20261031-003",
+      "fact": "f20261031-005",
+      "type": "mcq",
+      "q": "World Bank (Oct 2026): India's extreme poverty ($3.00/day) fell between 2011 and 2023 from 27.1% to:",
+      "options": [
+        "5.3%",
+        "16.1%",
+        "11.3%",
+        "2.6%"
+      ],
+      "answer": 3,
+      "explanation": "Extreme poverty fell to **2.6%**; the $4.20/day line fell from 57.7% to 16.1%."
+    },
+    {
+      "id": "q20261031-004",
+      "fact": "f20261031-006",
+      "type": "mcq",
+      "q": "According to the World Bank brief, a belt from U.P. to West Bengal holds what share of India's poor?",
+      "options": [
+        "47%",
+        "37%",
+        "67%",
+        "57%"
+      ],
+      "answer": 3,
+      "explanation": "**57%** of India's poor live in that belt."
+    },
+    {
+      "id": "q20261031-005",
+      "fact": "f20261031-016",
+      "type": "mcq",
+      "q": "Which State was the first to implement a Uniform Civil Code (27 Jan 2025)?",
+      "options": [
+        "Goa",
+        "Uttarakhand",
+        "Assam",
+        "Gujarat"
+      ],
+      "answer": 1,
+      "explanation": "**Uttarakhand**. Goa's common civil code dates from Portuguese rule. UCC is in **Article 44**."
+    },
+    {
+      "id": "q20261031-006",
+      "fact": "f20261031-018",
+      "type": "mcq",
+      "q": "Somnath temple, regarded as the first of the 12 Jyotirlingas, is in which district of Gujarat?",
+      "options": [
+        "Junagadh",
+        "Gir Somnath",
+        "Amreli",
+        "Devbhumi Dwarka"
+      ],
+      "answer": 1,
+      "explanation": "At Prabhas Patan, **Gir Somnath** district; rebuilt on Sardar Patel's initiative and inaugurated in **1951**."
+    },
+    {
+      "id": "q20261031-007",
+      "fact": "f20261031-026",
+      "type": "mcq",
+      "q": "India launched Operation Sindoor in response to the Pahalgam attack on:",
+      "options": [
+        "15 August 2025",
+        "7 May 2025",
+        "22 April 2025",
+        "10 May 2025"
+      ],
+      "answer": 1,
+      "explanation": "The Pahalgam attack was on 22 April 2025; **Operation Sindoor** began on **7 May 2025**."
+    },
+    {
+      "id": "q20261031-008",
+      "fact": "f20261031-034",
+      "type": "mcq",
+      "q": "The four Labour Codes, in force from 21 Nov 2025, replaced how many central labour laws?",
+      "options": [
+        "19",
+        "39",
+        "29",
+        "44"
+      ],
+      "answer": 2,
+      "explanation": "They replaced **29** central labour laws."
+    },
+    {
+      "id": "q20261031-009",
+      "fact": "f20261031-036",
+      "type": "mcq",
+      "q": "The McMahon Line, the India-China boundary in the eastern sector, came from the:",
+      "options": [
+        "Simla Convention, 1914",
+        "Treaty of Lhasa, 1904",
+        "Panchsheel Agreement, 1954",
+        "Shimla Agreement, 1972"
+      ],
+      "answer": 0,
+      "explanation": "**Simla Convention, 1914**. The LAC is about 3,488 km long."
+    },
+    {
+      "id": "q20261031-010",
+      "fact": "f20261031-043",
+      "type": "mcq",
+      "q": "The Aircraft Accident Investigation Bureau (AAIB) was set up in:",
+      "options": [
+        "1994",
+        "2012",
+        "2020",
+        "2004"
+      ],
+      "answer": 1,
+      "explanation": "**2012**, under the Civil Aviation Ministry, separate from the regulator DGCA."
+    },
+    {
+      "id": "q20261031-011",
+      "fact": "f20261031-050",
+      "type": "mcq",
+      "q": "The government approved selling a 60.72% stake in IDBI Bank to:",
+      "options": [
+        "Kotak Mahindra Bank",
+        "CSB Bank",
+        "Emirates NBD (UAE)",
+        "Fairfax Financial Holdings (Canada)"
+      ],
+      "answer": 3,
+      "explanation": "**Fairfax Financial Holdings**, for about ₹53,000 crore."
+    },
+    {
+      "id": "q20261031-012",
+      "fact": "f20261031-060",
+      "type": "mcq",
+      "q": "Chola bronzes were cast by which method?",
+      "options": [
+        "Sand casting",
+        "Die casting",
+        "Repoussé",
+        "Lost-wax (cire perdue)"
+      ],
+      "answer": 3,
+      "explanation": "The **lost-wax** method; the Ananda Tandava Nataraja is linked with **Chidambaram**."
+    },
+    {
+      "id": "q20261031-013",
+      "fact": "f20261031-062",
+      "type": "mcq",
+      "q": "The NVS-03 navigation satellite was launched on 30 Oct 2026 aboard:",
+      "options": [
+        "PSLV-C63",
+        "LVM3-M6",
+        "GSLV-F18",
+        "SSLV-D3"
+      ],
+      "answer": 2,
+      "explanation": "**GSLV-F18**, from Sriharikota, to restore **NavIC**."
+    },
+    {
+      "id": "q20261031-014",
+      "fact": "f20261031-064",
+      "type": "mcq",
+      "q": "NavIC is planned as a constellation of how many satellites?",
+      "options": [
+        "4",
+        "11",
+        "24",
+        "7"
+      ],
+      "answer": 3,
+      "explanation": "**7** (3 geostationary + 4 geosynchronous); NVS-01 flew on GSLV-F12 in May 2023."
+    },
+    {
+      "id": "q20261031-015",
+      "fact": "f20261031-079",
+      "type": "mcq",
+      "q": "Who won the 2026 Candidates to challenge D. Gukesh for the world chess title?",
+      "options": [
+        "R. Praggnanandhaa",
+        "Hikaru Nakamura",
+        "Javokhir Sindarov",
+        "Fabiano Caruana"
+      ],
+      "answer": 2,
+      "explanation": "**Javokhir Sindarov** (Uzbekistan); the match is in Geneva in November."
+    },
+    {
+      "id": "q20261031-016",
+      "fact": "f20261031-080",
+      "type": "mcq",
+      "q": "D. Gukesh became world champion in December 2024 by beating:",
+      "options": [
+        "Ding Liren",
+        "Ian Nepomniachtchi",
+        "Fabiano Caruana",
+        "Magnus Carlsen"
+      ],
+      "answer": 0,
+      "explanation": "He beat **Ding Liren** in Singapore, at 18 the youngest undisputed champion."
+    },
+    {
+      "id": "q20261031-017",
+      "fact": "f20261031-083",
+      "type": "mcq",
+      "q": "Who became the first Indian to take 150 T20I wickets?",
+      "options": [
+        "Jasprit Bumrah",
+        "Yuzvendra Chahal",
+        "Arshdeep Singh",
+        "Kuldeep Yadav"
+      ],
+      "answer": 2,
+      "explanation": "**Arshdeep Singh**, in 103 matches."
+    },
+    {
+      "id": "q20261031-018",
+      "fact": "f20261031-088",
+      "type": "mcq",
+      "q": "India played its first women's Test on 31 Oct 1976 against:",
+      "options": [
+        "West Indies",
+        "New Zealand",
+        "Australia",
+        "England"
+      ],
+      "answer": 0,
+      "explanation": "Against **West Indies** at the M. Chinnaswamy Stadium, Bengaluru."
+    },
+    {
+      "id": "q20261031-019",
+      "fact": "f20261031-090",
+      "type": "mcq",
+      "q": "Manisha Bhanwala won gold at the 2026 World Wrestling Championships (Astana) in which category?",
+      "options": [
+        "57 kg",
+        "53 kg",
+        "62 kg",
+        "59 kg"
+      ],
+      "answer": 3,
+      "explanation": "**59 kg** — the first Indian woman to become world champion."
+    },
+    {
+      "id": "q20261031-020",
+      "fact": "f20261031-092",
+      "type": "mcq",
+      "q": "Who became men's tennis world No. 1 for the first time in November 2026?",
+      "options": [
+        "Daniil Medvedev",
+        "Taylor Fritz",
+        "Carlos Alcaraz",
+        "Alexander Zverev"
+      ],
+      "answer": 3,
+      "explanation": "**Alexander Zverev** (Germany), replacing Jannik Sinner."
+    },
+    {
+      "id": "q20261031-021",
+      "fact": "f20261031-093",
+      "type": "mcq",
+      "q": "Which city hosts the 2026 Youth Olympic Games?",
+      "options": [
+        "Cairo",
+        "Nairobi",
+        "Dakar",
+        "Lagos"
+      ],
+      "answer": 2,
+      "explanation": "**Dakar, Senegal** (31 Oct-13 Nov) — the first Olympic event held in Africa."
+    },
+    {
+      "id": "q20261031-022",
+      "fact": "f20261031-098",
+      "type": "mcq",
+      "q": "The main Amrit Snan of Haridwar Kumbh 2027 (Mesh Sankranti) falls on:",
+      "options": [
+        "8 March",
+        "20 April",
+        "14 April",
+        "6 March"
+      ],
+      "answer": 2,
+      "explanation": "**14 April 2027**. The Kumbh runs 14 Jan-20 Apr 2027."
+    },
+    {
+      "id": "q20261031-023",
+      "fact": "f20261031-099",
+      "type": "mcq",
+      "q": "UNESCO listed the Kumbh Mela as Intangible Cultural Heritage in:",
+      "options": [
+        "2017",
+        "2013",
+        "2019",
+        "2015"
+      ],
+      "answer": 0,
+      "explanation": "**2017**. It is held at Haridwar, Prayagraj, Nashik and Ujjain."
+    },
+    {
+      "id": "q20261031-024",
+      "fact": "f20261031-101",
+      "type": "mcq",
+      "q": "Army Day (15 January) marks the day in 1949 when who took over as the first Indian Commander-in-Chief?",
+      "options": [
+        "Rajendrasinhji Jadeja",
+        "K.M. Cariappa",
+        "Sam Manekshaw",
+        "K.S. Thimayya"
+      ],
+      "answer": 1,
+      "explanation": "Gen. **K.M. Cariappa**."
+    },
+    {
+      "id": "q20261031-025",
+      "fact": "f20261031-102",
+      "type": "mcq",
+      "q": "The first Youth Olympic Games were held in 2010 at:",
+      "options": [
+        "Innsbruck",
+        "Nanjing",
+        "Buenos Aires",
+        "Singapore"
+      ],
+      "answer": 3,
+      "explanation": "**Singapore** hosted the first YOG in 2010."
+    },
+    {
+      "id": "q20261031-026",
+      "fact": "f20261031-007",
+      "type": "mcq",
+      "q": "NITI Aayog (Jan 2024) estimated how many people escaped multidimensional poverty between 2013-14 and 2022-23?",
+      "options": [
+        "41.5 crore",
+        "13.5 crore",
+        "9.5 crore",
+        "24.82 crore"
+      ],
+      "answer": 3,
+      "explanation": "About **24.82 crore** people."
+    },
+    {
+      "id": "q20261031-027",
+      "fact": "f20261031-033",
+      "type": "mcq",
+      "q": "Labour is a subject in which list of the Seventh Schedule?",
+      "options": [
+        "Union List",
+        "State List",
+        "Residuary powers",
+        "Concurrent List"
+      ],
+      "answer": 3,
+      "explanation": "**Concurrent List**, so the Centre and States share it."
+    },
+    {
+      "id": "q20261031-028",
+      "fact": "f20261031-041",
+      "type": "mcq",
+      "q": "'Prisons' fall under:",
+      "options": [
+        "Entry 97, Union List",
+        "Entry 4, State List",
+        "Entry 1, Concurrent List",
+        "Entry 2, Union List"
+      ],
+      "answer": 1,
+      "explanation": "**Entry 4 of the State List**; the Centre circulated a Model Prisons Act, 2023."
+    },
+    {
+      "id": "q20261031-029",
+      "fact": "f20261031-046",
+      "type": "mcq",
+      "q": "Under the J&K Reorganisation Act, 2019, the UT's Council of Ministers cannot exceed:",
+      "options": [
+        "15% of the Assembly",
+        "10% of the Assembly",
+        "20% of the Assembly",
+        "12 ministers"
+      ],
+      "answer": 1,
+      "explanation": "**10%** of the 90-member Assembly, so nine at most."
+    },
+    {
+      "id": "q20261031-030",
+      "fact": "f20261031-074",
+      "type": "mcq",
+      "q": "The ICJ's July 2024 advisory opinion held which of these unlawful?",
+      "options": [
+        "UN peacekeeping in Lebanon",
+        "Hamas's 7 Oct attack",
+        "Only the Gaza blockade",
+        "Israel's occupation of Palestinian territory"
+      ],
+      "answer": 3,
+      "explanation": "It held **Israel's occupation** unlawful and asked it to end as soon as possible."
+    }
+  ]
+}

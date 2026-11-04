@@ -15,7 +15,7 @@
   <header class="top">
     <h1>Data API</h1>
     <p>Read-only JSON · version 1 · no key needed</p>
-    <nav class="nav" aria-label="Site"><a href="./">Web</a><a href="sources.html">Sources</a><a href="api.html" aria-current="page">API</a><a href="https://github.com/underwater001/current-affairs-web">GitHub</a></nav>
+    <nav class="nav" aria-label="Site"><a href="./">Web</a><a href="quiz.html">Quiz</a><a href="sources.html">Sources</a><a href="api.html" aria-current="page">API</a><a href="https://github.com/underwater001/current-affairs-web">GitHub</a></nav>
   </header>
   <div class="stats" id="stats"></div>
 
@@ -51,9 +51,11 @@ economy = requests.get(BASE + "nodes/economy.json").json()["facts"]   # a subjec
       <tr><td><code>papers/{paper_id}.json</code></td><td>One paper and its facts, e.g. <a href="api/v1/papers/2026-11-02.json"><code>papers/2026-11-02.json</code></a>.</td></tr>
       <tr><td><code>nodes/{node_id}.json</code></td><td>One topic and every fact filed on it or its sub-branches, newest first, e.g. <a href="api/v1/nodes/elections-sir.json"><code>nodes/elections-sir.json</code></a>.</td></tr>
       <tr><td><a href="api/v1/latest.json"><code>latest.json</code></a></td><td>The most recent date's papers and facts.</td></tr>
+      <tr><td><a href="api/v1/quizzes/index.json"><code>quizzes/index.json</code></a></td><td>Every quiz date, newest first, with question counts (total, CGL, UPSC, high priority).</td></tr>
+      <tr><td><code>quizzes/{YYYY-MM-DD}.json</code></td><td>One date's quiz, e.g. <a href="api/v1/quizzes/2026-11-03.json"><code>quizzes/2026-11-03.json</code></a>. Each question carries its options, answer index, explanation and the tested fact's tags, priority, GS paper, topic and source.</td></tr>
     </tbody>
   </table></div>
-  <p class="muted" style="font-size:14px">Spreadsheets of the same data: <a href="exports/facts.csv"><code>exports/facts.csv</code></a>, <a href="exports/nodes.csv"><code>exports/nodes.csv</code></a>, <a href="exports/papers.csv"><code>exports/papers.csv</code></a>.</p>
+  <p class="muted" style="font-size:14px">Spreadsheets of the same data: <a href="exports/facts.csv"><code>exports/facts.csv</code></a>, <a href="exports/nodes.csv"><code>exports/nodes.csv</code></a>, <a href="exports/papers.csv"><code>exports/papers.csv</code></a>, <a href="exports/quiz.csv"><code>exports/quiz.csv</code></a>.</p>
 
   <h2>Objects</h2>
   <h3>Fact</h3>
@@ -74,6 +76,8 @@ economy = requests.get(BASE + "nodes/economy.json").json()["facts"]   # a subjec
       <tr><td><code>keys</code></td><td>string[]</td><td>The bold terms. Ready-made answers for fill-in-the-blank and MCQ generation.</td></tr>
     </tbody>
   </table></div>
+  <h3>Quiz question</h3>
+  <p><code>id</code> (<code>qYYYYMMDD-NNN</code>, permanent), <code>date</code>, <code>type</code> (<code>mcq</code>, <code>statements</code>, <code>assertion</code>), <code>q</code>, <code>options</code>, <code>answer</code> (0-based index), <code>explanation</code>, and from the tested fact: <code>fact</code>, <code>fact_date</code>, <code>tags</code>, <code>priority</code>, <code>gs</code>, <code>node</code>, <code>node_label</code>, <code>junction</code>, <code>source</code>, <code>page</code>, <code>link</code>, <code>fact_text</code>. The same questions are in <a href="exports/quiz.csv"><code>exports/quiz.csv</code></a>.</p>
   <h3>Node (topic)</h3>
   <div class="tbl-wrap"><table>
     <thead><tr><th>Field</th><th>Meaning</th></tr></thead>

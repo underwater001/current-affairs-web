@@ -1,0 +1,635 @@
+{
+  "date": "2026-11-01",
+  "questions": [
+    {
+      "id": "q20261101-001",
+      "fact": "f20261101-003",
+      "type": "mcq",
+      "q": "Alfred Wegener (born 1 Nov 1880) proposed the theory of:",
+      "options": [
+        "Seafloor spreading",
+        "Continental drift",
+        "The Big Bang",
+        "Isostasy"
+      ],
+      "answer": 1,
+      "explanation": "**Continental drift**. Seafloor spreading came later from Harry Hess."
+    },
+    {
+      "id": "q20261101-002",
+      "fact": "f20261101-004",
+      "type": "mcq",
+      "q": "Who named the Pacific Ocean ('Mar Pacifico')?",
+      "options": [
+        "Ferdinand Magellan",
+        "Christopher Columbus",
+        "Vasco da Gama",
+        "James Cook"
+      ],
+      "answer": 0,
+      "explanation": "**Ferdinand Magellan**."
+    },
+    {
+      "id": "q20261101-003",
+      "fact": "f20261101-005",
+      "type": "mcq",
+      "q": "Jogen Chowdhury, who died in 2026, was a noted:",
+      "options": [
+        "Sitar player",
+        "Poet",
+        "Film director",
+        "Painter"
+      ],
+      "answer": 3,
+      "explanation": "**Painter**, Padma Bhushan awardee and Rajya Sabha MP (2014-2020)."
+    },
+    {
+      "id": "q20261101-004",
+      "fact": "f20261101-008",
+      "type": "mcq",
+      "q": "The IUCN moved the snow leopard from Endangered to:",
+      "options": [
+        "Critically Endangered",
+        "Vulnerable",
+        "Near Threatened",
+        "Least Concern"
+      ],
+      "answer": 1,
+      "explanation": "**Vulnerable** (2017)."
+    },
+    {
+      "id": "q20261101-005",
+      "fact": "f20261101-019",
+      "type": "mcq",
+      "q": "Which authority made a co-pilot mandatory for helicopters on Uttarakhand's pilgrimage routes?",
+      "options": [
+        "Airports Authority of India",
+        "UCADA",
+        "Pawan Hans",
+        "DGCA"
+      ],
+      "answer": 1,
+      "explanation": "The **Uttarakhand Civil Aviation Development Authority (UCADA)**."
+    },
+    {
+      "id": "q20261101-006",
+      "fact": "f20261101-029",
+      "type": "mcq",
+      "q": "Which of these is NOT an air pollution control device?",
+      "options": [
+        "Electrostatic precipitator",
+        "Catalytic cracker",
+        "Scrubber",
+        "Bag filter"
+      ],
+      "answer": 1,
+      "explanation": "A **catalytic cracker** refines oil. Bag filters, ESPs, cyclone separators and scrubbers capture pollutants."
+    },
+    {
+      "id": "q20261101-007",
+      "fact": "f20261101-034",
+      "type": "mcq",
+      "q": "N.R. Madhava Menon, 'father of modern legal education', was the founding director of:",
+      "options": [
+        "ILS Law College, Pune",
+        "NLSIU, Bengaluru",
+        "NLU, Delhi",
+        "NALSAR, Hyderabad"
+      ],
+      "answer": 1,
+      "explanation": "**National Law School of India University, Bengaluru**."
+    },
+    {
+      "id": "q20261101-008",
+      "fact": "f20261101-040",
+      "type": "mcq",
+      "q": "'Scientific temper' is a Fundamental Duty under:",
+      "options": [
+        "Article 51A(g)",
+        "Article 51A(j)",
+        "Article 51A(h)",
+        "Article 51A(k)"
+      ],
+      "answer": 2,
+      "explanation": "**51A(h)**: scientific temper, humanism and the spirit of inquiry."
+    },
+    {
+      "id": "q20261101-009",
+      "fact": "f20261101-042",
+      "type": "mcq",
+      "q": "Quad Foreign Ministers met in Atlanta (Oct 2026) on the sidelines of:",
+      "options": [
+        "UN General Assembly",
+        "G7 Summit",
+        "ASEAN Regional Forum",
+        "G20 Foreign Ministers' Meeting"
+      ],
+      "answer": 3,
+      "explanation": "The **G20 FMM** in Atlanta (US G20 presidency); $85 million for trusted AI."
+    },
+    {
+      "id": "q20261101-010",
+      "fact": "f20261101-043",
+      "type": "mcq",
+      "q": "The Quad (India, US, Japan, Australia) was revived in:",
+      "options": [
+        "2021",
+        "2012",
+        "2007",
+        "2017"
+      ],
+      "answer": 3,
+      "explanation": "Revived in **2017**; first leaders' summit in 2021."
+    },
+    {
+      "id": "q20261101-011",
+      "fact": "f20261101-047",
+      "type": "mcq",
+      "q": "Indira Gandhi's memorial (samadhi) in Delhi is called:",
+      "options": [
+        "Shakti Sthal",
+        "Vijay Ghat",
+        "Shanti Van",
+        "Rajghat"
+      ],
+      "answer": 0,
+      "explanation": "**Shakti Sthal**. She was assassinated on 31 Oct 1984."
+    },
+    {
+      "id": "q20261101-012",
+      "fact": "f20261101-050",
+      "type": "mcq",
+      "q": "The RSS, now in its centenary year, was founded in 1925 at:",
+      "options": [
+        "Wardha",
+        "Nagpur",
+        "Pune",
+        "Indore"
+      ],
+      "answer": 1,
+      "explanation": "Founded at **Nagpur** by **K.B. Hedgewar**."
+    },
+    {
+      "id": "q20261101-013",
+      "fact": "f20261101-052",
+      "type": "mcq",
+      "q": "Air Chief Marshal Ashutosh Dixit is which Chief of the Air Staff?",
+      "options": [
+        "30th",
+        "27th",
+        "29th",
+        "28th"
+      ],
+      "answer": 2,
+      "explanation": "The **29th**, succeeding A.P. Singh on 31 Oct 2026."
+    },
+    {
+      "id": "q20261101-014",
+      "fact": "f20261101-053",
+      "type": "mcq",
+      "q": "Bhutan's Project 108 stupas at Gelephu stand along which river?",
+      "options": [
+        "Mau Chhu",
+        "Manas",
+        "Wang Chhu",
+        "Puna Tsang Chhu"
+      ],
+      "answer": 0,
+      "explanation": "The **Mau Chhu**: 108 chortens, 15 m tall, 108 m apart."
+    },
+    {
+      "id": "q20261101-015",
+      "fact": "f20261101-054",
+      "type": "mcq",
+      "q": "Gelephu Mindfulness City (Bhutan) borders which district of Assam?",
+      "options": [
+        "Baksa",
+        "Chirang",
+        "Kokrajhar",
+        "Udalguri"
+      ],
+      "answer": 1,
+      "explanation": "**Chirang** district."
+    },
+    {
+      "id": "q20261101-016",
+      "fact": "f20261101-055",
+      "type": "mcq",
+      "q": "The Kendriya Grihmantri Dakshata Padak was instituted in:",
+      "options": [
+        "2022",
+        "2024",
+        "2025",
+        "2019"
+      ],
+      "answer": 1,
+      "explanation": "By an MHA notification of **1 Feb 2024**; 490 personnel received it on 31 Oct 2026."
+    },
+    {
+      "id": "q20261101-017",
+      "fact": "f20261101-057",
+      "type": "mcq",
+      "q": "Who is the chairman of ISRO (Nov 2026)?",
+      "options": [
+        "A.S. Kiran Kumar",
+        "V. Narayanan",
+        "K. Sivan",
+        "S. Somanath"
+      ],
+      "answer": 1,
+      "explanation": "**V. Narayanan**."
+    },
+    {
+      "id": "q20261101-018",
+      "fact": "f20261101-058",
+      "type": "mcq",
+      "q": "PRAGYA, built by Bengaluru start-up Pranos Fusion, is a:",
+      "options": [
+        "Small tokamak",
+        "Perovskite solar cell",
+        "Fast breeder reactor",
+        "Small modular fission reactor"
+      ],
+      "answer": 0,
+      "explanation": "A small **tokamak** (fusion device); a bigger one, PRANIK, is planned."
+    },
+    {
+      "id": "q20261101-019",
+      "fact": "f20261101-059",
+      "type": "mcq",
+      "q": "India's tokamaks Aditya and SST-1 are at:",
+      "options": [
+        "BARC, Mumbai",
+        "RRCAT, Indore",
+        "Institute for Plasma Research, Gandhinagar",
+        "IGCAR, Kalpakkam"
+      ],
+      "answer": 2,
+      "explanation": "The **Institute for Plasma Research, Gandhinagar**. India is also an ITER member."
+    },
+    {
+      "id": "q20261101-020",
+      "fact": "f20261101-067",
+      "type": "mcq",
+      "q": "What share of the divisible pool of central taxes goes to the States?",
+      "options": [
+        "50%",
+        "41%",
+        "42%",
+        "32%"
+      ],
+      "answer": 1,
+      "explanation": "**41%**, set by the 15th Finance Commission, released in 14 instalments a year."
+    },
+    {
+      "id": "q20261101-021",
+      "fact": "f20261101-074",
+      "type": "mcq",
+      "q": "To allow E100 fuel in flex-fuel vehicles, MoRTH amended the:",
+      "options": [
+        "Petroleum Rules, 2002",
+        "Motor Vehicles Act, 1988",
+        "Central Motor Vehicles Rules, 1989",
+        "Energy Conservation Act, 2001"
+      ],
+      "answer": 2,
+      "explanation": "The **Central Motor Vehicles Rules, 1989** (Rule 115)."
+    },
+    {
+      "id": "q20261101-022",
+      "fact": "f20261101-075",
+      "type": "mcq",
+      "q": "India hit E20 ethanol blending in 2025. What was the original target year under the National Policy on Biofuels, 2018?",
+      "options": [
+        "2035",
+        "2025",
+        "2027",
+        "2030"
+      ],
+      "answer": 3,
+      "explanation": "**2030**; India reached it five years early."
+    },
+    {
+      "id": "q20261101-023",
+      "fact": "f20261101-076",
+      "type": "mcq",
+      "q": "Under the IT Rules amended in 2026, platforms must take down unlawful content after a valid order within:",
+      "options": [
+        "3 hours",
+        "1 hour",
+        "24 hours",
+        "36 hours"
+      ],
+      "answer": 0,
+      "explanation": "**3 hours**, down from 36 hours (Rule 3(1)(d))."
+    },
+    {
+      "id": "q20261101-024",
+      "fact": "f20261101-077",
+      "type": "mcq",
+      "q": "Which section of the IT Act, 2000 gives intermediaries 'safe harbour'?",
+      "options": [
+        "Section 69A",
+        "Section 43A",
+        "Section 79",
+        "Section 66A"
+      ],
+      "answer": 2,
+      "explanation": "**Section 79**; Section 69A is the Centre's blocking power."
+    },
+    {
+      "id": "q20261101-025",
+      "fact": "f20261101-079",
+      "type": "mcq",
+      "q": "NavIC covers India and a region extending about how far beyond its borders?",
+      "options": [
+        "500 km",
+        "1,000 km",
+        "3,000 km",
+        "1,500 km"
+      ],
+      "answer": 3,
+      "explanation": "About **1,500 km**."
+    },
+    {
+      "id": "q20261101-026",
+      "fact": "f20261101-081",
+      "type": "mcq",
+      "q": "Brazilian President Lula da Silva was born in which state?",
+      "options": [
+        "Pernambuco",
+        "São Paulo",
+        "Rio de Janeiro",
+        "Bahia"
+      ],
+      "answer": 0,
+      "explanation": "**Pernambuco**, on 27 Oct 1945. He won a **fourth** term in 2026."
+    },
+    {
+      "id": "q20261101-027",
+      "fact": "f20261101-086",
+      "type": "mcq",
+      "q": "Which country hosts CHOGM 2026?",
+      "options": [
+        "Jamaica",
+        "Samoa",
+        "Barbados",
+        "Antigua and Barbuda"
+      ],
+      "answer": 3,
+      "explanation": "**Antigua and Barbuda**. King Charles III heads the Commonwealth."
+    },
+    {
+      "id": "q20261101-028",
+      "fact": "f20261101-087",
+      "type": "mcq",
+      "q": "Who is Iran's Supreme Leader (2026)?",
+      "options": [
+        "Mojtaba Khamenei",
+        "Ali Khamenei",
+        "Abbas Araghchi",
+        "Masoud Pezeshkian"
+      ],
+      "answer": 0,
+      "explanation": "**Mojtaba Khamenei**, since March 2026 after his father Ali Khamenei was killed."
+    },
+    {
+      "id": "q20261101-029",
+      "fact": "f20261101-090",
+      "type": "mcq",
+      "q": "The India-Bangladesh Ganges (Farakka) Water Treaty, expiring in Dec 2026, was signed in:",
+      "options": [
+        "1996",
+        "2015",
+        "2011",
+        "1972"
+      ],
+      "answer": 0,
+      "explanation": "On **12 Dec 1996**, a 30-year treaty."
+    },
+    {
+      "id": "q20261101-030",
+      "fact": "f20261101-093",
+      "type": "mcq",
+      "q": "Who became the fastest to 350 Test wickets by balls bowled (13,808)?",
+      "options": [
+        "Dale Steyn",
+        "Pat Cummins",
+        "Kagiso Rabada",
+        "Waqar Younis"
+      ],
+      "answer": 2,
+      "explanation": "**Kagiso Rabada**, ahead of Steyn (14,719) and Waqar (14,905)."
+    },
+    {
+      "id": "q20261101-031",
+      "fact": "f20261101-094",
+      "type": "mcq",
+      "q": "Whose 6/16 at Newlands helped South Africa win the series and top the ICC Test rankings?",
+      "options": [
+        "Marco Jansen",
+        "Keshav Maharaj",
+        "Simon Harmer",
+        "Tabraiz Shamsi"
+      ],
+      "answer": 2,
+      "explanation": "Off-spinner **Simon Harmer**; Jansen was Player of the Series."
+    },
+    {
+      "id": "q20261101-032",
+      "fact": "f20261101-096",
+      "type": "mcq",
+      "q": "World champion wrestler Manisha Bhanwala is from which district of Haryana?",
+      "options": [
+        "Bhiwani",
+        "Jind",
+        "Sonipat",
+        "Rohtak"
+      ],
+      "answer": 1,
+      "explanation": "Siwaha village, **Jind**."
+    },
+    {
+      "id": "q20261101-033",
+      "fact": "f20261101-099",
+      "type": "mcq",
+      "q": "Who is the defending champion of the WTA 250 Chennai Open?",
+      "options": [
+        "Maaya Rajeshwaran",
+        "Ankita Raina",
+        "Linda Fruhvirtova",
+        "Janice Tjen"
+      ],
+      "answer": 3,
+      "explanation": "**Janice Tjen** of Indonesia."
+    },
+    {
+      "id": "q20261101-034",
+      "fact": "f20261101-101",
+      "type": "mcq",
+      "q": "'Mawal', used to colour Kashmiri wazwan dishes, is made from:",
+      "options": [
+        "Rose petals",
+        "Kashmiri chilli",
+        "Cockscomb flower",
+        "Saffron"
+      ],
+      "answer": 2,
+      "explanation": "Dried **cockscomb** (*Celosia cristata*) petals."
+    },
+    {
+      "id": "q20261101-035",
+      "fact": "f20261101-102",
+      "type": "mcq",
+      "q": "Which State was NOT formed on 1 November?",
+      "options": [
+        "Chhattisgarh",
+        "Karnataka",
+        "Haryana",
+        "Jharkhand"
+      ],
+      "answer": 3,
+      "explanation": "**Jharkhand** was formed on 15 Nov 2000."
+    },
+    {
+      "id": "q20261101-036",
+      "fact": "f20261101-103",
+      "type": "mcq",
+      "q": "Haryana marked 60 years in 2026. It was formed in:",
+      "options": [
+        "1966",
+        "1971",
+        "1972",
+        "1956"
+      ],
+      "answer": 0,
+      "explanation": "**1 Nov 1966**."
+    },
+    {
+      "id": "q20261101-037",
+      "fact": "f20261101-104",
+      "type": "mcq",
+      "q": "Who is the Chief Minister of Keralam (Nov 2026)?",
+      "options": [
+        "K. Sudhakaran",
+        "V.D. Satheesan",
+        "Ramesh Chennithala",
+        "Pinarayi Vijayan"
+      ],
+      "answer": 1,
+      "explanation": "**V.D. Satheesan**."
+    },
+    {
+      "id": "q20261101-038",
+      "fact": "f20261101-105",
+      "type": "mcq",
+      "q": "The Mahtari Vandan Yojana for women belongs to which State?",
+      "options": [
+        "Chhattisgarh",
+        "Madhya Pradesh",
+        "Jharkhand",
+        "Odisha"
+      ],
+      "answer": 0,
+      "explanation": "**Chhattisgarh**: ₹20,708 crore paid to 68 lakh women."
+    },
+    {
+      "id": "q20261101-039",
+      "fact": "f20261101-107",
+      "type": "mcq",
+      "q": "Who chairs SEBI (Nov 2026)?",
+      "options": [
+        "Madhabi Puri Buch",
+        "Sanjay Malhotra",
+        "Tuhin Kanta Pandey",
+        "Ajay Tyagi"
+      ],
+      "answer": 2,
+      "explanation": "**Tuhin Kanta Pandey**."
+    },
+    {
+      "id": "q20261101-040",
+      "fact": "f20261101-108",
+      "type": "mcq",
+      "q": "Who is the UK Prime Minister (Nov 2026)?",
+      "options": [
+        "Rishi Sunak",
+        "Andy Burnham",
+        "Keir Starmer",
+        "Angela Rayner"
+      ],
+      "answer": 1,
+      "explanation": "**Andy Burnham**."
+    },
+    {
+      "id": "q20261101-041",
+      "fact": "f20261101-011",
+      "type": "mcq",
+      "q": "Under Article 324(5), the Chief Election Commissioner can be removed:",
+      "options": [
+        "By a simple majority of Lok Sabha",
+        "By the President on the PM's advice",
+        "By the CJI",
+        "Only like a Supreme Court judge"
+      ],
+      "answer": 3,
+      "explanation": "Only in the manner of an **SC judge** (proved misbehaviour or incapacity)."
+    },
+    {
+      "id": "q20261101-042",
+      "fact": "f20261101-037",
+      "type": "mcq",
+      "q": "Inter-State river water disputes are dealt with under:",
+      "options": [
+        "Article 263",
+        "Article 280",
+        "Article 248",
+        "Article 262"
+      ],
+      "answer": 3,
+      "explanation": "**Article 262**; e.g. the Cauvery Tribunal (award 2007)."
+    },
+    {
+      "id": "q20261101-043",
+      "fact": "f20261101-068",
+      "type": "mcq",
+      "q": "Finance Commissions are set up under:",
+      "options": [
+        "Article 275",
+        "Article 280",
+        "Article 270",
+        "Article 282"
+      ],
+      "answer": 1,
+      "explanation": "**Article 280**. The 16th FC is chaired by Arvind Panagariya."
+    },
+    {
+      "id": "q20261101-044",
+      "fact": "f20261101-078",
+      "type": "mcq",
+      "q": "In Shreya Singhal v Union of India (2015), the Supreme Court struck down:",
+      "options": [
+        "Section 124A of the IPC",
+        "Section 66A of the IT Act",
+        "Section 79 of the IT Act",
+        "Section 69A of the IT Act"
+      ],
+      "answer": 1,
+      "explanation": "**Section 66A**; it upheld 69A."
+    },
+    {
+      "id": "q20261101-045",
+      "fact": "f20261101-025",
+      "type": "assertion",
+      "q": "Assertion (A): The NDPS Act is India's main anti-drug law.\nReason (R): The Narcotics Control Bureau was created under it in 1986.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, R is false",
+        "A is false, R is true"
+      ],
+      "answer": 1,
+      "explanation": "Both are true (NDPS Act **1985**, NCB **1986**), but the NCB's creation does not explain why the Act is the main law."
+    }
+  ]
+}

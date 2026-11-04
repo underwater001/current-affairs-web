@@ -7,6 +7,7 @@ Source of truth (edit these):
   data/nodes.json            junctions and branches, keyed by id
   data/sources.json          publications and the papers read (with optional Drive link)
   data/months/YYYY-MM.json   facts, grouped by paper, one file per month
+  data/quizzes/YYYY-MM-DD.json  that date's quiz questions, each tied to a fact
 
 Generated (never edit by hand):
   api/v1/index.json          entry point: totals, months, endpoint list
@@ -16,6 +17,8 @@ Generated (never edit by hand):
   api/v1/papers/<id>.json    one paper with its facts
   api/v1/nodes/<id>.json     one node with the facts filed on it and its sub-branches
   api/v1/latest.json         the most recent date's papers and facts
+  api/v1/quizzes/index.json  every quiz date with question counts
+  api/v1/quizzes/<date>.json one date's quiz, questions enriched with the fact's tags and priority
   exports/*.csv              the same data as spreadsheets
 Exits non-zero, writing nothing, if validation fails.
 """
@@ -44,6 +47,9 @@ sources = load(os.path.join(DATA, "sources.json"))
 pubs, papers = sources["publications"], sources["papers"]
 months = [(os.path.splitext(os.path.basename(p))[0], load(p))
           for p in sorted(glob.glob(os.path.join(DATA, "months", "*.json")))]
+quizzes = [(os.path.splitext(os.path.basename(p))[0], load(p))
+           for p in sorted(glob.glob(os.path.join(DATA, "quizzes", "*.json")))]
+Q_RE = re.compile(r"^q(\d{8})-(\d{3})$")
 
 # ---------------------------------------------------------------- validate
 errors = []
@@ -110,6 +116,33 @@ for m, doc in months:
 for pid in paper_by_id:
     if pid not in seen_day:
         errors.append(f"sources: paper '{pid}' has no entry in any month file")
+
+fact_date = {}
+for m, doc in months:
+    for d in doc.get("days", []):
+        for f in d.get("facts", []):
+            fact_date[f.get("id")] = d["date"]
+seen_q = set()
+for qd, qdoc in quizzes:
+    if qdoc.get("date") != qd:
+        errors.append(f"quiz file {qd}: 'date' must be {qd}")
+    for q in qdoc.get("questions", []):
+        qid = q.get("id", "")
+        mt = Q_RE.match(qid)
+        if not mt or mt.group(1) != qd.replace("-", "") or qid in seen_q:
+            errors.append(f"quiz {qd}: bad or duplicate question id '{qid}'")
+        seen_q.add(qid)
+        if q.get("fact") not in fact_date:
+            errors.append(f"quiz {qid}: fact '{q.get('fact')}' does not exist")
+        opts = q.get("options") or []
+        if not 2 <= len(opts) <= 5 or len(set(opts)) != len(opts) or not all(isinstance(o, str) and o.strip() for o in opts):
+            errors.append(f"quiz {qid}: needs 2-5 distinct non-empty options")
+        if not isinstance(q.get("answer"), int) or not 0 <= q["answer"] < len(opts):
+            errors.append(f"quiz {qid}: answer must be an option index")
+        if q.get("type", "mcq") not in ("mcq", "statements", "assertion"):
+            errors.append(f"quiz {qid}: type must be mcq, statements or assertion")
+        if not q.get("q"):
+            errors.append(f"quiz {qid}: empty question")
 
 if errors:
     print("VALIDATION FAILED:")
@@ -186,9 +219,13 @@ for nid, n in nodes.items():
     node_rows.append(row)
 node_rows.sort(key=lambda r: (r["depth"], nodes[r["junction"]].get("order", 99), r.get("order") or 99, r["id"]))
 
+by_paper = {}
+for r in flat:
+    by_paper.setdefault(r["paper"], []).append(r)
+by_id = {r["id"]: r for r in flat}
 paper_rows = []
 for pp in sorted(papers, key=lambda x: (x["date"], x["id"])):
-    rows = [r for r in flat if r["paper"] == pp["id"]]
+    rows = by_paper.get(pp["id"], [])
     paper_rows.append({**paper_view(pp), **counts(rows),
                        "nodes_used": len({r["node"] for r in rows})})
 
@@ -206,13 +243,35 @@ endpoints = {
     "paper": "api/v1/papers/{paper_id}.json",
     "node": "api/v1/nodes/{node_id}.json",
     "latest": "api/v1/latest.json",
+    "quizzes": "api/v1/quizzes/index.json",
+    "quiz": "api/v1/quizzes/{YYYY-MM-DD}.json",
 }
+quiz_rows, quiz_index = {}, []
+for qd, qdoc in quizzes:
+    rows = []
+    for q in qdoc.get("questions", []):
+        f = by_id[q["fact"]]
+        rows.append({"id": q["id"], "date": qd, "type": q.get("type", "mcq"), "q": q["q"],
+                     "options": q["options"], "answer": q["answer"], "explanation": q.get("explanation", ""),
+                     "fact": f["id"], "fact_date": f["date"], "tags": f["tags"], "priority": f["priority"],
+                     "gs": f["gs"], "node": f["node"], "node_label": nodes[f["node"]]["label"],
+                     "junction": f["junction"], "source": f["source"], "page": f["page"], "link": f["link"],
+                     "fact_text": f["text"]})
+    if rows:
+        quiz_rows[qd] = rows
+        quiz_index.append({"date": qd, "questions": len(rows),
+                           "cgl": sum("CGL" in r["tags"] for r in rows),
+                           "upsc": sum("UPSC" in r["tags"] for r in rows),
+                           "cgl_high": sum(r["priority"] == "high" for r in rows),
+                           "papers": [p["id"] for p in paper_rows if p["date"] == qd]})
 dump(os.path.join(API, "index.json"), {
     "name": "Current Affairs Web API", "version": 1, "base_url": SITE + "/",
     "docs": SITE + "/api.html", "updated": latest_date, "generated_at": now,
     "totals": {"junctions": sum(1 for n in nodes.values() if n["parent"] == "hub"),
                "branches": sum(1 for n in nodes.values() if n["parent"] != "hub"),
                "papers": len(papers), "publications": len(pubs), **counts(flat)},
+    "quiz": {"dates": len(quiz_index), "questions": sum(x["questions"] for x in quiz_index),
+             "latest": quiz_index[-1]["date"] if quiz_index else None},
     "months": sorted(by_month), "endpoints": endpoints,
 })
 dump(os.path.join(API, "papers.json"), {"publications": pubs, "papers": paper_rows})
@@ -221,13 +280,18 @@ for m, rows in by_month.items():
     dump(os.path.join(API, "facts", f"{m}.json"), {"month": m, "count": len(rows), "facts": rows})
 for pr in paper_rows:
     dump(os.path.join(API, "papers", f"{pr['id']}.json"),
-         {"paper": pr, "facts": [r for r in flat if r["paper"] == pr["id"]]})
+         {"paper": pr, "facts": by_paper.get(pr["id"], [])})
 for nr in node_rows:
     dump(os.path.join(API, "nodes", f"{nr['id']}.json"),
          {"node": nr, "facts": sorted(facts_under[nr["id"]], key=lambda r: (r["date"], r["id"]), reverse=True)})
 dump(os.path.join(API, "latest.json"), {
     "date": latest_date, "papers": [pr for pr in paper_rows if pr["date"] == latest_date],
     "facts": [r for r in flat if r["date"] == latest_date]})
+
+dump(os.path.join(API, "quizzes", "index.json"), {"dates": quiz_index[::-1]})
+for qd, rows in quiz_rows.items():
+    dump(os.path.join(API, "quizzes", f"{qd}.json"),
+         {"date": qd, "papers": [p for p in paper_rows if p["date"] == qd], "questions": rows})
 
 # ---------------------------------------------------------------- exports
 os.makedirs(os.path.join(ROOT, "exports"), exist_ok=True)
@@ -252,9 +316,20 @@ with open(os.path.join(ROOT, "exports", "facts.csv"), "w", newline="", encoding=
                     r["junction"], ";".join(r["tags"]), r["priority"] or "", r["gs"] or "", r["page"] or "",
                     "yes" if r["background"] else "", r["plain"]])
 
+with open(os.path.join(ROOT, "exports", "quiz.csv"), "w", newline="", encoding="utf-8") as fp:
+    w = csv.writer(fp)
+    w.writerow(["date", "question_id", "type", "question", "option_a", "option_b", "option_c", "option_d",
+                "option_e", "answer", "explanation", "tags", "priority", "gs", "node", "fact_id"])
+    for qd, rows in quiz_rows.items():
+        for r in rows:
+            o = r["options"] + [""] * (5 - len(r["options"]))
+            w.writerow([qd, r["id"], r["type"], r["q"], *o, "ABCDE"[r["answer"]], r["explanation"],
+                        ";".join(r["tags"]), r["priority"] or "", r["gs"] or "", r["node"], r["fact"]])
+
 # old location, superseded by api/v1/index.json
 old = os.path.join(DATA, "index.json")
 if os.path.exists(old):
     os.remove(old)
 
-print(f"OK  {len(nodes)} nodes, {len(papers)} papers, {n_facts} facts, latest {latest_date}")
+print(f"OK  {len(nodes)} nodes, {len(papers)} papers, {n_facts} facts, "
+      f"{sum(x['questions'] for x in quiz_index)} quiz questions on {len(quiz_index)} dates, latest {latest_date}")

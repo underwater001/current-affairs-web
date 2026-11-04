@@ -1,0 +1,565 @@
+{
+  "date": "2026-11-03",
+  "questions": [
+    {
+      "id": "q20261103-001",
+      "fact": "f20261103-002",
+      "type": "mcq",
+      "q": "Protecting the environment is a Fundamental Duty under:",
+      "options": [
+        "Article 51A(h)",
+        "Article 21",
+        "Article 51A(g)",
+        "Article 48A"
+      ],
+      "answer": 2,
+      "explanation": "**51A(g)**; Article 48A is the Directive Principle on the environment."
+    },
+    {
+      "id": "q20261103-002",
+      "fact": "f20261103-005",
+      "type": "mcq",
+      "q": "How many States have a Legislative Council?",
+      "options": [
+        "Five",
+        "Seven",
+        "Six",
+        "Eight"
+      ],
+      "answer": 2,
+      "explanation": "**Six**: Maharashtra, U.P., Bihar, Andhra Pradesh, Telangana and Karnataka."
+    },
+    {
+      "id": "q20261103-003",
+      "fact": "f20261103-006",
+      "type": "statements",
+      "q": "Consider the following about Legislative Councils:\n1. Parliament creates or abolishes a Council by ordinary law under Article 169.\n2. The State Assembly must first pass a resolution by a two-thirds majority.\nWhich is/are correct?",
+      "options": [
+        "Only 1",
+        "Only 2",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "answer": 2,
+      "explanation": "Both are correct; such a law is **not** treated as a constitutional amendment under Article 368."
+    },
+    {
+      "id": "q20261103-004",
+      "fact": "f20261103-007",
+      "type": "mcq",
+      "q": "What share of a Legislative Council's members are elected by graduates?",
+      "options": [
+        "1/4",
+        "1/12",
+        "1/6",
+        "1/3"
+      ],
+      "answer": 1,
+      "explanation": "**1/12** by graduates and 1/12 by teachers; 1/3 by local bodies, 1/3 by MLAs, 1/6 nominated."
+    },
+    {
+      "id": "q20261103-005",
+      "fact": "f20261103-008",
+      "type": "mcq",
+      "q": "A member of a Legislative Council serves a term of:",
+      "options": [
+        "6 years",
+        "Till the Assembly is dissolved",
+        "5 years",
+        "4 years"
+      ],
+      "answer": 0,
+      "explanation": "**6 years**; one-third retire every 2 years. The Council is never dissolved."
+    },
+    {
+      "id": "q20261103-006",
+      "fact": "f20261103-010",
+      "type": "mcq",
+      "q": "On a Money Bill, a Legislative Council can:",
+      "options": [
+        "Reject it",
+        "Only make recommendations within 14 days",
+        "Delay it for 3 months",
+        "Send it to a joint sitting"
+      ],
+      "answer": 1,
+      "explanation": "It can only **recommend** within **14 days** (Article 198)."
+    },
+    {
+      "id": "q20261103-007",
+      "fact": "f20261103-011",
+      "type": "mcq",
+      "q": "Bicameral legislatures in six provinces were created by the:",
+      "options": [
+        "Government of India Act, 1935",
+        "Government of India Act, 1919",
+        "Indian Councils Act, 1909",
+        "Indian Independence Act, 1947"
+      ],
+      "answer": 0,
+      "explanation": "The **GoI Act, 1935**."
+    },
+    {
+      "id": "q20261103-008",
+      "fact": "f20261103-012",
+      "type": "mcq",
+      "q": "Tamil Nadu's Legislative Council was abolished in 1986 when the CM was:",
+      "options": [
+        "M.G. Ramachandran",
+        "C.N. Annadurai",
+        "M. Karunanidhi",
+        "J. Jayalalithaa"
+      ],
+      "answer": 0,
+      "explanation": "**MGR**. Andhra Pradesh abolished its Council in 1985 (NTR) and re-created it in 2007."
+    },
+    {
+      "id": "q20261103-009",
+      "fact": "f20261103-040",
+      "type": "mcq",
+      "q": "The Bharatiya Nagarik Suraksha Sanhita (BNSS) replaced which law from 1 July 2024?",
+      "options": [
+        "Indian Evidence Act, 1872",
+        "Indian Penal Code, 1860",
+        "Code of Criminal Procedure, 1973",
+        "Police Act, 1861"
+      ],
+      "answer": 2,
+      "explanation": "The **CrPC, 1973**. BNS replaced the IPC; BSA the Evidence Act."
+    },
+    {
+      "id": "q20261103-010",
+      "fact": "f20261103-048",
+      "type": "mcq",
+      "q": "VB-G RAM G, which replaced MGNREGA in 2026, stands for:",
+      "options": [
+        "Viksit Bharat Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+        "Vikas Bharat Gram Rozgar Abhiyan Mission Grameen",
+        "Viksit Bharat Gramin Rozgar Aur Majdoori",
+        "Vishwas Bharat Guarantee for Rural Assets Mission"
+      ],
+      "answer": 0,
+      "explanation": "**Viksit Bharat Guarantee for Rozgar and Ajeevika Mission (Gramin)**, under the VB-G RAM G Act, 2025."
+    },
+    {
+      "id": "q20261103-011",
+      "fact": "f20261103-053",
+      "type": "mcq",
+      "q": "How many questions does Census 2027 have?",
+      "options": [
+        "30",
+        "52",
+        "34",
+        "40"
+      ],
+      "answer": 3,
+      "explanation": "**40** questions (13 new); India's first digital census."
+    },
+    {
+      "id": "q20261103-012",
+      "fact": "f20261103-054",
+      "type": "mcq",
+      "q": "Who is the Registrar General and Census Commissioner of India (2026)?",
+      "options": [
+        "Sanjay Kothari",
+        "Gyanesh Kumar",
+        "Vivek Joshi",
+        "Mritunjay Kumar Narayan"
+      ],
+      "answer": 3,
+      "explanation": "**Mritunjay Kumar Narayan**."
+    },
+    {
+      "id": "q20261103-013",
+      "fact": "f20261103-055",
+      "type": "mcq",
+      "q": "In Census 2027's caste question, which statement is correct?",
+      "options": [
+        "Non-SC/ST respondents type their caste",
+        "Aadhaar is mandatory",
+        "Caste is asked only of SCs and STs",
+        "There is a separate OBC column"
+      ],
+      "answer": 0,
+      "explanation": "SC/ST pick from a list; **others type their caste**; there is no separate OBC column; Aadhaar is optional."
+    },
+    {
+      "id": "q20261103-014",
+      "fact": "f20261103-057",
+      "type": "mcq",
+      "q": "'Census' is a subject in which list, and which law governs it?",
+      "options": [
+        "Concurrent List; Census Act, 1948",
+        "State List; Registration of Births and Deaths Act, 1969",
+        "Union List; Census Act, 1951",
+        "Union List; Census Act, 1948"
+      ],
+      "answer": 3,
+      "explanation": "**Union List, Entry 69**; the **Census Act, 1948**."
+    },
+    {
+      "id": "q20261103-015",
+      "fact": "f20261103-059",
+      "type": "mcq",
+      "q": "The Immigration and Foreigners Act, 2025 merged how many older laws?",
+      "options": [
+        "Two",
+        "Five",
+        "Three",
+        "Four"
+      ],
+      "answer": 3,
+      "explanation": "**Four** older laws."
+    },
+    {
+      "id": "q20261103-016",
+      "fact": "f20261103-069",
+      "type": "mcq",
+      "q": "In a Purchasing Managers' Index (PMI), a reading above 50 indicates:",
+      "options": [
+        "Expansion",
+        "Inflation",
+        "Contraction",
+        "Deflation"
+      ],
+      "answer": 0,
+      "explanation": "**Expansion**. India's manufacturing PMI was 54.7 in October."
+    },
+    {
+      "id": "q20261103-017",
+      "fact": "f20261103-081",
+      "type": "mcq",
+      "q": "The Bharatiya Vayuyan Adhiniyam, 2024 replaced the:",
+      "options": [
+        "Carriage by Air Act, 1972",
+        "Air Corporations Act, 1953",
+        "Aircraft Act, 1934",
+        "Airports Authority of India Act, 1994"
+      ],
+      "answer": 2,
+      "explanation": "The **Aircraft Act, 1934**. New fare rules under it were notified on 31 Oct 2026."
+    },
+    {
+      "id": "q20261103-018",
+      "fact": "f20261103-082",
+      "type": "mcq",
+      "q": "The Bharat Renewable Energy Summit & Expo 2026 was held at:",
+      "options": [
+        "Bharat Mandapam",
+        "Vigyan Bhawan",
+        "Mahatma Mandir",
+        "Yashobhoomi"
+      ],
+      "answer": 0,
+      "explanation": "**Bharat Mandapam**, New Delhi, 2-5 Nov."
+    },
+    {
+      "id": "q20261103-019",
+      "fact": "f20261103-088",
+      "type": "mcq",
+      "q": "GRAP (Graded Response Action Plan) in Delhi-NCR is run by:",
+      "options": [
+        "CAQM",
+        "Delhi Pollution Control Committee",
+        "CPCB",
+        "MoEFCC"
+      ],
+      "answer": 0,
+      "explanation": "The **Commission for Air Quality Management**; GRAP has four stages."
+    },
+    {
+      "id": "q20261103-020",
+      "fact": "f20261103-097",
+      "type": "mcq",
+      "q": "The precautionary and polluter-pays principles were set out in the:",
+      "options": [
+        "Kyoto Protocol, 1997",
+        "Paris Agreement, 2015",
+        "Rio Declaration, 1992",
+        "Stockholm Declaration, 1972"
+      ],
+      "answer": 2,
+      "explanation": "The **Rio Declaration (1992)**."
+    },
+    {
+      "id": "q20261103-021",
+      "fact": "f20261103-099",
+      "type": "mcq",
+      "q": "The Siang Upper Multipurpose Project is in:",
+      "options": [
+        "Arunachal Pradesh",
+        "Assam",
+        "Sikkim",
+        "Uttarakhand"
+      ],
+      "answer": 0,
+      "explanation": "**Arunachal Pradesh**, planned at 11.2 GW. The Yarlung Tsangpo becomes the Brahmaputra."
+    },
+    {
+      "id": "q20261103-022",
+      "fact": "f20261103-105",
+      "type": "mcq",
+      "q": "Cyclone Murasu made landfall in Nov 2026 in which State?",
+      "options": [
+        "West Bengal",
+        "Tamil Nadu",
+        "Odisha",
+        "Andhra Pradesh"
+      ],
+      "answer": 3,
+      "explanation": "**Andhra Pradesh**, between Ongole and Nellore."
+    },
+    {
+      "id": "q20261103-023",
+      "fact": "f20261103-114",
+      "type": "mcq",
+      "q": "Who is Iran's Foreign Minister (2026)?",
+      "options": [
+        "Abbas Araghchi",
+        "Javad Zarif",
+        "Hossein Amir-Abdollahian",
+        "Esmaeil Baqaei"
+      ],
+      "answer": 0,
+      "explanation": "**Abbas Araghchi**; Esmaeil Baqaei is the spokesman."
+    },
+    {
+      "id": "q20261103-024",
+      "fact": "f20261103-119",
+      "type": "mcq",
+      "q": "Israel's Knesset has how many seats?",
+      "options": [
+        "150",
+        "120",
+        "180",
+        "100"
+      ],
+      "answer": 1,
+      "explanation": "**120**; 61 for a majority; 3.25% threshold."
+    },
+    {
+      "id": "q20261103-025",
+      "fact": "f20261103-124",
+      "type": "mcq",
+      "q": "India's relationship with Vietnam is classed as a:",
+      "options": [
+        "Strategic Partnership",
+        "Comprehensive Strategic Partnership",
+        "Special Privileged Partnership",
+        "Enhanced Comprehensive Strategic Partnership"
+      ],
+      "answer": 3,
+      "explanation": "**Enhanced Comprehensive Strategic Partnership**. NSA Ajit Doval held talks in Hanoi."
+    },
+    {
+      "id": "q20261103-026",
+      "fact": "f20261103-130",
+      "type": "mcq",
+      "q": "Contracts for 8 Next Generation Corvettes were split between GRSE and which shipyard?",
+      "options": [
+        "Mazagon Dock",
+        "Cochin Shipyard",
+        "Hindustan Shipyard",
+        "Goa Shipyard"
+      ],
+      "answer": 3,
+      "explanation": "**GRSE** builds 5 and **Goa Shipyard** 3 (₹53,866.50 crore)."
+    },
+    {
+      "id": "q20261103-027",
+      "fact": "f20261103-144",
+      "type": "mcq",
+      "q": "The 2026 Kavli Prize in astrophysics was for discovering:",
+      "options": [
+        "Gravitational waves",
+        "Past mergers of the Milky Way",
+        "Dark energy",
+        "The first exoplanet"
+      ],
+      "answer": 1,
+      "explanation": "Belokurov, Helmi and Ibata found the **Milky Way's past galaxy mergers**."
+    },
+    {
+      "id": "q20261103-028",
+      "fact": "f20261103-146",
+      "type": "mcq",
+      "q": "Which spacecraft carried Laika, the first animal to orbit Earth?",
+      "options": [
+        "Explorer 1",
+        "Sputnik 2",
+        "Vostok 1",
+        "Sputnik 1"
+      ],
+      "answer": 1,
+      "explanation": "**Sputnik 2**, launched 3 Nov 1957."
+    },
+    {
+      "id": "q20261103-029",
+      "fact": "f20261103-147",
+      "type": "mcq",
+      "q": "The first probe to Mercury was:",
+      "options": [
+        "Mariner 10",
+        "Venera 7",
+        "MESSENGER",
+        "BepiColombo"
+      ],
+      "answer": 0,
+      "explanation": "**Mariner 10**, launched 3 Nov 1973."
+    },
+    {
+      "id": "q20261103-030",
+      "fact": "f20261103-153",
+      "type": "mcq",
+      "q": "Forced labour is prohibited by which Article?",
+      "options": [
+        "Article 23",
+        "Article 24",
+        "Article 39",
+        "Article 21"
+      ],
+      "answer": 0,
+      "explanation": "**Article 23**; law: Bonded Labour System (Abolition) Act, 1976."
+    },
+    {
+      "id": "q20261103-031",
+      "fact": "f20261103-157",
+      "type": "mcq",
+      "q": "Who is the Solicitor-General of India (2026)?",
+      "options": [
+        "Tushar Mehta",
+        "Aishwarya Bhati",
+        "R. Venkataramani",
+        "K.K. Venugopal"
+      ],
+      "answer": 0,
+      "explanation": "**Tushar Mehta**; R. Venkataramani is Attorney General."
+    },
+    {
+      "id": "q20261103-032",
+      "fact": "f20261103-159",
+      "type": "mcq",
+      "q": "The Statue of Unity, inaugurated in 2018, is how tall?",
+      "options": [
+        "152 m",
+        "208 m",
+        "240 m",
+        "182 m"
+      ],
+      "answer": 3,
+      "explanation": "**182 m**, at Ekta Nagar, Gujarat."
+    },
+    {
+      "id": "q20261103-033",
+      "fact": "f20261103-161",
+      "type": "mcq",
+      "q": "Who became the youngest Formula One world champion in 2026?",
+      "options": [
+        "Kimi Antonelli",
+        "Max Verstappen",
+        "Lando Norris",
+        "Oscar Piastri"
+      ],
+      "answer": 0,
+      "explanation": "**Kimi Antonelli** (Mercedes, Italy), at 20 years 68 days."
+    },
+    {
+      "id": "q20261103-034",
+      "fact": "f20261103-162",
+      "type": "mcq",
+      "q": "Before Antonelli, the last Italian F1 world champion was:",
+      "options": [
+        "Michele Alboreto",
+        "Alberto Ascari",
+        "Riccardo Patrese",
+        "Giuseppe Farina"
+      ],
+      "answer": 1,
+      "explanation": "**Alberto Ascari** (1953). Previous youngest champion: Sebastian Vettel."
+    },
+    {
+      "id": "q20261103-035",
+      "fact": "f20261103-163",
+      "type": "mcq",
+      "q": "Which Australian all-rounder retired from international cricket in Nov 2026?",
+      "options": [
+        "Marcus Stoinis",
+        "Cameron Green",
+        "Mitchell Marsh",
+        "Glenn Maxwell"
+      ],
+      "answer": 3,
+      "explanation": "**Glenn Maxwell**: 7 Tests, 149 ODIs, 130 T20Is."
+    },
+    {
+      "id": "q20261103-036",
+      "fact": "f20261103-013",
+      "type": "mcq",
+      "q": "The Second Administrative Reforms Commission (2007) suggested turning Legislative Councils into:",
+      "options": [
+        "Expert advisory bodies",
+        "Elected upper houses with money powers",
+        "Councils of local governments",
+        "Bodies to be abolished"
+      ],
+      "answer": 2,
+      "explanation": "**Councils of local governments**, elected by local body members."
+    },
+    {
+      "id": "q20261103-037",
+      "fact": "f20261103-017",
+      "type": "mcq",
+      "q": "Under the Tenth Schedule, an independent member who joins a party after the election:",
+      "options": [
+        "Must resign and contest again",
+        "Loses voting rights only",
+        "Faces no action",
+        "Is disqualified"
+      ],
+      "answer": 3,
+      "explanation": "Para 2(2): he is **disqualified**; the Presiding Officer decides."
+    },
+    {
+      "id": "q20261103-038",
+      "fact": "f20261103-025",
+      "type": "mcq",
+      "q": "Section 163 of the BNSS (prohibitory orders) replaces which CrPC section?",
+      "options": [
+        "Section 438",
+        "Section 107",
+        "Section 151",
+        "Section 144"
+      ],
+      "answer": 3,
+      "explanation": "Old **Section 144**."
+    },
+    {
+      "id": "q20261103-039",
+      "fact": "f20261103-027",
+      "type": "mcq",
+      "q": "State Election Commissions are constitutional bodies under:",
+      "options": [
+        "Articles 243G and 243W",
+        "Articles 243K and 243ZA",
+        "Article 280",
+        "Articles 324 and 325"
+      ],
+      "answer": 1,
+      "explanation": "**243K** (panchayats) and **243ZA** (municipalities)."
+    },
+    {
+      "id": "q20261103-040",
+      "fact": "f20261103-108",
+      "type": "mcq",
+      "q": "The NDRF is a statutory force under the:",
+      "options": [
+        "Disaster Management Act, 2005",
+        "Civil Defence Act, 1968",
+        "Armed Forces (Special Powers) Act",
+        "Environment Protection Act, 1986"
+      ],
+      "answer": 0,
+      "explanation": "The **Disaster Management Act, 2005**."
+    }
+  ]
+}

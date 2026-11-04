@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Date-wise current-affairs quizzes for SSC CGL and UPSC, built from the Current Affairs Web.">
+<title>Daily CA Quiz</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@500;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/site.css">
+<style>
+:root{ --ok:#1d7a3a; --ok-soft:#dff3e5; --bad:#b3261e; --bad-soft:#fde4e1; --hi:#b3261e; --hi-soft:#fde4e1 }
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){ --ok:#6fdc8c; --ok-soft:#12321d; --bad:#ff8a80; --bad-soft:#3d1714; --hi:#ff8a80; --hi-soft:#3d1714 } }
+:root[data-theme="dark"]{ --ok:#6fdc8c; --ok-soft:#12321d; --bad:#ff8a80; --bad-soft:#3d1714; --hi:#ff8a80; --hi-soft:#3d1714 }
+.bar{position:sticky;top:0;z-index:5;background:var(--bg);padding:12px 0 10px;border-bottom:1px solid var(--line);display:flex;flex-direction:column;gap:10px}
+.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:8px;overflow:hidden;background:var(--surface)}
+.seg button{font:500 13px var(--display);padding:7px 11px;border:0;background:transparent;color:var(--muted);cursor:pointer}
+.seg button+button{border-left:1px solid var(--line)}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--surface)}
+select{font:500 14px var(--display);padding:7px 10px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--ink)}
+.score{font:500 13px var(--mono);color:var(--muted);display:flex;gap:14px;flex-wrap:wrap;align-items:center}
+.score b{color:var(--ink);font-weight:500}
+.meter{flex:1 1 140px;height:6px;background:var(--sunk);border-radius:3px;overflow:hidden;min-width:100px}
+.meter i{display:block;height:100%;background:var(--ok);width:0;transition:width .25s}
+.linkbtn{font:500 13px var(--display);color:var(--accent);background:none;border:0;padding:0;cursor:pointer}
+ol.qs{list-style:none;margin:18px 0 0;padding:0;display:flex;flex-direction:column;gap:14px;counter-reset:q}
+.q{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+.q .stem{font-family:var(--body);font-size:16.5px;line-height:1.5;margin:0 0 10px;white-space:pre-line}
+.q .stem::before{counter-increment:q;content:counter(q) ". ";font:700 15px var(--display);color:var(--muted)}
+.opts{display:flex;flex-direction:column;gap:7px}
+.opt{display:flex;gap:10px;align-items:flex-start;text-align:left;font:15px/1.4 var(--body);color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:9px 12px;cursor:pointer}
+.opt:hover:not([disabled]){border-color:var(--accent)}
+.opt[disabled]{cursor:default}
+.opt .k{font:500 13px var(--mono);color:var(--muted);flex:none;padding-top:1px}
+.opt.right{background:var(--ok-soft);border-color:var(--ok)}
+.opt.right .k{color:var(--ok)}
+.opt.wrong{background:var(--bad-soft);border-color:var(--bad)}
+.opt.wrong .k{color:var(--bad)}
+.why{margin-top:10px;padding:10px 12px;border-left:3px solid var(--ok);background:var(--bg);border-radius:0 8px 8px 0;font-family:var(--body);font-size:14.5px;line-height:1.5}
+.why .v{font:700 13px var(--display);display:block;margin-bottom:3px}
+.why.bad{border-left-color:var(--bad)}
+.why .src{display:block;margin-top:6px;font:12px var(--mono);color:var(--muted)}
+.meta{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:10px;font:11px var(--mono);color:var(--muted)}
+.tag.p-high{background:var(--hi-soft);color:var(--hi)}
+.tag.p-medium{border:1px solid var(--line);color:var(--ink)}
+.tag.p-low{color:var(--muted)}
+.empty{font-family:var(--body);color:var(--muted);margin-top:18px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <h1>Daily quiz</h1>
+    <p id="sub">Questions from each day's papers · answers stay hidden until you choose</p>
+    <nav class="nav" aria-label="Site"><a href="./">Web</a><a href="quiz.html" aria-current="page">Quiz</a><a href="sources.html">Sources</a><a href="api.html">API</a><a href="https://github.com/underwater001/current-affairs-web">GitHub</a></nav>
+  </header>
+
+  <div class="bar">
+    <div class="row">
+      <label class="muted mono" for="date" style="font-size:12px">Date</label>
+      <select id="date" aria-label="Quiz date"></select>
+      <div class="seg" id="exam" role="group" aria-label="Exam">
+        <button type="button" data-v="all" aria-pressed="true">All</button>
+        <button type="button" data-v="CGL" aria-pressed="false">CGL</button>
+        <button type="button" data-v="UPSC" aria-pressed="false">UPSC</button>
+      </div>
+      <div class="seg" id="prio" role="group" aria-label="CGL priority">
+        <button type="button" data-v="all" aria-pressed="true">Any priority</button>
+        <button type="button" data-v="high" aria-pressed="false">High</button>
+        <button type="button" data-v="hm" aria-pressed="false">High + medium</button>
+      </div>
+    </div>
+    <div class="score" aria-live="polite">
+      <span id="sc"></span>
+      <span class="meter" aria-hidden="true"><i id="meter"></i></span>
+      <button type="button" class="linkbtn" id="reveal">Show all answers</button>
+      <button type="button" class="linkbtn" id="reset">Start again</button>
+    </div>
+  </div>
+
+  <ol class="qs" id="qs"></ol>
+  <p class="empty" id="empty" hidden></p>
+</div>
+<script>
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const md = s => esc(s).replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>').replace(/(^|[\s(])\*([^*\s][^*]*?)\*(?=[\s).,;:]|$)/g,'$1<em>$2</em>');
+const fmt = d => { const [y,m,dd] = d.split('-').map(Number); return new Date(Date.UTC(y,m-1,dd)).toLocaleDateString('en-IN',{weekday:'short',day:'numeric',month:'short',year:'numeric',timeZone:'UTC'}); };
+const S = { dates:[], date:null, qs:[], exam:'all', prio:'all', picks:{}, reveal:false };
+const store = { get(k){ try{ return JSON.parse(localStorage.getItem(k)||'null'); }catch(e){ return null; } },
+                set(k,v){ try{ localStorage.setItem(k, JSON.stringify(v)); }catch(e){} } };
+
+function visible(){
+  return S.qs.filter(q => (S.exam==='all' || q.tags.includes(S.exam)) &&
+    (S.prio==='all' || q.priority==='high' || (S.prio==='hm' && q.priority==='medium')));
+}
+function render(){
+  const list = visible();
+  const done = list.filter(q => S.picks[q.id] != null), right = done.filter(q => S.picks[q.id] === q.answer);
+  $('sc').innerHTML = `<span><b>${right.length}</b> / ${done.length} correct</span> · <span><b>${done.length}</b> of ${list.length} answered</span>`;
+  $('meter').style.width = list.length ? (100*done.length/list.length)+'%' : 0;
+  $('reveal').textContent = S.reveal ? 'Hide answers' : 'Show all answers';
+  $('empty').hidden = !!list.length;
+  $('empty').textContent = S.qs.length ? 'No questions match these filters.' : 'No quiz for this date yet.';
+  $('qs').innerHTML = list.map(q => {
+    const pick = S.picks[q.id], open = pick != null || S.reveal;
+    const opts = q.options.map((o,i) => {
+      let cls = '';
+      if (open && i === q.answer) cls = 'right'; else if (pick === i) cls = 'wrong';
+      return `<button type="button" class="opt ${cls}" data-q="${esc(q.id)}" data-i="${i}" ${open?'disabled':''}><span class="k">${'ABCDE'[i]}</span><span>${md(o)}</span></button>`;
+    }).join('');
+    const ok = pick === q.answer;
+    const why = open ? `<div class="why ${pick!=null && !ok ? 'bad' : ''}"><span class="v">${pick==null ? 'Answer: '+'ABCDE'[q.answer] : ok ? 'Correct.' : 'Not quite. Answer: '+'ABCDE'[q.answer]}</span>${md(q.explanation || '')}<span class="src">${q.link?`<a href="${esc(q.link)}" target="_blank" rel="noopener">${esc(q.source)}</a>`:esc(q.source)}${q.page?' p. '+esc(q.page):''} · <a href="./#${esc(q.node)}">${esc(q.node_label)} on the web</a></span></div>` : '';
+    const tags = q.tags.map(t => `<span class="tag ${t==='CGL'?'cgl':'upsc'}">${t}${t==='UPSC'&&q.gs?' · '+esc(q.gs):''}</span>`).join('')
+      + (q.priority ? `<span class="tag p-${esc(q.priority)}">${q.priority==='high'?'★ high':esc(q.priority)}</span>` : '');
+    return `<li class="q"><p class="stem">${md(q.q)}</p><div class="opts">${opts}</div>${why}<div class="meta">${tags}<span>${esc(q.node_label)}</span></div></li>`;
+  }).join('');
+}
+$('qs').addEventListener('click', e => {
+  const b = e.target.closest('.opt'); if (!b || b.disabled) return;
+  S.picks[b.dataset.q] = Number(b.dataset.i); store.set('quiz-'+S.date, S.picks); render();
+});
+function seg(id, key){ $(id).addEventListener('click', e => { const b = e.target.closest('button'); if(!b) return;
+  S[key] = b.dataset.v; [...$(id).querySelectorAll('button')].forEach(x => x.setAttribute('aria-pressed', String(x===b)));
+  store.set('quizf-'+key, S[key]); render(); }); }
+seg('exam','exam'); seg('prio','prio');
+['exam','prio'].forEach(k => { const v = store.get('quizf-'+k); const b = v && $(k).querySelector(`[data-v="${v}"]`); if (b){ S[k]=v; [...$(k).querySelectorAll('button')].forEach(x=>x.setAttribute('aria-pressed', String(x===b))); } });
+$('reveal').addEventListener('click', () => { S.reveal = !S.reveal; render(); });
+$('reset').addEventListener('click', () => { S.picks = {}; S.reveal = false; store.set('quiz-'+S.date, {}); render(); });
+$('date').addEventListener('change', e => load(e.target.value));
+
+async function load(date){
+  S.date = date; S.reveal = false; S.picks = store.get('quiz-'+date) || {};
+  try { history.replaceState(null, '', '#'+date); } catch(e){}
+  $('qs').innerHTML = ''; $('empty').hidden = false; $('empty').textContent = 'Loading…';
+  try {
+    const r = await fetch(`api/v1/quizzes/${date}.json`, {cache:'no-cache'}); if (!r.ok) throw 0;
+    const d = await r.json(); S.qs = d.questions || [];
+    const names = [...new Set((d.papers||[]).map(p => p.short))].join(' + ');
+    $('sub').textContent = `${fmt(date)} · ${S.qs.length} questions${names ? ' from '+names : ''}`;
+  } catch(e){ S.qs = []; $('sub').textContent = 'This quiz did not load. Refresh to try again.'; }
+  render();
+}
+(async () => {
+  try {
+    const r = await fetch('api/v1/quizzes/index.json', {cache:'no-cache'}); const d = await r.json();
+    S.dates = d.dates || [];
+  } catch(e){ S.dates = []; }
+  if (!S.dates.length){ $('empty').hidden = false; $('empty').textContent = 'No quizzes yet.'; $('sc').textContent=''; return; }
+  $('date').innerHTML = S.dates.map(x => `<option value="${x.date}">${fmt(x.date)} · ${x.questions} Qs</option>`).join('');
+  const want = location.hash.slice(1); const start = S.dates.some(x => x.date === want) ? want : S.dates[0].date;
+  $('date').value = start; load(start);
+})();
+</script>
+</body>
+</html>

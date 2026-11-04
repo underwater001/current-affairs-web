@@ -1,0 +1,453 @@
+{
+  "date": "2026-10-30",
+  "questions": [
+    {
+      "id": "q20261030-001",
+      "fact": "f20261030-009",
+      "type": "mcq",
+      "q": "Jamia Millia Islamia was founded in 1920 at which place?",
+      "options": [
+        "Aligarh",
+        "Lucknow",
+        "New Delhi",
+        "Deoband"
+      ],
+      "answer": 0,
+      "explanation": "Founded at **Aligarh** in 1920, it moved to Delhi in 1925 and became a central university in 1988."
+    },
+    {
+      "id": "q20261030-002",
+      "fact": "f20261030-026",
+      "type": "mcq",
+      "q": "The National Human Rights Commission (NHRC) was set up under which law?",
+      "options": [
+        "Protection of Human Rights Act, 1993",
+        "Human Rights Commissions Act, 1991",
+        "Protection of Civil Rights Act, 1955",
+        "Constitution (44th Amendment) Act, 1978"
+      ],
+      "answer": 0,
+      "explanation": "The NHRC is a **statutory** body under the **Protection of Human Rights Act, 1993**; its chair is a former CJI or SC judge."
+    },
+    {
+      "id": "q20261030-003",
+      "fact": "f20261030-029",
+      "type": "mcq",
+      "q": "Which party rules Tamil Nadu, with C. Joseph Vijay as Chief Minister (2026)?",
+      "options": [
+        "Pattali Makkal Katchi",
+        "DMK",
+        "AIADMK",
+        "Tamilaga Vettri Kazhagam (TVK)"
+      ],
+      "answer": 3,
+      "explanation": "Actor-politician **C. Joseph Vijay** heads the **TVK** government in Tamil Nadu."
+    },
+    {
+      "id": "q20261030-004",
+      "fact": "f20261030-041",
+      "type": "mcq",
+      "q": "Dakshin Gangotri, India's first scientific base in Antarctica, was built in:",
+      "options": [
+        "1983-84",
+        "2011-12",
+        "1981-82",
+        "1989-90"
+      ],
+      "answer": 0,
+      "explanation": "**Dakshin Gangotri** was built in **1983-84**, led by geophysicist Harsh Kumar Gupta."
+    },
+    {
+      "id": "q20261030-005",
+      "fact": "f20261030-042",
+      "type": "mcq",
+      "q": "Which is India's research station in the Arctic?",
+      "options": [
+        "Dakshin Gangotri",
+        "Bharati",
+        "Maitri",
+        "Himadri"
+      ],
+      "answer": 3,
+      "explanation": "**Himadri** (2008) is at Svalbard, Norway. Maitri (1989) and Bharati (2012) are in Antarctica. Nodal body: **NCPOR, Goa**."
+    },
+    {
+      "id": "q20261030-006",
+      "fact": "f20261030-048",
+      "type": "mcq",
+      "q": "The 2024 expert panel on reforming the National Testing Agency (NTA) was headed by:",
+      "options": [
+        "K. Kasturirangan",
+        "S. Somanath",
+        "R. Chidambaram",
+        "K. Radhakrishnan"
+      ],
+      "answer": 3,
+      "explanation": "Ex-ISRO chief **K. Radhakrishnan** headed the panel. The Public Examinations (Prevention of Unfair Means) Act, 2024 allows up to 10 years' jail for organised leaks."
+    },
+    {
+      "id": "q20261030-007",
+      "fact": "f20261030-055",
+      "type": "mcq",
+      "q": "Under the Prohibition of Child Marriage Act, 2006, the minimum marriage age for men is:",
+      "options": [
+        "19 years",
+        "25 years",
+        "21 years",
+        "18 years"
+      ],
+      "answer": 2,
+      "explanation": "**21** for men and **18** for women."
+    },
+    {
+      "id": "q20261030-008",
+      "fact": "f20261030-057",
+      "type": "mcq",
+      "q": "Under PM Fasal Bima Yojana, the farmer's premium for rabi crops is:",
+      "options": [
+        "5%",
+        "2%",
+        "1.5%",
+        "1%"
+      ],
+      "answer": 2,
+      "explanation": "PMFBY (2016): **2%** kharif, **1.5%** rabi, **5%** commercial/horticultural crops."
+    },
+    {
+      "id": "q20261030-009",
+      "fact": "f20261030-059",
+      "type": "statements",
+      "q": "Consider the following:\n1. The Second Judges case (1993) created the collegium system.\n2. Under the Third Judges case (1998), the SC collegium is the CJI and the four senior-most judges.\nWhich is/are correct?",
+      "options": [
+        "Only 1",
+        "Only 2",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "answer": 2,
+      "explanation": "Both are correct. The First Judges case (1981) had given the executive primacy."
+    },
+    {
+      "id": "q20261030-010",
+      "fact": "f20261030-060",
+      "type": "mcq",
+      "q": "The National Judicial Appointments Commission (NJAC), struck down by the SC in 2015, was created by which Amendment?",
+      "options": [
+        "101st",
+        "103rd",
+        "99th",
+        "97th"
+      ],
+      "answer": 2,
+      "explanation": "The **99th Amendment (2014)** created the NJAC; the SC struck it down in **2015** (Fourth Judges case)."
+    },
+    {
+      "id": "q20261030-011",
+      "fact": "f20261030-066",
+      "type": "mcq",
+      "q": "Census 2027 door-to-door population enumeration in U.P. and three other poll-bound States starts on:",
+      "options": [
+        "1 Feb 2027",
+        "1 Dec 2026",
+        "10 Jan 2027",
+        "1 Nov 2026"
+      ],
+      "answer": 1,
+      "explanation": "It starts **1 Dec 2026** in the four poll-bound States; the rest of India follows in early 2027."
+    },
+    {
+      "id": "q20261030-012",
+      "fact": "f20261030-067",
+      "type": "mcq",
+      "q": "Besides listing a caste, Census 2027's caste question also offers which two options?",
+      "options": [
+        "'OBC' and 'EWS'",
+        "'General' and 'Others'",
+        "'Does not want to declare' and 'No Caste'",
+        "'Creamy layer' and 'Non-creamy layer'"
+      ],
+      "answer": 2,
+      "explanation": "Caste options include **'does not want to declare'** and **'No Caste'**."
+    },
+    {
+      "id": "q20261030-013",
+      "fact": "f20261030-069",
+      "type": "mcq",
+      "q": "The 13th ADMM-Plus (ASEAN Defence Ministers' Meeting-Plus) in 2026 was held at:",
+      "options": [
+        "Hanoi",
+        "Jakarta",
+        "Cebu, Philippines",
+        "Kuala Lumpur"
+      ],
+      "answer": 2,
+      "explanation": "Held in **Cebu**; the **Philippines** chairs ASEAN in 2026. Rajnath Singh proposed a defence 'Youth Bridge'."
+    },
+    {
+      "id": "q20261030-014",
+      "fact": "f20261030-070",
+      "type": "mcq",
+      "q": "ADMM-Plus brings together the 10 ASEAN members and how many partner countries?",
+      "options": [
+        "12",
+        "6",
+        "8",
+        "10"
+      ],
+      "answer": 2,
+      "explanation": "**8** partners: India, China, Japan, South Korea, Australia, New Zealand, Russia, US. It began in **2010** (Hanoi)."
+    },
+    {
+      "id": "q20261030-015",
+      "fact": "f20261030-072",
+      "type": "mcq",
+      "q": "The National Food Security Act, 2013 covers up to what share of the urban population?",
+      "options": [
+        "75%",
+        "67%",
+        "90%",
+        "50%"
+      ],
+      "answer": 3,
+      "explanation": "Up to **75% rural** and **50% urban**."
+    },
+    {
+      "id": "q20261030-016",
+      "fact": "f20261030-080",
+      "type": "mcq",
+      "q": "The 24th instalment of PM-KISAN (30 Oct 2026) was released by the PM in which State?",
+      "options": [
+        "Maharashtra",
+        "Bihar",
+        "Uttar Pradesh",
+        "Gujarat"
+      ],
+      "answer": 3,
+      "explanation": "Released in **Gujarat**: over ₹18,690 crore to 9.34 crore farmers."
+    },
+    {
+      "id": "q20261030-017",
+      "fact": "f20261030-081",
+      "type": "mcq",
+      "q": "PM-KISAN was launched in February 2019 at:",
+      "options": [
+        "Varanasi",
+        "New Delhi",
+        "Gorakhpur",
+        "Ranchi"
+      ],
+      "answer": 2,
+      "explanation": "Launched at **Gorakhpur**; ₹6,000 a year in three instalments of ₹2,000."
+    },
+    {
+      "id": "q20261030-018",
+      "fact": "f20261030-085",
+      "type": "mcq",
+      "q": "The NPPA capped trade margins on 137 non-scheduled anti-cancer medicines at what share of MRP?",
+      "options": [
+        "30%",
+        "50%",
+        "10%",
+        "20%"
+      ],
+      "answer": 0,
+      "explanation": "**30% of MRP**, under the Drugs (Prices Control) Order, 2013."
+    },
+    {
+      "id": "q20261030-019",
+      "fact": "f20261030-086",
+      "type": "mcq",
+      "q": "Ayushman Bharat PM-JAY was launched on 23 Sept 2018 at:",
+      "options": [
+        "New Delhi",
+        "Ranchi",
+        "Patna",
+        "Raipur"
+      ],
+      "answer": 1,
+      "explanation": "Launched at **Ranchi**; ₹5 lakh cover per family per year, run by the National Health Authority."
+    },
+    {
+      "id": "q20261030-020",
+      "fact": "f20261030-088",
+      "type": "mcq",
+      "q": "Which Supreme Court judgment recognised transgender persons as a 'third gender'?",
+      "options": [
+        "NALSA v. Union of India (2014)",
+        "K.S. Puttaswamy (2017)",
+        "Shayara Bano (2017)",
+        "Navtej Singh Johar (2018)"
+      ],
+      "answer": 0,
+      "explanation": "**NALSA (2014)**; Parliament later passed the Transgender Persons (Protection of Rights) Act, 2019."
+    },
+    {
+      "id": "q20261030-021",
+      "fact": "f20261030-092",
+      "type": "mcq",
+      "q": "SEBI got statutory powers in which year?",
+      "options": [
+        "1992",
+        "1988",
+        "2002",
+        "1996"
+      ],
+      "answer": 0,
+      "explanation": "Set up in **1988**, statutory under the **SEBI Act, 1992**; HQ Mumbai."
+    },
+    {
+      "id": "q20261030-022",
+      "fact": "f20261030-094",
+      "type": "mcq",
+      "q": "Who chairs the US Federal Reserve (Oct 2026)?",
+      "options": [
+        "Janet Yellen",
+        "Lisa Cook",
+        "Kevin Warsh",
+        "Jerome Powell"
+      ],
+      "answer": 2,
+      "explanation": "Fed Chair **Kevin Warsh**; the Fed held rates at 3.75-4.0%."
+    },
+    {
+      "id": "q20261030-023",
+      "fact": "f20261030-098",
+      "type": "mcq",
+      "q": "The PLI scheme for textiles (approved Sept 2021) has an outlay of:",
+      "options": [
+        "₹19,500 crore",
+        "₹26,058 crore",
+        "₹10,683 crore",
+        "₹6,000 crore"
+      ],
+      "answer": 2,
+      "explanation": "**₹10,683 crore**; PLI schemes cover 14 sectors."
+    },
+    {
+      "id": "q20261030-024",
+      "fact": "f20261030-111",
+      "type": "mcq",
+      "q": "Who secured the year-end WTA No. 1 ranking in 2026?",
+      "options": [
+        "Aryna Sabalenka",
+        "Elena Rybakina",
+        "Coco Gauff",
+        "Iga Swiatek"
+      ],
+      "answer": 1,
+      "explanation": "**Elena Rybakina** (Kazakhstan), who won the US Open."
+    },
+    {
+      "id": "q20261030-025",
+      "fact": "f20261030-118",
+      "type": "mcq",
+      "q": "Which name does The Hindu now use for the State of Kerala?",
+      "options": [
+        "Keralam",
+        "Kerala Pradesh",
+        "Keralan",
+        "Malanadu"
+      ],
+      "answer": 0,
+      "explanation": "**Keralam**. Renaming a State needs a law of Parliament under **Article 3**."
+    },
+    {
+      "id": "q20261030-026",
+      "fact": "f20261030-121",
+      "type": "mcq",
+      "q": "'Kufri Jamunia', a purple potato rich in anthocyanins, was developed by:",
+      "options": [
+        "NBPGR, New Delhi",
+        "IARI, New Delhi",
+        "CIP, Lima",
+        "ICAR-CPRI, Shimla"
+      ],
+      "answer": 3,
+      "explanation": "Developed by **ICAR-Central Potato Research Institute, Shimla**."
+    },
+    {
+      "id": "q20261030-027",
+      "fact": "f20261030-122",
+      "type": "mcq",
+      "q": "Which is NOT one of CPRI's coloured potato varieties?",
+      "options": [
+        "Kufri Jyoti",
+        "Kufri Jamunia",
+        "Kufri Neelkanth",
+        "Kufri Manik"
+      ],
+      "answer": 0,
+      "explanation": "Neelkanth, Manik and Jamunia are coloured varieties; **Kufri Jyoti** is a common white variety."
+    },
+    {
+      "id": "q20261030-028",
+      "fact": "f20261030-039",
+      "type": "mcq",
+      "q": "In the Niyamgiri case (2013), the Supreme Court let which body decide on Vedanta's bauxite mine?",
+      "options": [
+        "The National Green Tribunal",
+        "The Union Environment Ministry",
+        "Gram sabhas under the Forest Rights Act, 2006",
+        "The Odisha Mining Corporation"
+      ],
+      "answer": 2,
+      "explanation": "The SC left it to the **gram sabhas** under the **FRA, 2006**; all 12 rejected the mine."
+    },
+    {
+      "id": "q20261030-029",
+      "fact": "f20261030-028",
+      "type": "mcq",
+      "q": "Which Article directs the State to prohibit the slaughter of cows and calves?",
+      "options": [
+        "Article 51A(g)",
+        "Article 47",
+        "Article 48",
+        "Article 48A"
+      ],
+      "answer": 2,
+      "explanation": "**Article 48** (Directive Principle) covers agriculture and animal husbandry, including cow slaughter."
+    },
+    {
+      "id": "q20261030-030",
+      "fact": "f20261030-044",
+      "type": "mcq",
+      "q": "Freedom of the press in India flows from:",
+      "options": [
+        "Article 19(1)(c)",
+        "Article 19(1)(a)",
+        "Article 32",
+        "Article 21"
+      ],
+      "answer": 1,
+      "explanation": "Press freedom is part of **freedom of speech and expression, Art. 19(1)(a)**."
+    },
+    {
+      "id": "q20261030-031",
+      "fact": "f20261030-045",
+      "type": "mcq",
+      "q": "Which provision of the RTI Act, 2005 did the DPDP Act, 2023 amend on personal information?",
+      "options": [
+        "Section 8(1)(a)",
+        "Section 24",
+        "Section 11",
+        "Section 8(1)(j)"
+      ],
+      "answer": 3,
+      "explanation": "**Section 8(1)(j)** had allowed disclosure of personal information in 'larger public interest'."
+    },
+    {
+      "id": "q20261030-032",
+      "fact": "f20261030-033",
+      "type": "assertion",
+      "q": "Assertion (A): A legislature cannot simply declare a court judgment ineffective.\nReason (R): It can validate an act struck down by courts only by removing the defect the courts found.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, R is false",
+        "A is false, R is true"
+      ],
+      "answer": 0,
+      "explanation": "Validation laws must **cure the defect**; overruling a judgment directly breaches the separation of powers."
+    }
+  ]
+}

@@ -4,6 +4,7 @@ A growing knowledge web of current-affairs facts for **SSC CGL** and **UPSC** pr
 
 - **Web:** https://underwater001.github.io/current-affairs-web/
 - **Sources:** https://underwater001.github.io/current-affairs-web/sources.html — every paper used, with links to the originals
+- **Quiz:** https://underwater001.github.io/current-affairs-web/quiz.html — a date-wise quiz from each day's papers, answers hidden until you choose
 - **API:** https://underwater001.github.io/current-affairs-web/api.html — free read-only JSON for building apps (quizzes, flashcards, bots)
 
 ## Repo layout
@@ -12,11 +13,14 @@ A growing knowledge web of current-affairs facts for **SSC CGL** and **UPSC** pr
 |---|---|
 | `data/nodes.json` | **Source of truth.** Every junction (subject) and branch (topic) |
 | `data/sources.json` | **Source of truth.** Publications and every paper read, with an optional Drive `link` |
+| `data/quizzes/YYYY-MM-DD.json` | **Source of truth.** That date's quiz; each question points to a fact |
 | `data/months/YYYY-MM.json` | **Source of truth.** Facts, grouped by paper, one file per month |
+| `tools/add_paper.py` | Adds one paper (facts, new branches, corrections, quiz) from a single spec file, then builds |
+| `tools/find.py` | Searches facts, branches and quiz questions (duplicate checks) |
 | `tools/build.py` | Validates the data and generates everything below |
 | `api/v1/` | Generated JSON API (see `api.html`) |
 | `exports/*.csv` | Generated spreadsheets: facts, nodes, papers |
-| `index.html`, `sources.html`, `api.html` | The site |
+| `index.html`, `quiz.html`, `sources.html`, `api.html` | The site |
 
 Every update is a git commit, so the full history of what was added and when is kept.
 
@@ -32,13 +36,24 @@ Every update is a git commit, so the full history of what was added and when is 
 
 ## Adding a paper
 
-1. Add the paper to `data/sources.json` → `papers` (and its publication, if new).
-2. Add its facts to the month file (`data/months/YYYY-MM.json`; create it for a new month).
-3. Add any new branches to `data/nodes.json`, and links on existing nodes.
-4. Run `python3 tools/build.py`. It must print `OK`.
-5. Commit and push. GitHub Pages republishes in a minute or two.
+Write one spec file for the paper and run:
 
-To attach a Drive link later, set the paper's `link` in `data/sources.json`, rebuild and push.
+```
+python3 tools/add_paper.py spec.json --dry-run   # check
+python3 tools/add_paper.py spec.json             # write + build
+```
+
+The spec holds the paper (date, publication, pages, Drive link), any new branches, the facts, corrections to older facts, and the day's quiz. The tool numbers facts and questions, fills in branch order and creation date, adds links in both directions, shuffles answer options, and runs the build; if anything fails, all data files are restored. See the docstring in `tools/add_paper.py` for the format. Then commit and push; GitHub Pages republishes in a minute or two.
+
+To attach a Drive link later, set the paper's `link` in `data/sources.json`, run `python3 tools/build.py` and push.
+
+**Quiz question** (`data/quizzes/<date>.json` → `questions`): `id` (`qYYYYMMDD-NNN`), `fact` (the fact it tests), `type` (`mcq`, `statements` or `assertion`), `q`, `options` (2-5), `answer` (option index), `explanation`. Tags, priority and GS paper come from the fact, so they never disagree.
+
+## Scaling
+
+- Facts live in one file per month, so each paper touches only the current month.
+- The web loads only the latest three months at first; older months load on "All time" or a search.
+- The build regenerates the API in a few seconds and groups facts by paper and node in one pass.
 
 ## CGL priority rules
 

@@ -1,0 +1,285 @@
+{
+  "date": "2026-11-02",
+  "questions": [
+    {
+      "id": "q20261102-001",
+      "fact": "f20261102-004",
+      "type": "mcq",
+      "q": "Project 18A, approved by the Defence Acquisition Council, is a programme for:",
+      "options": [
+        "Nuclear attack submarines",
+        "An aircraft carrier",
+        "Next-generation guided-missile destroyers",
+        "Stealth frigates"
+      ],
+      "answer": 2,
+      "explanation": "A **₹80,000-crore destroyer** programme with ~75% indigenous content."
+    },
+    {
+      "id": "q20261102-002",
+      "fact": "f20261102-005",
+      "type": "mcq",
+      "q": "Gross GST collection in October 2026 was:",
+      "options": [
+        "₹2.31 lakh crore",
+        "₹2.04 lakh crore",
+        "₹1.87 lakh crore",
+        "₹2.51 lakh crore"
+      ],
+      "answer": 0,
+      "explanation": "**₹2.31 lakh crore**, up 23%."
+    },
+    {
+      "id": "q20261102-003",
+      "fact": "f20261102-020",
+      "type": "mcq",
+      "q": "The 2027-28 Union Budget allocated how much to the Department of Space?",
+      "options": [
+        "₹13,705 crore",
+        "₹15,000 crore",
+        "₹20,000 crore",
+        "₹17,000 crore"
+      ],
+      "answer": 3,
+      "explanation": "**₹17,000 crore**, up from ₹13,705.6 crore."
+    },
+    {
+      "id": "q20261102-004",
+      "fact": "f20261102-021",
+      "type": "mcq",
+      "q": "India's installed solar capacity has grown from 2.8 GW in 2014 to about:",
+      "options": [
+        "171 GW",
+        "221 GW",
+        "121 GW",
+        "71 GW"
+      ],
+      "answer": 0,
+      "explanation": "About **171 GW**; target 500 GW non-fossil capacity by 2030."
+    },
+    {
+      "id": "q20261102-005",
+      "fact": "f20261102-024",
+      "type": "mcq",
+      "q": "Bhutan dedicated Chorten No. 76 of its 108 stupas to:",
+      "options": [
+        "PM Narendra Modi",
+        "The Dalai Lama",
+        "President Droupadi Murmu",
+        "King Jigme Singye Wangchuck"
+      ],
+      "answer": 0,
+      "explanation": "To **PM Narendra Modi**, as part of the Gelephu Mindfulness City project."
+    },
+    {
+      "id": "q20261102-006",
+      "fact": "f20261102-027",
+      "type": "mcq",
+      "q": "National Unity Day (Rashtriya Ekta Diwas) is observed on:",
+      "options": [
+        "31 October",
+        "2 October",
+        "15 December",
+        "23 January"
+      ],
+      "answer": 0,
+      "explanation": "**31 October**, Sardar Patel's birth anniversary (151st in 2026)."
+    },
+    {
+      "id": "q20261102-007",
+      "fact": "f20261102-028",
+      "type": "mcq",
+      "q": "The motto adopted by the new IAF chief Ashutosh Dixit is:",
+      "options": [
+        "Vayam Rakshamah",
+        "Sham No Varunah",
+        "Seva Paramo Dharma",
+        "Nabha Sparsham Deeptam"
+      ],
+      "answer": 3,
+      "explanation": "**Nabha Sparsham Deeptam** (also the IAF's motto), with the 'VAYU' framework."
+    },
+    {
+      "id": "q20261102-008",
+      "fact": "f20261102-029",
+      "type": "mcq",
+      "q": "Whom did Ashutosh Dixit succeed as Chief of the Air Staff?",
+      "options": [
+        "B.S. Dhanoa",
+        "R.K.S. Bhadauria",
+        "A.P. Singh",
+        "V.R. Chaudhari"
+      ],
+      "answer": 2,
+      "explanation": "**A.P. Singh**, who retired after 43 years."
+    },
+    {
+      "id": "q20261102-009",
+      "fact": "f20261102-031",
+      "type": "mcq",
+      "q": "Which city did Amit Shah say will be India's first drug-free city?",
+      "options": [
+        "Gandhinagar",
+        "Chandigarh",
+        "Surat",
+        "Indore"
+      ],
+      "answer": 1,
+      "explanation": "**Chandigarh**, with a 93% conviction rate in NDPS cases."
+    },
+    {
+      "id": "q20261102-010",
+      "fact": "f20261102-038",
+      "type": "mcq",
+      "q": "EPFO celebrated which Foundation Day in 2026?",
+      "options": [
+        "74th",
+        "75th",
+        "64th",
+        "70th"
+      ],
+      "answer": 0,
+      "explanation": "The **74th**; corpus over ₹32 lakh crore."
+    },
+    {
+      "id": "q20261102-011",
+      "fact": "f20261102-044",
+      "type": "mcq",
+      "q": "Who won the 97th MCC-Murugappa Gold Cup hockey title?",
+      "options": [
+        "Indian Railways",
+        "BPCL",
+        "Indian Army",
+        "Indian Navy"
+      ],
+      "answer": 3,
+      "explanation": "**Indian Navy**, beating BPCL 5-4 in a shootout."
+    },
+    {
+      "id": "q20261102-012",
+      "fact": "f20261102-045",
+      "type": "mcq",
+      "q": "P.V. Sindhu and Lakshya Sen won singles titles at the Hylo Open Super 500, held in:",
+      "options": [
+        "Saarbrücken, Germany",
+        "Paris, France",
+        "Basel, Switzerland",
+        "Odense, Denmark"
+      ],
+      "answer": 0,
+      "explanation": "**Saarbrücken, Germany**."
+    },
+    {
+      "id": "q20261102-013",
+      "fact": "f20261102-046",
+      "type": "mcq",
+      "q": "Who became the highest run-scorer in a bilateral T20I series (341 runs vs India)?",
+      "options": [
+        "Tim Seifert",
+        "Devon Conway",
+        "Glenn Phillips",
+        "Phil Salt"
+      ],
+      "answer": 2,
+      "explanation": "**Glenn Phillips**, passing Phil Salt's 331."
+    },
+    {
+      "id": "q20261102-014",
+      "fact": "f20261102-047",
+      "type": "mcq",
+      "q": "India won the 2026 T20I series in New Zealand by what margin?",
+      "options": [
+        "2-1",
+        "4-1",
+        "5-0",
+        "3-2"
+      ],
+      "answer": 3,
+      "explanation": "**3-2**; captain Shreyas Iyer's first series win in a SENA country."
+    },
+    {
+      "id": "q20261102-015",
+      "fact": "f20261102-049",
+      "type": "mcq",
+      "q": "The inaugural Commonwealth Kabaddi Championship was held in:",
+      "options": [
+        "Patna",
+        "Kuala Lumpur",
+        "Ahmedabad",
+        "Birmingham"
+      ],
+      "answer": 2,
+      "explanation": "**Ahmedabad**; India won both the men's and women's titles."
+    },
+    {
+      "id": "q20261102-016",
+      "fact": "f20261102-017",
+      "type": "mcq",
+      "q": "According to PLFS, India's unemployment rate fell from 6.1% in 2017-18 to what in 2023-24?",
+      "options": [
+        "2.4%",
+        "3.2%",
+        "5.4%",
+        "4.1%"
+      ],
+      "answer": 1,
+      "explanation": "**3.2%**, though the Decent Work Index rose only from 0.247 to 0.302."
+    },
+    {
+      "id": "q20261102-017",
+      "fact": "f20261102-019",
+      "type": "mcq",
+      "q": "The UNGA has passed a resolution against the US embargo on Cuba every year since:",
+      "options": [
+        "2002",
+        "1992",
+        "1962",
+        "1982"
+      ],
+      "answer": 1,
+      "explanation": "Since **1992**. India voted in favour again."
+    },
+    {
+      "id": "q20261102-018",
+      "fact": "f20261102-039",
+      "type": "mcq",
+      "q": "The RBI's inflation-targeting band for CPI inflation is:",
+      "options": [
+        "3-5%",
+        "4-8%",
+        "2-6%",
+        "1-4%"
+      ],
+      "answer": 2,
+      "explanation": "**4% ± 2%**, i.e. 2-6%."
+    },
+    {
+      "id": "q20261102-019",
+      "fact": "f20261102-051",
+      "type": "mcq",
+      "q": "The long-period average (LPA) of India's southwest monsoon rainfall is about:",
+      "options": [
+        "117 cm",
+        "67 cm",
+        "87 cm",
+        "107 cm"
+      ],
+      "answer": 2,
+      "explanation": "About **87 cm**; 2026 ended nearly 13% below it."
+    },
+    {
+      "id": "q20261102-020",
+      "fact": "f20261102-016",
+      "type": "mcq",
+      "q": "The Lyngdoh Committee (2006) is associated with rules for:",
+      "options": [
+        "Judicial appointments",
+        "Electoral bonds",
+        "Student union elections",
+        "Police reforms"
+      ],
+      "answer": 2,
+      "explanation": "**Student union elections** in colleges and universities."
+    }
+  ]
+}

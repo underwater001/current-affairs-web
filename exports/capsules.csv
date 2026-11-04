@@ -5,11 +5,12 @@ date,junction,subject,point,facts
 2026-11-04,polity,Polity & Constitution,"SC on protests: a 'protest economy' exists; Delhi Police say Jantar Mantar is a road, ~1,300 protests/yr.",f20261104-011
 2026-11-04,polity,Polity & Constitution,Olga Tellis (1985): right to livelihood is part of Art. 21 — cited for slum rehabilitation.,f20261104-038
 2026-11-04,polity,Polity & Constitution,Death penalty: Bachan Singh (1980) = 'rarest of rare'; Manoj (2022) = mental-health and conduct reports before sentencing.,f20261104-046
+2026-11-04,polity,Polity & Constitution,"Death-penalty sentencing needs a separate mitigation hearing; the 262nd Law Commission Report (2015) urged abolition except for terrorism, finding no extra deterrence.",f20261104-047
 2026-11-04,governance,Governance & Schemes,"Welfare payments under the Panchayati Raj Ministry will use EPIC + biometrics, not Aadhaar (Minister Rajiv Ranjan Singh).",f20261104-053
-2026-11-04,governance,Governance & Schemes,"16th Finance Commission: ₹4,35,236 crore for 2.55 lakh panchayats (2026-31); urban bodies' share of local grants up to 45%.",f20261104-053;f20261104-043
+2026-11-04,governance,Governance & Schemes,"16th Finance Commission: ₹4,35,236 crore for 2.55 lakh panchayats (2026-31); urban bodies' share of local grants up to 45%, plus a ₹10,000-crore urbanisation premium.",f20261104-053;f20261104-043
 2026-11-04,governance,Governance & Schemes,"PAC conference at Keralam Assembly (Om Birla): PAC has 22 members, chair from the Opposition since 1967 — now K.C. Venugopal.",f20261104-015;f20261104-016
 2026-11-04,governance,Governance & Schemes,"RTE Act Sec. 27: teachers may do non-teaching work only for census, disaster relief and elections; Art. 21A came by the 86th Amendment.",f20261104-035;f20261104-036
-2026-11-04,governance,Governance & Schemes,"Census town = 5,000+ people, 400+/sq km, 75%+ male non-farm workers; 74th Amendment (1992), 12th Schedule = 18 functions.",f20261104-041;f20261104-042
+2026-11-04,governance,Governance & Schemes,"Census town (no municipal body) = 5,000+ people, 400+/sq km, 75%+ male non-farm workers; 74th Amendment (1992), 12th Schedule = 18 functions.",f20261104-041;f20261104-042
 2026-11-04,governance,Governance & Schemes,Delhi moved the jhuggi-jhopri cut-off from 2006 to 1 Jan 2025 (~4 lakh families).,f20261104-037
 2026-11-04,economy,Economy & Business,Tata Motors completed the €3.8-bn buy of Italy's Iveco — now world's 4th-largest CV maker; N. Chandrasekaran chairs Iveco.,f20261104-063
 2026-11-04,economy,Economy & Business,"SBI Q2 profit ₹23,038 crore (+14.3%), GNPA 1.39%; chairman C.S. Setty.",f20261104-064
@@ -34,6 +35,7 @@ date,junction,subject,point,facts
 2026-11-04,ir,International Relations,"Ex-Maldives FM Abdulla Shahid, President of the 76th UNGA, arrested on abuse charges.",f20261104-078
 2026-11-04,ir,International Relations,"UNESCO Constitution came into force 4 Nov 1946; HQ Paris, DG Khaled El-Enany.",f20261104-049
 2026-11-04,ir,International Relations,"US midterms: all 435 House, 35/100 Senate seats, 36 Governorships; Senate was 53-47 Republican.",f20261104-003
+2026-11-04,ir,International Relations,Iran backs the Mecca Agreement because it wants region-led security rather than US-led arrangements.,f20261104-034
 2026-11-04,security,Defence & Internal Security,Drone killed an Indian seafarer off Oman (MSV Al Jusufi) — 23 Indian seafarers dead since Feb 2026.,f20261104-004
 2026-11-04,security,Defence & Internal Security,"Indian Navy + IAF rescued 20 Iranian crew of the vessel Azini from pirates, 3,000 km off Mumbai.",f20261104-005
 2026-11-04,security,Defence & Internal Security,"Rajnath Singh at Delhi Defence Dialogue: aim for 'technological sovereignty', not just making things here.",f20261104-012
@@ -48,7 +50,7 @@ date,junction,subject,point,facts
 2026-11-04,sports,Sports,"Youth Olympics (Dakar): Khushbu Rajakbhai judo silver (63kg), Dhinidhi Desinghu swimming bronze (100m free).",f20261104-083
 2026-11-04,sports,Sports,Velavan Senthilkumar won the Czech Open squash title (12th PSA crown).,f20261104-084
 2026-11-04,sports,Sports,"ODIs in NZ: Rohit Sharma holds the highest ODI score (264), Kohli the most ODI tons (55); ball rule — two balls till the 34th over.",f20261104-088;f20261104-090
-2026-11-04,sports,Sports,"India's first overseas Test win: Dunedin, Feb 1968, under Pataudi (series won 3-1).",f20261104-089
+2026-11-04,sports,Sports,"India's first overseas Test win and series win: New Zealand, Dunedin, Feb 1968, under Pataudi (3-1).",f20261104-089
 2026-11-04,sports,Sports,Asian Champions Trophy semis move to Mohali: India vs Korea.,f20261104-087
 2026-11-04,culture,"Art, Culture & Heritage","NBT survey (World Book Fair 2026): Gen Z buys global fiction and Korean works — Han Kang's The Vegetarian (Booker 2016, Nobel 2024).",f20261104-055;f20261104-056
 2026-11-04,culture,"Art, Culture & Heritage",Meghalaya picked 11 villages to preserve indigenous traditions.,f20261104-045

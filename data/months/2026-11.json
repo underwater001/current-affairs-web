@@ -3579,6 +3579,1046 @@
           "text": "The 10th leg of Season 2 of the **Indian Golf Premier League** is in **Visakhapatnam**."
         }
       ]
+    },
+    {
+      "id": "2026-11-04",
+      "date": "2026-11-04",
+      "facts": [
+        {
+          "id": "f20261104-001",
+          "node": "cyclones",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "medium",
+          "text": "Severe cyclonic storm **Murasu** crossed the coast near **Ongole** (Prakasam district, A.P.) on 3 Nov at 110-120 km/h: **2 deaths**, crops on **52,459 ha** hit, losses put at **₹344 crore**; Guntur, Bapatla and Palnadu worst hit. It came a week after Cyclone **Arnab**.",
+          "page": "1,10",
+          "gs": "GS3"
+        },
+        {
+          "id": "f20261104-002",
+          "node": "cyclones",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "high",
+          "text": "Cyclones in the north Indian Ocean are named from a list prepared by the **WMO/ESCAP Panel on Tropical Cyclones** (13 member countries); the **IMD** (Regional Specialised Meteorological Centre, **New Delhi**) assigns the names in turn.",
+          "extra": true
+        },
+        {
+          "id": "f20261104-003",
+          "node": "us-politics",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "medium",
+          "text": "US **midterm elections** (3 Nov): all **435** House seats, **35 of 100** Senate seats and **36** Governorships were at stake; Republicans held the Senate **53-47**. Trump's approval was near the low 30s.",
+          "page": "1,10",
+          "gs": "GS2"
+        },
+        {
+          "id": "f20261104-004",
+          "node": "west-asia",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "medium",
+          "text": "An Indian seafarer, **Gandhar Nahim Ajij** (Gujarat), was killed when a drone hit the vessel **MSV Al Jusufi** off **Oman**; 13 Indians were rescued by Oman's navy. This took Indian seafarer deaths since the West Asia war began (Feb 2026) to **23**. MEA spokesperson: **Randhir Jaiswal**.",
+          "page": "1,10",
+          "gs": "GS2"
+        },
+        {
+          "id": "f20261104-005",
+          "node": "defence-navy",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "medium",
+          "text": "The **Indian Navy**, backed by the IAF, rescued **20 Iranian crew** of the fishing vessel **Azini** from pirates about **3,000 km from Mumbai**, underlining India's role as 'first responder' in the Indian Ocean.",
+          "page": "10",
+          "gs": "GS3"
+        },
+        {
+          "id": "f20261104-006",
+          "node": "west-asia",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "medium",
+          "text": "US strikes hit **Qeshm island** at the mouth of the **Strait of Hormuz**, raising oil prices. Qeshm is the **largest island in the Persian Gulf** (Iran).",
+          "page": "10,14",
+          "gs": "GS2"
+        },
+        {
+          "id": "f20261104-007",
+          "node": "frro-immigration",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "medium",
+          "text": "India will simplify visa forms across all **22 visa categories**, cutting fields by about **70%** from next year. India gives **e-visa** (with electronic travel authorisation) under nine sub-categories to **147 countries**; China, Pakistan and Afghanistan are excluded.",
+          "page": "10",
+          "gs": "GS2"
+        },
+        {
+          "id": "f20261104-008",
+          "node": "india-neighbourhood",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "high",
+          "text": "The **Ganga Water Treaty** with Bangladesh expires on **12 Dec 2026**; MEA said the **Joint Rivers Commission** is the mechanism for cross-border rivers. India has invited Bangladesh PM **Tarique Rahman** to visit.",
+          "page": "10",
+          "gs": "GS2"
+        },
+        {
+          "id": "f20261104-009",
+          "node": "india-neighbourhood",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "high",
+          "text": "The India-Bangladesh **Joint Rivers Commission** was set up in **1972**. The Ganga Treaty governs water shared at the **Farakka Barrage** (Murshidabad, West Bengal).",
+          "extra": true
+        },
+        {
+          "id": "f20261104-010",
+          "node": "jk-politics",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "medium",
+          "text": "National Conference MP **Aga Syed Ruhullah** quit the party and his **Srinagar Lok Sabha** seat, accusing Farooq and Omar Abdullah of breaking 2024 promises; he hinted at a new party.",
+          "page": "10"
+        },
+        {
+          "id": "f20261104-011",
+          "node": "fundamental-rights",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "medium",
+          "text": "SC (CJI **Surya Kant**, Justice Joymalya Bagchi) noted a **'protest economy'** for hawkers while hearing traders' plea for a two-month festive ban on protests; Delhi Police told the SC **Jantar Mantar** is 'a public road, not a site', with about **1,300 protests** a year, and the right to protest is not tied to one place.",
+          "page": "10",
+          "gs": "GS2"
+        },
+        {
+          "id": "f20261104-012",
+          "node": "defence-navy",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "medium",
+          "text": "Rajnath Singh at the third **Delhi Defence Dialogue** (MP-IDSA) called for **'technological sovereignty'**, naming four pillars: defence reforms, self-reliance, international collaboration and exports.",
+          "page": "10",
+          "gs": "GS3"
+        },
+        {
+          "id": "f20261104-013",
+          "node": "delhi-air",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "high",
+          "text": "Delhi's AQI hit **350** (very poor) on 3 Nov. CPCB bands: **201-300 poor, 301-400 very poor, 401-450 severe, 451-500 severe plus**. Stubble burning's share of PM2.5 was 8.2% (Ministry of Earth Sciences).",
+          "page": "2",
+          "gs": "GS3"
+        },
+        {
+          "id": "f20261104-014",
+          "node": "policing",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "low",
+          "text": "The Home Ministry suspended Delhi Police **ACP Manasvi Vashishta**, who led a protest against his transfer, under **Rule 10 of the CCS (CCA) Rules, 1965**; a PIL in the Delhi HC sought a probe into threats against lawyers.",
+          "page": "2",
+          "gs": "GS2"
+        },
+        {
+          "id": "f20261104-015",
+          "node": "legislative-councils",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "high",
+          "text": "LS Speaker **Om Birla** opened a conference of **Public Accounts Committee** chairs of 25 States at the Keralam Assembly; he flagged PAC reports pending for 15-20 years and backed AI for audit analysis. Parliament's PAC chair: **K.C. Venugopal** (Congress).",
+          "page": "4",
+          "gs": "GS2"
+        },
+        {
+          "id": "f20261104-016",
+          "node": "legislative-councils",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "high",
+          "text": "Parliament's **PAC** has **22 members** (15 Lok Sabha + 7 Rajya Sabha) and since **1967** has been chaired by an **Opposition** member; it examines **CAG** reports. The CAG is appointed under **Article 148**.",
+          "gs": "GS2",
+          "extra": true
+        },
+        {
+          "id": "f20261104-017",
+          "node": "women-child",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "medium",
+          "text": "Women protested in Mumbai over pending instalments of Maharashtra's **Majhi Ladki Bahin Yojana** (₹1,500 a month; ₹2,100 had been promised), led by **AIDWA**.",
+          "page": "4",
+          "gs": "GS2"
+        },
+        {
+          "id": "f20261104-018",
+          "node": "women-child",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "medium",
+          "text": "**Majhi Ladki Bahin Yojana** (Maharashtra, 2024) gives monthly aid to women aged **21-65** from low-income families.",
+          "extra": true
+        },
+        {
+          "id": "f20261104-019",
+          "node": "elections-sir",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "medium",
+          "text": "U.P. Police moved to add **Section 198 of the BNS** (public servant disobeying law with intent to cause injury) to the FIR over the **Pilibhit Sadar** roll irregularities; the ECI suspended two EROs. Of 13,779 offline forms, 10,470 were approved without any documents on file.",
+          "page": "4",
+          "gs": "GS2"
+        },
+        {
+          "id": "f20261104-020",
+          "node": "wildlife",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "high",
+          "text": "Tigress **'Dooars Rani'**, moved from Bihar's **Valmiki Tiger Reserve** to **Buxa Tiger Reserve** on 2 Oct (West Bengal's first tiger relocation), strayed into Assam's **Raimona National Park** and was captured and brought back. WB Forest Minister: Manoj Oraon.",
+          "page": "4",
+          "gs": "GS3"
+        },
+        {
+          "id": "f20261104-021",
+          "node": "wildlife",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "medium",
+          "text": "**Buxa Tiger Reserve** is in **Alipurduar** district, West Bengal; **Valmiki Tiger Reserve** is in **West Champaran**, Bihar's only tiger reserve.",
+          "extra": true
+        },
+        {
+          "id": "f20261104-022",
+          "node": "drugs",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "low",
+          "text": "Experts and ex-DGP **Shashi Kant** said a police-politician nexus makes Punjab's drug problem hard to end; all parties have made drugs a central plank for the 2027 election.",
+          "page": "4",
+          "gs": "GS3"
+        },
+        {
+          "id": "f20261104-023",
+          "node": "education",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "low",
+          "text": "Congress asked the **NHRC** to act on reports of NEET and SSC aspirants in Prayagraj selling blood to pay coaching fees (₹1.2-1.8 lakh a year).",
+          "page": "4",
+          "gs": "GS2"
+        },
+        {
+          "id": "f20261104-024",
+          "node": "education",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "low",
+          "text": "AMU Women's College students sought the Education Ministry's help to vote in the **AMU Students' Union** election (5 Nov); AMU denied any disenfranchisement.",
+          "page": "4"
+        },
+        {
+          "id": "f20261104-025",
+          "node": "interstate-disputes",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "high",
+          "text": "Odisha and A.P. police clashed over the **Kotia group of villages** in Odisha's **Koraput** district, which A.P. also claims, as A.P. planned local polls there on 5 Nov; Odisha cited a **Supreme Court status quo order (2006)** and filed contempt.",
+          "page": "5",
+          "gs": "GS2"
+        },
+        {
+          "id": "f20261104-026",
+          "node": "state-election-commissions",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "low",
+          "text": "A.P. urban local body polls: the **TDP-Jana Sena-BJP** alliance swept most of 13 corporations and 79 municipalities, including **Pulivendula**, the YSR family's stronghold.",
+          "page": "5"
+        },
+        {
+          "id": "f20261104-027",
+          "node": "governance",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "low",
+          "text": "Keralam's UDF government (Excise Minister **M. Liju**) will review the previous LDF government's bar licences to **400+** beer-and-wine parlours and take the power to grant them from officials.",
+          "page": "5,8"
+        },
+        {
+          "id": "f20261104-028",
+          "node": "india-china",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "high",
+          "text": "ITBP Director General **Shatrujeet Singh Kapoor** confirmed face-offs with the PLA 'at several locations' in **Arunachal Pradesh** (Asaphila near **Taksing**, and Maja near **Longju**); the stand-off has lasted since late July, even through **Xi Jinping's** visit to India for the **BRICS summit (Sept 2026)**.",
+          "page": "6",
+          "gs": "GS2"
+        },
+        {
+          "id": "f20261104-029",
+          "node": "india-china",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "high",
+          "text": "India-China border agreements: **1993** (Maintenance of Peace and Tranquillity along the LAC; first formal use of 'LAC'), **1996** (confidence-building; exchange of maps), **2005** (Political Parameters and Guiding Principles). India rejects China's '**1959 line**'.",
+          "page": "6",
+          "gs": "GS2"
+        },
+        {
+          "id": "f20261104-030",
+          "node": "india-asean",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "high",
+          "text": "Myanmar's junta chief **Min Aung Hlaing** became civilian **President** after a January election widely called a sham; over a lakh have died since the **2021 coup**. ASEAN's **Five-Point Consensus** (April 2021) remains unimplemented. India wants to revive the **Kaladan** project.",
+          "page": "6",
+          "gs": "GS2"
+        },
+        {
+          "id": "f20261104-031",
+          "node": "india-asean",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "high",
+          "text": "The **Kaladan Multi-Modal Transit Transport Project** links **Kolkata** to **Sittwe** port (Myanmar) by sea, then by the Kaladan river to **Paletwa** and by road to **Mizoram**.",
+          "gs": "GS2",
+          "extra": true
+        },
+        {
+          "id": "f20261104-032",
+          "node": "cyber",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "medium",
+          "text": "Editorial: **Binance** used its **SAFU** emergency fund (set up 2018) and its own money to restore about **95%** of the **$6.3 billion** stolen within four days; it urged India to regulate crypto instead of taxing it heavily.",
+          "page": "6",
+          "gs": "GS3"
+        },
+        {
+          "id": "f20261104-033",
+          "node": "cyber",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "medium",
+          "text": "India taxes gains from crypto (virtual digital assets) at a flat **30%**, with **1% TDS** on transfers, since **2022**.",
+          "gs": "GS3",
+          "extra": true
+        },
+        {
+          "id": "f20261104-034",
+          "node": "west-asia",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "high",
+          "text": "The **'Mecca Agreement'** alliance of **Saudi Arabia, Türkiye and Pakistan** (signed August 2026) sent defence and intelligence chiefs, including Pakistan Army chief **Asim Munir**, to Tehran in October; Iran's side was led by SNSC head **Mohsen Rezaei**.",
+          "page": "6",
+          "gs": "GS2"
+        },
+        {
+          "id": "f20261104-035",
+          "node": "education",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "high",
+          "text": "Under **Section 27 of the RTE Act, 2009**, teachers can be given non-educational work only for the **census, disaster relief and elections**. The Act requires **45 hours** of work a week; primary schools need at least 800 teaching hours over 200 days.",
+          "page": "7",
+          "gs": "GS2"
+        },
+        {
+          "id": "f20261104-036",
+          "node": "education",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "high",
+          "text": "**Article 21A** (free and compulsory education for children aged **6-14**) was added by the **86th Amendment (2002)**; the RTE Act came into force on **1 April 2010**.",
+          "gs": "GS2",
+          "extra": true
+        },
+        {
+          "id": "f20261104-037",
+          "node": "governance",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "medium",
+          "text": "The Delhi Assembly moved the cut-off for recognising **jhuggi-jhopri** clusters from **1 Jan 2006 to 1 Jan 2025** (about 4 lakh families may benefit). Odisha's **Jaga Mission** is cited as a model of in-situ upgrading.",
+          "page": "7",
+          "gs": "GS2"
+        },
+        {
+          "id": "f20261104-038",
+          "node": "fundamental-rights",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "high",
+          "text": "In **Olga Tellis v. Bombay Municipal Corporation (1985)**, the SC held that the **right to livelihood** is part of the right to life under **Article 21**.",
+          "gs": "GS2",
+          "extra": true
+        },
+        {
+          "id": "f20261104-039",
+          "node": "education",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "medium",
+          "text": "RBI data: education loan accounts fell **15.2%** (25.76 lakh in June 2016 to 21.84 lakh in June 2026), but average loan per account rose **178%** to **₹7.25 lakh**; education loans' share of bank credit fell from 0.93% to 0.74%.",
+          "page": "7",
+          "gs": "GS2"
+        },
+        {
+          "id": "f20261104-040",
+          "node": "important-days",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "medium",
+          "text": "From the archives (4 Nov 1976): **Jimmy Carter** was elected the **39th US President**, defeating Gerald Ford, the only President never elected to the office or the vice-presidency.",
+          "page": "7"
+        },
+        {
+          "id": "f20261104-041",
+          "node": "urbanisation",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "high",
+          "text": "Census towns must meet three criteria: population at least **5,000**, density at least **400 per sq km**, and at least **75%** of male workers in non-farm work. India had **377 million** urban residents in **2011**; the UN puts the urban share at about 44% today.",
+          "page": "8",
+          "gs": "GS1"
+        },
+        {
+          "id": "f20261104-042",
+          "node": "urbanisation",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "high",
+          "text": "The **74th Amendment (1992)** created urban local bodies; the **Twelfth Schedule** lists **18** municipal functions. **Art. 243Q** lets States notify urban areas; **243ZD** (District Planning Committee) and **243ZE** (Metropolitan Planning Committee).",
+          "page": "8",
+          "gs": "GS2"
+        },
+        {
+          "id": "f20261104-043",
+          "node": "urbanisation",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "medium",
+          "text": "The **16th Finance Commission** raised urban local bodies' share of local grants to **45%** and created a **₹10,000-crore 'urbanisation premium'**; the **Economic Survey 2026** said India was **63%** urban in functional terms (satellite data, 2015). India's municipal revenue is only about **1% of GDP**.",
+          "page": "8",
+          "gs": "GS3"
+        },
+        {
+          "id": "f20261104-044",
+          "node": "commodities",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "low",
+          "text": "Karnataka sought **₹22,400.58 crore** in drought relief from the Centre; Delhi recorded 1,083 dengue and 355 malaria cases till 31 Oct.",
+          "page": "8"
+        },
+        {
+          "id": "f20261104-045",
+          "node": "heritage",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "medium",
+          "text": "Meghalaya (CM **Conrad K. Sangma**) identified **11 villages** to preserve indigenous traditions and support artisans.",
+          "page": "8"
+        },
+        {
+          "id": "f20261104-046",
+          "node": "court-cases",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "high",
+          "text": "Death penalty law: **Bachan Singh (1980)** upheld it but only in the 'rarest of rare' cases; **Machhi Singh (1983)** shifted focus to the crime; **Manoj v. State of M.P. (2022)** made mental health and prison-conduct reports mandatory before sentencing. Trial courts gave **128** death sentences in 2025.",
+          "page": "9",
+          "gs": "GS2"
+        },
+        {
+          "id": "f20261104-047",
+          "node": "court-cases",
+          "tags": [
+            "UPSC"
+          ],
+          "text": "Death-penalty sentencing now requires a separate hearing on mitigation; the **262nd Law Commission Report (2015)** recommended abolishing the death penalty except for terrorism-related offences. CrPC Section 354(3) is now **BNSS Section 393(3)**.",
+          "page": "9",
+          "gs": "GS2"
+        },
+        {
+          "id": "f20261104-048",
+          "node": "important-days",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "medium",
+          "text": "The **World Day Against the Death Penalty** is observed on **10 October**.",
+          "page": "9"
+        },
+        {
+          "id": "f20261104-049",
+          "node": "un-multilateral",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "high",
+          "text": "**UNESCO's** Constitution came into force on **4 Nov 1946** (80 years in 2026). HQ: **Paris**; Director-General: **Khaled El-Enany** (Egypt).",
+          "page": "9",
+          "gs": "GS2"
+        },
+        {
+          "id": "f20261104-050",
+          "node": "elections-sir",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "medium",
+          "text": "ECI told all CEOs that voters re-enrolling through **Form 6** during or after the SIR will not face action under **Section 31 of the RP Act, 1950** merely for being on an earlier roll; this follows the Delhi HC's **Nilotpal Datta** ruling (14 Oct). The first-time-voter declaration in Form 6 dates from **1 Aug 2022**.",
+          "page": "11",
+          "gs": "GS2"
+        },
+        {
+          "id": "f20261104-051",
+          "node": "elections-sir",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "low",
+          "text": "After the SIR, Karnataka's **Mahadevapura** constituency (Bengaluru Central LS seat, at the heart of the 'vote chori' claims) had **803 voter IDs** linked to just **397** people, The Hindu found.",
+          "page": "11",
+          "gs": "GS2"
+        },
+        {
+          "id": "f20261104-052",
+          "node": "elections-sir",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "low",
+          "text": "Delhi BLOs said EROs asked for 'citizenship proof' from voters who gave only Aadhaar; the ECI lists **11 documents** for eligibility.",
+          "page": "11",
+          "gs": "GS2"
+        },
+        {
+          "id": "f20261104-053",
+          "node": "governance",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "high",
+          "text": "Panchayati Raj Minister **Rajiv Ranjan (Lalan) Singh** said welfare payments under his Ministry will use the **voter ID (EPIC) plus biometrics**, not Aadhaar. The **16th Finance Commission** recommended **₹4,35,236 crore** in grants for **2.55 lakh panchayats** for 2026-31.",
+          "page": "12",
+          "gs": "GS2"
+        },
+        {
+          "id": "f20261104-054",
+          "node": "governance",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "medium",
+          "text": "**Aadhaar** is issued by **UIDAI** (set up 2009) under the **Aadhaar Act, 2016**.",
+          "gs": "GS2",
+          "extra": true
+        },
+        {
+          "id": "f20261104-055",
+          "node": "cinema-arts",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "medium",
+          "text": "A **National Book Trust** survey at the **New Delhi World Book Fair 2026** found Gen Z favours global fiction (*The Silent Patient*, *Yellowface*), Korean fiction like **Han Kang**'s *The Vegetarian*, and Kabir and Ambedkar in Hindi. NBT is under the **Education Ministry**.",
+          "page": "12"
+        },
+        {
+          "id": "f20261104-056",
+          "node": "awards",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "high",
+          "text": "**Han Kang** (South Korea) won the **International Booker Prize (2016)** for *The Vegetarian* and the **Nobel Prize in Literature (2024)**.",
+          "extra": true
+        },
+        {
+          "id": "f20261104-057",
+          "node": "climate-cop",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "high",
+          "text": "**COP31** will be held in **Antalya, Türkiye**, on **9-20 Nov 2026**. Environment Minister **Bhupender Yadav** said India will seek a **Climate Finance Work Programme**, predictable public finance under **Article 9.1 of the Paris Agreement**, and continuation of the Just Transition Work Programme, and will oppose new top-down mitigation targets.",
+          "page": "12,II",
+          "gs": "GS3"
+        },
+        {
+          "id": "f20261104-058",
+          "node": "climate-cop",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "high",
+          "text": "**COP30** was held at **Belém, Brazil (2025)**; **COP29** at **Baku, Azerbaijan (2024)**; COP28 at Dubai (2023).",
+          "gs": "GS3",
+          "extra": true
+        },
+        {
+          "id": "f20261104-059",
+          "node": "fundamental-rights",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "medium",
+          "text": "Bombay HC (Justices **Girish Kulkarni** and **Neela Gokhale**) ordered the BMC to restore actor **Dia Mirza**'s eco-friendly Deepavali video, calling objections to her religion a 'petty mindset'.",
+          "page": "12",
+          "gs": "GS2"
+        },
+        {
+          "id": "f20261104-060",
+          "node": "anti-corruption",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "medium",
+          "text": "The ED attached assets worth **₹510 crore** linked to the **Reliance Anil Ambani Group** (RCom, Reliance Home Finance, Reliance Commercial Finance); total attachments now about **₹23,100 crore**.",
+          "page": "12"
+        },
+        {
+          "id": "f20261104-061",
+          "node": "floods-glof",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "medium",
+          "text": "An avalanche on the **Kedartal** trek (**Uttarkashi**, Uttarakhand) left eight missing (two bodies found); permits for treks above **4,000 m** were suspended.",
+          "page": "12",
+          "gs": "GS3"
+        },
+        {
+          "id": "f20261104-062",
+          "node": "health",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "low",
+          "text": "The Health Ministry proposed new import entry points for drugs and medical devices, including inland container depots at Sonipat, Dadri and Whitefield, and **Noida International Airport**.",
+          "page": "12"
+        },
+        {
+          "id": "f20261104-063",
+          "node": "corporate",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "high",
+          "text": "**Tata Motors** completed its **€3.8-billion** acquisition of Italy's **Iveco Group**, making it the world's **fourth-largest** commercial vehicle maker; **N. Chandrasekaran** became Iveco's chairman. Iveco keeps its HQ in **Turin**.",
+          "page": "13",
+          "gs": "GS3"
+        },
+        {
+          "id": "f20261104-064",
+          "node": "banking-rbi",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "high",
+          "text": "**SBI** Q2 net profit rose **14.3%** to **₹23,038 crore**; GNPA ratio **1.39%**, NIM 3.11%. SBI chairman: **C.S. Setty**.",
+          "page": "13",
+          "gs": "GS3"
+        },
+        {
+          "id": "f20261104-065",
+          "node": "banking-rbi",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "medium",
+          "text": "**SBI** was formed in **1955** by nationalising the **Imperial Bank of India** (itself formed in 1921).",
+          "extra": true
+        },
+        {
+          "id": "f20261104-066",
+          "node": "banking-rbi",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "high",
+          "text": "**IRDAI** set **15 Dec 2026** for general insurers to offer new car and two-wheeler owners a **four-layer motor policy**: third-party and owner's personal accident (mandatory), plus optional occupant liability, occupant accident and own damage, following SC directions.",
+          "page": "13",
+          "gs": "GS3"
+        },
+        {
+          "id": "f20261104-067",
+          "node": "banking-rbi",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "medium",
+          "text": "**IRDAI** was set up under the **IRDA Act, 1999**; its HQ is in **Hyderabad**.",
+          "extra": true
+        },
+        {
+          "id": "f20261104-068",
+          "node": "energy",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "high",
+          "text": "**PM Surya Ghar** now adds **1 lakh rooftop solar** systems every six days, aiming for four to five days soon; target: **1 crore** homes by **31 March 2027** (Union Minister **Pralhad Joshi**).",
+          "page": "13",
+          "gs": "GS3"
+        },
+        {
+          "id": "f20261104-069",
+          "node": "energy",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "high",
+          "text": "**PM Surya Ghar Muft Bijli Yojana** was launched in **February 2024** to give up to **300 units** of free electricity a month to **1 crore** households.",
+          "gs": "GS3",
+          "extra": true
+        },
+        {
+          "id": "f20261104-070",
+          "node": "aviation",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "high",
+          "text": "Air India CEO **Tewolde Gebremariam** said the airline wants more widebody aircraft and cost cuts (Aviation India Summit 2026). Adani Airports CEO **Arun Bansal** told foreign airlines to move to **Navi Mumbai International Airport** from April or stop flying to Mumbai.",
+          "page": "13",
+          "gs": "GS3"
+        },
+        {
+          "id": "f20261104-071",
+          "node": "industry-pli",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "medium",
+          "text": "**NMDC** iron ore output rose **18%** to 5.04 MT in October; dispatches from the **Bailadila** mines (Chhattisgarh) were hit when rain washed away parts of the **Kottavalasa-Kirandul** rail line. NMDC CMD: **Amitava Mukherjee**.",
+          "page": "13",
+          "gs": "GS3"
+        },
+        {
+          "id": "f20261104-072",
+          "node": "trade-exports",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "low",
+          "text": "The **Indian Rice Exporters Federation** advised caution on West Asia cargoes; rice exports to the region are only about **10%** of pre-war levels.",
+          "page": "13",
+          "gs": "GS3"
+        },
+        {
+          "id": "f20261104-073",
+          "node": "tech-industry",
+          "tags": [
+            "UPSC"
+          ],
+          "text": "**Anthropic** told the US SEC that AI could soon speed up the building of more powerful AI ('recursive self-improvement') faster than safety measures can keep up; it said over 90% of its September code contributions were written by **Claude**, and no current model has crossed that threshold.",
+          "page": "13",
+          "gs": "GS3"
+        },
+        {
+          "id": "f20261104-074",
+          "node": "west-asia",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "high",
+          "text": "Iran: President **Masoud Pezeshkian** said a return to war benefits 'no one'; chief negotiator with the US: **Mohammad Bagher Ghalibaf**; Deputy FM: **Kazem Gharibabadi**. **Qatar** is the mediator.",
+          "page": "14",
+          "gs": "GS2"
+        },
+        {
+          "id": "f20261104-075",
+          "node": "israel-palestine",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "medium",
+          "text": "Trump said the US will stop its **$4 billion** annual security aid to Israel from **2027** but keep selling arms. Under Obama's **2016** MoU, Israel gets **$38 billion over 10 years**.",
+          "page": "14",
+          "gs": "GS2"
+        },
+        {
+          "id": "f20261104-076",
+          "node": "russia-ukraine",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "low",
+          "text": "A Russian strike on an aid site at **Komyshuvakha** (Zaporizhzhia) killed at least **31**.",
+          "page": "14"
+        },
+        {
+          "id": "f20261104-077",
+          "node": "india-neighbourhood",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "medium",
+          "text": "Bangladesh garment workers' protests shut nearly **1,000** factories; they want a minimum wage of **30,000 taka** (now 12,500). The government blamed **Sheikh Hasina**.",
+          "page": "14",
+          "gs": "GS2"
+        },
+        {
+          "id": "f20261104-078",
+          "node": "india-neighbourhood",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "high",
+          "text": "Former Maldives Foreign Minister **Abdulla Shahid** (MDP) was arrested on sexual abuse charges. He was **President of the 76th UN General Assembly (2021-22)**. Maldives President: **Mohamed Muizzu**.",
+          "page": "14",
+          "gs": "GS2"
+        },
+        {
+          "id": "f20261104-079",
+          "node": "world-other",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "low",
+          "text": "Students blockaded dozens of high schools and universities across **France** over education reforms; Education Minister: Edouard Geffray. South Korea and **Türkiye** (President **Erdoğan**) signed nuclear and defence pacts in Seoul.",
+          "page": "14"
+        },
+        {
+          "id": "f20261104-080",
+          "node": "world-other",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "medium",
+          "text": "Gunmen killed two police guarding a **polio** vaccination team in north-west Pakistan. **Pakistan and Afghanistan** are the only countries where wild polio is still endemic.",
+          "page": "14"
+        },
+        {
+          "id": "f20261104-081",
+          "node": "accidents-safety",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "low",
+          "text": "An Indian was killed when two helicopters (Fishtail Air, Air Dynasty) collided near **Everest Base Camp**, Nepal.",
+          "page": "14"
+        },
+        {
+          "id": "f20261104-082",
+          "node": "cricket",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "high",
+          "text": "**Prema Rawat** (Uttarakhand) hit the **fastest fifty in women's T20s** — **14 balls** — against Hyderabad in the Senior Women's T20 Trophy at Pune.",
+          "page": "15"
+        },
+        {
+          "id": "f20261104-083",
+          "node": "other-sports",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "high",
+          "text": "Youth Olympic Games (Dakar): judoka **Khushbu Rajakbhai** won **silver** (63kg) and swimmer **Dhinidhi Desinghu** **bronze** in the 100m freestyle (56.27s).",
+          "page": "15"
+        },
+        {
+          "id": "f20261104-084",
+          "node": "other-sports",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "high",
+          "text": "Squash: **Velavan Senthilkumar** won the **$35,000 Czech Open** in Brno (his 12th PSA Tour title), beating top seed Greg Lobban.",
+          "page": "15"
+        },
+        {
+          "id": "f20261104-085",
+          "node": "tennis",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "medium",
+          "text": "Chennai Open: wild cards **Maaya Rajeshwaran** (17, Coimbatore) and **Vaishnavi Adkar** (21) won their first WTA Tour-level matches.",
+          "page": "15"
+        },
+        {
+          "id": "f20261104-086",
+          "node": "cricket",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "medium",
+          "text": "**Punjab Kings** (coach **Ricky Ponting**) are close to getting **Hardik Pandya** from Mumbai Indians in exchange for **Arshdeep Singh** and Vishnu Vinod before IPL 2027.",
+          "page": "15"
+        },
+        {
+          "id": "f20261104-087",
+          "node": "hockey",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "medium",
+          "text": "Asian Champions Trophy semis move to **Mohali** (Olympian **Balbir Singh** stadium; the league was at the Olympian **Surjit** stadium, Jalandhar): India vs **Korea**, Malaysia vs Japan. India had beaten Korea 8-0.",
+          "page": "15"
+        },
+        {
+          "id": "f20261104-088",
+          "node": "cricket",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "high",
+          "text": "India's ODIs in New Zealand (5 matches, captain **Shubman Gill**): Gill is the second batter after **Rohit Sharma** with more than one ODI double hundred; Rohit holds the highest ODI score (**264**); **Virat Kohli** has the most ODI centuries (**55**).",
+          "page": "16,I"
+        },
+        {
+          "id": "f20261104-089",
+          "node": "cricket",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "high",
+          "text": "India's **first overseas Test win** came at **Dunedin** (Carisbrook) in **Feb 1968** under **Tiger Pataudi**; India then won the series in New Zealand **3-1**, its first overseas series win.",
+          "page": "I"
+        },
+        {
+          "id": "f20261104-090",
+          "node": "cricket",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "high",
+          "text": "ODI ball rule (since 2025): two new balls are used until the **34th over**; then one ball is chosen for the remaining overs.",
+          "page": "16"
+        },
+        {
+          "id": "f20261104-091",
+          "node": "cricket",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "low",
+          "text": "India-A drew the second 'Test' with New Zealand-A (Yashasvi Jaiswal 155*, Yash Rathod 100*); Ranji: Gujarat's Urvil Patel 210*, Tamil Nadu's Pradosh Ranjan Paul 208.",
+          "page": "15,16"
+        },
+        {
+          "id": "f20261104-092",
+          "node": "badminton",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "medium",
+          "text": "**Lakshya Sen** beat Indonesia's **Jonatan Christie** 21-17, 21-10 in the Hylo Open final, his first title of 2026 and second Hylo Open.",
+          "page": "16"
+        },
+        {
+          "id": "f20261104-093",
+          "node": "science-history",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "medium",
+          "text": "UK-Japan study (*Current Biology*): the direction a **Euhadra** snail's shell coils is set by the **mother's myosin gene** (a 'maternal effect'): one S (sinistral) copy in the mother gives left-handed offspring.",
+          "page": "II",
+          "gs": "GS3"
+        },
+        {
+          "id": "f20261104-094",
+          "node": "firecracker-regulation",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "high",
+          "text": "**CSIR-NEERI**'s green crackers emit about **30% less particulate matter**. Types: **SWAS** (water releaser), **STAR** (thermite-based) and **SAFAL** (minimal aluminium); packs carry the CSIR-NEERI logo and a QR code.",
+          "page": "II",
+          "gs": "GS3"
+        },
+        {
+          "id": "f20261104-095",
+          "node": "firecracker-regulation",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "medium",
+          "text": "**CSIR-NEERI** (National Environmental Engineering Research Institute) is in **Nagpur**.",
+          "extra": true
+        }
+      ]
     }
   ]
 }

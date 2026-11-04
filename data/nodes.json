@@ -133,7 +133,8 @@
     "created": "2026-10-30",
     "label": "Census 2027",
     "links": [
-      "ai-privacy"
+      "ai-privacy",
+      "urbanisation"
     ],
     "order": 2,
     "parent": "governance",
@@ -297,7 +298,8 @@
     "created": "2026-10-31",
     "label": "Energy security & renewables",
     "links": [
-      "west-asia"
+      "west-asia",
+      "climate-cop"
     ],
     "order": 8,
     "parent": "economy",
@@ -307,7 +309,8 @@
     "created": "2026-11-03",
     "label": "Environmental law & principles",
     "links": [
-      "tribal-rights"
+      "tribal-rights",
+      "climate-cop"
     ],
     "order": 3,
     "parent": "environment",
@@ -594,7 +597,8 @@
     "created": "2026-10-30",
     "label": "Places in news",
     "links": [
-      "heritage"
+      "heritage",
+      "interstate-disputes"
     ],
     "order": 3,
     "parent": "geography",
@@ -721,7 +725,9 @@
   "state-finances": {
     "created": "2026-11-03",
     "label": "State finances",
-    "links": [],
+    "links": [
+      "urbanisation"
+    ],
     "order": 2,
     "parent": "economy",
     "summary": "Revenue, committed spending, subsidies and accounting standards in States."
@@ -739,7 +745,8 @@
     "label": "UN & multilateral",
     "links": [
       "israel-palestine",
-      "arctic"
+      "arctic",
+      "climate-cop"
     ],
     "order": 8,
     "parent": "ir",
@@ -888,7 +895,8 @@
     "links": [
       "delhi-air",
       "vb-g-ram-g",
-      "festivals"
+      "festivals",
+      "interstate-disputes"
     ],
     "created": "2026-10-30"
   },
@@ -1084,6 +1092,40 @@
       "deepfakes",
       "ai-privacy",
       "elections-sir"
+    ]
+  },
+  "interstate-disputes": {
+    "label": "Inter-State disputes",
+    "parent": "polity",
+    "summary": "Boundary and water disputes between States and how they are settled.",
+    "created": "2026-11-04",
+    "order": 14,
+    "links": [
+      "water-rivers",
+      "places-in-news"
+    ]
+  },
+  "urbanisation": {
+    "label": "Urbanisation & local bodies",
+    "parent": "governance",
+    "summary": "Census definitions of urban areas, the 74th Amendment, municipal finance and planning.",
+    "created": "2026-11-04",
+    "order": 7,
+    "links": [
+      "census-2027",
+      "state-finances"
+    ]
+  },
+  "climate-cop": {
+    "label": "Climate talks (COP)",
+    "parent": "environment",
+    "summary": "UN climate conferences, the Paris Agreement and India's positions.",
+    "created": "2026-11-04",
+    "order": 8,
+    "links": [
+      "env-principles",
+      "energy",
+      "un-multilateral"
     ]
   }
 }

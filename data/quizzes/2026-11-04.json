@@ -1,0 +1,621 @@
+{
+  "date": "2026-11-04",
+  "questions": [
+    {
+      "id": "q20261104-001",
+      "fact": "f20261104-002",
+      "type": "mcq",
+      "q": "Who assigns names to cyclones forming over the north Indian Ocean?",
+      "options": [
+        "Joint Typhoon Warning Center",
+        "IMD (RSMC New Delhi)",
+        "World Meteorological Organization, Geneva",
+        "NDMA"
+      ],
+      "answer": 1,
+      "explanation": "**IMD's RSMC New Delhi** names them from a list drawn up by the WMO/ESCAP Panel's 13 member countries."
+    },
+    {
+      "id": "q20261104-002",
+      "fact": "f20261104-003",
+      "type": "mcq",
+      "q": "How many seats of the US House of Representatives were contested in the 3 Nov 2026 midterms?",
+      "options": [
+        "538",
+        "270",
+        "435",
+        "100"
+      ],
+      "answer": 2,
+      "explanation": "All **435** House seats; 35 of 100 Senate seats and 36 Governorships were also contested."
+    },
+    {
+      "id": "q20261104-003",
+      "fact": "f20261104-008",
+      "type": "mcq",
+      "q": "Who is the Prime Minister of Bangladesh (Nov 2026)?",
+      "options": [
+        "Muhammad Yunus",
+        "Tarique Rahman",
+        "Sheikh Hasina",
+        "Khaleda Zia"
+      ],
+      "answer": 1,
+      "explanation": "**Tarique Rahman**; India has invited him to visit New Delhi."
+    },
+    {
+      "id": "q20261104-004",
+      "fact": "f20261104-009",
+      "type": "mcq",
+      "q": "The India-Bangladesh Joint Rivers Commission was set up in:",
+      "options": [
+        "2011",
+        "1996",
+        "1972",
+        "1975"
+      ],
+      "answer": 2,
+      "explanation": "In **1972**. The Ganga Treaty (1996) covers sharing at the **Farakka Barrage**."
+    },
+    {
+      "id": "q20261104-005",
+      "fact": "f20261104-013",
+      "type": "mcq",
+      "q": "On the CPCB scale, an AQI of 350 falls in which category?",
+      "options": [
+        "Severe",
+        "Severe plus",
+        "Poor",
+        "Very poor"
+      ],
+      "answer": 3,
+      "explanation": "**301-400 is 'very poor'**; 401-450 severe; 451-500 severe plus."
+    },
+    {
+      "id": "q20261104-006",
+      "fact": "f20261104-016",
+      "type": "statements",
+      "q": "Consider the following:\n1. The Public Accounts Committee of Parliament has 22 members.\n2. By convention, its chairperson is from the ruling party.\nWhich is/are correct?",
+      "options": [
+        "Only 1",
+        "Only 2",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "answer": 0,
+      "explanation": "Only 1: the PAC has **22 members** (15 LS + 7 RS), and since **1967** its chair has been from the **Opposition**."
+    },
+    {
+      "id": "q20261104-007",
+      "fact": "f20261104-020",
+      "type": "mcq",
+      "q": "Tigress 'Dooars Rani' was relocated to Buxa Tiger Reserve (West Bengal) from which reserve?",
+      "options": [
+        "Manas Tiger Reserve, Assam",
+        "Valmiki Tiger Reserve, Bihar",
+        "Palamau Tiger Reserve, Jharkhand",
+        "Simlipal Tiger Reserve, Odisha"
+      ],
+      "answer": 1,
+      "explanation": "From **Valmiki Tiger Reserve** (West Champaran, Bihar); she strayed into Assam's Raimona National Park."
+    },
+    {
+      "id": "q20261104-008",
+      "fact": "f20261104-025",
+      "type": "mcq",
+      "q": "The Kotia group of villages, disputed between Odisha and Andhra Pradesh, is in which district of Odisha?",
+      "options": [
+        "Koraput",
+        "Ganjam",
+        "Rayagada",
+        "Malkangiri"
+      ],
+      "answer": 0,
+      "explanation": "**Koraput**; the SC ordered status quo in 2006."
+    },
+    {
+      "id": "q20261104-009",
+      "fact": "f20261104-028",
+      "type": "mcq",
+      "q": "Who is the Director General of the ITBP (Nov 2026)?",
+      "options": [
+        "Daljit Singh Chawdhary",
+        "Shatrujeet Singh Kapoor",
+        "Anish Dayal Singh",
+        "Rahul Rasgotra"
+      ],
+      "answer": 1,
+      "explanation": "**Shatrujeet Singh Kapoor**; he confirmed face-offs with the PLA in Arunachal Pradesh."
+    },
+    {
+      "id": "q20261104-010",
+      "fact": "f20261104-029",
+      "type": "mcq",
+      "q": "The India-China agreement on Maintenance of Peace and Tranquillity along the LAC was signed in:",
+      "options": [
+        "1988",
+        "1996",
+        "1993",
+        "2005"
+      ],
+      "answer": 2,
+      "explanation": "**1993**; the 1996 agreement added confidence-building measures and the 2005 one set political parameters."
+    },
+    {
+      "id": "q20261104-011",
+      "fact": "f20261104-030",
+      "type": "mcq",
+      "q": "Who became Myanmar's President after the January 2026 election?",
+      "options": [
+        "Min Aung Hlaing",
+        "Myint Swe",
+        "Aung San Suu Kyi",
+        "Win Myint"
+      ],
+      "answer": 0,
+      "explanation": "Junta chief **Min Aung Hlaing**."
+    },
+    {
+      "id": "q20261104-012",
+      "fact": "f20261104-031",
+      "type": "mcq",
+      "q": "The Kaladan Multi-Modal project connects Kolkata to which Myanmar port?",
+      "options": [
+        "Dawei",
+        "Kyaukphyu",
+        "Yangon",
+        "Sittwe"
+      ],
+      "answer": 3,
+      "explanation": "**Sittwe**, then by river to Paletwa and road to Mizoram."
+    },
+    {
+      "id": "q20261104-013",
+      "fact": "f20261104-034",
+      "type": "mcq",
+      "q": "The 2026 'Mecca Agreement' security alliance includes Saudi Arabia, Türkiye and:",
+      "options": [
+        "Qatar",
+        "Pakistan",
+        "Egypt",
+        "UAE"
+      ],
+      "answer": 1,
+      "explanation": "**Pakistan**; signed in August 2026."
+    },
+    {
+      "id": "q20261104-014",
+      "fact": "f20261104-035",
+      "type": "mcq",
+      "q": "Under Section 27 of the RTE Act, teachers may be deployed for non-educational purposes ONLY for:",
+      "options": [
+        "Disaster relief and mid-day meal audits",
+        "Elections and vaccination drives",
+        "Census, elections and Aadhaar enrolment",
+        "Census, disaster relief and elections"
+      ],
+      "answer": 3,
+      "explanation": "Only **census, disaster relief and election** duties."
+    },
+    {
+      "id": "q20261104-015",
+      "fact": "f20261104-036",
+      "type": "mcq",
+      "q": "Article 21A (right to education) was inserted by which Constitutional Amendment?",
+      "options": [
+        "86th",
+        "93rd",
+        "97th",
+        "73rd"
+      ],
+      "answer": 0,
+      "explanation": "The **86th Amendment (2002)**; the RTE Act took effect on 1 April 2010."
+    },
+    {
+      "id": "q20261104-016",
+      "fact": "f20261104-038",
+      "type": "mcq",
+      "q": "Which case linked the right to livelihood with the right to life under Article 21?",
+      "options": [
+        "M.C. Mehta (1986)",
+        "Unni Krishnan (1993)",
+        "Maneka Gandhi (1978)",
+        "Olga Tellis (1985)"
+      ],
+      "answer": 3,
+      "explanation": "**Olga Tellis v. Bombay Municipal Corporation (1985)**, the pavement-dwellers case."
+    },
+    {
+      "id": "q20261104-017",
+      "fact": "f20261104-041",
+      "type": "mcq",
+      "q": "Which is NOT a criterion for a 'census town'?",
+      "options": [
+        "Density of at least 400 per sq km",
+        "A notified municipal body",
+        "At least 75% of male workers in non-agricultural work",
+        "Population of at least 5,000"
+      ],
+      "answer": 1,
+      "explanation": "A census town has **no** notified municipal body; it qualifies on population, density and non-farm male work."
+    },
+    {
+      "id": "q20261104-018",
+      "fact": "f20261104-042",
+      "type": "mcq",
+      "q": "How many functions are listed for municipalities in the Twelfth Schedule?",
+      "options": [
+        "18",
+        "29",
+        "11",
+        "21"
+      ],
+      "answer": 0,
+      "explanation": "**18** (the Eleventh Schedule lists 29 for panchayats)."
+    },
+    {
+      "id": "q20261104-019",
+      "fact": "f20261104-046",
+      "type": "mcq",
+      "q": "The 'rarest of rare' doctrine for the death penalty was laid down in:",
+      "options": [
+        "Machhi Singh (1983)",
+        "Mithu (1983)",
+        "Bachan Singh (1980)",
+        "Jagmohan Singh (1973)"
+      ],
+      "answer": 2,
+      "explanation": "**Bachan Singh v. State of Punjab (1980)**, a Constitution Bench."
+    },
+    {
+      "id": "q20261104-020",
+      "fact": "f20261104-047",
+      "type": "assertion",
+      "q": "Assertion (A): The 262nd Law Commission Report (2015) recommended abolishing the death penalty for all offences.\nReason (R): It found the death penalty did not deter crime more than life imprisonment.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, R is false",
+        "A is false, R is true"
+      ],
+      "answer": 3,
+      "explanation": "A is false: it kept the death penalty for **terrorism-related offences**. R is true: it found no greater deterrent effect."
+    },
+    {
+      "id": "q20261104-021",
+      "fact": "f20261104-049",
+      "type": "mcq",
+      "q": "Who is the Director-General of UNESCO (2026)?",
+      "options": [
+        "Irina Bokova",
+        "Koichiro Matsuura",
+        "Audrey Azoulay",
+        "Khaled El-Enany"
+      ],
+      "answer": 3,
+      "explanation": "**Khaled El-Enany** of Egypt; HQ Paris."
+    },
+    {
+      "id": "q20261104-022",
+      "fact": "f20261104-053",
+      "type": "mcq",
+      "q": "The 16th Finance Commission recommended grants of about how much for panchayats for 2026-31?",
+      "options": [
+        "₹1.42 lakh crore",
+        "₹2.36 lakh crore",
+        "₹6.10 lakh crore",
+        "₹4.35 lakh crore"
+      ],
+      "answer": 3,
+      "explanation": "**₹4,35,236 crore** for 2.55 lakh panchayats and traditional local bodies."
+    },
+    {
+      "id": "q20261104-023",
+      "fact": "f20261104-056",
+      "type": "mcq",
+      "q": "Which author of 'The Vegetarian' won the 2024 Nobel Prize in Literature?",
+      "options": [
+        "Haruki Murakami",
+        "Bora Chung",
+        "Han Kang",
+        "Yoko Ogawa"
+      ],
+      "answer": 2,
+      "explanation": "**Han Kang**, who also won the International Booker in 2016."
+    },
+    {
+      "id": "q20261104-024",
+      "fact": "f20261104-057",
+      "type": "mcq",
+      "q": "Where is COP31 (Nov 2026) being held?",
+      "options": [
+        "Baku, Azerbaijan",
+        "Antalya, Türkiye",
+        "Bonn, Germany",
+        "Belém, Brazil"
+      ],
+      "answer": 1,
+      "explanation": "**Antalya, Türkiye**, 9-20 Nov 2026."
+    },
+    {
+      "id": "q20261104-025",
+      "fact": "f20261104-058",
+      "type": "mcq",
+      "q": "COP30 (2025) was held at:",
+      "options": [
+        "Belém",
+        "Baku",
+        "Sharm el-Sheikh",
+        "Dubai"
+      ],
+      "answer": 0,
+      "explanation": "**Belém, Brazil**. COP29 was at Baku and COP28 at Dubai."
+    },
+    {
+      "id": "q20261104-026",
+      "fact": "f20261104-063",
+      "type": "mcq",
+      "q": "Tata Motors completed the acquisition of which commercial-vehicle maker in Nov 2026?",
+      "options": [
+        "Iveco Group (Italy)",
+        "Navistar (US)",
+        "Scania (Sweden)",
+        "Volvo Trucks (Sweden)"
+      ],
+      "answer": 0,
+      "explanation": "**Iveco Group** of Italy, for **€3.8 billion**; HQ stays in Turin."
+    },
+    {
+      "id": "q20261104-027",
+      "fact": "f20261104-064",
+      "type": "mcq",
+      "q": "Who is the chairman of the State Bank of India (Nov 2026)?",
+      "options": [
+        "C.S. Setty",
+        "Arijit Basu",
+        "Dinesh Kumar Khara",
+        "Rajnish Kumar"
+      ],
+      "answer": 0,
+      "explanation": "**C.S. Setty**."
+    },
+    {
+      "id": "q20261104-028",
+      "fact": "f20261104-066",
+      "type": "mcq",
+      "q": "By which date must general insurers offer a four-layer motor policy for new vehicles, per IRDAI?",
+      "options": [
+        "1 April 2027",
+        "1 Dec 2026",
+        "15 Dec 2026",
+        "1 Jan 2027"
+      ],
+      "answer": 2,
+      "explanation": "**15 December 2026**."
+    },
+    {
+      "id": "q20261104-029",
+      "fact": "f20261104-068",
+      "type": "mcq",
+      "q": "PM Surya Ghar Muft Bijli Yojana aims to install rooftop solar in how many households?",
+      "options": [
+        "5 crore",
+        "1 crore",
+        "25 lakh",
+        "50 lakh"
+      ],
+      "answer": 1,
+      "explanation": "**1 crore** households, with up to **300 units** of free electricity a month."
+    },
+    {
+      "id": "q20261104-030",
+      "fact": "f20261104-070",
+      "type": "mcq",
+      "q": "Who is the CEO of Air India (Nov 2026)?",
+      "options": [
+        "Aloke Singh",
+        "Pieter Elbers",
+        "Campbell Wilson",
+        "Tewolde Gebremariam"
+      ],
+      "answer": 3,
+      "explanation": "**Tewolde Gebremariam**."
+    },
+    {
+      "id": "q20261104-031",
+      "fact": "f20261104-075",
+      "type": "mcq",
+      "q": "Under the 2016 US-Israel MoU signed by Obama, Israel was to receive how much military aid over 10 years?",
+      "options": [
+        "$38 billion",
+        "$45 billion",
+        "$50 billion",
+        "$20 billion"
+      ],
+      "answer": 0,
+      "explanation": "**$38 billion** (about $3.8 billion a year)."
+    },
+    {
+      "id": "q20261104-032",
+      "fact": "f20261104-078",
+      "type": "mcq",
+      "q": "Abdulla Shahid of the Maldives served as President of which UN General Assembly session?",
+      "options": [
+        "76th",
+        "75th",
+        "77th",
+        "74th"
+      ],
+      "answer": 0,
+      "explanation": "The **76th session (2021-22)**."
+    },
+    {
+      "id": "q20261104-033",
+      "fact": "f20261104-082",
+      "type": "mcq",
+      "q": "Prema Rawat set the record for the fastest fifty in women's T20 cricket in how many balls?",
+      "options": [
+        "14",
+        "18",
+        "16",
+        "12"
+      ],
+      "answer": 0,
+      "explanation": "**14 balls**, for Uttarakhand."
+    },
+    {
+      "id": "q20261104-034",
+      "fact": "f20261104-083",
+      "type": "mcq",
+      "q": "Which Indian swimmer won bronze in the 100m freestyle at the 2026 Youth Olympic Games?",
+      "options": [
+        "Bhavya Sachdeva",
+        "Shivangi Sarma",
+        "Hashika Ramachandra",
+        "Dhinidhi Desinghu"
+      ],
+      "answer": 3,
+      "explanation": "**Dhinidhi Desinghu** (56.27s); judoka Khushbu Rajakbhai won silver."
+    },
+    {
+      "id": "q20261104-035",
+      "fact": "f20261104-084",
+      "type": "mcq",
+      "q": "Velavan Senthilkumar won the Czech Open in which sport?",
+      "options": [
+        "Tennis",
+        "Table tennis",
+        "Badminton",
+        "Squash"
+      ],
+      "answer": 3,
+      "explanation": "**Squash**: his 12th PSA Tour title."
+    },
+    {
+      "id": "q20261104-036",
+      "fact": "f20261104-088",
+      "type": "mcq",
+      "q": "Who holds the record for the highest individual score in ODIs (264)?",
+      "options": [
+        "Rohit Sharma",
+        "Shubman Gill",
+        "Virender Sehwag",
+        "Martin Guptill"
+      ],
+      "answer": 0,
+      "explanation": "**Rohit Sharma** (264 v Sri Lanka); he also has three ODI double hundreds."
+    },
+    {
+      "id": "q20261104-037",
+      "fact": "f20261104-089",
+      "type": "mcq",
+      "q": "India's first overseas Test series win was against which country, in 1968?",
+      "options": [
+        "Australia",
+        "New Zealand",
+        "West Indies",
+        "England"
+      ],
+      "answer": 1,
+      "explanation": "**New Zealand**, 3-1 under **Pataudi**; the first win came at Dunedin."
+    },
+    {
+      "id": "q20261104-038",
+      "fact": "f20261104-090",
+      "type": "mcq",
+      "q": "Under the ODI ball rule introduced in 2025, two new balls are used until which over?",
+      "options": [
+        "30th",
+        "40th",
+        "25th",
+        "34th"
+      ],
+      "answer": 3,
+      "explanation": "Until the **34th over**; then one ball is used for the rest of the innings."
+    },
+    {
+      "id": "q20261104-039",
+      "fact": "f20261104-094",
+      "type": "mcq",
+      "q": "Green firecrackers (SWAS, STAR, SAFAL) were developed by:",
+      "options": [
+        "PESO",
+        "DRDO",
+        "CSIR-NEERI",
+        "CPCB"
+      ],
+      "answer": 2,
+      "explanation": "**CSIR-NEERI** (Nagpur); they cut particulate emissions by about 30%."
+    },
+    {
+      "id": "q20261104-040",
+      "fact": "f20261104-043",
+      "type": "statements",
+      "q": "Consider the following about the 16th Finance Commission:\n1. It raised urban local bodies' share of local-body grants to 45%.\n2. It created a ₹10,000-crore 'urbanisation premium' for merging peri-urban villages into municipalities.\nWhich is/are correct?",
+      "options": [
+        "Only 1",
+        "Only 2",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "answer": 2,
+      "explanation": "Both are correct, as reported by WRI India's analysis."
+    },
+    {
+      "id": "q20261104-041",
+      "fact": "f20261104-050",
+      "type": "mcq",
+      "q": "Under which provision can an ERO act against a false declaration in an electoral roll form?",
+      "options": [
+        "Article 326",
+        "Section 171G, IPC",
+        "Section 125A, RP Act 1951",
+        "Section 31, RP Act 1950"
+      ],
+      "answer": 3,
+      "explanation": "**Section 31 of the RP Act, 1950**; the ECI said re-enrolling via Form 6 is not by itself a false declaration."
+    },
+    {
+      "id": "q20261104-042",
+      "fact": "f20261104-015",
+      "type": "mcq",
+      "q": "Who is the chairman of Parliament's Public Accounts Committee (2026)?",
+      "options": [
+        "K.C. Venugopal",
+        "Om Birla",
+        "Adhir Ranjan Chowdhury",
+        "Harivansh"
+      ],
+      "answer": 0,
+      "explanation": "**K.C. Venugopal** (Congress); the PAC chair is from the Opposition by convention."
+    },
+    {
+      "id": "q20261104-043",
+      "fact": "f20261104-074",
+      "type": "mcq",
+      "q": "Who is the President of Iran (Nov 2026)?",
+      "options": [
+        "Mohammad Bagher Ghalibaf",
+        "Masoud Pezeshkian",
+        "Mojtaba Khamenei",
+        "Abbas Araghchi"
+      ],
+      "answer": 1,
+      "explanation": "**Masoud Pezeshkian**; Ghalibaf is the chief negotiator with the US."
+    },
+    {
+      "id": "q20261104-044",
+      "fact": "f20261104-034",
+      "type": "assertion",
+      "q": "Assertion (A): Iran welcomed the outreach of the 'Mecca Agreement' alliance.\nReason (R): Iran prefers region-led security arrangements over US-led ones.",
+      "options": [
+        "Both A and R are true, and R explains A",
+        "Both A and R are true, but R does not explain A",
+        "A is true, R is false",
+        "A is false, R is true"
+      ],
+      "answer": 0,
+      "explanation": "Both are true and R explains A: Tehran seeks a place in every regional security conversation."
+    }
+  ]
+}

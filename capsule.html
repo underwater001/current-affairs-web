@@ -23,9 +23,19 @@ section.sub h2{display:flex;align-items:center;gap:8px;margin:0 0 8px;font-size:
 section.sub h2 i{width:10px;height:10px;border-radius:50%;flex:none}
 section.sub h2 span.n{font:500 11px var(--mono);color:var(--muted)}
 ul.pts{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:7px}
-ul.pts li{position:relative;padding:9px 12px 9px 26px;background:var(--surface);border:1px solid var(--line);border-radius:9px;font-family:var(--body);font-size:15.5px;line-height:1.45}
-ul.pts li::before{content:"";position:absolute;left:12px;top:17px;width:5px;height:5px;border-radius:50%;background:var(--muted)}
-ul.pts li.done{opacity:.5}
+ul.pts li{position:relative;background:var(--surface);border:1px solid var(--line);border-radius:9px}
+ul.pts li.done{opacity:.55}
+ul.pts .row{display:flex;gap:9px;align-items:flex-start;padding:9px 12px}
+ul.pts .tick{flex:none;margin-top:3px;width:15px;height:15px;border-radius:50%;border:1.5px solid var(--line);background:none;cursor:pointer;padding:0}
+ul.pts .tick:hover{border-color:var(--accent)}
+ul.pts li.done .tick{background:var(--muted);border-color:var(--muted)}
+ul.pts .txt{flex:1;font-family:var(--body);font-size:15.5px;line-height:1.45}
+ul.pts li.has .txt{cursor:pointer}
+ul.pts .plus{flex:none;margin-top:1px;font:500 11px var(--mono);color:var(--accent);background:var(--sunk);border:0;border-radius:5px;padding:2px 6px;cursor:pointer}
+ul.pts .more{margin:0;padding:0 12px 11px 36px;display:none;flex-direction:column;gap:6px}
+ul.pts li.open .more{display:flex}
+ul.pts .more div{font-family:var(--body);font-size:14.5px;line-height:1.45;border-left:2px solid var(--accent);padding-left:10px}
+ul.pts .more .tagx{font:500 10px var(--mono);color:var(--muted);text-transform:uppercase;letter-spacing:.05em;display:block}
 ul.pts li a.wb{float:right;margin-left:10px;font:500 11px var(--mono);color:var(--accent);text-decoration:none;opacity:.75}
 ul.pts li a.wb:hover{text-decoration:underline;opacity:1}
 .end{margin:26px 0 0;padding:16px;border:1px solid var(--line);border-radius:10px;background:var(--surface);display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between}
@@ -73,15 +83,20 @@ function render(){
   const names = [...new Set((d.papers||[]).map(p => p.short))].join(' + ');
   $('sub').textContent = `${fmt(d.date)}${names ? ' · '+names : ''} · read it in about ${d.read_minutes} min`;
   const ticked = Object.values(S.done).filter(Boolean).length;
-  $('meta').innerHTML = `<span><b>${d.points}</b> points</span><span><b>${ticked}</b> ticked</span>${d.quiz?`<span><b>${d.quiz}</b> quiz Qs</span>`:''}`;
-  $('lede').textContent = 'Tap a point once you have read it. Everything here is already filed on the web and tested in that day’s quiz.';
+  $('meta').innerHTML = `<span><b>${d.points}</b> points</span>${d.extras?`<span><b>${d.extras}</b> exam notes</span>`:''}<span><b>${ticked}</b> ticked</span>${d.quiz?`<span><b>${d.quiz}</b> quiz Qs</span>`:''}`;
+  const src = (d.papers||[]).map(p => p.link ? `<a href="${esc(p.link)}" target="_blank" rel="noopener">${esc(p.short)}, ${esc(fmt(p.date))}</a>` : esc(p.short)).join(' \u00b7 ');
+  $('lede').innerHTML = `Tap the circle once you have read a point; tap a point marked <b>+</b> for the exam facts behind it. Everything here is filed on the web and tested in this day\u2019s quiz.${src ? ' Source: ' + src + '.' : ''}`;
   $('body').innerHTML = d.sections.map(sec => `<section class="sub"><h2><i style="background:${sec.hue!=null?`oklch(62% 0.17 ${sec.hue})`:'var(--muted)'}"></i>${esc(sec.short || sec.label)} <span class="n">${sec.points.length}</span></h2>
-    <ul class="pts">${sec.points.map((p,i) => { const id = sec.junction+':'+i; return `<li data-k="${esc(id)}" class="${S.done[id]?'done':''}">${md(p.text)}</li>`; }).join('')}</ul></section>`).join('');
+    <ul class="pts">${sec.points.map((p,i) => { const id = sec.junction+':'+i; const has = (p.more||[]).length;
+      return `<li data-k="${esc(id)}" class="${S.done[id]?'done':''}${has?' has':''}">
+        <div class="row"><button type="button" class="tick" aria-label="Mark as read"></button><div class="txt">${md(p.text)}</div>${has?`<button type="button" class="plus" title="Exam facts worth remembering">+${has}</button>`:''}</div>
+        ${has?`<div class="more">${p.more.map(m => `<div><span class="tagx">${m.background?'exam note':'detail'}</span>${md(m.text)}</div>`).join('')}</div>`:''}</li>`; }).join('')}</ul></section>`).join('');
   $('end').hidden = false;
   $('endtext').textContent = d.quiz ? `That is the whole day. Now lock it in with ${d.quiz} questions.` : 'That is the whole day.';
   $('toquiz').href = $('endquiz').href = 'quiz.html#' + d.date;
 }
 $('body').addEventListener('click', e => { const li = e.target.closest('li[data-k]'); if(!li) return;
+  if (!e.target.closest('.tick')) { if (li.classList.contains('has')) li.classList.toggle('open'); return; }
   const k = li.dataset.k; S.done[k] = !S.done[k]; set('cap-'+S.date, S.done); li.classList.toggle('done', !!S.done[k]);
   const t = Object.values(S.done).filter(Boolean).length;
   $('meta').innerHTML = $('meta').innerHTML.replace(/<span><b>\d+<\/b> ticked<\/span>/, `<span><b>${t}</b> ticked</span>`); });

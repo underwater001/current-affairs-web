@@ -38,6 +38,9 @@
           "text": "Death penalty: **Bachan Singh (1980)** = 'rarest of rare'; **Manoj (2022)** = mental-health and conduct reports before sentencing.",
           "facts": [
             "f20261104-046"
+          ],
+          "more": [
+            "f20261104-047"
           ]
         },
         {
@@ -55,6 +58,9 @@
           "text": "Welfare payments under the Panchayati Raj Ministry will use **EPIC + biometrics**, not **Aadhaar** (Minister **Rajiv Ranjan Singh**).",
           "facts": [
             "f20261104-053"
+          ],
+          "more": [
+            "f20261104-054"
           ]
         },
         {
@@ -69,12 +75,18 @@
           "facts": [
             "f20261104-015",
             "f20261104-016"
+          ],
+          "more": [
+            "f20261104-016"
           ]
         },
         {
           "text": "**RTE Act Sec. 27**: teachers may do non-teaching work only for **census, disaster relief and elections**; **Art. 21A** came by the **86th Amendment**.",
           "facts": [
             "f20261104-035",
+            "f20261104-036"
+          ],
+          "more": [
             "f20261104-036"
           ]
         },
@@ -83,12 +95,18 @@
           "facts": [
             "f20261104-041",
             "f20261104-042"
+          ],
+          "more": [
+            "f20261104-042"
           ]
         },
         {
           "text": "Delhi moved the **jhuggi-jhopri** cut-off from 2006 to **1 Jan 2025** (~4 lakh families).",
           "facts": [
             "f20261104-037"
+          ],
+          "more": [
+            "f20261104-038"
           ]
         }
       ]
@@ -106,18 +124,27 @@
           "text": "**SBI** Q2 profit **₹23,038 crore (+14.3%)**, GNPA **1.39%**; chairman **C.S. Setty**.",
           "facts": [
             "f20261104-064"
+          ],
+          "more": [
+            "f20261104-065"
           ]
         },
         {
           "text": "**IRDAI**: from **15 Dec 2026**, a **four-layer motor policy** for new vehicles (2 mandatory + 3 optional covers).",
           "facts": [
             "f20261104-066"
+          ],
+          "more": [
+            "f20261104-067"
           ]
         },
         {
           "text": "**PM Surya Ghar** (Feb 2024): **1 lakh** rooftop systems every 6 days; target **1 crore** homes by **31 Mar 2027**.",
           "facts": [
             "f20261104-068",
+            "f20261104-069"
+          ],
+          "more": [
             "f20261104-069"
           ]
         },
@@ -149,6 +176,9 @@
           "facts": [
             "f20261104-008",
             "f20261104-009"
+          ],
+          "more": [
+            "f20261104-009"
           ]
         },
         {
@@ -162,6 +192,9 @@
           "text": "Myanmar: junta chief **Min Aung Hlaing** is now President; ASEAN's **Five-Point Consensus** ignored; India eyes the **Kaladan** project (Kolkata-**Sittwe**-Mizoram).",
           "facts": [
             "f20261104-030",
+            "f20261104-031"
+          ],
+          "more": [
             "f20261104-031"
           ]
         },
@@ -241,6 +274,9 @@
           "facts": [
             "f20261104-057",
             "f20261104-058"
+          ],
+          "more": [
+            "f20261104-058"
           ]
         },
         {
@@ -253,6 +289,9 @@
           "text": "**CSIR-NEERI** (Nagpur) green crackers cut particulates ~**30%**: **SWAS, STAR, SAFAL**, with a QR code on the pack.",
           "facts": [
             "f20261104-094",
+            "f20261104-095"
+          ],
+          "more": [
             "f20261104-095"
           ]
         }
@@ -284,6 +323,9 @@
           "facts": [
             "f20261104-020",
             "f20261104-021"
+          ],
+          "more": [
+            "f20261104-021"
           ]
         }
       ]
@@ -292,7 +334,7 @@
       "junction": "scitech",
       "points": [
         {
-          "text": "**Anthropic** told the US SEC that AI may soon speed up building stronger AI faster than safety work ('**recursive self-improvement**').",
+          "text": "**Anthropic** told the US SEC that **AI systems helping design more capable AI** ('**recursive self-improvement**') may outpace safety work.",
           "facts": [
             "f20261104-073"
           ]
@@ -301,6 +343,9 @@
           "text": "**Binance** repaid ~**95%** of the **$6.3-bn** hack from its **SAFU** fund; India taxes crypto at **30% + 1% TDS**.",
           "facts": [
             "f20261104-032",
+            "f20261104-033"
+          ],
+          "more": [
             "f20261104-033"
           ]
         },
@@ -316,9 +361,12 @@
       "junction": "society",
       "points": [
         {
-          "text": "Mumbai protest over unpaid **Majhi Ladki Bahin** instalments (₹1,500; ₹2,100 promised), led by **AIDWA**.",
+          "text": "Mumbai protest over unpaid **Majhi Ladki Bahin** (**Maharashtra**) instalments (₹1,500; ₹2,100 promised), led by **AIDWA**.",
           "facts": [
             "f20261104-017"
+          ],
+          "more": [
+            "f20261104-018"
           ]
         },
         {
@@ -353,6 +401,9 @@
           "text": "**NBT** survey (World Book Fair 2026): Gen Z buys global fiction and Korean works — **Han Kang**'s *The Vegetarian* (Booker 2016, Nobel 2024).",
           "facts": [
             "f20261104-055",
+            "f20261104-056"
+          ],
+          "more": [
             "f20261104-056"
           ]
         },

@@ -60,7 +60,10 @@ def main():
             missing = [w for w in need if not any(w == h or w in h or h in w for h in have)]
             if need and len(missing) > len(need) // 3:
                 bad.append((q["id"], "answer '%s' not in its capsule point" % q["options"][q["answer"]], q["q"]))
-        print(f"{d}: {len(bad)} gap(s)")
+        qfacts = {q["fact"] for q in json.load(open(p, encoding="utf-8"))["questions"]}
+        untested = sum(1 for sec in cap["sections"] for pt in sec["points"]
+                       if not (set(pt["facts"]) | {m["fact"] for m in pt["more"]}) & qfacts)
+        print(f"{d}: {len(bad)} gap(s); {untested} capsule point(s) with no question")
         for b in bad:
             print(f"   {b[0]}  {b[1]}\n      {b[2][:100]}")
         gaps += len(bad)

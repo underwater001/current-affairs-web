@@ -170,7 +170,7 @@ for cd, cdoc in capsules:
                 errors.append(f"capsule {cd}/{j}: empty point")
             elif len(pt["text"]) > 240:
                 errors.append(f"capsule {cd}/{j}: point over 240 chars: {pt['text'][:50]}...")
-            for x in pt.get("facts", []):
+            for x in pt.get("facts", []) + pt.get("more", []):
                 if x not in fact_date:
                     errors.append(f"capsule {cd}/{j}: fact '{x}' does not exist")
 
@@ -301,6 +301,19 @@ for qd, qdoc in quizzes:
                            "upsc": sum("UPSC" in r["tags"] for r in rows),
                            "cgl_high": sum(r["priority"] == "high" for r in rows),
                            "papers": [p["id"] for p in paper_rows if p["date"] == qd]})
+def cap_point(pt):
+    """A capsule point, plus the little exam facts revealed when it is tapped.
+
+    Explicit "more" wins; otherwise the background facts the point already cites
+    (after the first, which the headline is written from) are used, up to three."""
+    fs = [x for x in pt.get("facts", []) if x in by_id]
+    more = [x for x in pt.get("more", []) if x in by_id] or \
+           [x for x in fs[1:] if by_id[x]["background"]]
+    return {"text": pt["text"], "plain": plain(pt["text"]), "facts": fs,
+            "keys": BOLD.findall(pt["text"]),
+            "more": [{"fact": x, "text": by_id[x]["text"], "background": by_id[x]["background"]}
+                     for x in dict.fromkeys(more)][:3]}
+
 cap_rows, cap_index = {}, []
 for cd, cdoc in capsules:
     secs = []
@@ -308,16 +321,16 @@ for cd, cdoc in capsules:
         j = sec["junction"]
         secs.append({"junction": j, "label": nodes[j]["label"], "short": nodes[j].get("short"),
                      "hue": nodes[j].get("hue"), "order": nodes[j].get("order"),
-                     "points": [{"text": pt["text"], "plain": plain(pt["text"]),
-                                 "facts": [x for x in pt.get("facts", []) if x in by_id],
-                                 "keys": BOLD.findall(pt["text"])} for pt in sec["points"]]})
+                     "points": [cap_point(pt) for pt in sec["points"]]})
     secs.sort(key=lambda x: (x["order"] or 99))
     n = sum(len(x["points"]) for x in secs)
     cap_rows[cd] = {"date": cd, "sections": secs, "points": n,
+                    "extras": sum(len(p["more"]) for x in secs for p in x["points"]),
                     "read_minutes": max(1, round(n * 14 / 130)),
                     "papers": [p for p in paper_rows if p["date"] == cd],
                     "quiz": next((x["questions"] for x in quiz_index if x["date"] == cd), 0)}
     cap_index.append({"date": cd, "points": n, "sections": len(secs),
+                      "extras": cap_rows[cd]["extras"],
                       "read_minutes": cap_rows[cd]["read_minutes"],
                       "quiz": cap_rows[cd]["quiz"]})
 dump(os.path.join(API, "index.json"), {

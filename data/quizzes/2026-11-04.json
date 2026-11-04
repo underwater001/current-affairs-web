@@ -717,6 +717,270 @@
       "also": [
         "f20261104-074"
       ]
+    },
+    {
+      "id": "q20261104-045",
+      "fact": "f20261104-019",
+      "type": "mcq",
+      "q": "Which BNS section covers a public servant knowingly disobeying the law to cause injury?",
+      "options": [
+        "Section 287",
+        "Section 125",
+        "Section 163",
+        "Section 198"
+      ],
+      "answer": 3,
+      "explanation": "**Section 198 BNS**, added to the Pilibhit electoral-roll FIR.",
+      "also": [
+        "f20261104-050"
+      ]
+    },
+    {
+      "id": "q20261104-046",
+      "fact": "f20261104-011",
+      "type": "mcq",
+      "q": "About how many protests does Jantar Mantar see each year, per the Delhi Police affidavit?",
+      "options": [
+        "1,300",
+        "700",
+        "2,500",
+        "300"
+      ],
+      "answer": 0,
+      "explanation": "About **1,300** a year; the police called it a public road, not a protest site."
+    },
+    {
+      "id": "q20261104-047",
+      "fact": "f20261104-071",
+      "type": "mcq",
+      "q": "NMDC's Bailadila iron ore mines are in which State?",
+      "options": [
+        "Odisha",
+        "Karnataka",
+        "Jharkhand",
+        "Chhattisgarh"
+      ],
+      "answer": 3,
+      "explanation": "**Chhattisgarh**; dispatches use the Kottavalasa-Kirandul railway line."
+    },
+    {
+      "id": "q20261104-048",
+      "fact": "f20261104-039",
+      "type": "mcq",
+      "q": "The average outstanding education loan per account rose over 10 years to:",
+      "options": [
+        "₹2.6 lakh",
+        "₹10.4 lakh",
+        "₹7.25 lakh",
+        "₹4.8 lakh"
+      ],
+      "answer": 2,
+      "explanation": "**₹7.25 lakh**, up 178%, even as the number of accounts fell 15.2%."
+    },
+    {
+      "id": "q20261104-049",
+      "fact": "f20261104-001",
+      "type": "mcq",
+      "q": "Cyclone Murasu crossed the coast near which town?",
+      "options": [
+        "Machilipatnam",
+        "Kakinada",
+        "Nellore",
+        "Ongole"
+      ],
+      "answer": 3,
+      "explanation": "Near **Ongole** (Prakasam district, A.P.): 2 deaths and ₹344 crore of damage.",
+      "also": [
+        "f20261104-002"
+      ]
+    },
+    {
+      "id": "q20261104-050",
+      "fact": "f20261104-061",
+      "type": "mcq",
+      "q": "The Kedartal trek, where an avalanche left eight missing, is in which district?",
+      "options": [
+        "Uttarkashi",
+        "Pithoragarh",
+        "Chamoli",
+        "Rudraprayag"
+      ],
+      "answer": 0,
+      "explanation": "**Uttarkashi**, Uttarakhand; treks above **4,000 m** were suspended."
+    },
+    {
+      "id": "q20261104-051",
+      "fact": "f20261104-004",
+      "type": "mcq",
+      "q": "How many Indian seafarers have died since the West Asia conflict began in February 2026?",
+      "options": [
+        "31",
+        "23",
+        "17",
+        "11"
+      ],
+      "answer": 1,
+      "explanation": "**23**, the latest on the MSV Al Jusufi off Oman."
+    },
+    {
+      "id": "q20261104-052",
+      "fact": "f20261104-005",
+      "type": "mcq",
+      "q": "The Indian Navy rescued the crew of which fishing vessel from pirates in November 2026?",
+      "options": [
+        "Lorenzo Putha",
+        "Azini",
+        "Al Jusufi",
+        "Nour-1"
+      ],
+      "answer": 1,
+      "explanation": "The Iranian vessel **Azini**, about 3,000 km from Mumbai; 20 crew were saved."
+    },
+    {
+      "id": "q20261104-053",
+      "fact": "f20261104-012",
+      "type": "mcq",
+      "q": "At which forum did Rajnath Singh call for India's 'technological sovereignty'?",
+      "options": [
+        "DefExpo",
+        "Aero India",
+        "Raisina Dialogue",
+        "Delhi Defence Dialogue"
+      ],
+      "answer": 3,
+      "explanation": "The third **Delhi Defence Dialogue** at MP-IDSA."
+    },
+    {
+      "id": "q20261104-054",
+      "fact": "f20261104-073",
+      "type": "mcq",
+      "q": "'Recursive self-improvement', flagged by Anthropic to the US SEC, means:",
+      "options": [
+        "Chips that redesign themselves",
+        "AI systems helping design more capable AI",
+        "Users fine-tuning models privately",
+        "AI models retraining on their own output"
+      ],
+      "answer": 1,
+      "explanation": "**AI helping build its successors** faster than safety work can keep up."
+    },
+    {
+      "id": "q20261104-055",
+      "fact": "f20261104-032",
+      "type": "mcq",
+      "q": "Binance's emergency fund used after the 2026 hack is called:",
+      "options": [
+        "SHIELD",
+        "SAFE",
+        "SAFU",
+        "VAULT"
+      ],
+      "answer": 2,
+      "explanation": "The **Secure Asset Fund for Users (SAFU)**, set up in 2018; ~95% of the $6.3 bn was restored.",
+      "also": [
+        "f20261104-033"
+      ]
+    },
+    {
+      "id": "q20261104-056",
+      "fact": "f20261104-093",
+      "type": "mcq",
+      "q": "In Euhadra snails, the direction the shell coils is decided by:",
+      "options": [
+        "The mother's myosin gene",
+        "The snail's own genes after hatching",
+        "Water temperature",
+        "The father's myosin gene"
+      ],
+      "answer": 0,
+      "explanation": "The **mother's** myosin gene — a maternal effect (*Current Biology*)."
+    },
+    {
+      "id": "q20261104-057",
+      "fact": "f20261104-017",
+      "type": "mcq",
+      "q": "Majhi Ladki Bahin Yojana is a scheme of which State?",
+      "options": [
+        "Chhattisgarh",
+        "Gujarat",
+        "Madhya Pradesh",
+        "Maharashtra"
+      ],
+      "answer": 3,
+      "explanation": "**Maharashtra** (2024): ₹1,500 a month for women aged 21-65.",
+      "also": [
+        "f20261104-018"
+      ]
+    },
+    {
+      "id": "q20261104-058",
+      "fact": "f20261104-023",
+      "type": "mcq",
+      "q": "Which body did the Congress approach over students in Prayagraj selling blood to pay coaching fees?",
+      "options": [
+        "NCPCR",
+        "NHRC",
+        "UGC",
+        "NITI Aayog"
+      ],
+      "answer": 1,
+      "explanation": "The **National Human Rights Commission**."
+    },
+    {
+      "id": "q20261104-059",
+      "fact": "f20261104-040",
+      "type": "mcq",
+      "q": "Jimmy Carter, elected on 4 Nov 1976, was which US President?",
+      "options": [
+        "38th",
+        "40th",
+        "37th",
+        "39th"
+      ],
+      "answer": 3,
+      "explanation": "The **39th**, beating Gerald Ford."
+    },
+    {
+      "id": "q20261104-060",
+      "fact": "f20261104-048",
+      "type": "mcq",
+      "q": "The World Day Against the Death Penalty is observed on:",
+      "options": [
+        "10 October",
+        "26 June",
+        "2 October",
+        "10 December"
+      ],
+      "answer": 0,
+      "explanation": "**10 October**."
+    },
+    {
+      "id": "q20261104-061",
+      "fact": "f20261104-087",
+      "type": "mcq",
+      "q": "The Asian Champions Trophy 2026 knockouts moved from Jalandhar to:",
+      "options": [
+        "Chandigarh",
+        "Amritsar",
+        "Mohali",
+        "Ludhiana"
+      ],
+      "answer": 2,
+      "explanation": "**Mohali** (Olympian Balbir Singh stadium); the league was at the Olympian Surjit stadium, Jalandhar."
+    },
+    {
+      "id": "q20261104-062",
+      "fact": "f20261104-045",
+      "type": "mcq",
+      "q": "Meghalaya identified how many villages to preserve indigenous traditions?",
+      "options": [
+        "22",
+        "7",
+        "15",
+        "11"
+      ],
+      "answer": 3,
+      "explanation": "**11** villages, announced by CM Conrad K. Sangma."
     }
   ]
 }

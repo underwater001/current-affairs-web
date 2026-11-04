@@ -16,6 +16,7 @@ A growing knowledge web of current-affairs facts for **SSC CGL** and **UPSC** pr
 | `data/quizzes/YYYY-MM-DD.json` | **Source of truth.** That date's quiz; each question points to a fact |
 | `data/months/YYYY-MM.json` | **Source of truth.** Facts, grouped by paper, one file per month |
 | `tools/add_paper.py` | Adds one paper (facts, new branches, corrections, quiz) from a single spec file, then builds |
+| `tools/check_capsule.py` | Checks every quiz answer is findable in that date's capsule, and flags points with no question |
 | `tools/find.py` | Searches facts, branches and quiz questions (duplicate checks) |
 | `tools/build.py` | Validates the data and generates everything below |
 | `api/v1/` | Generated JSON API (see `api.html`) |

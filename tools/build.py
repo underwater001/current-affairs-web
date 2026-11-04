@@ -8,6 +8,7 @@ Source of truth (edit these):
   data/sources.json          publications and the papers read (with optional Drive link)
   data/months/YYYY-MM.json   facts, grouped by paper, one file per month
   data/quizzes/YYYY-MM-DD.json  that date's quiz questions, each tied to a fact
+  data/capsules/YYYY-MM-DD.json that date's revision capsule: one-line points, grouped by subject
 
 Generated (never edit by hand):
   api/v1/index.json          entry point: totals, months, endpoint list
@@ -19,6 +20,8 @@ Generated (never edit by hand):
   api/v1/latest.json         the most recent date's papers and facts
   api/v1/quizzes/index.json  every quiz date with question counts
   api/v1/quizzes/<date>.json one date's quiz, questions enriched with the fact's tags and priority
+  api/v1/capsules/index.json every capsule date with point counts
+  api/v1/capsules/<date>.json one date's capsule, points grouped by subject
   exports/*.csv              the same data as spreadsheets
 Exits non-zero, writing nothing, if validation fails.
 """
@@ -49,6 +52,8 @@ months = [(os.path.splitext(os.path.basename(p))[0], load(p))
           for p in sorted(glob.glob(os.path.join(DATA, "months", "*.json")))]
 quizzes = [(os.path.splitext(os.path.basename(p))[0], load(p))
            for p in sorted(glob.glob(os.path.join(DATA, "quizzes", "*.json")))]
+capsules = [(os.path.splitext(os.path.basename(p))[0], load(p))
+            for p in sorted(glob.glob(os.path.join(DATA, "capsules", "*.json")))]
 Q_RE = re.compile(r"^q(\d{8})-(\d{3})$")
 
 # ---------------------------------------------------------------- validate
@@ -146,6 +151,28 @@ for qd, qdoc in quizzes:
         for x in q.get("also", []):
             if x not in fact_date:
                 errors.append(f"quiz {qid}: 'also' fact '{x}' does not exist")
+
+for cd, cdoc in capsules:
+    if cdoc.get("date") != cd:
+        errors.append(f"capsule file {cd}: 'date' must be {cd}")
+    secs = cdoc.get("sections") or []
+    if not secs:
+        errors.append(f"capsule {cd}: no sections")
+    for sec in secs:
+        j = sec.get("junction")
+        if j not in nodes or nodes[j]["parent"] != "hub":
+            errors.append(f"capsule {cd}: '{j}' is not a junction")
+        pts = sec.get("points") or []
+        if not pts:
+            errors.append(f"capsule {cd}/{j}: no points")
+        for pt in pts:
+            if not pt.get("text"):
+                errors.append(f"capsule {cd}/{j}: empty point")
+            elif len(pt["text"]) > 240:
+                errors.append(f"capsule {cd}/{j}: point over 240 chars: {pt['text'][:50]}...")
+            for x in pt.get("facts", []):
+                if x not in fact_date:
+                    errors.append(f"capsule {cd}/{j}: fact '{x}' does not exist")
 
 if errors:
     print("VALIDATION FAILED:")
@@ -248,6 +275,8 @@ endpoints = {
     "latest": "api/v1/latest.json",
     "quizzes": "api/v1/quizzes/index.json",
     "quiz": "api/v1/quizzes/{YYYY-MM-DD}.json",
+    "capsules": "api/v1/capsules/index.json",
+    "capsule": "api/v1/capsules/{YYYY-MM-DD}.json",
 }
 quiz_rows, quiz_index = {}, []
 # "Also remember": related exam facts shown with the answer, chosen by hand in each question's
@@ -272,12 +301,33 @@ for qd, qdoc in quizzes:
                            "upsc": sum("UPSC" in r["tags"] for r in rows),
                            "cgl_high": sum(r["priority"] == "high" for r in rows),
                            "papers": [p["id"] for p in paper_rows if p["date"] == qd]})
+cap_rows, cap_index = {}, []
+for cd, cdoc in capsules:
+    secs = []
+    for sec in cdoc["sections"]:
+        j = sec["junction"]
+        secs.append({"junction": j, "label": nodes[j]["label"], "short": nodes[j].get("short"),
+                     "hue": nodes[j].get("hue"), "order": nodes[j].get("order"),
+                     "points": [{"text": pt["text"], "plain": plain(pt["text"]),
+                                 "facts": [x for x in pt.get("facts", []) if x in by_id],
+                                 "keys": BOLD.findall(pt["text"])} for pt in sec["points"]]})
+    secs.sort(key=lambda x: (x["order"] or 99))
+    n = sum(len(x["points"]) for x in secs)
+    cap_rows[cd] = {"date": cd, "sections": secs, "points": n,
+                    "read_minutes": max(1, round(n * 14 / 130)),
+                    "papers": [p for p in paper_rows if p["date"] == cd],
+                    "quiz": next((x["questions"] for x in quiz_index if x["date"] == cd), 0)}
+    cap_index.append({"date": cd, "points": n, "sections": len(secs),
+                      "read_minutes": cap_rows[cd]["read_minutes"],
+                      "quiz": cap_rows[cd]["quiz"]})
 dump(os.path.join(API, "index.json"), {
     "name": "Current Affairs Web API", "version": 1, "base_url": SITE + "/",
     "docs": SITE + "/api.html", "updated": latest_date, "generated_at": now,
     "totals": {"junctions": sum(1 for n in nodes.values() if n["parent"] == "hub"),
                "branches": sum(1 for n in nodes.values() if n["parent"] != "hub"),
                "papers": len(papers), "publications": len(pubs), **counts(flat)},
+    "capsules": {"dates": len(cap_index), "points": sum(x["points"] for x in cap_index),
+                 "latest": cap_index[-1]["date"] if cap_index else None},
     "quiz": {"dates": len(quiz_index), "questions": sum(x["questions"] for x in quiz_index),
              "latest": quiz_index[-1]["date"] if quiz_index else None},
     "months": sorted(by_month), "endpoints": endpoints,
@@ -300,6 +350,10 @@ dump(os.path.join(API, "quizzes", "index.json"), {"dates": quiz_index[::-1]})
 for qd, rows in quiz_rows.items():
     dump(os.path.join(API, "quizzes", f"{qd}.json"),
          {"date": qd, "papers": [p for p in paper_rows if p["date"] == qd], "questions": rows})
+
+dump(os.path.join(API, "capsules", "index.json"), {"dates": cap_index[::-1]})
+for cd, row in cap_rows.items():
+    dump(os.path.join(API, "capsules", f"{cd}.json"), row)
 
 # ---------------------------------------------------------------- exports
 os.makedirs(os.path.join(ROOT, "exports"), exist_ok=True)
@@ -334,10 +388,19 @@ with open(os.path.join(ROOT, "exports", "quiz.csv"), "w", newline="", encoding="
             w.writerow([qd, r["id"], r["type"], r["q"], *o, "ABCDE"[r["answer"]], r["explanation"],
                         ";".join(r["tags"]), r["priority"] or "", r["gs"] or "", r["node"], r["fact"]])
 
+with open(os.path.join(ROOT, "exports", "capsules.csv"), "w", newline="", encoding="utf-8") as fp:
+    w = csv.writer(fp)
+    w.writerow(["date", "junction", "subject", "point", "facts"])
+    for cd, row in cap_rows.items():
+        for sec in row["sections"]:
+            for pt in sec["points"]:
+                w.writerow([cd, sec["junction"], sec["label"], pt["plain"], ";".join(pt["facts"])])
+
 # old location, superseded by api/v1/index.json
 old = os.path.join(DATA, "index.json")
 if os.path.exists(old):
     os.remove(old)
 
 print(f"OK  {len(nodes)} nodes, {len(papers)} papers, {n_facts} facts, "
-      f"{sum(x['questions'] for x in quiz_index)} quiz questions on {len(quiz_index)} dates, latest {latest_date}")
+      f"{sum(x['questions'] for x in quiz_index)} quiz questions and "
+      f"{sum(x['points'] for x in cap_index)} capsule points on {len(quiz_index)} dates, latest {latest_date}")

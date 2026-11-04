@@ -15,6 +15,7 @@ The spec is one JSON file per paper:
   "facts":  [{"node": "...", "tags": ["CGL","UPSC"], "priority": "high",
               "text": "...", "page": "1", "gs": "GS2", "extra": true}],
   "fixes":  [{"id": "f20261102-029", "find": "1 November", "replace": "31 October"}],
+  "capsule":[{"junction": "polity", "points": [{"text": "**X** did Y.", "facts": [1, 2]}]}],
   "quiz":   [{"fact": 3, "q": "...", "options": ["a","b","c","d"], "answer": 0,
               "explanation": "...", "type": "mcq", "also": [4, "f20261030-009"]}]
               ("also" is optional: 1-3 closely related exam facts shown under the answer;
@@ -23,6 +24,7 @@ The spec is one JSON file per paper:
 
 - Fact ids continue the date's numbering (a second paper on the same date goes on from the first).
 - A quiz "fact" is a 1-based index into this spec's "facts", or a full fact id from any date.
+- Capsule sections go into data/capsules/<date>.json: one short line per story, grouped by junction.
 - Quiz questions go into data/quizzes/<date>.json, numbered q<YYYYMMDD>-NNN. Options of "mcq"
   questions are shuffled (write the right answer anywhere; add "shuffle": false to keep the order).
   "statements" and "assertion" questions keep their standard option order.
@@ -159,6 +161,23 @@ def main():
             if k in fx:
                 f[k] = fx[k]
 
+    # capsule
+    p_cap = os.path.join(DATA, "capsules", f"{date}.json")
+    if p_cap not in backup:
+        backup[p_cap] = open(p_cap, encoding="utf-8").read() if os.path.exists(p_cap) else None
+        touched.append(p_cap)
+    cdoc = load(p_cap) if os.path.exists(p_cap) else {"date": date, "sections": []}
+    for sec in spec.get("capsule") or []:
+        pts = [{"text": pt["text"] if isinstance(pt, dict) else pt,
+                "facts": [facts[x - 1]["id"] if isinstance(x, int) else x
+                          for x in (pt.get("facts", []) if isinstance(pt, dict) else [])]}
+               for pt in sec["points"]]
+        cur = next((x for x in cdoc["sections"] if x["junction"] == sec["junction"]), None)
+        if cur:
+            cur["points"].extend(pts)
+        else:
+            cdoc["sections"].append({"junction": sec["junction"], "points": pts})
+
     # quiz
     qdoc = load(p_quiz) if os.path.exists(p_quiz) else {"date": date, "questions": []}
     qn = max((int(q["id"].split("-")[1]) for q in qdoc["questions"]), default=0) + 1
@@ -190,6 +209,8 @@ def main():
         save(pm, doc)
     if qdoc["questions"]:
         save(p_quiz, qdoc)
+    if cdoc["sections"]:
+        save(p_cap, cdoc)
     r = subprocess.run([sys.executable, "-I", os.path.join(ROOT, "tools", "build.py")], capture_output=True, text=True)
     print(r.stdout.strip())
     if r.returncode != 0:
@@ -203,7 +224,8 @@ def main():
         die("build failed; all data files restored")
     hi = sum(f.get("priority") == "high" for f in facts)
     print(f"added {pid}: {len(facts)} facts ({hi} high), {len(new_nodes)} new nodes, "
-          f"{len(spec.get('fixes') or [])} fixes, {len(spec.get('quiz') or [])} quiz questions")
+          f"{len(spec.get('fixes') or [])} fixes, {len(spec.get('quiz') or [])} quiz questions, "
+          f"{sum(len(s2['points']) for s2 in spec.get('capsule') or [])} capsule points")
 
 
 if __name__ == "__main__":

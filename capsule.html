@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Daily current-affairs capsule for SSC CGL and UPSC: each day's paper compressed into one-line points, subject by subject.">
+<title>Daily Capsule</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@500;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/site.css">
+<style>
+.bar{position:sticky;top:0;z-index:5;background:var(--bg);padding:12px 0 10px;border-bottom:1px solid var(--line);display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+select{font:500 14px var(--display);padding:7px 10px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--ink)}
+.btn-go{font:600 13px var(--display);padding:8px 13px;border-radius:8px;border:0;background:var(--ink);color:var(--surface);text-decoration:none;cursor:pointer;white-space:nowrap}
+.btn-go:hover{opacity:.88}
+.ghost{font:500 13px var(--display);padding:7px 11px;border-radius:8px;border:1px solid var(--line);background:var(--surface);color:var(--ink);text-decoration:none;cursor:pointer}
+.meta{font:500 12px var(--mono);color:var(--muted);display:flex;gap:14px;flex-wrap:wrap;margin-left:auto}
+.meta b{color:var(--ink);font-weight:500}
+.lede{font-family:var(--body);color:var(--muted);font-size:15px;max-width:66ch;margin:16px 0 0}
+section.sub{margin-top:22px;break-inside:avoid}
+section.sub h2{display:flex;align-items:center;gap:8px;margin:0 0 8px;font-size:15px;letter-spacing:.01em}
+section.sub h2 i{width:10px;height:10px;border-radius:50%;flex:none}
+section.sub h2 span.n{font:500 11px var(--mono);color:var(--muted)}
+ul.pts{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:7px}
+ul.pts li{position:relative;padding:9px 12px 9px 26px;background:var(--surface);border:1px solid var(--line);border-radius:9px;font-family:var(--body);font-size:15.5px;line-height:1.45}
+ul.pts li::before{content:"";position:absolute;left:12px;top:17px;width:5px;height:5px;border-radius:50%;background:var(--muted)}
+ul.pts li.done{opacity:.5}
+ul.pts li a.wb{float:right;margin-left:10px;font:500 11px var(--mono);color:var(--accent);text-decoration:none;opacity:.75}
+ul.pts li a.wb:hover{text-decoration:underline;opacity:1}
+.end{margin:26px 0 0;padding:16px;border:1px solid var(--line);border-radius:10px;background:var(--surface);display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between}
+.end p{margin:0;font-family:var(--body);font-size:15px}
+.empty{font-family:var(--body);color:var(--muted);margin-top:18px}
+@media(min-width:900px){ .cols{column-count:2;column-gap:22px} }
+@media print{ .bar,.nav,.end{display:none} }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <h1>Daily capsule</h1>
+    <p id="sub">Each day's paper, compressed to one-line points — read this, then take the quiz</p>
+    <nav class="nav" aria-label="Site"><a href="./">Web</a><a href="capsule.html" aria-current="page">Capsule</a><a href="quiz.html">Quiz</a><a href="sources.html">Sources</a><a href="api.html">API</a><a href="https://github.com/underwater001/current-affairs-web">GitHub</a></nav>
+  </header>
+
+  <div class="bar">
+    <label class="muted mono" for="date" style="font-size:12px">Date</label>
+    <select id="date" aria-label="Capsule date"></select>
+    <a class="btn-go" id="toquiz" href="quiz.html">Take the quiz</a>
+    <button type="button" class="ghost" id="clear">Clear ticks</button>
+    <span class="meta" id="meta"></span>
+  </div>
+
+  <p class="lede" id="lede"></p>
+  <div class="cols" id="body"></div>
+  <p class="empty" id="empty" hidden></p>
+  <div class="end" id="end" hidden>
+    <p id="endtext"></p>
+    <a class="btn-go" id="endquiz" href="quiz.html">Take the quiz</a>
+  </div>
+</div>
+<script>
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const md = s => esc(s).replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>').replace(/(^|[\s(])\*([^*\s][^*]*?)\*(?=[\s).,;:]|$)/g,'$1<em>$2</em>');
+const fmt = d => { const [y,m,dd] = d.split('-').map(Number); return new Date(Date.UTC(y,m-1,dd)).toLocaleDateString('en-IN',{weekday:'short',day:'numeric',month:'short',year:'numeric',timeZone:'UTC'}); };
+const S = { dates:[], date:null, doc:null, done:{} };
+const get = (k,d) => { try { return JSON.parse(localStorage.getItem(k)) ?? d; } catch(e){ return d; } };
+const set = (k,v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch(e){} };
+
+function render(){
+  const d = S.doc; if(!d) return;
+  const names = [...new Set((d.papers||[]).map(p => p.short))].join(' + ');
+  $('sub').textContent = `${fmt(d.date)}${names ? ' · '+names : ''} · read it in about ${d.read_minutes} min`;
+  const ticked = Object.values(S.done).filter(Boolean).length;
+  $('meta').innerHTML = `<span><b>${d.points}</b> points</span><span><b>${ticked}</b> ticked</span>${d.quiz?`<span><b>${d.quiz}</b> quiz Qs</span>`:''}`;
+  $('lede').textContent = 'Tap a point once you have read it. Everything here is already filed on the web and tested in that day’s quiz.';
+  $('body').innerHTML = d.sections.map(sec => `<section class="sub"><h2><i style="background:${sec.hue!=null?`oklch(62% 0.17 ${sec.hue})`:'var(--muted)'}"></i>${esc(sec.short || sec.label)} <span class="n">${sec.points.length}</span></h2>
+    <ul class="pts">${sec.points.map((p,i) => { const id = sec.junction+':'+i; return `<li data-k="${esc(id)}" class="${S.done[id]?'done':''}">${md(p.text)}</li>`; }).join('')}</ul></section>`).join('');
+  $('end').hidden = false;
+  $('endtext').textContent = d.quiz ? `That is the whole day. Now lock it in with ${d.quiz} questions.` : 'That is the whole day.';
+  $('toquiz').href = $('endquiz').href = 'quiz.html#' + d.date;
+}
+$('body').addEventListener('click', e => { const li = e.target.closest('li[data-k]'); if(!li) return;
+  const k = li.dataset.k; S.done[k] = !S.done[k]; set('cap-'+S.date, S.done); li.classList.toggle('done', !!S.done[k]);
+  const t = Object.values(S.done).filter(Boolean).length;
+  $('meta').innerHTML = $('meta').innerHTML.replace(/<span><b>\d+<\/b> ticked<\/span>/, `<span><b>${t}</b> ticked</span>`); });
+$('clear').addEventListener('click', () => { S.done = {}; set('cap-'+S.date, {}); render(); });
+$('date').addEventListener('change', e => load(e.target.value));
+
+async function load(date){
+  S.date = date; S.done = get('cap-'+date, {});
+  try { history.replaceState(null,'','#'+date); } catch(e){}
+  $('body').innerHTML = ''; $('empty').hidden = false; $('empty').textContent = 'Loading…'; $('end').hidden = true;
+  try {
+    const r = await fetch(`api/v1/capsules/${date}.json`, {cache:'no-cache'}); if(!r.ok) throw 0;
+    S.doc = await r.json(); $('empty').hidden = true; render();
+  } catch(e){ S.doc = null; $('empty').textContent = 'This capsule did not load. Refresh to try again.'; }
+}
+(async () => {
+  try { const r = await fetch('api/v1/capsules/index.json', {cache:'no-cache'}); S.dates = (await r.json()).dates || []; }
+  catch(e){ S.dates = []; }
+  if(!S.dates.length){ $('empty').hidden = false; $('empty').textContent = 'No capsules yet.'; $('sub').textContent = 'Each day’s paper, compressed to one-line points'; return; }
+  $('date').innerHTML = S.dates.map(x => `<option value="${x.date}">${fmt(x.date)} · ${x.points} points</option>`).join('');
+  const want = location.hash.slice(1); const start = S.dates.some(x => x.date === want) ? want : S.dates[0].date;
+  $('date').value = start; load(start);
+})();
+</script>
+</body>
+</html>

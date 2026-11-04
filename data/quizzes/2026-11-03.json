@@ -662,6 +662,734 @@
       "also": [
         "f20261103-105"
       ]
+    },
+    {
+      "id": "q20261103-041",
+      "fact": "f20261103-001",
+      "type": "mcq",
+      "q": "The SC called the right to religious freedom under Art. 25(1):",
+      "options": [
+        "A Fundamental Duty",
+        "A Directive Principle",
+        "An absolute right",
+        "A qualified right"
+      ],
+      "answer": 3,
+      "explanation": "A **qualified** right, limited by public order, morality and health."
+    },
+    {
+      "id": "q20261103-042",
+      "fact": "f20261103-004",
+      "type": "mcq",
+      "q": "Peaceful assembly is guaranteed by which Article?",
+      "options": [
+        "Art. 19(1)(c)",
+        "Art. 19(1)(b)",
+        "Art. 19(1)(a)",
+        "Art. 21"
+      ],
+      "answer": 1,
+      "explanation": "**Art. 19(1)(b)**; speech is 19(1)(a). Both carry reasonable restrictions."
+    },
+    {
+      "id": "q20261103-043",
+      "fact": "f20261103-018",
+      "type": "mcq",
+      "q": "Which party expelled Mokama MLA Anant Singh for six years?",
+      "options": [
+        "JD(U)",
+        "LJP",
+        "RJD",
+        "BJP"
+      ],
+      "answer": 0,
+      "explanation": "**JD(U)**, for opposing the party's candidate."
+    },
+    {
+      "id": "q20261103-044",
+      "fact": "f20261103-021",
+      "type": "mcq",
+      "q": "Amit Shah claimed the SIR removed about how many names?",
+      "options": [
+        "8 crore",
+        "20 crore",
+        "3 crore",
+        "13 crore"
+      ],
+      "answer": 3,
+      "explanation": "About **13 crore** by his count, including 4.25 crore double entries — his claim, not official data."
+    },
+    {
+      "id": "q20261103-045",
+      "fact": "f20261103-022",
+      "type": "mcq",
+      "q": "How many appellate tribunals will use e-signed ECINet orders in West Bengal?",
+      "options": [
+        "9",
+        "29",
+        "19",
+        "38"
+      ],
+      "answer": 2,
+      "explanation": "**19** tribunals; over 38 lakh of about 60 lakh cases are pending."
+    },
+    {
+      "id": "q20261103-046",
+      "fact": "f20261103-049",
+      "type": "mcq",
+      "q": "Under the new VB-G RAM G grievance rules, a complaint must be resolved within:",
+      "options": [
+        "15 days",
+        "30 days",
+        "45 days",
+        "7 days"
+      ],
+      "answer": 0,
+      "explanation": "**15 days**, after an inquiry within 7 days."
+    },
+    {
+      "id": "q20261103-047",
+      "fact": "f20261103-060",
+      "type": "mcq",
+      "q": "How many IAS officers did Kerala transfer in the November reshuffle?",
+      "options": [
+        "25",
+        "35",
+        "12",
+        "48"
+      ],
+      "answer": 1,
+      "explanation": "**35**; K.R. Jyothilal became Additional Chief Secretary (Home and Vigilance)."
+    },
+    {
+      "id": "q20261103-048",
+      "fact": "f20261103-061",
+      "type": "mcq",
+      "q": "Who said 'fiscal prudence is non-negotiable' while defending public capex?",
+      "options": [
+        "Sanjay Malhotra",
+        "V. Anantha Nageswaran",
+        "Nirmala Sitharaman",
+        "Arvind Panagariya"
+      ],
+      "answer": 2,
+      "explanation": "Finance Minister **Nirmala Sitharaman**."
+    },
+    {
+      "id": "q20261103-049",
+      "fact": "f20261103-064",
+      "type": "mcq",
+      "q": "Tamil Nadu's capital expenditure is under what share of GSDP?",
+      "options": [
+        "1.5%",
+        "5%",
+        "3.5%",
+        "2.5%"
+      ],
+      "answer": 0,
+      "explanation": "Under **1.5% of GSDP**; committed spending takes about two-thirds of revenue receipts."
+    },
+    {
+      "id": "q20261103-050",
+      "fact": "f20261103-066",
+      "type": "mcq",
+      "q": "The RBI's KYC update camps run until:",
+      "options": [
+        "31 December 2026",
+        "30 November 2026",
+        "30 June 2027",
+        "31 March 2027"
+      ],
+      "answer": 0,
+      "explanation": "**31 December 2026**, from 21 October."
+    },
+    {
+      "id": "q20261103-051",
+      "fact": "f20261103-067",
+      "type": "mcq",
+      "q": "The Congress sought a JPC probe into the sale of which bank?",
+      "options": [
+        "UCO Bank",
+        "IFCI",
+        "IDBI Bank",
+        "Punjab & Sind Bank"
+      ],
+      "answer": 2,
+      "explanation": "**IDBI Bank**, being sold to Canada's Fairfax Financial Holdings."
+    },
+    {
+      "id": "q20261103-052",
+      "fact": "f20261103-068",
+      "type": "mcq",
+      "q": "Which stock jumped 11.6% after its Q2 FY27 results?",
+      "options": [
+        "Tata Motors",
+        "HDFC Bank",
+        "Infosys",
+        "Reliance Industries"
+      ],
+      "answer": 3,
+      "explanation": "**Reliance Industries**, lifting the Sensex 1.7%."
+    },
+    {
+      "id": "q20261103-053",
+      "fact": "f20261103-070",
+      "type": "mcq",
+      "q": "Who objected to N. Chandrasekaran's third term in a letter to Noel Tata?",
+      "options": [
+        "Darius Khambata",
+        "Mehli Mistry",
+        "Venu Srinivasan",
+        "Cyrus Mistry"
+      ],
+      "answer": 0,
+      "explanation": "**Darius Khambata**, writing to Tata Trusts chairman Noel Tata."
+    },
+    {
+      "id": "q20261103-054",
+      "fact": "f20261103-073",
+      "type": "mcq",
+      "q": "US firm Vultr opened a 20-MW AI supercluster in which city?",
+      "options": [
+        "Bengaluru",
+        "Pune",
+        "Chennai",
+        "Hyderabad"
+      ],
+      "answer": 2,
+      "explanation": "**Chennai**, with about 10,000 AMD MI355X GPUs."
+    },
+    {
+      "id": "q20261103-055",
+      "fact": "f20261103-075",
+      "type": "mcq",
+      "q": "The Vedanta arbitration upheld by the SC concerns which oilfield?",
+      "options": [
+        "Ravva",
+        "Panna-Mukta",
+        "Cairn Mangala",
+        "Barmer"
+      ],
+      "answer": 0,
+      "explanation": "The **Ravva** field in the Krishna-Godavari basin; the award was about $99 million."
+    },
+    {
+      "id": "q20261103-056",
+      "fact": "f20261103-084",
+      "type": "mcq",
+      "q": "Russia's LNG exports rose 13.4% in 2026, helped by which project?",
+      "options": [
+        "Arctic LNG 2",
+        "Nord Stream 2",
+        "Yamal LNG 3",
+        "Sakhalin-1"
+      ],
+      "answer": 0,
+      "explanation": "**Arctic LNG 2**; exports reached 28 million tonnes."
+    },
+    {
+      "id": "q20261103-057",
+      "fact": "f20261103-085",
+      "type": "mcq",
+      "q": "Natural rubber (RSS-4) hit a record price of:",
+      "options": [
+        "₹300 per kg",
+        "₹350 per kg",
+        "₹200 per kg",
+        "₹250 per kg"
+      ],
+      "answer": 0,
+      "explanation": "**₹300 per kg**, the Rubber Board price."
+    },
+    {
+      "id": "q20261103-058",
+      "fact": "f20261103-089",
+      "type": "mcq",
+      "q": "On day two of Delhi's entry ban, how many vehicles were turned back?",
+      "options": [
+        "1,228",
+        "3,105",
+        "714",
+        "2,340"
+      ],
+      "answer": 0,
+      "explanation": "**1,228** of 8,263 checked."
+    },
+    {
+      "id": "q20261103-059",
+      "fact": "f20261103-091",
+      "type": "mcq",
+      "q": "The SC allowed green crackers in Delhi-NCR on which dates?",
+      "options": [
+        "6 and 7 November",
+        "Only 8 November",
+        "7 and 8 November",
+        "8 and 9 November"
+      ],
+      "answer": 2,
+      "explanation": "**7 and 8 November**, from 6-7 a.m. and 8-10 p.m."
+    },
+    {
+      "id": "q20261103-060",
+      "fact": "f20261103-092",
+      "type": "mcq",
+      "q": "Crackers were banned within how many metres of hospitals and schools?",
+      "options": [
+        "100 m",
+        "300 m",
+        "200 m",
+        "500 m"
+      ],
+      "answer": 1,
+      "explanation": "**300 m** — 'no-cracker zones'."
+    },
+    {
+      "id": "q20261103-061",
+      "fact": "f20261103-093",
+      "type": "mcq",
+      "q": "Which two bodies certify green cracker manufacturers?",
+      "options": [
+        "CPCB and BIS",
+        "DRDO and PESO",
+        "CSIR-NEERI and PESO",
+        "CAQM and NGT"
+      ],
+      "answer": 2,
+      "explanation": "**CSIR-NEERI** and **PESO**; boxes carry QR codes."
+    },
+    {
+      "id": "q20261103-062",
+      "fact": "f20261103-096",
+      "type": "mcq",
+      "q": "Which country bans private firecrackers outright?",
+      "options": [
+        "Sweden",
+        "Ireland",
+        "Germany",
+        "Singapore"
+      ],
+      "answer": 3,
+      "explanation": "**Singapore**; Germany and Sweden require permits."
+    },
+    {
+      "id": "q20261103-063",
+      "fact": "f20261103-102",
+      "type": "mcq",
+      "q": "What killed cheetah cub KNG22 at Kuno National Park?",
+      "options": [
+        "Recreational hunters",
+        "Disease",
+        "A leopard",
+        "Wildlife traders"
+      ],
+      "answer": 0,
+      "explanation": "A task force found it was shot by **recreational hunters**."
+    },
+    {
+      "id": "q20261103-064",
+      "fact": "f20261103-103",
+      "type": "mcq",
+      "q": "Indonesia's 2026 wildfires burned about how much land?",
+      "options": [
+        "0.4 million hectares",
+        "5.2 million hectares",
+        "1.9 million hectares",
+        "3.6 million hectares"
+      ],
+      "answer": 2,
+      "explanation": "**1.9 million hectares**, mostly peatland, worsened by El Nino and the Indian Ocean Dipole."
+    },
+    {
+      "id": "q20261103-065",
+      "fact": "f20261103-109",
+      "type": "mcq",
+      "q": "Meghalaya's October rainfall deficit was:",
+      "options": [
+        "65%",
+        "45%",
+        "85%",
+        "95%"
+      ],
+      "answer": 2,
+      "explanation": "**85%** — 38.3 mm against a normal of 255 mm."
+    },
+    {
+      "id": "q20261103-066",
+      "fact": "f20261103-110",
+      "type": "mcq",
+      "q": "The Ravva oilfield lies in which basin?",
+      "options": [
+        "Krishna-Godavari",
+        "Mumbai High",
+        "Cauvery",
+        "Cambay"
+      ],
+      "answer": 0,
+      "explanation": "The **Krishna-Godavari** basin, offshore Andhra Pradesh."
+    },
+    {
+      "id": "q20261103-067",
+      "fact": "f20261103-115",
+      "type": "mcq",
+      "q": "The Houthis claimed a drone attack on which Saudi airport?",
+      "options": [
+        "Riyadh",
+        "Jeddah",
+        "Dammam",
+        "Abha"
+      ],
+      "answer": 2,
+      "explanation": "**Dammam** airport."
+    },
+    {
+      "id": "q20261103-068",
+      "fact": "f20261103-117",
+      "type": "mcq",
+      "q": "Who chairs the UN Commission of Inquiry on the Occupied Palestinian Territory?",
+      "options": [
+        "Justice S. Muralidhar",
+        "Navi Pillay",
+        "Francesca Albanese",
+        "Justice Madan Lokur"
+      ],
+      "answer": 0,
+      "explanation": "**Justice S. Muralidhar**, a former Indian High Court judge."
+    },
+    {
+      "id": "q20261103-069",
+      "fact": "f20261103-122",
+      "type": "mcq",
+      "q": "Kansas has not elected a Democratic senator since:",
+      "options": [
+        "1932",
+        "1996",
+        "1952",
+        "1978"
+      ],
+      "answer": 0,
+      "explanation": "**1932**."
+    },
+    {
+      "id": "q20261103-070",
+      "fact": "f20261103-123",
+      "type": "mcq",
+      "q": "Which ceasefire, brokered by Melania Trump, collapsed in Ukraine?",
+      "options": [
+        "Oleshky",
+        "Bakhmut",
+        "Kherson city",
+        "Mariupol"
+      ],
+      "answer": 0,
+      "explanation": "The local **Oleshky** ceasefire; Russia resumed strikes on Kherson."
+    },
+    {
+      "id": "q20261103-071",
+      "fact": "f20261103-125",
+      "type": "mcq",
+      "q": "India and China share what arrangement on river waters?",
+      "options": [
+        "A 1996 water treaty",
+        "A joint river commission",
+        "A Brahmaputra sharing pact",
+        "No water treaty, only emergency flood data"
+      ],
+      "answer": 3,
+      "explanation": "**No treaty** — China shares flood data only in emergencies."
+    },
+    {
+      "id": "q20261103-072",
+      "fact": "f20261103-126",
+      "type": "mcq",
+      "q": "UK care workers who arrived before May 2025 can seek settlement after:",
+      "options": [
+        "3 years",
+        "5 years",
+        "10 years",
+        "15 years"
+      ],
+      "answer": 1,
+      "explanation": "**5 years** (instead of 15) if they earn £25,000 or more."
+    },
+    {
+      "id": "q20261103-073",
+      "fact": "f20261103-128",
+      "type": "mcq",
+      "q": "How did India vote on the UNGA resolution against the US embargo on Cuba?",
+      "options": [
+        "Against",
+        "Did not participate",
+        "Abstained",
+        "In favour"
+      ],
+      "answer": 3,
+      "explanation": "**In favour**, as in previous years."
+    },
+    {
+      "id": "q20261103-074",
+      "fact": "f20261103-130",
+      "type": "mcq",
+      "q": "How many Next Generation Corvettes were contracted for ₹53,866.50 crore?",
+      "options": [
+        "6",
+        "4",
+        "12",
+        "8"
+      ],
+      "answer": 3,
+      "explanation": "**8** — GRSE builds 5 and Goa Shipyard 3."
+    },
+    {
+      "id": "q20261103-075",
+      "fact": "f20261103-132",
+      "type": "mcq",
+      "q": "Delhi Police personnel protested the transfer of which officer?",
+      "options": [
+        "Commissioner Anurag Kumar",
+        "DCP Arun Kumar",
+        "ACP Manasvi Vashistha",
+        "SHO Rajesh Dahiya"
+      ],
+      "answer": 2,
+      "explanation": "**ACP Manasvi Vashistha**, after a scuffle with lawyers."
+    },
+    {
+      "id": "q20261103-076",
+      "fact": "f20261103-136",
+      "type": "mcq",
+      "q": "The ED searched the premises of which former Punjab minister?",
+      "options": [
+        "Bharat Bhushan Ashu",
+        "Navjot Singh Sidhu",
+        "Sadhu Singh Dharamsot",
+        "Sunder Sham Arora"
+      ],
+      "answer": 3,
+      "explanation": "**Sunder Sham Arora**, under the PMLA."
+    },
+    {
+      "id": "q20261103-077",
+      "fact": "f20261103-139",
+      "type": "mcq",
+      "q": "The DPDP Act's rules come fully into force in:",
+      "options": [
+        "May 2027",
+        "January 2028",
+        "May 2026",
+        "November 2025"
+      ],
+      "answer": 0,
+      "explanation": "**May 2027**; the rules were notified in November 2025."
+    },
+    {
+      "id": "q20261103-078",
+      "fact": "f20261103-142",
+      "type": "mcq",
+      "q": "UCLA's optical-electronic deepfake detector is how accurate on fake videos?",
+      "options": [
+        "88.4%",
+        "94.8%",
+        "99.86%",
+        "100%"
+      ],
+      "answer": 2,
+      "explanation": "**99.86%** on fakes and 95.72% on real videos, using 7x less energy."
+    },
+    {
+      "id": "q20261103-079",
+      "fact": "f20261103-148",
+      "type": "mcq",
+      "q": "Cigarette smoke silences which gene in lung organoids (*PNAS*)?",
+      "options": [
+        "BRCA1",
+        "Kras",
+        "Zbp1",
+        "Tp53"
+      ],
+      "answer": 2,
+      "explanation": "**Zbp1**; a Kras mutation then drives adenocarcinoma."
+    },
+    {
+      "id": "q20261103-080",
+      "fact": "f20261103-150",
+      "type": "mcq",
+      "q": "Which signal was adopted internationally at Berlin in 1906?",
+      "options": [
+        "SOS",
+        "CQD",
+        "Pan-pan",
+        "Mayday"
+      ],
+      "answer": 0,
+      "explanation": "**SOS**; Alzheimer presented his patient the same year."
+    },
+    {
+      "id": "q20261103-081",
+      "fact": "f20261103-138",
+      "type": "mcq",
+      "q": "Hackers raised supermarket freezer temperatures to 50°C in which country?",
+      "options": [
+        "Finland",
+        "Sweden",
+        "Denmark",
+        "Norway"
+      ],
+      "answer": 1,
+      "explanation": "**Sweden** and other European countries."
+    },
+    {
+      "id": "q20261103-082",
+      "fact": "f20261103-151",
+      "type": "mcq",
+      "q": "Under the SC's bonded labour order, aid must reach a freed worker within:",
+      "options": [
+        "30 days",
+        "7 days",
+        "15 days",
+        "24 hours"
+      ],
+      "answer": 1,
+      "explanation": "**7 days**; complaints must be verified in 24 hours."
+    },
+    {
+      "id": "q20261103-083",
+      "fact": "f20261103-154",
+      "type": "mcq",
+      "q": "Under which law was the Kasaragod paediatrician sentenced to 47 years?",
+      "options": [
+        "Prohibition of Child Marriage Act",
+        "Juvenile Justice Act",
+        "BNS alone",
+        "POCSO Act"
+      ],
+      "answer": 3,
+      "explanation": "The **POCSO Act**; 47 years, running concurrently as 20."
+    },
+    {
+      "id": "q20261103-084",
+      "fact": "f20261103-155",
+      "type": "mcq",
+      "q": "India Hate Lab recorded 60 attacks on Christians in which State?",
+      "options": [
+        "West Bengal",
+        "Jharkhand",
+        "Chhattisgarh",
+        "Odisha"
+      ],
+      "answer": 0,
+      "explanation": "**West Bengal**, between 13 May and 20 September."
+    },
+    {
+      "id": "q20261103-085",
+      "fact": "f20261103-156",
+      "type": "mcq",
+      "q": "The November 2026 refinery fire was at which HPCL facility?",
+      "options": [
+        "Visakh Refinery",
+        "Mumbai Refinery",
+        "Barmer Refinery",
+        "Bathinda Refinery"
+      ],
+      "answer": 0,
+      "explanation": "The **Visakh Refinery**, Visakhapatnam; no casualties."
+    },
+    {
+      "id": "q20261103-086",
+      "fact": "f20261103-164",
+      "type": "mcq",
+      "q": "Who will captain India A in the ACC Men's Rising Stars Asia Cup?",
+      "options": [
+        "Jitesh Sharma",
+        "Rajat Patidar",
+        "Tilak Varma",
+        "Abhishek Sharma"
+      ],
+      "answer": 2,
+      "explanation": "**Tilak Varma**."
+    },
+    {
+      "id": "q20261103-087",
+      "fact": "f20261103-166",
+      "type": "mcq",
+      "q": "Which team won the 2025-26 Ranji Trophy?",
+      "options": [
+        "Mumbai",
+        "Vidarbha",
+        "Services",
+        "Jammu & Kashmir"
+      ],
+      "answer": 3,
+      "explanation": "**Jammu & Kashmir**, under Paras Dogra."
+    },
+    {
+      "id": "q20261103-088",
+      "fact": "f20261103-169",
+      "type": "mcq",
+      "q": "The Archery Premier League uses a shot clock of:",
+      "options": [
+        "15 seconds",
+        "20 seconds",
+        "40 seconds",
+        "30 seconds"
+      ],
+      "answer": 0,
+      "explanation": "**15 seconds**, against 20 seconds at World Cups."
+    },
+    {
+      "id": "q20261103-089",
+      "fact": "f20261103-170",
+      "type": "mcq",
+      "q": "The 10th leg of the Indian Golf Premier League Season 2 was held at:",
+      "options": [
+        "Kolkata",
+        "Goa",
+        "Chennai",
+        "Visakhapatnam"
+      ],
+      "answer": 3,
+      "explanation": "**Visakhapatnam**."
+    },
+    {
+      "id": "q20261103-090",
+      "fact": "f20261103-135",
+      "type": "mcq",
+      "q": "Which Coast Guard ship rescued a fisherman off Mangaluru?",
+      "options": [
+        "ICGS Vikram",
+        "ICGS Samarth",
+        "ICGS Sujay",
+        "ICGS C-448"
+      ],
+      "answer": 3,
+      "explanation": "**ICGS C-448**, about 100 km offshore."
+    },
+    {
+      "id": "q20261103-091",
+      "fact": "f20261103-158",
+      "type": "mcq",
+      "q": "Who is Indonesia's President (2026)?",
+      "options": [
+        "Megawati Sukarnoputri",
+        "Joko Widodo",
+        "Ma'ruf Amin",
+        "Prabowo Subianto"
+      ],
+      "answer": 3,
+      "explanation": "**Prabowo Subianto**."
+    },
+    {
+      "id": "q20261103-092",
+      "fact": "f20261103-167",
+      "type": "mcq",
+      "q": "India beat Korea by what margin in the Asian Champions Trophy league match?",
+      "options": [
+        "4-0",
+        "3-2",
+        "6-1",
+        "8-0"
+      ],
+      "answer": 3,
+      "explanation": "**8-0** at Jalandhar; the knockouts moved to Mohali."
     }
   ]
 }

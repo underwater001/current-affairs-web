@@ -307,6 +307,384 @@
       ],
       "answer": 2,
       "explanation": "**Student union elections** in colleges and universities."
+    },
+    {
+      "id": "q20261102-021",
+      "fact": "f20261102-001",
+      "type": "mcq",
+      "q": "Where did the INDIA bloc hold its rally against the SIR?",
+      "options": [
+        "Boat Club",
+        "Jantar Mantar",
+        "Talkatora Stadium",
+        "Ramlila Maidan"
+      ],
+      "answer": 3,
+      "explanation": "**Ramlila Maidan**, Delhi; the BJP held a counter-rally on the 1984 riots."
+    },
+    {
+      "id": "q20261102-022",
+      "fact": "f20261102-013",
+      "type": "mcq",
+      "q": "Over 1,000 discrepant entries after the SIR were found in which city's rolls?",
+      "options": [
+        "Bengaluru",
+        "Hyderabad",
+        "Chennai",
+        "Pune"
+      ],
+      "answer": 0,
+      "explanation": "**Bengaluru**, including the Dasarahalli constituency."
+    },
+    {
+      "id": "q20261102-023",
+      "fact": "f20261102-012",
+      "type": "mcq",
+      "q": "Under which Schedule did the RJD seek the disqualification of two Bihar MLCs?",
+      "options": [
+        "Tenth Schedule",
+        "Eighth Schedule",
+        "Twelfth Schedule",
+        "Ninth Schedule"
+      ],
+      "answer": 0,
+      "explanation": "The **Tenth Schedule** (anti-defection)."
+    },
+    {
+      "id": "q20261102-024",
+      "fact": "f20261102-014",
+      "type": "mcq",
+      "q": "West Bengal aims to give CAA citizenship to 2.5 lakh people of which community?",
+      "options": [
+        "Chakmas",
+        "Gorkhas",
+        "Rajbanshis",
+        "Matuas"
+      ],
+      "answer": 3,
+      "explanation": "**Matuas**, Hindu Namasudras with roots in Bangladesh."
+    },
+    {
+      "id": "q20261102-025",
+      "fact": "f20261102-015",
+      "type": "mcq",
+      "q": "Turnout in Andhra Pradesh's 2026 urban local body polls was:",
+      "options": [
+        "39.72%",
+        "55.10%",
+        "63.30%",
+        "48.03%"
+      ],
+      "answer": 3,
+      "explanation": "**48.03%**, down from 63.30% in 2021."
+    },
+    {
+      "id": "q20261102-026",
+      "fact": "f20261102-035",
+      "type": "mcq",
+      "q": "How many cases are pending in India's High Courts, per the CJI?",
+      "options": [
+        "About 45 lakh",
+        "About 55 lakh",
+        "About 65.5 lakh",
+        "About 80 lakh"
+      ],
+      "answer": 2,
+      "explanation": "**65,54,788**, with 292 judicial vacancies against a sanctioned 1,122."
+    },
+    {
+      "id": "q20261102-027",
+      "fact": "f20261102-023",
+      "type": "mcq",
+      "q": "India's power consumption in October 2026 grew by:",
+      "options": [
+        "28.6%",
+        "9.4%",
+        "21.88%",
+        "15.2%"
+      ],
+      "answer": 2,
+      "explanation": "**21.88%** year-on-year, to 159.76 billion units."
+    },
+    {
+      "id": "q20261102-028",
+      "fact": "f20261102-003",
+      "type": "mcq",
+      "q": "A 19-kg commercial LPG cylinder in Delhi cost how much after the November revision?",
+      "options": [
+        "₹2,340",
+        "₹1,802",
+        "₹2,820",
+        "₹2,971"
+      ],
+      "answer": 2,
+      "explanation": "**₹2,820**; Kolkata's rose to ₹2,971. Domestic LPG was unchanged."
+    },
+    {
+      "id": "q20261102-029",
+      "fact": "f20261102-037",
+      "type": "mcq",
+      "q": "Foreign Portfolio Investors withdrew how much from Indian equities in October?",
+      "options": [
+        "₹23,100 crore",
+        "₹12,500 crore",
+        "₹34,843 crore",
+        "₹51,200 crore"
+      ],
+      "answer": 2,
+      "explanation": "**₹34,843 crore**, a second straight month of outflows."
+    },
+    {
+      "id": "q20261102-030",
+      "fact": "f20261102-040",
+      "type": "mcq",
+      "q": "Comex gold fell in October 2026 to a one-year low of about:",
+      "options": [
+        "$3,884/oz",
+        "$4,210/oz",
+        "$5,120/oz",
+        "$2,884/oz"
+      ],
+      "answer": 0,
+      "explanation": "**$3,884.9 an ounce**, down 7.26%; silver fell 19.1%."
+    },
+    {
+      "id": "q20261102-031",
+      "fact": "f20261102-006",
+      "type": "mcq",
+      "q": "On day one of Delhi's entry curbs, how many vehicles were turned back?",
+      "options": [
+        "1,228",
+        "2,050",
+        "238",
+        "714"
+      ],
+      "answer": 3,
+      "explanation": "**714** of 7,279 checked; 38 end-of-life vehicles were impounded."
+    },
+    {
+      "id": "q20261102-032",
+      "fact": "f20261102-002",
+      "type": "mcq",
+      "q": "Cyclone Arnab's losses in Andhra Pradesh were estimated at:",
+      "options": [
+        "₹4,600 crore",
+        "₹7,500 crore",
+        "₹1,200 crore",
+        "₹2,800 crore"
+      ],
+      "answer": 0,
+      "explanation": "**₹4,600 crore**, with 3.5 lakh hectares of crops submerged."
+    },
+    {
+      "id": "q20261102-033",
+      "fact": "f20261102-007",
+      "type": "mcq",
+      "q": "Delhi's planned 3.3-km heritage corridor runs along:",
+      "options": [
+        "Ring Road",
+        "Netaji Subhash Marg",
+        "Rajpath",
+        "Mathura Road"
+      ],
+      "answer": 1,
+      "explanation": "**Netaji Subhash Marg**, from Delhi Gate to Kashmere Gate."
+    },
+    {
+      "id": "q20261102-034",
+      "fact": "f20261102-025",
+      "type": "mcq",
+      "q": "China's CPC Fifth Plenum confirmed the expulsion of how many Central Committee members?",
+      "options": [
+        "47",
+        "21",
+        "12",
+        "33"
+      ],
+      "answer": 3,
+      "explanation": "**33**, including 16 PLA generals."
+    },
+    {
+      "id": "q20261102-035",
+      "fact": "f20261102-041",
+      "type": "mcq",
+      "q": "What did Iran's Revolutionary Guards say a renewed war would have?",
+      "options": [
+        "No geographic limitations",
+        "No naval component",
+        "Only cyber targets",
+        "A fixed six-month horizon"
+      ],
+      "answer": 0,
+      "explanation": "'**No geographic limitations**', Iran warned."
+    },
+    {
+      "id": "q20261102-036",
+      "fact": "f20261102-042",
+      "type": "mcq",
+      "q": "Lula beat Flavio Bolsonaro in the runoff by what margin?",
+      "options": [
+        "50.4% to 49.6%",
+        "51.79% to 48.21%",
+        "55.2% to 44.8%",
+        "53.1% to 46.9%"
+      ],
+      "answer": 1,
+      "explanation": "**51.79% to 48.21%**."
+    },
+    {
+      "id": "q20261102-037",
+      "fact": "f20261102-043",
+      "type": "mcq",
+      "q": "Pakistan told which government that 'terrorism is a red line'?",
+      "options": [
+        "Myanmar's junta",
+        "Bangladesh",
+        "Afghanistan's Taliban",
+        "Iran"
+      ],
+      "answer": 2,
+      "explanation": "Afghanistan's **Taliban** government."
+    },
+    {
+      "id": "q20261102-038",
+      "fact": "f20261102-022",
+      "type": "mcq",
+      "q": "Harvard's ElectIt model forecast Democrats winning how many of 435 House seats?",
+      "options": [
+        "245",
+        "205",
+        "230",
+        "218"
+      ],
+      "answer": 2,
+      "explanation": "**230**, plus 18 of the 35 contested Senate seats."
+    },
+    {
+      "id": "q20261102-039",
+      "fact": "f20261102-036",
+      "type": "mcq",
+      "q": "Mahadev Online Book promoter Sourabh Chandrakar was extradited from:",
+      "options": [
+        "UAE",
+        "Qatar",
+        "Sri Lanka",
+        "Oman"
+      ],
+      "answer": 3,
+      "explanation": "**Oman**, after an Interpol Red Corner Notice."
+    },
+    {
+      "id": "q20261102-040",
+      "fact": "f20261102-011",
+      "type": "mcq",
+      "q": "Azam Khan's PMLA case relates to land taken for which institution?",
+      "options": [
+        "Jamia Millia Islamia",
+        "Mohammad Ali Jauhar University",
+        "Rampur Raza Library",
+        "Aligarh Muslim University"
+      ],
+      "answer": 1,
+      "explanation": "**Mohammad Ali Jauhar University**, Rampur."
+    },
+    {
+      "id": "q20261102-041",
+      "fact": "f20261102-026",
+      "type": "mcq",
+      "q": "Which group did Chainalysis blame for the $6.3-billion Binance hack?",
+      "options": [
+        "Fancy Bear (Russia)",
+        "Lazarus Group (North Korea)",
+        "Anonymous",
+        "APT41 (China)"
+      ],
+      "answer": 1,
+      "explanation": "North Korea's **Lazarus Group**, via 'TraderTraitor'."
+    },
+    {
+      "id": "q20261102-042",
+      "fact": "f20261102-009",
+      "type": "mcq",
+      "q": "The alleged rape inside a police station that led to three arrests was in:",
+      "options": [
+        "Bhiwani, Haryana",
+        "Kamrup, Assam",
+        "Hathras, U.P.",
+        "Seraikela, Jharkhand"
+      ],
+      "answer": 3,
+      "explanation": "**Seraikela, Jharkhand**; an SIT was formed."
+    },
+    {
+      "id": "q20261102-043",
+      "fact": "f20261102-010",
+      "type": "mcq",
+      "q": "Which university ordered a probe into a first-year student's molestation complaint?",
+      "options": [
+        "Visva-Bharati",
+        "Jadavpur University",
+        "Presidency University",
+        "Calcutta University"
+      ],
+      "answer": 1,
+      "explanation": "**Jadavpur University**, Kolkata."
+    },
+    {
+      "id": "q20261102-044",
+      "fact": "f20261102-034",
+      "type": "mcq",
+      "q": "West Bengal offered Group D jobs to families of those killed in political violence over the past:",
+      "options": [
+        "10 years",
+        "15 years",
+        "40 years",
+        "25 years"
+      ],
+      "answer": 3,
+      "explanation": "**25 years**, with an income cutoff of ₹50,000 a month."
+    },
+    {
+      "id": "q20261102-045",
+      "fact": "f20261102-048",
+      "type": "mcq",
+      "q": "Carlos Alcaraz won which title by beating Alex de Minaur?",
+      "options": [
+        "Swiss Indoors",
+        "Erste Bank Open final in Madrid",
+        "Paris Masters",
+        "Vienna Open"
+      ],
+      "answer": 3,
+      "explanation": "The **Vienna Open**, his fourth title of 2026."
+    },
+    {
+      "id": "q20261102-046",
+      "fact": "f20261102-050",
+      "type": "mcq",
+      "q": "Marc Marquez closed on which milestone after winning the Malaysian GP?",
+      "options": [
+        "A Dakar Rally debut",
+        "A 100th race win",
+        "An eighth MotoGP world title",
+        "A first Moto2 title"
+      ],
+      "answer": 2,
+      "explanation": "An **eighth MotoGP world title**; his lead grew to 399 points."
+    },
+    {
+      "id": "q20261102-047",
+      "fact": "f20261102-052",
+      "type": "mcq",
+      "q": "Manav Thakkar won his first international singles title at:",
+      "options": [
+        "WTT Feeder Chennai",
+        "Asian Table Tennis Championships",
+        "Commonwealth Table Tennis Championships",
+        "WTT Star Contender Goa"
+      ],
+      "answer": 0,
+      "explanation": "**WTT Feeder Chennai**, beating England's Samuel Walker."
     }
   ]
 }

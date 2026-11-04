@@ -695,6 +695,524 @@
       ],
       "answer": 1,
       "explanation": "Both are true (NDPS Act **1985**, NCB **1986**), but the NCB's creation does not explain why the Act is the main law."
+    },
+    {
+      "id": "q20261101-046",
+      "fact": "f20261101-012",
+      "type": "mcq",
+      "q": "How many voters' details were allegedly altered in Pilibhit Sadar?",
+      "options": [
+        "8,400",
+        "3,150",
+        "23,500",
+        "13,150"
+      ],
+      "answer": 3,
+      "explanation": "**13,150**, which led to all ERO computer-assistant ECINET logins being frozen."
+    },
+    {
+      "id": "q20261101-047",
+      "fact": "f20261101-048",
+      "type": "mcq",
+      "q": "How many Assembly seats does Punjab have?",
+      "options": [
+        "90",
+        "117",
+        "147",
+        "126"
+      ],
+      "answer": 1,
+      "explanation": "**117**; AAP won 92 in 2022 and the term ends 16 March 2027."
+    },
+    {
+      "id": "q20261101-048",
+      "fact": "f20261101-035",
+      "type": "mcq",
+      "q": "Which BNS section covers negligent conduct with respect to fire?",
+      "options": [
+        "Section 125(a)",
+        "Section 287",
+        "Section 3(5)",
+        "Section 105"
+      ],
+      "answer": 1,
+      "explanation": "**Section 287**; 105 is culpable homicide not amounting to murder."
+    },
+    {
+      "id": "q20261101-049",
+      "fact": "f20261101-061",
+      "type": "mcq",
+      "q": "In the fortnightly windfall review, the export duty on petrol was set at:",
+      "options": [
+        "₹11/litre",
+        "₹11.5/litre",
+        "Nil",
+        "₹2/litre"
+      ],
+      "answer": 2,
+      "explanation": "**Nil**; diesel went to ₹11.5/litre and ATF to ₹11/litre."
+    },
+    {
+      "id": "q20261101-050",
+      "fact": "f20261101-062",
+      "type": "mcq",
+      "q": "NTPC's plant load factor in Q2 FY27 was:",
+      "options": [
+        "66.01%",
+        "73.53%",
+        "70.2%",
+        "81.4%"
+      ],
+      "answer": 1,
+      "explanation": "**73.53%**, up from 66.01% a year earlier; profit rose 14.3% to ₹5,320 crore."
+    },
+    {
+      "id": "q20261101-051",
+      "fact": "f20261101-063",
+      "type": "mcq",
+      "q": "Russia's share of IOCL's crude basket in H1 was about:",
+      "options": [
+        "55%",
+        "35%",
+        "45%",
+        "24%"
+      ],
+      "answer": 0,
+      "explanation": "About **55%**; the Middle East was 24% and Africa 10%."
+    },
+    {
+      "id": "q20261101-052",
+      "fact": "f20261101-065",
+      "type": "mcq",
+      "q": "'LODR' norms that listed companies follow stand for:",
+      "options": [
+        "Liquidity, Ownership and Disclosure Regulations",
+        "Listing Oversight and Data Reporting",
+        "Listing Obligations and Disclosure Requirements",
+        "Listed Operations and Debt Rules"
+      ],
+      "answer": 2,
+      "explanation": "**Listing Obligations and Disclosure Requirements**, SEBI's rules for listed companies."
+    },
+    {
+      "id": "q20261101-053",
+      "fact": "f20261101-106",
+      "type": "mcq",
+      "q": "The Bharat Renewable Energy Summit 2026 was held at:",
+      "options": [
+        "Yashobhoomi",
+        "Vigyan Bhawan",
+        "Pragati Maidan Hall 8",
+        "Bharat Mandapam"
+      ],
+      "answer": 3,
+      "explanation": "**Bharat Mandapam**, New Delhi, 2-5 November."
+    },
+    {
+      "id": "q20261101-054",
+      "fact": "f20261101-013",
+      "type": "mcq",
+      "q": "Delhi's winter curbs required what share of office staff to work from home?",
+      "options": [
+        "50%",
+        "25%",
+        "75%",
+        "33%"
+      ],
+      "answer": 0,
+      "explanation": "**50%**, along with a construction ban and entry curbs on below-BS-VI vehicles till 31 January."
+    },
+    {
+      "id": "q20261101-055",
+      "fact": "f20261101-028",
+      "type": "mcq",
+      "q": "CAQM's particulate limit for 17 highly polluting industry categories is:",
+      "options": [
+        "150 mg/Nm3",
+        "20 mg/Nm3",
+        "50 mg/Nm3",
+        "100 mg/Nm3"
+      ],
+      "answer": 2,
+      "explanation": "**50 mg/Nm3**, applicable from 1 October; only ~200 of 2,321 units had complied."
+    },
+    {
+      "id": "q20261101-056",
+      "fact": "f20261101-073",
+      "type": "mcq",
+      "q": "Which group of States has an infant mortality rate of about 8 per 1,000?",
+      "options": [
+        "Kerala, Goa and Puducherry",
+        "U.P., Bihar and Jharkhand",
+        "Punjab, Haryana and Delhi",
+        "Assam, Odisha and M.P."
+      ],
+      "answer": 0,
+      "explanation": "**Kerala, Goa and Puducherry**; U.P. and Rajasthan are near 30."
+    },
+    {
+      "id": "q20261101-057",
+      "fact": "f20261101-039",
+      "type": "mcq",
+      "q": "The low-pressure area that became a cyclone formed over the:",
+      "options": [
+        "Arabian Sea",
+        "South Andaman Sea",
+        "Lakshadweep Sea",
+        "Gulf of Mannar"
+      ],
+      "answer": 1,
+      "explanation": "The **South Andaman Sea**, moving into the Bay of Bengal."
+    },
+    {
+      "id": "q20261101-058",
+      "fact": "f20261101-082",
+      "type": "mcq",
+      "q": "Arab parties (Joint List and Ra'am) won how many Knesset seats in the 27 Oct 2026 election?",
+      "options": [
+        "15",
+        "19",
+        "24",
+        "12"
+      ],
+      "answer": 1,
+      "explanation": "**19**, their best ever, on a turnout of 77.7%."
+    },
+    {
+      "id": "q20261101-059",
+      "fact": "f20261101-083",
+      "type": "mcq",
+      "q": "Serbia's 'Student List' won how many of the 250 parliamentary seats?",
+      "options": [
+        "141",
+        "118",
+        "103",
+        "167"
+      ],
+      "answer": 0,
+      "explanation": "**141**, against 103 for Vucic's SNS."
+    },
+    {
+      "id": "q20261101-060",
+      "fact": "f20261101-084",
+      "type": "mcq",
+      "q": "Britain abolished slavery in its empire in:",
+      "options": [
+        "1838",
+        "1865",
+        "1833",
+        "1807"
+      ],
+      "answer": 2,
+      "explanation": "**1833** (the slave trade went in 1807; full freedom by 1838); owners were paid £20 million."
+    },
+    {
+      "id": "q20261101-061",
+      "fact": "f20261101-085",
+      "type": "mcq",
+      "q": "Indian indentured labour was sent across the British Empire between:",
+      "options": [
+        "1838 and 1917",
+        "1900 and 1947",
+        "1858 and 1900",
+        "1800 and 1858"
+      ],
+      "answer": 0,
+      "explanation": "**1838-1917**, about 2 million people."
+    },
+    {
+      "id": "q20261101-062",
+      "fact": "f20261101-088",
+      "type": "mcq",
+      "q": "Poland's President Karol Nawrocki accused PM Donald Tusk of taking over which institution?",
+      "options": [
+        "The public broadcaster",
+        "The electoral commission",
+        "The Constitutional Tribunal",
+        "The central bank"
+      ],
+      "answer": 2,
+      "explanation": "The **Constitutional Tribunal**, after its president was suspended."
+    },
+    {
+      "id": "q20261101-063",
+      "fact": "f20261101-089",
+      "type": "mcq",
+      "q": "The US approved the sale of how many Patriot missiles to Ukraine?",
+      "options": [
+        "100",
+        "500",
+        "1,000",
+        "250"
+      ],
+      "answer": 1,
+      "explanation": "**500** Patriot air-defence missiles."
+    },
+    {
+      "id": "q20261101-064",
+      "fact": "f20261101-024",
+      "type": "mcq",
+      "q": "Punjab's anti-drug campaign is called:",
+      "options": [
+        "Yudh Nashian Virudh",
+        "Operation Toofan",
+        "Nasha Mukt Punjab",
+        "Mission Sanjeevani"
+      ],
+      "answer": 0,
+      "explanation": "**Yudh Nashian Virudh**, at day 606 with 88,979 arrests."
+    },
+    {
+      "id": "q20261101-065",
+      "fact": "f20261101-041",
+      "type": "mcq",
+      "q": "The ED's cross-border 'narco-hawala' crackdown was named:",
+      "options": [
+        "Operation Garuda",
+        "Operation Sindoor",
+        "Operation Chakra",
+        "Operation Trident"
+      ],
+      "answer": 3,
+      "explanation": "**Operation Trident**: 38 raids across Assam, Mizoram and Manipur."
+    },
+    {
+      "id": "q20261101-066",
+      "fact": "f20261101-044",
+      "type": "mcq",
+      "q": "The Suspension of Operations (SoO) pact in Manipur expired on:",
+      "options": [
+        "4 September",
+        "23 October",
+        "4 November",
+        "1 October"
+      ],
+      "answer": 0,
+      "explanation": "**4 September 2026**, without renewal."
+    },
+    {
+      "id": "q20261101-067",
+      "fact": "f20261101-046",
+      "type": "mcq",
+      "q": "PM Modi's remarks on Naxalism and a 'secular civil code' were made at:",
+      "options": [
+        "Gandhinagar",
+        "Ahmedabad",
+        "Kevadia Colony",
+        "Ekta Nagar"
+      ],
+      "answer": 3,
+      "explanation": "**Ekta Nagar** (Statue of Unity), on Patel's 151st birth anniversary."
+    },
+    {
+      "id": "q20261101-068",
+      "fact": "f20261101-032",
+      "type": "mcq",
+      "q": "State Public Service Commissions are constitutional bodies under:",
+      "options": [
+        "Article 320",
+        "Article 324",
+        "Article 315",
+        "Article 280"
+      ],
+      "answer": 2,
+      "explanation": "**Article 315**; Article 320 covers their functions."
+    },
+    {
+      "id": "q20261101-069",
+      "fact": "f20261101-080",
+      "type": "mcq",
+      "q": "How many first-generation IRNSS satellites did ISRO declare fully defunct?",
+      "options": [
+        "Four",
+        "Seven",
+        "Five",
+        "Three"
+      ],
+      "answer": 2,
+      "explanation": "**Five**, with all their atomic clocks failed."
+    },
+    {
+      "id": "q20261101-070",
+      "fact": "f20261101-069",
+      "type": "mcq",
+      "q": "NIPGR researchers identified which channel as carrying a plant's alarm signal?",
+      "options": [
+        "GLR3.3",
+        "OST1",
+        "PIN1",
+        "CNGC13"
+      ],
+      "answer": 3,
+      "explanation": "**CNGC13**, a calcium channel in the xylem and phloem (*PNAS*)."
+    },
+    {
+      "id": "q20261101-071",
+      "fact": "f20261101-070",
+      "type": "mcq",
+      "q": "CRMA-1001, an experimental therapy, silences the DNA of which virus?",
+      "options": [
+        "HIV",
+        "Hepatitis C",
+        "Hepatitis B",
+        "Herpes simplex"
+      ],
+      "answer": 2,
+      "explanation": "**Hepatitis B**, by methylating the viral genome using CRISPR-Cas9."
+    },
+    {
+      "id": "q20261101-072",
+      "fact": "f20261101-071",
+      "type": "mcq",
+      "q": "Fake references in science papers rose to how many per 10,000 papers by 2026?",
+      "options": [
+        "23",
+        "48",
+        "6",
+        "12"
+      ],
+      "answer": 0,
+      "explanation": "**23 per 10,000**, up from about 6 in 2023."
+    },
+    {
+      "id": "q20261101-073",
+      "fact": "f20261101-072",
+      "type": "mcq",
+      "q": "Why did early humans avoid some green parts of the Rub' al Khali?",
+      "options": [
+        "Extreme cold",
+        "No tool-making stone",
+        "No water",
+        "Volcanic activity"
+      ],
+      "answer": 1,
+      "explanation": "Lakes existed but there was **no tool-making stone**, so migration needed both."
+    },
+    {
+      "id": "q20261101-074",
+      "fact": "f20261101-007",
+      "type": "mcq",
+      "q": "Health insurers rejected or repudiated claims worth about how much in 2024-25 (IRDAI data)?",
+      "options": [
+        "₹18,000 crore",
+        "₹10,000 crore",
+        "₹30,000 crore",
+        "₹52,000 crore"
+      ],
+      "answer": 2,
+      "explanation": "About **₹30,000 crore**, despite claimed settlement ratios of 96-98%."
+    },
+    {
+      "id": "q20261101-075",
+      "fact": "f20261101-064",
+      "type": "mcq",
+      "q": "Which two Musk companies are proposed to merge?",
+      "options": [
+        "Tesla and xAI",
+        "SpaceX and Starlink",
+        "X.com and xAI",
+        "SpaceX and Tesla"
+      ],
+      "answer": 3,
+      "explanation": "**SpaceX and Tesla**, worth about $3.5 trillion together."
+    },
+    {
+      "id": "q20261101-076",
+      "fact": "f20261101-001",
+      "type": "mcq",
+      "q": "Which Anthropic co-founder urged a pause in AI development in September?",
+      "options": [
+        "Daniela Amodei",
+        "Dario Amodei",
+        "Sam Altman",
+        "Demis Hassabis"
+      ],
+      "answer": 1,
+      "explanation": "**Dario Amodei**, in a 12 September essay."
+    },
+    {
+      "id": "q20261101-077",
+      "fact": "f20261101-002",
+      "type": "mcq",
+      "q": "Hechin Haokip's Centre for Women and Girls works in which State?",
+      "options": [
+        "Manipur",
+        "Mizoram",
+        "Assam",
+        "Nagaland"
+      ],
+      "answer": 0,
+      "explanation": "**Manipur**, in the Kuki-dominated hill districts."
+    },
+    {
+      "id": "q20261101-078",
+      "fact": "f20261101-095",
+      "type": "mcq",
+      "q": "Who scored 127 in the ODI tri-series final at Lahore?",
+      "options": [
+        "Saad Baig",
+        "Fakhar Zaman",
+        "Babar Azam",
+        "Kamindu Mendis"
+      ],
+      "answer": 1,
+      "explanation": "**Fakhar Zaman**, as Pakistan beat Sri Lanka."
+    },
+    {
+      "id": "q20261101-079",
+      "fact": "f20261101-097",
+      "type": "mcq",
+      "q": "The men's Asian Champions Trophy was first played in:",
+      "options": [
+        "2016",
+        "2013",
+        "2011",
+        "2018"
+      ],
+      "answer": 2,
+      "explanation": "**2011**; India is the only Asian team in the world top 10."
+    },
+    {
+      "id": "q20261101-080",
+      "fact": "f20261101-098",
+      "type": "mcq",
+      "q": "Which Indian club played in the AFC Women's Champions League group at Kolkata?",
+      "options": [
+        "Odisha FC",
+        "Sethu FC",
+        "East Bengal",
+        "Gokulam Kerala"
+      ],
+      "answer": 2,
+      "explanation": "**East Bengal**, the Indian Women's League champion."
+    },
+    {
+      "id": "q20261101-081",
+      "fact": "f20261101-100",
+      "type": "mcq",
+      "q": "Teenage paddler Swara Karmarkar, a WTT Feeder Chennai semifinalist, is from:",
+      "options": [
+        "Nashik",
+        "Thane",
+        "Nagpur",
+        "Pune"
+      ],
+      "answer": 0,
+      "explanation": "**Nashik**; she was ranked 947th in the world."
+    },
+    {
+      "id": "q20261101-082",
+      "fact": "f20261101-006",
+      "type": "mcq",
+      "q": "Who plays Ravana in the film *Ramayana* releasing on 5 November?",
+      "options": [
+        "Yash",
+        "Vicky Kaushal",
+        "Sunny Deol",
+        "Ranbir Kapoor"
+      ],
+      "answer": 0,
+      "explanation": "**Yash**; Ranbir Kapoor plays Rama in Namit Malhotra's film."
     }
   ]
 }

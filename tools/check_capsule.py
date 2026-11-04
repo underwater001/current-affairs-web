@@ -45,25 +45,29 @@ def main():
         by_fact = {}
         for sec in cap["sections"]:
             for pt in sec["points"]:
-                for f in pt["facts"]:
-                    by_fact.setdefault(f, []).append(pt["plain"])
+                txt = pt["plain"] + " " + " ".join(m["text"] for m in pt["more"])
+                for f in pt["facts"] + [m["fact"] for m in pt["more"]]:
+                    by_fact.setdefault(f, []).append(txt)
         bad = []
         for q in json.load(open(p, encoding="utf-8"))["questions"]:
             src = " ".join(by_fact.get(q["fact"], []))
             if not src:
                 bad.append((q["id"], "fact not in the capsule", q["q"]))
                 continue
-            if q["type"] != "mcq":
-                continue
+            if q["type"] != "mcq" or " NOT " in q["q"]:
+                continue   # odd-one-out questions are answered by elimination
             need = toks(q["options"][q["answer"]])
             have = toks(src)
             missing = [w for w in need if not any(w == h or w in h or h in w for h in have)]
             if need and len(missing) > len(need) // 3:
                 bad.append((q["id"], "answer '%s' not in its capsule point" % q["options"][q["answer"]], q["q"]))
         qfacts = {q["fact"] for q in json.load(open(p, encoding="utf-8"))["questions"]}
-        untested = sum(1 for sec in cap["sections"] for pt in sec["points"]
-                       if not (set(pt["facts"]) | {m["fact"] for m in pt["more"]}) & qfacts)
-        print(f"{d}: {len(bad)} gap(s); {untested} capsule point(s) with no question")
+        untested = [pt["plain"] for sec in cap["sections"] for pt in sec["points"]
+                    if not (set(pt["facts"]) | {m["fact"] for m in pt["more"]}) & qfacts]
+        print(f"{d}: {len(bad)} gap(s); {len(untested)} capsule point(s) with no question")
+        if os.environ.get("SHOW_UNTESTED"):
+            for u in untested:
+                print("   no question:", u[:110])
         for b in bad:
             print(f"   {b[0]}  {b[1]}\n      {b[2][:100]}")
         gaps += len(bad)

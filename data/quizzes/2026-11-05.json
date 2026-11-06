@@ -1,0 +1,459 @@
+{
+  "date": "2026-11-05",
+  "questions": [
+    {
+      "id": "q20261105-001",
+      "fact": "f20261105-001",
+      "type": "mcq",
+      "q": "In the Mustafabad SIR row, what did most of the named booth-level agents deny?",
+      "options": [
+        "Receiving EPIC cards",
+        "Being appointed by the BJP",
+        "Being present at polling booths",
+        "Filing the Form 7 deletion applications against their names"
+      ],
+      "answer": 3,
+      "explanation": "16 of the 20 BJP-named BLAs denied filing or signing the 787 Form 7 applications credited to them."
+    },
+    {
+      "id": "q20261105-002",
+      "fact": "f20261105-002",
+      "type": "mcq",
+      "q": "Which form has the ECI been insisting that pre-existing (SIR-purged) Delhi voters file to get re-included?",
+      "options": [
+        "Form 7 (for objections)",
+        "The enumeration form only",
+        "Form 6 (for new voters)",
+        "Form 8 (for address change)"
+      ],
+      "answer": 2,
+      "explanation": "Despite the SC calling this an 'error', the ECI kept requiring Form 6, meant for fresh registrations."
+    },
+    {
+      "id": "q20261105-003",
+      "fact": "f20261105-004",
+      "type": "mcq",
+      "q": "Section 16 of which 2023 Act is under SC challenge for giving the CEC and ECs lifelong immunity from prosecution?",
+      "options": [
+        "The Registration of Electors Rules",
+        "The CEC and Other ECs (Appointment, Conditions of Service and Term of Office) Act, 2023",
+        "The Election Commission Act, 1950",
+        "The Representation of the People Act"
+      ],
+      "answer": 1,
+      "explanation": "This 2023 law (which also governs CEC/EC appointment) is under challenge for Section 16's blanket immunity clause."
+    },
+    {
+      "id": "q20261105-005",
+      "fact": "f20261105-006",
+      "type": "mcq",
+      "q": "The SC held that laws penalising more than two children for local-body office are outdated mainly because:",
+      "options": [
+        "The Constitution bans population-control laws",
+        "India's Total Fertility Rate has fallen below the replacement rate",
+        "The Election Commission opposed them",
+        "Such laws were never implemented"
+      ],
+      "answer": 1,
+      "explanation": "India's TFR fell from 3.02 to 1.9 against a replacement rate of 2.1, so the laws' original rationale (overpopulation) no longer holds.",
+      "also": [
+        "f20261105-007"
+      ]
+    },
+    {
+      "id": "q20261105-006",
+      "fact": "f20261105-008",
+      "type": "mcq",
+      "q": "The SC's ruling on a State's power to levy a cess on sales tax reaffirmed which earlier judgment?",
+      "options": [
+        "S. Kodar v. State of Kerala (1975)",
+        "Kesavananda Bharati v. State of Kerala",
+        "Minerva Mills v. Union of India",
+        "S.R. Bommai v. Union of India"
+      ],
+      "answer": 0,
+      "explanation": "The 7-judge Bench held that a sales-tax cess stays within Entry 54 of List II, as settled in S. Kodar (1975)."
+    },
+    {
+      "id": "q20261105-007",
+      "fact": "f20261105-014",
+      "type": "mcq",
+      "q": "At the Bharat Renewable Energy Summit, what size of preliminary investment commitment did India secure for its renewables sector?",
+      "options": [
+        "$100 billion",
+        "$400 billion",
+        "$250 billion",
+        "$1 trillion"
+      ],
+      "answer": 1,
+      "explanation": "Union Minister Pralhad Joshi said global fund managers had committed $400 billion (preliminary figures) across green hydrogen, storage and transmission."
+    },
+    {
+      "id": "q20261105-008",
+      "fact": "f20261105-015",
+      "type": "mcq",
+      "q": "What does the Cabinet-approved VISTAR scheme (₹4,371 crore) aim to overhaul?",
+      "options": [
+        "India's banking regulation framework",
+        "India's statistical ecosystem, including an economic census",
+        "India's railway signalling system",
+        "India's postal network"
+      ],
+      "answer": 1,
+      "explanation": "VISTAR — the Viksit Bharat Initiative for Statistical Transformation, Analytics and Research — runs 2026-27 to 2030-31."
+    },
+    {
+      "id": "q20261105-009",
+      "fact": "f20261105-016",
+      "type": "mcq",
+      "q": "The ₹14,500-crore VGF scheme for energy storage targets how much new grid-scale storage capacity?",
+      "options": [
+        "500 GWh",
+        "150 GWh",
+        "92 GWh",
+        "20 GWh"
+      ],
+      "answer": 2,
+      "explanation": "It funds 60 GWh of hydro pumped storage, 30 GWh of battery storage and 2 GWh of other technologies — 92 GWh in all."
+    },
+    {
+      "id": "q20261105-010",
+      "fact": "f20261105-017",
+      "type": "mcq",
+      "q": "The Cabinet's ₹2,814-crore scheme supports domestic processing facilities for which critical minerals?",
+      "options": [
+        "Bauxite and manganese",
+        "Rare earths and uranium",
+        "Cobalt and copper",
+        "Lithium and nickel"
+      ],
+      "answer": 3,
+      "explanation": "The 5-year capex-support scheme targets lithium and nickel processing to cut import dependence."
+    },
+    {
+      "id": "q20261105-011",
+      "fact": "f20261105-018",
+      "type": "mcq",
+      "q": "Why did gold prices rise 3% on 4 November?",
+      "options": [
+        "India raised import duty on gold",
+        "The US dollar index slipped to a 5-week low ahead of midterm results",
+        "The RBI cut interest rates",
+        "A new gold ETF was launched"
+      ],
+      "answer": 1,
+      "explanation": "A weaker dollar (5-week low of 101.3) makes dollar-priced gold cheaper for other currencies, lifting demand."
+    },
+    {
+      "id": "q20261105-012",
+      "fact": "f20261105-019",
+      "type": "mcq",
+      "q": "On 4 November, Sensex and Nifty closed at approximately:",
+      "options": [
+        "70,500 and 21,200",
+        "75,000 and 22,500",
+        "77,301 and 23,960",
+        "80,000 and 25,000"
+      ],
+      "answer": 2,
+      "explanation": "It was the fifth straight session of gains, even as the VIX 'fear gauge' remained up 65.4% year-to-date."
+    },
+    {
+      "id": "q20261105-013",
+      "fact": "f20261105-020",
+      "type": "mcq",
+      "q": "Mercedes-Benz's new electric GLC SUV, launched in India, offers a range of about:",
+      "options": [
+        "900 km",
+        "500 km",
+        "711 km",
+        "350 km"
+      ],
+      "answer": 2,
+      "explanation": "Priced from ₹78.5 lakh, with Mercedes announcing a fresh ₹200-crore investment taking its India total to ₹3,200 crore."
+    },
+    {
+      "id": "q20261105-014",
+      "fact": "f20261105-013",
+      "type": "mcq",
+      "q": "The Fast-Track Special Courts scheme (extended by 5 more years) is funded from which source?",
+      "options": [
+        "The CSR pool",
+        "State Disaster Response Funds",
+        "The Consolidated Fund of India directly",
+        "The Nirbhaya Fund"
+      ],
+      "answer": 3,
+      "explanation": "The Centre's ₹2,353.15-crore share comes from the Nirbhaya Fund; 779 FTSCs (incl. 399 exclusive POCSO courts) have disposed 4,02,457 cases since 2019."
+    },
+    {
+      "id": "q20261105-015",
+      "fact": "f20261105-012",
+      "type": "mcq",
+      "q": "Under the Cabinet's Agnipath review, what happens to the 75% of Agniveers not retained after 4 years?",
+      "options": [
+        "They are automatically made regular soldiers",
+        "They are discharged with no further option",
+        "They can serve 2 more years before being considered for regular enrolment",
+        "They are shifted to the Territorial Army"
+      ],
+      "answer": 2,
+      "explanation": "Earlier, only up to 25% of a batch were retained after 4 years; the rest now get an additional 2-year engagement window with enhanced benefits."
+    },
+    {
+      "id": "q20261105-016",
+      "fact": "f20261105-009",
+      "type": "mcq",
+      "q": "Delhi's AQI rose to 377 on 5 November mainly due to a doubling of which pollution source's share?",
+      "options": [
+        "Construction dust",
+        "Firecracker smoke",
+        "Stubble burning (to 16.28% of PM2.5)",
+        "Vehicular emissions"
+      ],
+      "answer": 2,
+      "explanation": "Stubble-burning's contribution to Delhi's PM2.5 doubled from 8.2% to 16.28% in a single day, per the Union Ministry of Earth Sciences."
+    },
+    {
+      "id": "q20261105-017",
+      "fact": "f20261105-011",
+      "type": "mcq",
+      "q": "On the CPCB's AQI scale, a reading of 420 would be classified as:",
+      "options": [
+        "Severe plus",
+        "Severe",
+        "Moderate",
+        "Very poor"
+      ],
+      "answer": 1,
+      "explanation": "401-450 is the 'severe' band; 301-400 is 'very poor' and 451-500 is 'severe plus'."
+    },
+    {
+      "id": "q20261105-018",
+      "fact": "f20261105-010",
+      "type": "mcq",
+      "q": "The CAQM issued show-cause notices to police and district officials of five districts in which State over stubble burning?",
+      "options": [
+        "Haryana",
+        "Rajasthan",
+        "Uttar Pradesh",
+        "Punjab"
+      ],
+      "answer": 3,
+      "explanation": "The notices went to Senior Superintendents of Police and Deputy Commissioners in five Punjab districts."
+    },
+    {
+      "id": "q20261105-019",
+      "fact": "f20261105-027",
+      "type": "mcq",
+      "q": "A recent Nature study found that the Amazon rainforest has become:",
+      "options": [
+        "Carbon-neutral",
+        "Unaffected by deforestation",
+        "A stronger carbon sink than before",
+        "A net carbon source rather than a sink"
+      ],
+      "answer": 3,
+      "explanation": "Wildfire emissions made the Amazon release 1.17 billion more tonnes of carbon than it absorbed (2010-2024 data); lead author Luciana Vanni Gatti.",
+      "also": [
+        "f20261105-028"
+      ]
+    },
+    {
+      "id": "q20261105-021",
+      "fact": "f20261105-021",
+      "type": "mcq",
+      "q": "In the 2026 US midterms, Democrats flipped Republican-held Senate seats in how many States?",
+      "options": [
+        "5",
+        "10",
+        "3",
+        "7"
+      ],
+      "answer": 3,
+      "explanation": "Texas, Ohio, South Carolina, Iowa, Maine, North Carolina and Kansas — seven States — flipped to the Democrats."
+    },
+    {
+      "id": "q20261105-022",
+      "fact": "f20261105-022",
+      "type": "mcq",
+      "q": "Who became the first Muslim ever elected to the US Senate, in the 2026 midterms?",
+      "options": [
+        "James Talarico (Texas)",
+        "Abdul El-Sayed (Michigan)",
+        "Adam Hamilton (Kansas)",
+        "Ro Khanna (California)"
+      ],
+      "answer": 1,
+      "explanation": "El-Sayed, an epidemiologist and Rhodes Scholar, defeated Republican Mike Rogers in Michigan."
+    },
+    {
+      "id": "q20261105-023",
+      "fact": "f20261105-023",
+      "type": "mcq",
+      "q": "Gina Hinojosa became Texas's first Democratic Governor since which year, unseating Greg Abbott?",
+      "options": [
+        "2015",
+        "1985",
+        "1995",
+        "2005"
+      ],
+      "answer": 2,
+      "explanation": "Her win, alongside Talarico's Senate win, ended three decades of Republican statewide dominance in Texas."
+    },
+    {
+      "id": "q20261105-024",
+      "fact": "f20261105-024",
+      "type": "mcq",
+      "q": "What did President Trump concede had 'played a part' in the Republican midterm losses?",
+      "options": [
+        "A hurricane response",
+        "Supreme Court rulings",
+        "His tax policy",
+        "The Iran war"
+      ],
+      "answer": 3,
+      "explanation": "Trump acknowledged the war's role while denying personal responsibility and vowing to veto Democratic bills."
+    },
+    {
+      "id": "q20261105-025",
+      "fact": "f20261105-025",
+      "type": "mcq",
+      "q": "Iran's Revolutionary Guards said oil tankers caught fire in the Strait of Hormuz after:",
+      "options": [
+        "An onboard electrical fault",
+        "A US airstrike",
+        "A collision with a warship",
+        "Striking naval mines"
+      ],
+      "answer": 3,
+      "explanation": "Four tankers reportedly caught fire after hitting mines while attempting to cross without authorisation; a US-made drone was also downed."
+    },
+    {
+      "id": "q20261105-026",
+      "fact": "f20261105-026",
+      "type": "mcq",
+      "q": "The US Treasury's 'Operation Economic Outcast' sanctioned firms from India and which other country for allegedly aiding Iran?",
+      "options": [
+        "Türkiye",
+        "Brazil",
+        "South Africa",
+        "Malaysia"
+      ],
+      "answer": 0,
+      "explanation": "The campaign targets entities helping Iran sell oil to fund its war effort."
+    },
+    {
+      "id": "q20261105-027",
+      "fact": "f20261105-034",
+      "type": "mcq",
+      "q": "Nirmala Lakshman won the Sharjah Award for Best International Non-Fiction Book for a book about which community?",
+      "options": [
+        "The Sikhs",
+        "The Marathas",
+        "The Tamils",
+        "The Parsis"
+      ],
+      "answer": 2,
+      "explanation": "'The Tamils: A Portrait of a Community' was published by Aleph Book Company in January 2025."
+    },
+    {
+      "id": "q20261105-028",
+      "fact": "f20261105-031",
+      "type": "mcq",
+      "q": "Virat Kohli became the first ODI batter to average 50+ across all four SENA nations. Which of these is NOT a SENA nation?",
+      "options": [
+        "Australia",
+        "Sri Lanka",
+        "England",
+        "South Africa"
+      ],
+      "answer": 1,
+      "explanation": "SENA stands for South Africa, England, New Zealand and Australia — not Sri Lanka."
+    },
+    {
+      "id": "q20261105-029",
+      "fact": "f20261105-032",
+      "type": "mcq",
+      "q": "India beat New Zealand in the 1st ODI by how many wickets, taking a series lead?",
+      "options": [
+        "7 wickets",
+        "5 wickets",
+        "It won by runs, not wickets",
+        "3 wickets"
+      ],
+      "answer": 1,
+      "explanation": "India won by 5 wickets via the DLS method, with Kohli scoring 74 and Anshul Kamboj named Player of the Match."
+    },
+    {
+      "id": "q20261105-030",
+      "fact": "f20261105-033",
+      "type": "mcq",
+      "q": "The Olympic gold medal stolen from M.M. Somaya's Bengaluru home was from which Games?",
+      "options": [
+        "1988 Seoul Olympics",
+        "1980 Moscow Olympics (hockey)",
+        "1992 Barcelona Olympics",
+        "1984 Los Angeles Olympics"
+      ],
+      "answer": 1,
+      "explanation": "It is India's last Olympic gold in men's hockey; Somaya played in 1980, 1984 and 1988 and won the Arjuna Award in 1985."
+    },
+    {
+      "id": "q20261105-031",
+      "fact": "f20261105-035",
+      "type": "mcq",
+      "q": "India will face which team in the first-ever India-Japan Asian Champions Trophy hockey final?",
+      "options": [
+        "Malaysia",
+        "South Korea",
+        "Pakistan",
+        "Japan"
+      ],
+      "answer": 3,
+      "explanation": "India beat Korea 8-1 in the semifinal, while Japan beat Malaysia on a shootout."
+    },
+    {
+      "id": "q20261105-032",
+      "fact": "f20261105-036",
+      "type": "mcq",
+      "q": "Kimi Antonelli became F1's youngest-ever World Champion. Whose record did he break?",
+      "options": [
+        "Michael Schumacher",
+        "Lewis Hamilton",
+        "Sebastian Vettel",
+        "Max Verstappen"
+      ],
+      "answer": 2,
+      "explanation": "Antonelli (20y 68d) beat Vettel's record of 23y 134d, and is the first Italian F1 champion since Alberto Ascari in 1953."
+    },
+    {
+      "id": "q20261105-033",
+      "fact": "f20261105-037",
+      "type": "mcq",
+      "q": "Rajkumari Lanchenbi Chanu became the first Indian to win a Youth Olympics medal in which sport?",
+      "options": [
+        "Fencing",
+        "Taekwondo",
+        "Wushu",
+        "Judo"
+      ],
+      "answer": 2,
+      "explanation": "She won bronze in the women's Changquan combined event in Dakar."
+    },
+    {
+      "id": "q20261105-034",
+      "fact": "f20261105-038",
+      "type": "mcq",
+      "q": "P.B. Abhinandh and Divyanshi Bhowmick became World No. 1 in which badminton category?",
+      "options": [
+        "Senior mixed doubles",
+        "Senior men's doubles",
+        "Under-19 mixed doubles",
+        "Women's doubles"
+      ],
+      "answer": 2,
+      "explanation": "Their rise followed a gold at the WTT Youth Star Contender (Doha) and a bronze at the Asian youth championships."
+    }
+  ]
+}

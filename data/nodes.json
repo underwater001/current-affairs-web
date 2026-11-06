@@ -235,7 +235,8 @@
     "created": "2026-11-02",
     "label": "Navy & defence production",
     "links": [
-      "defence-airforce"
+      "defence-airforce",
+      "agnipath-scheme"
     ],
     "order": 1,
     "parent": "security",
@@ -791,7 +792,9 @@
   "wildlife": {
     "created": "2026-10-30",
     "label": "Wildlife & Project Cheetah",
-    "links": [],
+    "links": [
+      "climate-science"
+    ],
     "order": 5,
     "parent": "environment",
     "summary": "Protected areas and threats to wildlife."
@@ -1125,7 +1128,29 @@
     "links": [
       "env-principles",
       "energy",
-      "un-multilateral"
+      "un-multilateral",
+      "climate-science"
+    ]
+  },
+  "agnipath-scheme": {
+    "label": "Agnipath & Agniveers",
+    "parent": "security",
+    "summary": "The tour-of-duty recruitment scheme for the armed forces below officer rank, and its periodic review.",
+    "created": "2026-11-05",
+    "order": 8,
+    "links": [
+      "defence-navy"
+    ]
+  },
+  "climate-science": {
+    "label": "Climate science & carbon sinks",
+    "parent": "environment",
+    "summary": "Research findings on forests, carbon sinks/sources and global warming (distinct from COP negotiations).",
+    "created": "2026-11-05",
+    "order": 9,
+    "links": [
+      "climate-cop",
+      "wildlife"
     ]
   }
 }

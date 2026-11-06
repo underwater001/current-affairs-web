@@ -4619,6 +4619,702 @@
           "extra": true
         }
       ]
+    },
+    {
+      "id": "2026-11-05",
+      "date": "2026-11-05",
+      "facts": [
+        {
+          "id": "f20261105-001",
+          "node": "elections-sir",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "high",
+          "text": "In Delhi's **Mustafabad** constituency, **16 of 20** BJP-appointed booth-level agents (BLAs) denied filing the **787** Form 7 deletion applications (of **1,021** total) that listed them as 'objectors'; all target Muslim electors.",
+          "page": "1,4"
+        },
+        {
+          "id": "f20261105-002",
+          "node": "elections-sir",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "medium",
+          "text": "SC assured excluded Delhi voters they won't face prosecution, but advocate **Prashant Bhushan** said ECI still forces pre-existing voters purged in SIR to file **Form 6** (meant for new voters) instead of Form 8; matter listed **19 November**.",
+          "page": "11"
+        },
+        {
+          "id": "f20261105-003",
+          "node": "elections-sir",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "medium",
+          "text": "ECI has split **Form 6** and the **SIR Declaration** into two separate steps (each needing its own OTP/e-Sign) in its online portal for States where SIR is complete, after Election Commissioners flagged the combined form as unapproved by the Law Ministry.",
+          "page": "11"
+        },
+        {
+          "id": "f20261105-004",
+          "node": "elections-sir",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "medium",
+          "text": "SC sought the Centre's response on pleas challenging **Section 16** of the **Chief Election Commissioner and Other Election Commissioners (Appointment, Conditions of Service and Term of Office) Act, 2023**, which gives the CEC/ECs lifelong immunity from prosecution even after retirement.",
+          "page": "1",
+          "gs": "GS2"
+        },
+        {
+          "id": "f20261105-006",
+          "node": "fundamental-rights",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "high",
+          "text": "SC (Justice **P.S. Narasimha**): laws penalising **more than two children** for contesting local-body elections (e.g. **Javed v. State of Haryana**, 2003) have 'lost their relevance' as India's **Total Fertility Rate fell from 3.02 to 1.9** (replacement rate is 2.1), violating **Article 21**.",
+          "page": "1",
+          "gs": "GS2"
+        },
+        {
+          "id": "f20261105-007",
+          "node": "fundamental-rights",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "medium",
+          "text": "The SC verdict noted India's share of persons aged **60 and above rose from 8.3% (2014) to 9.7% (2024)**, and is projected to reach nearly **15% by 2036**.",
+          "page": "1"
+        },
+        {
+          "id": "f20261105-008",
+          "node": "state-finances",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "medium",
+          "text": "A 7-judge SC Bench (CJI **Surya Kant**) held that a **cess levied as a surcharge on sales tax** stays within a State's taxing power under **Entry 54, List II**, reaffirming the 1975 ruling **S. Kodar v. State of Kerala**.",
+          "page": "10",
+          "gs": "GS2"
+        },
+        {
+          "id": "f20261105-009",
+          "node": "delhi-air",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "high",
+          "text": "Delhi's 24-hour AQI rose to **377** ('very poor') on 5 Nov, up from **350**; stubble burning's share in Delhi's PM2.5 **doubled from 8.2% to 16.28%** between Tuesday and Wednesday, per the Union Ministry of Earth Sciences.",
+          "page": "1,2"
+        },
+        {
+          "id": "f20261105-010",
+          "node": "delhi-air",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "high",
+          "text": "CPCB's AQI bands: **201-300 'poor'**, **301-400 'very poor'**, **401-450 'severe'**, **451-500 'severe plus'** (scale of 0-500).",
+          "page": "2"
+        },
+        {
+          "id": "f20261105-011",
+          "node": "delhi-air",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "medium",
+          "text": "The **Commission for Air Quality Management (CAQM)** in NCR issued show-cause notices to Senior Superintendents of Police and Deputy Commissioners of **five Punjab districts** for not complying with its stubble-burning orders.",
+          "page": "2"
+        },
+        {
+          "id": "f20261105-012",
+          "node": "agnipath-scheme",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "high",
+          "text": "Union Cabinet approved a **two-year additional engagement period** for Agniveers: the **75%** not retained after the initial 4-year term can now serve 2 more years (with higher pay) before being considered for regular enrolment; earlier only up to **25%** per batch were retained. Announced by CDS **Gen. N.S. Raja Subramani**.",
+          "page": "1,10"
+        },
+        {
+          "id": "f20261105-013",
+          "node": "civil-services",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "high",
+          "text": "Union Cabinet extended the Centrally Sponsored Scheme for **Fast-Track Special Courts** (incl. exclusive **POCSO** courts) by **5 years (to 31 March 2031)**; outlay **₹3,788.04 crore** (Centre ₹2,353.15 cr + States ₹1,434.89 cr) from the **Nirbhaya Fund**; **779** FTSCs (incl. 399 POCSO-exclusive) have disposed **4,02,457** cases since **2019**; plan to scale up to **850** FTSCs.",
+          "page": "12"
+        },
+        {
+          "id": "f20261105-014",
+          "node": "energy",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "high",
+          "text": "India secured preliminary investment commitments worth **$400 billion** across renewables (green hydrogen, energy storage, transmission), announced by Union Minister **Pralhad Joshi** at the Bharat Renewable Energy Summit and Expo.",
+          "page": "13"
+        },
+        {
+          "id": "f20261105-015",
+          "node": "fiscal-policy",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "high",
+          "text": "Union Cabinet approved the **VISTAR** scheme (**Viksit Bharat Initiative for Statistical Transformation, Analytics and Research**) with an outlay of **₹4,371 crore** (FY2026-27 to 2030-31) to overhaul India's statistical ecosystem, in three components including an economic census.",
+          "page": "8,13"
+        },
+        {
+          "id": "f20261105-016",
+          "node": "energy",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "high",
+          "text": "Union Cabinet approved a **₹14,500-crore** Viability Gap Funding (VGF) scheme (2026-27 to 2030-31) for **92 GWh** of new grid-scale energy storage (60 GWh hydro pumped storage + 30 GWh battery storage + 2 GWh other), to help reach **411 GWh** of storage capacity by **2031-32**; total project investment **₹97,600 crore**.",
+          "page": "13"
+        },
+        {
+          "id": "f20261105-017",
+          "node": "industry-pli",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "high",
+          "text": "Union Cabinet approved a **₹2,814-crore** capital-expenditure support scheme (5 years) for domestic **lithium and nickel** processing facilities, announced by Coal & Mines Minister **G. Kishan Reddy**.",
+          "page": "13"
+        },
+        {
+          "id": "f20261105-018",
+          "node": "markets-indicators",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "medium",
+          "text": "Gold prices rose **3%** on 4 Nov as the US dollar index slipped to a **5-week low of 101.3** ahead of the US midterm results.",
+          "page": "13"
+        },
+        {
+          "id": "f20261105-019",
+          "node": "markets-indicators",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "medium",
+          "text": "On 4 Nov, Sensex gained **383 points (0.5%)** to **77,301** and Nifty rose **149 points (0.6%)** to **23,960** — a fifth straight day of gains; India's VIX ('fear gauge') is up **65.4%** year-to-date despite easing from its late-October high of 17.",
+          "page": "13"
+        },
+        {
+          "id": "f20261105-020",
+          "node": "corporate",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "medium",
+          "text": "Mercedes-Benz announced a fresh **₹200-crore** investment in India (total **₹3,200 crore**) and launched the electric **GLC SUV** (from **₹78.5 lakh**, 711 km range); Chairman **Ola Källenius** said India will source more tech/components for Mercedes' global operations.",
+          "page": "13"
+        },
+        {
+          "id": "f20261105-021",
+          "node": "us-politics",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "high",
+          "text": "In the 4 Nov US midterms, Democrats won control of both chambers: at least **237 of 435** House seats (analysts project 250+) and at least **54 of 100** Senate seats (incl. 2 independents), flipping **7** Republican-held Senate seats — **Texas, Ohio, South Carolina, Iowa, Maine, North Carolina, Kansas**.",
+          "page": "1,7"
+        },
+        {
+          "id": "f20261105-022",
+          "node": "us-politics",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "high",
+          "text": "US midterm 'firsts': **James Talarico** — first Democrat to win Texas statewide office in decades (beating AG **Ken Paxton**); **Adam Hamilton** — first Democratic Kansas senator since **1932**; **Annie Andrews** — first Democratic South Carolina senator since **1998**; **Abdul El-Sayed** (Michigan) — first Muslim elected to the US Senate.",
+          "page": "1,7"
+        },
+        {
+          "id": "f20261105-023",
+          "node": "us-politics",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "medium",
+          "text": "Democrats now hold at least **28 of 50** US governorships (up from 24); **Gina Hinojosa** became Texas's first Democratic Governor since **1995**, unseating **Greg Abbott**; **Keisha Lance Bottoms** became Georgia's first Black woman Governor.",
+          "page": "7"
+        },
+        {
+          "id": "f20261105-024",
+          "node": "us-politics",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "medium",
+          "text": "President **Donald Trump** congratulated Democrats on the result, conceded the **Iran war** 'played a part' in Republican losses, but denied personal responsibility and warned he would **veto** Democratic bills.",
+          "page": "1,7,10"
+        },
+        {
+          "id": "f20261105-025",
+          "node": "west-asia",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "medium",
+          "text": "Iran's Revolutionary Guards said **four oil tankers** caught fire after striking naval mines while trying to cross the **Strait of Hormuz** without authorisation; two more vessels were halted and a US-made drone was shot down.",
+          "page": "14"
+        },
+        {
+          "id": "f20261105-026",
+          "node": "west-asia",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "medium",
+          "text": "The US Treasury imposed fresh sanctions on firms in **India and Türkiye** for allegedly aiding Iran, under its **'Operation Economic Outcast'** campaign.",
+          "page": "14"
+        },
+        {
+          "id": "f20261105-027",
+          "node": "climate-science",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "high",
+          "text": "A *Nature* study (airborne CO2 readings, 2010-2024, lead author **Luciana Vanni Gatti**) found the **Amazon rainforest is now a net carbon source, not a sink**: wildfires caused it to emit **1.17 billion tonnes** more carbon than it absorbed; in the El Niño year **2024**, **38%** of deforestation was fire-caused.",
+          "page": "II (Science)",
+          "gs": "GS1"
+        },
+        {
+          "id": "f20261105-028",
+          "node": "climate-science",
+          "tags": [
+            "UPSC"
+          ],
+          "text": "Amazon deforestation data (2010-24): mining area up **272%**, pasture area up **19%**, soybean plantations up **193%**; dry-season rainfall fell **17%** (1979-2018). A separate Indian study projects the country's vegetation carbon storage could nearly **double (97%)** by 2100, chiefly in Rajasthan, Gujarat and Madhya Pradesh.",
+          "page": "II (Science)",
+          "gs": "GS1"
+        },
+        {
+          "id": "f20261105-031",
+          "node": "cricket",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "high",
+          "text": "**Virat Kohli** became the first player in ODI history with a batting average of **50+ across all four SENA nations**: South Africa (76.38), England (51.48), New Zealand (51.53), Australia (50.03).",
+          "page": "15"
+        },
+        {
+          "id": "f20261105-032",
+          "node": "cricket",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "medium",
+          "text": "India beat New Zealand by **5 wickets** (DLS method) in the 1st ODI in Auckland to lead the 5-match series **1-0**; **Kohli** (74, on the eve of his 38th birthday) and **Anshul Kamboj** (Player of the Match, 2/22 with 46 dot balls) starred.",
+          "page": "15"
+        },
+        {
+          "id": "f20261105-033",
+          "node": "other-sports",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "high",
+          "text": "Former hockey captain **M.M. Somaya**'s **1980 Moscow Olympics gold medal** — India's last Olympic hockey gold — was stolen from his Bengaluru home, along with other medals and jewellery; Somaya played 3 Olympics (1980, 1984, 1988) and won the **Arjuna Award in 1985**.",
+          "page": "3"
+        },
+        {
+          "id": "f20261105-034",
+          "node": "awards",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "high",
+          "text": "**Nirmala Lakshman**, Director of The Hindu Group, won the **Sharjah Award** for Best International Non-Fiction Book for *'The Tamils: A Portrait of a Community'* (Aleph Book Company, Jan 2025).",
+          "page": "10"
+        },
+        {
+          "id": "f20261105-035",
+          "node": "hockey",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "medium",
+          "text": "India thrashed Korea **8-1** in the Asian Champions Trophy hockey semifinal in Mohali to reach its **6th ACT final in 7 editions**, where it will meet **Japan** (which beat Malaysia 5-3 on shootout) in the first-ever India-Japan ACT final.",
+          "page": "15"
+        },
+        {
+          "id": "f20261105-036",
+          "node": "f1",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "high",
+          "text": "**Kimi Antonelli** (Mercedes) became the **youngest Formula 1 World Champion ever** — **20 years, 68 days** — beating Sebastian Vettel's record (23y 134d) by finishing third in Mexico City; he is the first Italian F1 champion since **Alberto Ascari (1953)** and drives car No. **12**, like his idol **Ayrton Senna**.",
+          "page": "19"
+        },
+        {
+          "id": "f20261105-037",
+          "node": "other-sports",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "high",
+          "text": "**Rajkumari Lanchenbi Chanu** became the first Indian to win a **wushu** medal at the **Youth Olympic Games**, taking bronze in the women's Changquan combined event in Dakar.",
+          "page": "16"
+        },
+        {
+          "id": "f20261105-038",
+          "node": "badminton",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "low",
+          "text": "**P.B. Abhinandh and Divyanshi Bhowmick** became the World No. 1 pair in the under-19 mixed-doubles badminton rankings.",
+          "page": "16"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-06",
+      "date": "2026-11-06",
+      "facts": [
+        {
+          "id": "f20261106-001",
+          "node": "elections-sir",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "high",
+          "text": "ECI announced the annual **Special Summary Revision (SSR)** of rolls for **6** States/UTs (Arunachal Pradesh, Mizoram, Odisha, Sikkim, Chandigarh, Dadra & Nagar Haveli and Daman & Diu) where SIR is complete; draft rolls **30 Nov**, final **21 Jan 2027**; Aadhaar in Forms 6/8 stays **voluntary**.",
+          "page": "1,14"
+        },
+        {
+          "id": "f20261106-002",
+          "node": "elections-sir",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "low",
+          "text": "The SSR was earlier announced (15 Oct) for **17** States/UTs including poll-bound **Uttarakhand, Uttar Pradesh, Punjab, Manipur and Goa**.",
+          "page": "1"
+        },
+        {
+          "id": "f20261106-003",
+          "node": "elections-sir",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "medium",
+          "text": "Activists **Anjali Bhardwaj and Amrita Johri** sought FIRs over alleged **Form 7 forgery** in Delhi's Mustafabad, and a full audit of Form 7 filings; **₹47.56 lakh** names were dropped from Delhi's draft roll (published 31 Aug); final roll deadline pushed to **22 December**.",
+          "page": "1"
+        },
+        {
+          "id": "f20261106-004",
+          "node": "elections-sir",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "medium",
+          "text": "ECI restored oversight of its **IT wing** (headed by **Seema Khanna**) under a Deputy Election Commissioner, reversing a July order that had let her report directly to the Commission, after ECs **S.S. Sandhu and Vivek Joshi** objected.",
+          "page": "14"
+        },
+        {
+          "id": "f20261106-005",
+          "node": "bnss-criminal-law",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "medium",
+          "text": "Elaborating its 'arrest begins at detention' ruling, the SC held any person **detained beyond 24 hours** must be released immediately on production before a Magistrate, who must record the **actual time of detention**; only travel time to court is excluded from the 24-hour count.",
+          "page": "14"
+        },
+        {
+          "id": "f20261106-006",
+          "node": "accidents-safety",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "high",
+          "text": "A 3-storey **unauthorised** building under construction collapsed in old Delhi's **Chawri Bazar**, killing 2 and trapping others; Delhi Police had flagged the illegal construction as early as **15 June**; it is Delhi's **3rd major building collapse since 6 September**, after 13 deaths.",
+          "page": "1,2"
+        },
+        {
+          "id": "f20261106-007",
+          "node": "society",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "medium",
+          "text": "On the Danger-in-the-sewer editorial: **859** sanitation workers died on sewer/septic-tank jobs (2014-2025), **332** across 18 States/UTs (2021-26); SC's *Dr. Balram Singh* (2023) raised death compensation to **₹30 lakh** per worker.",
+          "page": "10",
+          "gs": "GS2"
+        },
+        {
+          "id": "f20261106-008",
+          "node": "defence-navy",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "high",
+          "text": "DRDO successfully flight-tested the indigenous quasi-ballistic missile **Pralay** from **Dr. APJ Abdul Kalam Island**, Odisha, on 5 Nov, in a user-evaluation trial clearing the way for its induction into the armed forces.",
+          "page": "14"
+        },
+        {
+          "id": "f20261106-009",
+          "node": "agnipath-scheme",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "medium",
+          "text": "The government clarified **Agnipath is not rolled back**: the 25% retained after 4 years continue as before, while the remaining 75% get a second 2-year engagement, after which all willing and fit Agniveers can join the regular cadre with **protected seniority**.",
+          "page": "14"
+        },
+        {
+          "id": "f20261106-010",
+          "node": "banking-rbi",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "high",
+          "text": "NPCI told the SC that **'zero MDR' on all UPI transactions is unsustainable**; the new **0.4% MDR** applies only to Person-to-Merchant transactions **above ₹2,000** (about **4%** of merchant transactions); P2P and small P2M stay free. UPI processed **24.51 billion** transactions worth **₹29.82 lakh crore** in August 2026 alone.",
+          "page": "16"
+        },
+        {
+          "id": "f20261106-011",
+          "node": "ai-privacy",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "high",
+          "text": "**CERT-In** issued 'AI Security Auditing Guidelines' for **agentic AI** systems that plan tasks, use tools and delegate work on their own, calling for audits of permission overreach, unsafe task delegation and emergency 'stop' mechanisms.",
+          "page": "16"
+        },
+        {
+          "id": "f20261106-012",
+          "node": "cyber",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "high",
+          "text": "CERT-In named a hacking group, **'Crafty Falcon'** (linked to China), that used AI tools (ARTEX, PentAGI, Cairn, CyberStrikeAI) to breach Indian non-bank lenders, fintechs and crypto exchanges 'at machine speed'.",
+          "page": "16"
+        },
+        {
+          "id": "f20261106-013",
+          "node": "education",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "medium",
+          "text": "The Centre told the SC it is weighing a special committee to review the **UGC (Promotion of Equity in Higher Education Institutions) Regulations, 2026**, stayed by the SC in **January 2026** as 'too sweeping'; the older **2012 Regulations** continue to apply.",
+          "page": "16"
+        },
+        {
+          "id": "f20261106-014",
+          "node": "space-astronomy",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "medium",
+          "text": "ISRO chief **V. Narayanan** confirmed navigation satellite **NVS-03** (launched 30 Oct) is 'fully healthy' after its engine fired for **6,400 seconds** to reach circular orbit; in-orbit payload testing is under way.",
+          "page": "16"
+        },
+        {
+          "id": "f20261106-015",
+          "node": "world-other",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "medium",
+          "text": "Israel's Arab-majority **Joint List (11 seats)** and **Ra'am (8 seats)** backed **Gadi Eisenkot** (not PM Netanyahu) to form the next government after the inconclusive 27 Oct election; President **Isaac Herzog** will give the mandate, with **28 days** (extendable by 14) to form a government.",
+          "page": "18"
+        },
+        {
+          "id": "f20261106-016",
+          "node": "west-asia",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "low",
+          "text": "Iran reported **two more** tankers and a tugboat caught fire in the **Strait of Hormuz**; the UK's UKMTO reported a tanker hit by projectiles off Qatar.",
+          "page": "18"
+        },
+        {
+          "id": "f20261106-017",
+          "node": "israel-palestine",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "medium",
+          "text": "On US midterm day, President **Trump** announced the US will stop its roughly **$4-billion** annual military aid to Israel by year-end, citing political costs after a candidate's anti-aid campaign plank helped flip Michigan.",
+          "page": "18"
+        },
+        {
+          "id": "f20261106-018",
+          "node": "us-politics",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "medium",
+          "text": "US Vice-President **J.D. Vance** blamed the **Iran war** for the Republican midterm defeat ('The reason we lost is the war'), positioning himself as the front-runner for the **2028** Republican presidential nomination.",
+          "page": "18"
+        },
+        {
+          "id": "f20261106-019",
+          "node": "health",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "high",
+          "text": "NPPA capped trade margins at **30%** on **137** non-scheduled anti-cancer drugs, cutting prices of nearly **900** brands by **70-93%** (e.g. Palbociclib: ₹40,000 to ₹2,720); but **194 of 1,024** analysed brands saw **no** price cut.",
+          "page": "11"
+        },
+        {
+          "id": "f20261106-020",
+          "node": "health",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "medium",
+          "text": "A *Nature Medicine* global study of **6.1 million** people in 118 countries found women report more pain than men at **all 11** body sites studied — **83%** higher for facial pain, **74%** for headaches, **60%** for abdominal pain.",
+          "page": "II (Health)",
+          "gs": "GS1"
+        },
+        {
+          "id": "f20261106-021",
+          "node": "census-2027",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "high",
+          "text": "Census 2027 will be India's **first fully digital Census**; door-to-door enumeration begins **1 December** in poll-bound UP, Uttarakhand, Punjab and Goa (completed already in Ladakh/snow-bound J&K, HP, Uttarakhand); ~**34 lakh** enumerators will use a phone app, tracked in real time via the **Census Management and Monitoring System (CMMS)**.",
+          "page": "15"
+        },
+        {
+          "id": "f20261106-022",
+          "node": "hockey",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "high",
+          "text": "India beat Japan **4-1** in the Asian Champions Trophy hockey final in Mohali to retain the title — its **6th ACT crown in 7 editions**; midfielder **Hardik Singh** played his **200th** international match in the tournament.",
+          "page": "19"
+        },
+        {
+          "id": "f20261106-023",
+          "node": "other-sports",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "high",
+          "text": "**Cristiano Ronaldo** (41) retired from international football, leaving as Portugal's all-time (and world-record) scorer with **146 goals in 234 matches**; he won Euro 2016 with Portugal.",
+          "page": "19"
+        },
+        {
+          "id": "f20261106-024",
+          "node": "cricket",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "low",
+          "text": "Delhi-Services Ranji Group-C match ended in a draw: **Rajat Paliwal** (116) and **Mohit Ahlawat** (142) powered Services; **Yash Dhull** (104*) and **Priyansh Arya** rescued Delhi after being set 320 in 54 overs.",
+          "page": "20"
+        },
+        {
+          "id": "f20261106-025",
+          "node": "cricket",
+          "tags": [
+            "CGL"
+          ],
+          "priority": "low",
+          "text": "**Chennai Super Kings** traded for all-rounders **Liam Livingstone and Jack Edwards** from Sunrisers Hyderabad, giving up pacers **Khaleel Ahmed and Nathan Ellis**, ahead of IPL 2027 — CSK's first trade under new coach **Zaheer Khan**.",
+          "page": "22"
+        },
+        {
+          "id": "f20261106-026",
+          "node": "bnss-criminal-law",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "high",
+          "text": "SC (Justice **Ujjal Bhuyan**): an **arrest begins the moment** an official **touches** a person to restrain their liberty, starting the **24-hour** clock under **Article 22(2)** then and there, not from the time of formal arrest.",
+          "page": "1,14",
+          "gs": "GS2"
+        },
+        {
+          "id": "f20261106-027",
+          "node": "science-history",
+          "tags": [
+            "CGL",
+            "UPSC"
+          ],
+          "priority": "high",
+          "text": "A **tokamak** confines fusion plasma magnetically in a ring; the concept came from Soviet physicists **Igor Tamm and Andrei Sakharov** (1950s). **ITER** (7 members: China, EU, India, Japan, South Korea, Russia, US) is being built at **Cadarache, France**. India's tokamaks — **ADITYA/ADITYA-U** (1989/2017) and **SST-1** (2013) — are at the **Institute for Plasma Research, Gandhinagar**.",
+          "page": "13 (Text&Context)",
+          "gs": "GS3"
+        },
+        {
+          "id": "f20261106-028",
+          "node": "science-history",
+          "tags": [
+            "UPSC"
+          ],
+          "text": "China's **EAST** tokamak (Hefei) sustained high-confinement plasma for **1,066 seconds** in Jan 2025, a world record; no tokamak has yet produced **net commercial energy**.",
+          "page": "13 (Text&Context)",
+          "gs": "GS3"
+        }
+      ]
     }
   ]
 }

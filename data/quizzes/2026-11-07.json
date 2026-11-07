@@ -1,0 +1,501 @@
+{
+  "date": "2026-11-07",
+  "questions": [
+    {
+      "id": "q20261107-001",
+      "fact": "f20261107-001",
+      "type": "mcq",
+      "q": "ECI's ASDD directive (6 Nov 2026) lets affected SIR voters resubmit which document instead of Form 6?",
+      "options": [
+        "Form 11",
+        "The enumeration form",
+        "An affidavit",
+        "Form 8"
+      ],
+      "answer": 1,
+      "explanation": "ASDD (Absent/Shifted/Dead/Duplicate) voters can resubmit the enumeration form with a statement, rather than Form 6, which is meant for first-time registration."
+    },
+    {
+      "id": "q20261107-002",
+      "fact": "f20261107-002",
+      "type": "mcq",
+      "q": "In the Mustafabad Form-7 case, how many of the 37 scrutinised deletion applications were found 'fabricated'?",
+      "options": [
+        "28",
+        "1",
+        "20",
+        "36"
+      ],
+      "answer": 3,
+      "explanation": "The DEO's office found 36 of 37 Form-7 applications fabricated (only 1 was genuine); Section 31 of the RP Act was invoked."
+    },
+    {
+      "id": "q20261107-003",
+      "fact": "f20261107-003",
+      "type": "mcq",
+      "q": "The editorial says using voter-roll data to verify welfare beneficiaries contradicts the SC's judgment on which State's SIR?",
+      "options": [
+        "Bihar",
+        "West Bengal",
+        "Uttar Pradesh",
+        "Assam"
+      ],
+      "answer": 0,
+      "explanation": "The SC's May 27 judgment on the Bihar SIR held that ECI's citizenship enquiry is 'limited' and its consequence confined to the electoral roll alone."
+    },
+    {
+      "id": "q20261107-004",
+      "fact": "f20261107-005",
+      "type": "mcq",
+      "q": "The Gauhati HC quashed the NSA detention of activist Pranab Doley, who had protested against a project near which national park?",
+      "options": [
+        "Nameri",
+        "Kaziranga",
+        "Dibru-Saikhowa",
+        "Manas"
+      ],
+      "answer": 1,
+      "explanation": "Doley protested a luxury hotel project near Kaziranga National Park and was freed after 118 days in custody."
+    },
+    {
+      "id": "q20261107-005",
+      "fact": "f20261107-007",
+      "type": "mcq",
+      "q": "Per the SC-cited I4C data, digital-arrest complaints on the National Cyber Crime Reporting Portal fell to how many in H1 2026?",
+      "options": [
+        "16,377",
+        "5,182",
+        "58,249",
+        "1,23,672"
+      ],
+      "answer": 0,
+      "explanation": "Complaints fell from 1,23,672 (2024) to 58,249 (2025) to 16,377 for the period ending June 30, 2026."
+    },
+    {
+      "id": "q20261107-006",
+      "fact": "f20261107-008",
+      "type": "mcq",
+      "q": "The SC declined to suspend Tarun Tejpal's sentence in a rape case from which State?",
+      "options": [
+        "Goa",
+        "Maharashtra",
+        "Kerala",
+        "Delhi"
+      ],
+      "answer": 0,
+      "explanation": "The case is the 2013 Goa rape case; the Bombay HC's Goa Bench had overturned his trial-court acquittal in August."
+    },
+    {
+      "id": "q20261107-007",
+      "fact": "f20261107-009",
+      "type": "mcq",
+      "q": "The ED's plea against a quashed NewsClick money-laundering case alleged FDI violations of about how much?",
+      "options": [
+        "₹9.59 crore",
+        "₹1.5 crore",
+        "₹100 crore",
+        "₹50 crore"
+      ],
+      "answer": 0,
+      "explanation": "The EOW's 2020 FIR alleged NewsClick's parent company received ₹9.59 crore in FDI from a US entity in violation of foreign-investment law."
+    },
+    {
+      "id": "q20261107-008",
+      "fact": "f20261107-010",
+      "type": "mcq",
+      "q": "The SC's contempt notice to KPCC office-bearers concerned a social-media post targeting whom?",
+      "options": [
+        "The Chief Justice of India",
+        "The Attorney General",
+        "The Solicitor General",
+        "The Chief Election Commissioner"
+      ],
+      "answer": 0,
+      "explanation": "The post against CJI Surya Kant prompted the SC to say judicial independence 'is not a matter of political convenience.'"
+    },
+    {
+      "id": "q20261107-009",
+      "fact": "f20261107-011",
+      "type": "mcq",
+      "q": "The Jharkhand HC quashed the State's cancellation of which recruitment exam?",
+      "options": [
+        "SSC CGL",
+        "JSSC-CGL",
+        "Railway NTPC",
+        "UPSC CSE"
+      ],
+      "answer": 1,
+      "explanation": "The HC quashed the cancellation of the Jharkhand Staff Selection Commission Combined Graduate Level (JSSC-CGL) exam and ordered reinstatement of selected candidates."
+    },
+    {
+      "id": "q20261107-010",
+      "fact": "f20261107-018",
+      "type": "mcq",
+      "q": "NC chief Farooq Abdullah met how many dissident MLAs before ruling out a party split?",
+      "options": [
+        "12",
+        "22",
+        "7",
+        "17"
+      ],
+      "answer": 3,
+      "explanation": "Farooq Abdullah met 17 disgruntled legislators and assured a step-by-step approach to their demands."
+    },
+    {
+      "id": "q20261107-011",
+      "fact": "f20261107-019",
+      "type": "mcq",
+      "q": "Amit Shah set a BJP target of winning how many of Uttarakhand's 70 Assembly seats?",
+      "options": [
+        "Over 50",
+        "Over 65",
+        "Over 55",
+        "Over 60"
+      ],
+      "answer": 1,
+      "explanation": "Shah called for a 'hat-trick' in Uttarakhand, targeting more than 65 of the State's 70 seats."
+    },
+    {
+      "id": "q20261107-012",
+      "fact": "f20261107-004",
+      "type": "mcq",
+      "q": "The SC clarified that its March 11, 2026 OBC creamy-layer judgment does NOT require what?",
+      "options": [
+        "A new income-test formula",
+        "Scrapping the OBC quota",
+        "Retrospective revision of past service allocations/seniority",
+        "A fresh Civil Services Exam"
+      ],
+      "answer": 2,
+      "explanation": "Justice Mahadevan held the judgment determines only the rights of parties who approached the court, not a general revision of past allocations or seniority."
+    },
+    {
+      "id": "q20261107-013",
+      "fact": "f20261107-021",
+      "type": "mcq",
+      "q": "CBSE's 2027 Class 10 and 12 board exams will begin on which date?",
+      "options": [
+        "April 9",
+        "February 16",
+        "March 1",
+        "January 15"
+      ],
+      "answer": 1,
+      "explanation": "The 2027 boards begin February 16; Class 10 concludes March 9 and Class 12 concludes April 9."
+    },
+    {
+      "id": "q20261107-014",
+      "fact": "f20261107-022",
+      "type": "mcq",
+      "q": "Centre's weekly rice/paddy stock-declaration mandate for traders invokes which law?",
+      "options": [
+        "Consumer Protection Act, 2019",
+        "Essential Commodities Act, 1955",
+        "FSSAI Act, 2006",
+        "Competition Act, 2002"
+      ],
+      "answer": 1,
+      "explanation": "Non-compliant units face action under Sections 6 and 7 of the Essential Commodities Act, 1955."
+    },
+    {
+      "id": "q20261107-015",
+      "fact": "f20261107-006",
+      "type": "mcq",
+      "q": "The SC called Delhi's vehicle and construction bans for pollution control:",
+      "options": [
+        "Beyond its jurisdiction",
+        "Old, tried and failed tools",
+        "A model for other cities",
+        "Scientifically sound measures"
+      ],
+      "answer": 1,
+      "explanation": "The SC asked if the government had any scientific method beyond these 'old, tried and failed tools', as Delhi's AQI crossed 400."
+    },
+    {
+      "id": "q20261107-016",
+      "fact": "f20261107-017",
+      "type": "mcq",
+      "q": "The Siang Upper Multipurpose Project's push is partly justified by countering China's dam on which river?",
+      "options": [
+        "Mekong",
+        "Sutlej",
+        "Yarlung-Tsangpo",
+        "Indus"
+      ],
+      "answer": 2,
+      "explanation": "China's Medog dam on the Yarlung-Tsangpo (which feeds the Brahmaputra via the Siang) is cited as a reason to speed up India's SUMP."
+    },
+    {
+      "id": "q20261107-017",
+      "fact": "f20261107-012",
+      "type": "mcq",
+      "q": "The SC's settlement of the 1966 Bhakra-Beas power dispute gives Himachal Pradesh how many million units of electricity over 20 years?",
+      "options": [
+        "51,800",
+        "13,066",
+        "7,190",
+        "11,973"
+      ],
+      "answer": 3,
+      "explanation": "Himachal Pradesh will get 11,973 million units from Punjab and Haryana, per the shares fixed by the 2011 SC verdict (HP 7.19%)."
+    },
+    {
+      "id": "q20261107-018",
+      "fact": "f20261107-025",
+      "type": "mcq",
+      "q": "On 6 November 2026, the Nifty50 closed at its highest level since which date?",
+      "options": [
+        "September 22",
+        "March 2",
+        "October 3",
+        "January 1"
+      ],
+      "answer": 1,
+      "explanation": "The Nifty closed at 25,030.35, its highest since March 2, in its biggest weekly rally of 2026 (+6.8%)."
+    },
+    {
+      "id": "q20261107-019",
+      "fact": "f20261107-027",
+      "type": "mcq",
+      "q": "Mumbai NCLT declared which Videocon-linked individual 'bankrupt' over a ₹12,668 crore default to SBI?",
+      "options": [
+        "Naresh Goyal",
+        "Anil Ambani",
+        "Venugopal Dhoot",
+        "Subhash Chandra"
+      ],
+      "answer": 2,
+      "explanation": "Venugopal Nandlal Dhoot, former Videocon promoter, was declared bankrupt by the Mumbai NCLT bench."
+    },
+    {
+      "id": "q20261107-020",
+      "fact": "f20261107-028",
+      "type": "mcq",
+      "q": "NPCI's new tech subsidiary, set up to focus on AI, blockchain and GCC services, is called:",
+      "options": [
+        "Bharat AI Payments Ltd",
+        "NPCI Innovation Labs",
+        "NPCI Digital Ventures",
+        "NPCI Tech Solutions Ltd (NTSL)"
+      ],
+      "answer": 3,
+      "explanation": "NTSL will focus on AI, blockchain, GCC services and support DPI programmes; Vishal Kanvaty is its MD & CEO."
+    },
+    {
+      "id": "q20261107-021",
+      "fact": "f20261107-029",
+      "type": "mcq",
+      "q": "The government's latest ECMS approvals take total committed investment in electronics component manufacturing to about:",
+      "options": [
+        "₹59,350 crore",
+        "₹68,000 crore",
+        "₹77,051 crore",
+        "₹1 lakh crore"
+      ],
+      "answer": 2,
+      "explanation": "₹77,051 crore across 118 approved projects, about 30% above the original ₹59,350-crore target."
+    },
+    {
+      "id": "q20261107-022",
+      "fact": "f20261107-013",
+      "type": "mcq",
+      "q": "Delhi Police booked the Chawri Bazar collapse's contractors under which section for culpable homicide not amounting to murder?",
+      "options": [
+        "BNS Section 302",
+        "BNS Section 105",
+        "BNSS Section 41",
+        "IPC Section 304"
+      ],
+      "answer": 1,
+      "explanation": "The contractors (Siraj, Tajuddin, Furkan) were booked under Section 105 of the Bharatiya Nyaya Sanhita."
+    },
+    {
+      "id": "q20261107-023",
+      "fact": "f20261107-016",
+      "type": "mcq",
+      "q": "The Ken-Betwa river-linking project's dam near Daudhan village is on which river, and roughly how many trees will it require felling?",
+      "options": [
+        "The Betwa; 1 million trees",
+        "The Ken; 2.3 million trees",
+        "The Narmada; 5 million trees",
+        "The Son; 0.5 million trees"
+      ],
+      "answer": 1,
+      "explanation": "The 96.7-metre dam on the Ken will require felling an estimated 2.3 million trees, affecting about 8,000 Adivasi families across 22 villages."
+    },
+    {
+      "id": "q20261107-024",
+      "fact": "f20261107-020",
+      "type": "mcq",
+      "q": "Congress's renewed demand to scrap Agnipath came a day after what Cabinet decision?",
+      "options": [
+        "Reducing the recruitment age limit",
+        "Doubling Agniveer pay",
+        "A 2-year extension for Agniveers after their 4-year tenure",
+        "Scrapping Agnipath entirely"
+      ],
+      "answer": 2,
+      "explanation": "The Union Cabinet had approved a two-year extension for Agniveers completing their initial four-year tenure, with possible permanent recruitment thereafter.",
+      "also": [
+        "f20261106-009"
+      ]
+    },
+    {
+      "id": "q20261107-025",
+      "fact": "f20261107-023",
+      "type": "mcq",
+      "q": "The Kochon Prize 2026, won by Chennai-based REACH, recognises contributions to fighting which disease?",
+      "options": [
+        "HIV/AIDS",
+        "Tuberculosis (TB)",
+        "Polio",
+        "Malaria"
+      ],
+      "answer": 1,
+      "explanation": "REACH is the first Indian civil-society organisation to win the Kochon Prize, awarded for contributions to the fight against TB."
+    },
+    {
+      "id": "q20261107-026",
+      "fact": "f20261107-026",
+      "type": "mcq",
+      "q": "Brent crude fell 16% this week after Iran opened the Strait of Hormuz for transit to a few countries including:",
+      "options": [
+        "Russia only",
+        "No countries, it stayed closed",
+        "India",
+        "China only"
+      ],
+      "answer": 2,
+      "explanation": "Iran opened the Strait of Hormuz for transit to a few countries including India, reviving hopes of a US-Iran war resolution."
+    },
+    {
+      "id": "q20261107-027",
+      "fact": "f20261107-030",
+      "type": "mcq",
+      "q": "India-born Nithya Raman was elected Mayor of which US city, defeating incumbent Karen Bass?",
+      "options": [
+        "San Francisco",
+        "Los Angeles",
+        "New York",
+        "Chicago"
+      ],
+      "answer": 1,
+      "explanation": "Raman, a Democratic Socialist, won with 52% of the vote against Bass's 48% in the Los Angeles mayoral race."
+    },
+    {
+      "id": "q20261107-028",
+      "fact": "f20261107-031",
+      "type": "mcq",
+      "q": "In Israel, who does Gadi Eisenkot expect to give him the government-formation mandate?",
+      "options": [
+        "President Isaac Herzog",
+        "The Knesset Speaker",
+        "Benjamin Netanyahu",
+        "Avigdor Liberman"
+      ],
+      "answer": 0,
+      "explanation": "Eisenkot expects President Isaac Herzog to hand him the mandate to form a government on Sunday."
+    },
+    {
+      "id": "q20261107-029",
+      "fact": "f20261107-032",
+      "type": "mcq",
+      "q": "The 13th ICAPP General Assembly, held in Seoul, adopted which declaration on non-interference and peaceful dispute settlement?",
+      "options": [
+        "The Pyongyang Accord",
+        "The Seoul Declaration",
+        "The Asian Charter",
+        "The Busan Communique"
+      ],
+      "answer": 1,
+      "explanation": "83 political parties from across Asia unanimously adopted the Seoul Declaration at ICAPP's 13th General Assembly."
+    },
+    {
+      "id": "q20261107-030",
+      "fact": "f20261107-033",
+      "type": "mcq",
+      "q": "The US recorded how many confirmed measles cases this year, the highest since 1991?",
+      "options": [
+        "58,249",
+        "12,000",
+        "1,234",
+        "5,182"
+      ],
+      "answer": 3,
+      "explanation": "5,182 confirmed cases were recorded this year, despite measles being declared eliminated in the US in 2000."
+    },
+    {
+      "id": "q20261107-031",
+      "fact": "f20261107-024",
+      "type": "mcq",
+      "q": "Indian GM V. Pranav won the Open title at the FIDE World Junior Blitz Championship, held in:",
+      "options": [
+        "Dubai",
+        "Chennai",
+        "Baku",
+        "Al Ain"
+      ],
+      "answer": 3,
+      "explanation": "Pranav (20, Chennai) won with 10.5/13 points in Al Ain, adding to his existing World Junior Classical title."
+    },
+    {
+      "id": "q20261107-032",
+      "fact": "f20261107-034",
+      "type": "mcq",
+      "q": "Mohammed Shami retired from Test cricket with 229 wickets from how many matches?",
+      "options": [
+        "74",
+        "64",
+        "84",
+        "54"
+      ],
+      "answer": 1,
+      "explanation": "Shami played 64 Tests over a 13-year career, debuting against West Indies at Eden Gardens on this date in 2013."
+    },
+    {
+      "id": "q20261107-033",
+      "fact": "f20261107-035",
+      "type": "mcq",
+      "q": "Mitchell Starc's 460 Test wickets make him the most successful bowler of which type in Test history?",
+      "options": [
+        "Left-arm spinner",
+        "Wicketkeeper-batter",
+        "Left-arm pacer",
+        "Right-arm spinner"
+      ],
+      "answer": 2,
+      "explanation": "Starc reached 460 wickets in 110 Tests, the most by any left-arm pacer ever, passing Wasim Akram's 414 in the 2025-26 Ashes."
+    },
+    {
+      "id": "q20261107-034",
+      "fact": "f20261107-036",
+      "type": "mcq",
+      "q": "Dhinidhi Desinghu won India's first-ever Youth Olympics aquatics medals (bronze) in which two events?",
+      "options": [
+        "100m and 200m freestyle",
+        "200m freestyle and 200m butterfly",
+        "100m and 200m butterfly",
+        "100m backstroke and 200m freestyle"
+      ],
+      "answer": 0,
+      "explanation": "She won bronze in both 100m freestyle (a new Indian women's best of 56.27s) and 200m freestyle (2:02.28s) at the Dakar Youth Olympics.",
+      "also": [
+        "f20261107-037"
+      ]
+    },
+    {
+      "id": "q20261107-035",
+      "fact": "f20261107-037",
+      "type": "mcq",
+      "q": "Tanvi Patri's badminton final loss at the Dakar Youth Olympics was to which player?",
+      "options": [
+        "Zhang Yi Xin of China",
+        "Akane Yamaguchi of Japan",
+        "An Se-young of South Korea",
+        "Carolina Marin of Spain"
+      ],
+      "answer": 0,
+      "explanation": "Patri won silver after losing 21-15, 13-21, 24-26 to World junior champion Zhang Yi Xin of China."
+    }
+  ]
+}
